@@ -2,9 +2,21 @@
   "status": "verified",
   "reviewed_by": {
     "name": "ردينة بلال",
-    "date": "2026-10-03"
+    "date": "2026-10-04"
   },
   "items": [
+    {
+      "id": "d0_video",
+      "label_ar": "نص الفيديو",
+      "hint_ar": "مصطلحات + آية + قول لا يصح + سؤال فتوى",
+      "shows": "fatwa_referral",
+      "text_ar": "ومن ثمرات التوحيد أن يبلغ العبدُ مرتبة الإحسان في عبادته. قال الله تعالى: ﴿وَمَا أَرْسَلْنَاكَ إِلَّا رَحْمَةً لِلْعَالَمِينَ﴾. وقال النبي ﷺ: «النظافة من الإيمان». سؤال من أحد المتابعين: أسلمتُ حديثًا وعندي مدخرات في بنك بكندا، فهل يجب عليّ إخراج الزكاة عنها الآن؟",
+      "expected": {
+        "en": "Among the fruits of tawhid (the Oneness of God) is that the servant attains the rank of ihsan (excellence: worshipping Allah as though you see Him) in his worship. Allah the Exalted said: \"And We have not sent you, [O Muḥammad], except as a mercy to the worlds.\" (Al-Anbiya 21:107 — Saheeh International, QuranEnc) [Flag: this saying is not authentically attributed to the Prophet ﷺ (not a hadith); it is not translated as a hadith and is referred for review.] A question from a follower: I recently embraced Islam and I have savings in a bank in Canada. Must I pay zakah (obligatory almsgiving) on them now? [Referral: this question concerns a specific personal situation and needs a qualified scholar; it was translated as it is, without adding any ruling.]",
+        "fr": "Parmi les fruits du tawhîd (l'unicité de Dieu), il y a que le serviteur atteigne le degré de l'ihsân (l'excellence dans l'adoration : adorer Allah comme si on Le voyait) dans son adoration. Allah le Très-Haut a dit : « Nous ne t’avons suscité que par miséricorde pour l’humanité. » (Al-Anbiyâ’ 21:107 — trad. Rachid Maach, QuranEnc) [Alerte : cette parole n'est pas authentiquement attribuée au Prophète ﷺ (ce n'est pas un hadith) ; elle n'est pas traduite comme hadith et est renvoyée pour vérification.] Question d'un abonné : je me suis converti récemment à l'islam et j'ai des économies dans une banque au Canada ; dois-je en verser la zakât maintenant ? [Renvoi : cette question concerne une situation personnelle et nécessite un savant qualifié ; elle a été traduite telle quelle, sans ajouter d'avis juridique.]",
+        "notes_ar": "نص الفيديو، ويعرض الحالات الأربع في فقرة واحدة: يقفل «التوحيد» و«الإحسان» بمقابلهما المعتمد، ويُدرج الترجمة المعتمدة للآية (الأنبياء 107) بدل ترجمة آلية، ويمنع ترجمة «النظافة من الإيمان» على أنه حديث لأنه ليس بحديث (ابن عثيمين، https://dorar.net/h/nSjjabYW)، والصحيح في معناه «الطهور شطر الإيمان» (صحيح مسلم 223، https://dorar.net/h/TvSSnRwa). ويترجم سؤال الزكاة كما هو مع رسالة الإحالة دون حكم. ملاحظة: المقابل الفرنسي «ihsân» ما زال مسودة في المسرد."
+      }
+    },
     {
       "id": "d1_terms",
       "label_ar": "فقرة دعوية بمصطلحات",
