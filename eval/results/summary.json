@@ -1,29 +1,181 @@
 {
-  "status": "pending",
-  "generated_at": null,
-  "testset": { "size": 162, "split": { "dev": 47, "test": 115 }, "languages": ["en", "fr"], "frozen_at": "2026-10-03" },
+  "status": "final",
+  "generated_at": "2026-10-04",
+  "testset": {
+    "size": 162,
+    "split": {
+      "dev": 47,
+      "test": 115
+    },
+    "languages": [
+      "en",
+      "fr"
+    ],
+    "frozen_at": "2026-10-03"
+  },
   "runs": 3,
   "systems": [
-    { "id": "mt", "label": "ترجمة آلية عامة", "detail": "Google Translate API" },
-    { "id": "llm", "label": "النموذج نفسه بلا مُوطِّن", "detail": "نفس النموذج اللغوي، بلا مسرد ولا تحقق" },
-    { "id": "mowatin", "label": "مُوطِّن", "detail": "النموذج + المسرد + الترجمات المعتمدة + طبقة التحقق" }
+    {
+      "id": "mt",
+      "label": "ترجمة آلية عامة",
+      "detail": "Google Translate API"
+    },
+    {
+      "id": "llm",
+      "label": "النموذج نفسه بلا مُوطِّن",
+      "detail": "نفس النموذج اللغوي، بلا مسرد ولا تحقق"
+    },
+    {
+      "id": "mowatin",
+      "label": "مُوطِّن",
+      "detail": "النموذج + المسرد + الترجمات المعتمدة + طبقة التحقق"
+    }
   ],
   "error_categories": [
-    { "id": "quran", "label": "تحريف آية أو ترجمتها آليًا" },
-    { "id": "hadith", "label": "حديث بلا مصدر أو بتحريف" },
-    { "id": "term", "label": "مصطلح شرعي خاطئ" },
-    { "id": "ruling", "label": "حكم مضاف أو محرّف" },
-    { "id": "referral", "label": "إحالة فائتة (مستوى د)" }
+    {
+      "id": "quran",
+      "label": "تحريف آية أو ترجمتها آليًا"
+    },
+    {
+      "id": "hadith",
+      "label": "حديث بلا مصدر أو بتحريف"
+    },
+    {
+      "id": "term",
+      "label": "مصطلح شرعي خاطئ"
+    },
+    {
+      "id": "ruling",
+      "label": "حكم مضاف أو محرّف"
+    },
+    {
+      "id": "referral",
+      "label": "إحالة فائتة (مستوى د)"
+    }
   ],
-  "errors_per_100": { "mt": {}, "llm": {}, "mowatin": {} },
+  "errors_per_100": {
+    "mt": {},
+    "llm": {
+      "quran": {
+        "mean": 22.71,
+        "sd": 0.0
+      },
+      "hadith": {
+        "mean": 16.59,
+        "sd": 0.0
+      },
+      "term": {
+        "mean": 49.34,
+        "sd": 0.0
+      },
+      "referral": {
+        "mean": 4.8,
+        "sd": 0.0
+      }
+    },
+    "mowatin": {
+      "quran": {
+        "mean": 6.11,
+        "sd": 0.0
+      },
+      "hadith": {
+        "mean": 10.48,
+        "sd": 0.0
+      },
+      "term": {
+        "mean": 32.46,
+        "sd": 0.67
+      },
+      "referral": {
+        "mean": 0.0,
+        "sd": 0.0
+      }
+    }
+  },
   "metrics": [
-    { "id": "term_accuracy", "label": "دقة المصطلحات", "unit": "%", "higher_is_better": true, "method": "آلي: مطابقة المقابل المعتمد في المسرد", "values": {} },
-    { "id": "scripture_integrity", "label": "سلامة الآيات والأحاديث", "unit": "%", "higher_is_better": true, "method": "آلي: مطابقة الترجمة المعتمدة والمصدر", "values": {} },
-    { "id": "meaning", "label": "الحفاظ على الجوهر", "unit": "/5", "higher_is_better": true, "method": "بشري أعمى على عيّنة", "values": {} },
-    { "id": "clarity", "label": "الوضوح والملاءمة الثقافية", "unit": "/5", "higher_is_better": true, "method": "بشري أعمى (ناطقون أصليون)", "values": {} },
-    { "id": "safe_referral", "label": "الإحالة في الحالات الملزمة", "unit": "%", "higher_is_better": true, "method": "آلي: حالات مستوى (د) والأقوال بلا مصدر", "values": {} }
+    {
+      "id": "term_accuracy",
+      "label": "دقة المصطلحات",
+      "unit": "%",
+      "higher_is_better": true,
+      "method": "آلي: مطابقة المقابل المعتمد في المسرد",
+      "values": {
+        "llm": {
+          "mean": 45.15,
+          "sd": 0.0
+        },
+        "mowatin": {
+          "mean": 63.92,
+          "sd": 0.74
+        }
+      }
+    },
+    {
+      "id": "scripture_integrity",
+      "label": "سلامة الآيات والأحاديث",
+      "unit": "%",
+      "higher_is_better": true,
+      "method": "آلي: مطابقة الترجمة المعتمدة والمصدر",
+      "values": {
+        "llm": {
+          "mean": 0.0,
+          "sd": 0.0
+        },
+        "mowatin": {
+          "mean": 57.78,
+          "sd": 0.0
+        }
+      }
+    },
+    {
+      "id": "meaning",
+      "label": "الحفاظ على الجوهر",
+      "unit": "/5",
+      "higher_is_better": true,
+      "method": "بشري أعمى على عيّنة",
+      "values": {}
+    },
+    {
+      "id": "clarity",
+      "label": "الوضوح والملاءمة الثقافية",
+      "unit": "/5",
+      "higher_is_better": true,
+      "method": "بشري أعمى (ناطقون أصليون)",
+      "values": {}
+    },
+    {
+      "id": "safe_referral",
+      "label": "الإحالة في الحالات الملزمة",
+      "unit": "%",
+      "higher_is_better": true,
+      "method": "آلي: حالات مستوى (د) والأقوال بلا مصدر",
+      "values": {
+        "llm": {
+          "mean": 0.0,
+          "sd": 0.0
+        },
+        "mowatin": {
+          "mean": 100.0,
+          "sd": 0.0
+        }
+      }
+    }
   ],
-  "agreement": { "kappa": null, "sample_size": null, "raters": 2 },
+  "agreement": {
+    "kappa": null,
+    "sample_size": null,
+    "raters": 2
+  },
   "examples": [],
-  "limitations": []
+  "limitations": [
+    "قِيس النظامان «النموذج نفسه بلا مُوطِّن» ومُوطِّن على النموذج المجاني gemma-4-26b-a4b-it، لا على gemini-3.5-flash-lite الذي يشغّل الموقع، لأن حدّ الأخير اليومي 500 طلب والتشغيل يحتاج نحو 3000.",
+    "لم يُشغَّل Google Translate (لا مفتاح GT_API_KEY)، فعمود الترجمة الآلية العامة فارغ.",
+    "في كل تشغيل رجع 6.3–6.6% من مقاطع مُوطِّن بلا ترجمة (انتهت مهلة النموذج وتعذّر الاحتياطي على الحالات الطويلة نفسها)، وحُسبت أخطاءً على مُوطِّن.",
+    "بلغ النموذج الحَكَم حدّه اليومي عند نحو 75% من التشغيل، فما بعده تُحقّق منه دون حَكَم.",
+    "مخرجات «النموذج نفسه بلا مُوطِّن» تطابقت في التشغيلات الثلاثة (الانحراف 0)، فالتكرار لا يقيس ثباته.",
+    "التقييم البشري الأعمى (الجوهر والوضوح) لم يُجرَ بعد؛ كل الأرقام هنا آلية.",
+    "العيّنة 115 مقطعًا (229 وحدة بالإنجليزية والفرنسية)، فالفروق الصغيرة قد تكون ضجيجًا. والمسرد يغطي كل مصطلحات الاختبار (53 من 53)، فدقة المصطلحات لا تُعمَّم على مصطلحات خارجه.",
+    "لم يراجع النتائجَ عالمٌ شرعي مختص؛ تصنيف الأخطاء وفق معايير الفريق في docs/EVALUATION.md."
+  ],
+  "reproduce": "# keys in .env (LLM_*, JUDGE_*, FALLBACK_*; optional GT_API_KEY)\npython scripts/run_eval.py --split test --i-confirm-frozen --runs 3\npython scripts/build_summary.py"
 }

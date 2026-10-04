@@ -17,6 +17,8 @@ const fmt = (v, d = 1) => (v == null || Number.isNaN(v) ? '—' : Number(v).toFi
 export default function ResultsPage({ data = SUMMARY }) {
   useEffect(() => { document.title = 'نتائج القياس · مُوطِّن' }, [])
   const ready = data.status === 'final'
+  // Blind human scores (meaning, clarity) may come after the automatic run.
+  const human = data.metrics.some((m) => (m.id === 'meaning' || m.id === 'clarity') && Object.keys(m.values || {}).length > 0)
   const sys = data.systems
   const totals = useMemo(() => Object.fromEntries(sys.map((s) => {
     const row = data.errors_per_100[s.id] || {}
@@ -41,7 +43,7 @@ export default function ResultsPage({ data = SUMMARY }) {
           <h1 className="mt-[1rem] text-[2.1rem] font-extrabold leading-[1.35] text-ink-900 xl:text-[2.75rem]">هل يحمي مُوطِّن المعنى فعلًا؟ نقيس، ولا ندّعي.</h1>
           <p className="mt-[0.8rem] max-w-[48rem] text-[1.08rem] leading-[1.9rem] text-ink-900/75">
             {ready
-              ? <>نقارن ثلاثة أنظمة على مجموعة اختبار مجمّدة من {data.testset.size} مقطعًا دعويًا، بـ{data.runs} تشغيلات، وتقييم بشري أعمى.</>
+              ? <>نقارن ثلاثة أنظمة على مجموعة اختبار مجمّدة من {data.testset.size} مقطعًا دعويًا، بـ{data.runs} تشغيلات{human ? '، وتقييم بشري أعمى' : '. الأرقام هنا آلية، والتقييم البشري الأعمى لم يُجرَ بعد'}.</>
               : <>نقارن ثلاثة أنظمة على مجموعة اختبار من {data.testset.size} مقطعًا دعويًا (قيد الإعداد)، بـ{data.runs} تشغيلات، وتقييم بشري أعمى.</>}
             المقارنة الأهم هي مُوطِّن مقابل <b>النموذج نفسه بلا مُوطِّن</b>، لأنها تُثبت أن التحسّن من طبقتنا لا من قوة النموذج.
           </p>
@@ -108,7 +110,7 @@ export default function ResultsPage({ data = SUMMARY }) {
                 ? `${data.testset.size} مقطعًا (${data.testset.split.dev} للتطوير، ${data.testset.split.test} للاختبار). لم يُلمس قسم الاختبار أثناء التطوير، وجُمّد في ${data.testset.frozen_at}.`
                 : `المخطط: ${data.testset.size} مقطعًا (${data.testset.split.dev} للتطوير، ${data.testset.split.test} للاختبار). يُجمَّد قسم الاختبار قبل القياس ولا يُلمس أثناء التطوير.`],
               [Repeat, `${data.runs} تشغيلات`, 'نعرض المتوسط والانحراف المعياري لإثبات ثبات النتائج عبر المحاولات المكررة.'],
-              [Users, 'تقييم بشري أعمى', `أسماء الأنظمة مخفية (A/B/C). ${data.agreement.raters} مقيّمَين على عيّنة مشتركة${data.agreement.kappa != null ? `، والاتفاق κ = ${fmt(data.agreement.kappa, 2)}` : ''}.`],
+              [Users, 'تقييم بشري أعمى', `أسماء الأنظمة مخفية (A/B/C). ${data.agreement.raters} مقيّمَين على عيّنة مشتركة${data.agreement.kappa != null ? `، والاتفاق κ = ${fmt(data.agreement.kappa, 2)}` : ''}.${ready && !human ? ' لم يُجرَ بعد.' : ''}`],
               [FlaskConical, 'بدائل محددة', 'ترجمة آلية عامة، والنموذج نفسه بلا مُوطِّن، ومُوطِّن. بالإعدادات نفسها والنصوص نفسها.'],
             ].map(([I, t, d]) => (
               <li key={t} className="rounded-[1.1rem] border border-slate-200/70 bg-white p-[1.1rem]">

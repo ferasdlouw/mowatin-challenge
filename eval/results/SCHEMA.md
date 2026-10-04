@@ -15,5 +15,6 @@
 | `agreement` | `{kappa, sample_size, raters}` | كابا كوهين بين المقيّمَين على العيّنة المشتركة |
 | `examples[]` | `{id, category, source, mt, llm, mowatin, note}` | أقوى 3 أمثلة، من مجموعة الاختبار نفسها |
 | `limitations[]` | string | حدود دلالة النتائج بصراحة |
+| `reproduce` | string (اختياري) | أوامر إعادة التشغيل كما تُعرض في الصفحة |
 
 مثال قيمة: `"errors_per_100": { "mowatin": { "quran": { "mean": 0.0, "sd": 0.0 } } }`
