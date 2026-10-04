@@ -54,7 +54,9 @@ def _extract_text(payload: dict[str, Any]) -> str:
     # A safety block returns 200 with no candidates; treat it like any bad answer.
     try:
         parts = payload["candidates"][0]["content"]["parts"]
-        text = "".join(part.get("text", "") for part in parts)
+        # Thinking models (Gemma 4) return their reasoning as parts marked
+        # ``thought``; only the remaining parts are the JSON answer.
+        text = "".join(part.get("text", "") for part in parts if not part.get("thought"))
     except (KeyError, IndexError, TypeError, AttributeError):
         raise ProviderError(ErrorKind.INVALID_RESPONSE) from None
     if not text.strip():

@@ -64,6 +64,31 @@ async def test_gemini_missing_usage_counts_zero(
     assert (await gemini.generate("p")).usage == Usage()
 
 
+async def test_gemini_skips_thought_parts(
+    mock_api: respx.MockRouter, gemini: GeminiClient
+) -> None:
+    parts = [
+        {"text": "* Input: return JSON ...", "thought": True},
+        {"text": "`", "thought": True},
+        {"text": '{"ok": true}'},
+    ]
+    payload = {"candidates": [{"content": {"parts": parts}}]}
+    mock_api.post(GEMINI_URL).mock(return_value=httpx.Response(200, json=payload))
+
+    assert (await gemini.generate("p")).text == '{"ok": true}'
+
+
+async def test_gemini_only_thought_parts_is_invalid(
+    mock_api: respx.MockRouter, gemini: GeminiClient
+) -> None:
+    payload = {"candidates": [{"content": {"parts": [{"text": "thinking", "thought": True}]}}]}
+    mock_api.post(GEMINI_URL).mock(return_value=httpx.Response(200, json=payload))
+
+    with pytest.raises(ProviderError) as err:
+        await gemini.generate("p")
+    assert err.value.kind is ErrorKind.INVALID_RESPONSE
+
+
 @pytest.mark.parametrize(
     ("response", "kind", "retryable"),
     [

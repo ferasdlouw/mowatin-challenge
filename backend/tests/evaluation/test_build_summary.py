@@ -46,18 +46,19 @@ def test_mean_sd():
     assert b.mean_sd([None, 10.0]) == {"mean": 10.0, "sd": 0.0}
 
 
-def test_fill_summary_writes_values_and_keeps_pending():
+def test_fill_summary_writes_values_and_keeps_status():
     summary = json.loads(SUMMARY.read_text(encoding="utf-8"))
+    status, generated_at = summary["status"], summary["generated_at"]
     filled = b.fill_summary(summary, _metrics())
     by_id = {m["id"]: m for m in filled["metrics"]}
     assert by_id["term_accuracy"]["values"]["mowatin"] == {"mean": 92.0, "sd": 2.0}
     assert by_id["safe_referral"]["values"]["llm"] == {"mean": 0.0, "sd": 0.0}
     assert by_id["meaning"]["values"] == {}  # human-rated, untouched
     assert filled["errors_per_100"]["llm"]["quran"] == {"mean": 30.0, "sd": 0.0}
-    assert filled["status"] == "pending"
+    assert filled["status"] == status  # never set by the script
     assert filled["runs"] == 3
     assert filled["generated_at"] == "2026-10-10"
-    assert summary["generated_at"] is None  # input not mutated
+    assert summary["generated_at"] == generated_at  # input not mutated
 
 
 def test_cli_refuses_dev_metrics(tmp_path):
@@ -85,7 +86,8 @@ def test_cli_writes_out_without_touching_real_summary(tmp_path):
     b.main(
         ["--metrics", str(metrics), "--summary", str(SUMMARY), "--out", str(out), "--allow-dev"]
     )
-    assert json.loads(out.read_text(encoding="utf-8"))["status"] == "pending"
+    status = json.loads(before.decode("utf-8"))["status"]
+    assert json.loads(out.read_text(encoding="utf-8"))["status"] == status
     assert SUMMARY.read_bytes() == before
 
 
