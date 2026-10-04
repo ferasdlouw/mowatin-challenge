@@ -7,12 +7,6 @@
 **المسار:** 02 — صناعة المحتوى متعدد اللغات والتوطين الثقافي
 **الفريق:** فريق أثر المدينة
 
-| | |
-|---|---|
-| 🔗 الموقع | [mowatin.pages.dev](https://mowatin.pages.dev) |
-| 🛠️ الأداة | [mowatin.pages.dev/app](https://mowatin.pages.dev/app) |
-| 💻 الكود الكامل | [github.com/ferasdlouw/mowatin](https://github.com/ferasdlouw/mowatin) |
-
 ---
 
 ## المشكلة
