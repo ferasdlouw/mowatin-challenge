@@ -488,21 +488,28 @@
         "monachisme"
       ]
     },
-    "usage_note_ar": "التعريف: ترك ما لا ينفع في الآخرة مع عدم تعلق القلب بالدنيا. — asceticism توحي بالرهبنة وتحريم الطيبات فتُرفض. | الدليل: الحديد: 20. | في الجمهرة: EN «Asceticism»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): الاستراتيجية keep_and_gloss: يُبقى اللفظ العربي بالحروف اللاتينية لأنه لا مقابل إنجليزي يؤدي معناه الشرعي كاملًا، ومقابل الجمهرة «Asceticism» مذكور في الشرح.",
+    "usage_note_ar": "التعريف: ترك ما لا ينفع في الآخرة مع عدم تعلق القلب بالدنيا. — asceticism توحي بالرهبنة وتحريم الطيبات فتُرفض. | الدليل: الحديد: 20. | في الجمهرة: EN «Asceticism»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): الاستراتيجية keep_and_gloss: يُبقى اللفظ العربي بالحروف اللاتينية لأنه لا مقابل إنجليزي يؤدي معناه الشرعي كاملًا، ومقابل الجمهرة «Asceticism» مذكور في الشرح. | تحقق الفرنسية (2026-10-04، الدفعة الثالثة، بحث بمساعدة Claude، وراجعته واعتمدته ردينة بلال): موسوعة الأحاديث المترجمة (HadeethEnc، جهة رواد نفسها): «Sois dans ce bas-monde comme si tu étais un étranger…»، وفي الشرح: «l'ascétisme (le détachement)». ملاحظة: «ascétisme» في التجنب، والمصدر يقرنها بـ«détachement».",
     "strategy": "keep_and_gloss",
     "source": {
       "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
-      "ref": "EN: https://islamic-content.com/dictionary/word/5433/en | FR: غير متوفر في الجمهرة | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/31641 | الدليل: https://api.quranpedia.net/v1/ayah/57/20/options",
+      "ref": "EN: https://islamic-content.com/dictionary/word/5433/en | FR: غير متوفر في الجمهرة | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/31641 | الدليل: https://api.quranpedia.net/v1/ayah/57/20/options | تحقق الفرنسية: https://hadeethenc.com/fr/browse/hadith/4704",
       "retrieved": "2026-10-01"
     },
     "status": {
       "en": "verified",
-      "fr": "draft"
+      "fr": "verified"
     },
-    "reviewed_by": {
-      "name": "ردينة بلال",
-      "date": "2026-10-02"
-    }
+    "reviewed_by": [
+      {
+        "name": "ردينة بلال",
+        "date": "2026-10-02"
+      },
+      {
+        "name": "ردينة بلال",
+        "date": "2026-10-04",
+        "scope": "fr"
+      }
+    ]
   },
   {
     "id": "wara",

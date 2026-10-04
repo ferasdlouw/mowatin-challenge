@@ -171,6 +171,8 @@ One JSON line per `/v1/translate` request on logger `app.pipeline.orchestrator`,
 | Dependabot #57 (tailwindcss 4: build fails) and #58 (Python group: ruff 0.16 adds 27 lint errors; uvicorn 0.34→0.54 in production) left open on purpose: no advisory on the current pins; revisit after 2026-10-22 | Feras | REVIEW |
 
 ## Last verification results
+
+2026-10-04 French glossary batch 3 (D-048), local Linux: `validate_glossary.py --min-approved 100` clean (en 150, fr 141); `validate_content.py` clean; `split_testset.py validate dev` OK; full `pytest` 639 passed; frontend `npm run lint` + `npm run build` OK. Exactly 30 glossary entries changed (checked by id against HEAD).
 2026-10-04 Phase QT-5, local Windows: fail-first (the bare hero verse classified `term_heavy`). Full `pytest` 635 passed; ruff check + format clean; validators clean. Dev + demo segments: classification and Quran results byte-identical before/after. Browser: «انما المؤمنون اخوة» → `quran`, 49:10, `quran_diacritized`.
 2026-10-03 Phase QT-4, local Windows: fail-first (the 3 pause-mark quotes failed: 17:32 and 49:10 full verses, 2:255 middle). Full `pytest` 628 passed, pipeline 98.15%; ruff, bandit clean. Sweep of 2441 correct quotes across a pause mark: false misquote blocks 2423 → 0 (2272 exact, 142 ambiguous, 27 not found under the 10% rule); the same quotes with a wrong word: 0 accepted. Dev + demo (73 segments) Quran results byte-identical.
 

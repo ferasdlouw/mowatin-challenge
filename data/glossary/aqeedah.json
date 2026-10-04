@@ -384,28 +384,35 @@
     },
     "fr": {
       "preferred": "ihsân",
-      "gloss": "la bienfaisance ; l'excellence dans l'adoration : adorer Allah comme si on Le voyait",
+      "gloss": "l'excellence dans l'adoration : adorer Allah comme si on Le voyait",
       "avoid": [
         "bienveillance",
         "charité",
         "bonté"
       ]
     },
-    "usage_note_ar": "التعريف: مرتبة الدين العليا: أن تعبد الله كأنك تراه، فإن لم تكن تراه فإنه يراك. — مصطلح مشترك: إذا وُصف به الله فمعناه الإنعام والإتقان (Beneficence)، وإذا أريد به مرتبة الدين يُقفل بالصيغة المقابلة. التمييز بالسياق إلزامي. | الدليل: حديث جبريل — صحيح مسلم (8)؛ النحل: 90. | في الجمهرة: EN «Excellence»، FR «La bienfaisance». | سبب الاختلاف عن الجمهرة (EN): مصطلح متعدد المعاني (context): مرتبة الدين، والإحسان إلى الخلق، والصفة الإلهية؛ ويُختار المقابل بحسب السياق. | تجنّب: EN: «kindness» بهذا المعنى — FR: «bonté» بهذا المعنى | تدقيق الفرنسية (2026-10-03): أُعيد مسودة بعد التدقيق: عنوان الجمهرة «La bienfaisance» يخص المعنى الأخلاقي، وكلمة «bonté» في قائمة التجنب، فيحتاج شاهدًا لمعنى «مرتبة الإحسان».",
+    "usage_note_ar": "التعريف: مرتبة الدين العليا: أن تعبد الله كأنك تراه، فإن لم تكن تراه فإنه يراك. — مصطلح مشترك: إذا وُصف به الله فمعناه الإنعام والإتقان (Beneficence)، وإذا أريد به مرتبة الدين يُقفل بالصيغة المقابلة. التمييز بالسياق إلزامي. | الدليل: حديث جبريل — صحيح مسلم (8)؛ النحل: 90. | في الجمهرة: EN «Excellence»، FR «La bienfaisance». | سبب الاختلاف عن الجمهرة (EN): مصطلح متعدد المعاني (context): مرتبة الدين، والإحسان إلى الخلق، والصفة الإلهية؛ ويُختار المقابل بحسب السياق. | تجنّب: EN: «kindness» بهذا المعنى — FR: «bonté» بهذا المعنى | تدقيق الفرنسية (2026-10-03): أُعيد مسودة بعد التدقيق: عنوان الجمهرة «La bienfaisance» يخص المعنى الأخلاقي، وكلمة «bonté» في قائمة التجنب، فيحتاج شاهدًا لمعنى «مرتبة الإحسان». | تحقق الفرنسية (2026-10-04، الدفعة الثالثة، بحث بمساعدة Claude، وراجعته واعتمدته ردينة بلال): موسوعة الأحاديث المترجمة (HadeethEnc، جهة رواد نفسها)، حديث جبريل (صحيح مسلم 8، دليل المصطلح): «C'est que tu adores Allah comme si tu Le voyais». حُذف «la bienfaisance» من الشرح لأنه للمعنى الأخلاقي.",
     "strategy": "context",
     "source": {
       "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
-      "ref": "EN: https://islamic-content.com/dictionary/word/363/en | FR: https://islamic-content.com/dictionary/word/363/fr | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/181667 | الدليل: https://dorar.net/h/60wn0eQQ ؛ https://api.quranpedia.net/v1/ayah/16/90/options",
+      "ref": "EN: https://islamic-content.com/dictionary/word/363/en | FR: https://islamic-content.com/dictionary/word/363/fr | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/181667 | الدليل: https://dorar.net/h/60wn0eQQ ؛ https://api.quranpedia.net/v1/ayah/16/90/options | تحقق الفرنسية: https://hadeethenc.com/fr/browse/hadith/4563",
       "retrieved": "2026-10-01"
     },
     "status": {
       "en": "verified",
-      "fr": "draft"
+      "fr": "verified"
     },
-    "reviewed_by": {
-      "name": "ردينة بلال",
-      "date": "2026-10-03"
-    }
+    "reviewed_by": [
+      {
+        "name": "ردينة بلال",
+        "date": "2026-10-03"
+      },
+      {
+        "name": "ردينة بلال",
+        "date": "2026-10-04",
+        "scope": "fr"
+      }
+    ]
   },
   {
     "id": "shahadatan",
@@ -625,14 +632,15 @@
       ]
     },
     "fr": {
-      "preferred": "prophétie",
+      "preferred": "mission prophétique",
       "gloss": "le choix par Dieu de prophètes par la révélation; le choix par Allah de certains de Ses serviteurs pour recevoir la révélation",
       "avoid": [
         "divination",
-        "leadership religieux"
+        "leadership religieux",
+        "prophétie"
       ]
     },
-    "usage_note_ar": "في الحزمة العلمية (نماذج القاموس ص8): تستخدم للدلالة على اصطفاء الأنبياء بالوحي، مع التمييز بينها وبين القيادة الدينية البشرية. | التعريف: اصطفاء الله بعض عباده بالوحي إليهم، وهي منحة إلهية لا تُنال بالكسب. — من المصطلحات الأساسية في مرجعية التحدي: يُميَّز عن القيادة البشرية. | الدليل: الأنعام: 124؛ الأحزاب: 40. | في الجمهرة: EN «Prophethood»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تجنّب: EN: «prophecy» بمعنى الكهانة",
+    "usage_note_ar": "في الحزمة العلمية (نماذج القاموس ص8): تستخدم للدلالة على اصطفاء الأنبياء بالوحي، مع التمييز بينها وبين القيادة الدينية البشرية. | التعريف: اصطفاء الله بعض عباده بالوحي إليهم، وهي منحة إلهية لا تُنال بالكسب. — من المصطلحات الأساسية في مرجعية التحدي: يُميَّز عن القيادة البشرية. | الدليل: الأنعام: 124؛ الأحزاب: 40. | في الجمهرة: EN «Prophethood»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تجنّب: EN: «prophecy» بمعنى الكهانة | تحقق الفرنسية (2026-10-04، الدفعة الثالثة، بحث بمساعدة Claude، وراجعته واعتمدته ردينة بلال): ترجمة رشيد معاش (QuranEnc): «la mission prophétique» (الأنعام 89، العنكبوت 27، الجاثية 16). صار المقابل «mission prophétique» بدل «prophétie» لأنها تعني التنبؤ أيضًا، وأُضيفت للتجنب.",
     "strategy": "translate",
     "source": {
       "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
@@ -641,12 +649,19 @@
     },
     "status": {
       "en": "verified",
-      "fr": "draft"
+      "fr": "verified"
     },
-    "reviewed_by": {
-      "name": "ردينة بلال",
-      "date": "2026-10-02"
-    }
+    "reviewed_by": [
+      {
+        "name": "ردينة بلال",
+        "date": "2026-10-02"
+      },
+      {
+        "name": "ردينة بلال",
+        "date": "2026-10-04",
+        "scope": "fr"
+      }
+    ]
   },
   {
     "id": "nabiyy",
@@ -1473,14 +1488,14 @@
       ]
     },
     "fr": {
-      "preferred": "guidée",
+      "preferred": "guidance",
       "gloss": "hidâya : être guidé vers la vérité et aidé par Allah à la suivre",
       "avoid": [
         "direction",
         "illumination"
       ]
     },
-    "usage_note_ar": "التعريف: الدلالة على الحق والتوفيق لاتباعه. — enlightenment ذات حمولة فلسفية/بوذية فتُرفض. | الدليل: الفاتحة: 6. | في الجمهرة: EN «Guidance»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "usage_note_ar": "التعريف: الدلالة على الحق والتوفيق لاتباعه. — enlightenment ذات حمولة فلسفية/بوذية فتُرفض. | الدليل: الفاتحة: 6. | في الجمهرة: EN «Guidance»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تحقق الفرنسية (2026-10-04، الدفعة الثالثة، بحث بمساعدة Claude، وراجعته واعتمدته ردينة بلال): ترجمة رشيد معاش (QuranEnc) لآية الدليل: «Guide-nous dans le droit chemin» (الفاتحة 6)، و«guidés par leur Seigneur» (البقرة 5). صار المقابل «guidance» بدل «guidée» (ليست كلمة قاموسية)، كما اقترح التدقيق السابق.",
     "strategy": "translate",
     "source": {
       "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
@@ -1489,12 +1504,19 @@
     },
     "status": {
       "en": "verified",
-      "fr": "draft"
+      "fr": "verified"
     },
-    "reviewed_by": {
-      "name": "ردينة بلال",
-      "date": "2026-10-02"
-    }
+    "reviewed_by": [
+      {
+        "name": "ردينة بلال",
+        "date": "2026-10-02"
+      },
+      {
+        "name": "ردينة بلال",
+        "date": "2026-10-04",
+        "scope": "fr"
+      }
+    ]
   },
   {
     "id": "ahl_kitab",

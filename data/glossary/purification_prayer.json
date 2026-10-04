@@ -266,12 +266,12 @@
     },
     "fr": {
       "preferred": "horaires de prière",
-      "gloss": "les horaires prescrits des cinq prières : Fajr, Dhuhr, 'Asr, Maghrib, 'Ishâ'",
+      "gloss": "les heures déterminées des cinq prières : Fajr, Dhuhr, 'Asr, Maghrib, 'Ishâ'",
       "avoid": [
         "planning de prière"
       ]
     },
-    "usage_note_ar": "التعريف: الأوقات المحددة شرعًا لأداء الصلوات الخمس. — أسماء الصلوات (الفجر، الظهر، العصر، المغرب، العشاء) ليست متغيرات للمصطلح، و«العشاء» تشتبه بالوجبة. | الدليل: النساء: 103. | في الجمهرة: EN «Prayer times»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تجنّب: EN: «prayer schedule» لأنها عامية",
+    "usage_note_ar": "التعريف: الأوقات المحددة شرعًا لأداء الصلوات الخمس. — أسماء الصلوات (الفجر، الظهر، العصر، المغرب، العشاء) ليست متغيرات للمصطلح، و«العشاء» تشتبه بالوجبة. | الدليل: النساء: 103. | في الجمهرة: EN «Prayer times»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تجنّب: EN: «prayer schedule» لأنها عامية | تحقق الفرنسية (2026-10-04، الدفعة الثالثة، بحث بمساعدة Claude، وراجعته واعتمدته ردينة بلال): ترجمة رشيد معاش (QuranEnc) لآية الدليل: «à des heures déterminées» (النساء 103).",
     "strategy": "translate",
     "source": {
       "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
@@ -280,12 +280,19 @@
     },
     "status": {
       "en": "verified",
-      "fr": "draft"
+      "fr": "verified"
     },
-    "reviewed_by": {
-      "name": "ردينة بلال",
-      "date": "2026-10-02"
-    }
+    "reviewed_by": [
+      {
+        "name": "ردينة بلال",
+        "date": "2026-10-02"
+      },
+      {
+        "name": "ردينة بلال",
+        "date": "2026-10-04",
+        "scope": "fr"
+      }
+    ]
   },
   {
     "id": "adhan",
@@ -349,21 +356,28 @@
         "salut de lecture"
       ]
     },
-    "usage_note_ar": "التعريف: سجدة يسجدها القارئ أو المستمع عند المرور بآية سجدة. — المقابل الفرنسي غير متوفر في الجمهرة. | الدليل: صحيح مسلم (81). | في الجمهرة: EN «prostration during Qur'anic recitation»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): الاستراتيجية keep_and_gloss: يُبقى اللفظ العربي بالحروف اللاتينية لأنه لا مقابل إنجليزي يؤدي معناه الشرعي كاملًا، ومقابل الجمهرة «prostration during Qur'anic recitation» مذكور في الشرح.",
+    "usage_note_ar": "التعريف: سجدة يسجدها القارئ أو المستمع عند المرور بآية سجدة. — المقابل الفرنسي غير متوفر في الجمهرة. | الدليل: صحيح مسلم (81). | في الجمهرة: EN «prostration during Qur'anic recitation»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): الاستراتيجية keep_and_gloss: يُبقى اللفظ العربي بالحروف اللاتينية لأنه لا مقابل إنجليزي يؤدي معناه الشرعي كاملًا، ومقابل الجمهرة «prostration during Qur'anic recitation» مذكور في الشرح. | تحقق الفرنسية (2026-10-04، الدفعة الثالثة، بحث بمساعدة Claude، وراجعته واعتمدته ردينة بلال): موسوعة الأحاديث المترجمة (HadeethEnc، جهة رواد نفسها) (صحيح مسلم 81، دليل المصطلح): «Lorsque le fils d'Adam récite un verset où il y a une prosternation et se prosterne».",
     "strategy": "keep_and_gloss",
     "source": {
       "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
-      "ref": "EN: https://islamic-content.com/dictionary/word/5558/en | FR: غير متوفر في الجمهرة | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/14837 | الدليل: https://dorar.net/h/TuJWUD4E",
+      "ref": "EN: https://islamic-content.com/dictionary/word/5558/en | FR: غير متوفر في الجمهرة | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/14837 | الدليل: https://dorar.net/h/TuJWUD4E | تحقق الفرنسية: https://hadeethenc.com/fr/browse/hadith/10572",
       "retrieved": "2026-10-01"
     },
     "status": {
       "en": "verified",
-      "fr": "draft"
+      "fr": "verified"
     },
-    "reviewed_by": {
-      "name": "ردينة بلال",
-      "date": "2026-10-02"
-    }
+    "reviewed_by": [
+      {
+        "name": "ردينة بلال",
+        "date": "2026-10-02"
+      },
+      {
+        "name": "ردينة بلال",
+        "date": "2026-10-04",
+        "scope": "fr"
+      }
+    ]
   },
   {
     "id": "qiblah",
@@ -507,21 +521,28 @@
         "pasteur"
       ]
     },
-    "usage_note_ar": "التعريف: من يتقدم المصلين في الصلاة، ويطلق على المقتدى به في العلم. — لا كهنوت في الإسلام؛ priest مرفوضة. | الدليل: صحيح البخاري (722). | في الجمهرة: EN «The Imam»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "usage_note_ar": "التعريف: من يتقدم المصلين في الصلاة، ويطلق على المقتدى به في العلم. — لا كهنوت في الإسلام؛ priest مرفوضة. | الدليل: صحيح البخاري (722). | في الجمهرة: EN «The Imam»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تحقق الفرنسية (2026-10-04، الدفعة الثالثة، بحث بمساعدة Claude، وراجعته واعتمدته ردينة بلال): موسوعة الأحاديث المترجمة (HadeethEnc، جهة رواد نفسها) (صحيح البخاري 722، دليل المصطلح): «L'imam a été établi dans le seul but qu'on le suive».",
     "strategy": "translate",
     "source": {
       "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
-      "ref": "EN: https://islamic-content.com/dictionary/word/1577/en | FR: غير متوفر في الجمهرة | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/43624 | الدليل: https://dorar.net/h/2rwqsioX",
+      "ref": "EN: https://islamic-content.com/dictionary/word/1577/en | FR: غير متوفر في الجمهرة | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/43624 | الدليل: https://dorar.net/h/2rwqsioX | تحقق الفرنسية: https://hadeethenc.com/fr/browse/hadith/6029",
       "retrieved": "2026-10-01"
     },
     "status": {
       "en": "verified",
-      "fr": "draft"
+      "fr": "verified"
     },
-    "reviewed_by": {
-      "name": "ردينة بلال",
-      "date": "2026-10-02"
-    }
+    "reviewed_by": [
+      {
+        "name": "ردينة بلال",
+        "date": "2026-10-02"
+      },
+      {
+        "name": "ردينة بلال",
+        "date": "2026-10-04",
+        "scope": "fr"
+      }
+    ]
   },
   {
     "id": "witr",

@@ -135,13 +135,13 @@
     },
     "fr": {
       "preferred": "tafsîr",
-      "gloss": "l'exégèse : expliquer les sens du Coran",
+      "gloss": "l'exégèse : expliquer et exposer clairement les sens du Coran",
       "avoid": [
         "interprétation",
         "commentaire"
       ]
     },
-    "usage_note_ar": "التعريف: بيان معاني القرآن. | الدليل: النحل: 44. | في الجمهرة: EN «Understanding»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): الاستراتيجية keep_and_gloss: يُبقى اللفظ العربي بالحروف اللاتينية لأنه لا مقابل إنجليزي يؤدي معناه الشرعي كاملًا، ومقابل الجمهرة «Understanding» مذكور في الشرح. | تجنّب: EN: «interpretation» لأنها ذاتية؛ «commentary» منفردةً دون شرح — FR: «interprétation» لأنها ذاتية؛ «commentaire» منفردةً دون شرح",
+    "usage_note_ar": "التعريف: بيان معاني القرآن. | الدليل: النحل: 44. | في الجمهرة: EN «Understanding»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): الاستراتيجية keep_and_gloss: يُبقى اللفظ العربي بالحروف اللاتينية لأنه لا مقابل إنجليزي يؤدي معناه الشرعي كاملًا، ومقابل الجمهرة «Understanding» مذكور في الشرح. | تجنّب: EN: «interpretation» لأنها ذاتية؛ «commentary» منفردةً دون شرح — FR: «interprétation» لأنها ذاتية؛ «commentaire» منفردةً دون شرح | تحقق الفرنسية (2026-10-04، الدفعة الثالثة، بحث بمساعدة Claude، وراجعته واعتمدته ردينة بلال): ترجمة رشيد معاش (QuranEnc) لآية الدليل: «afin que tu en exposes clairement les enseignements» (النحل 44).",
     "strategy": "keep_and_gloss",
     "source": {
       "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
@@ -150,12 +150,19 @@
     },
     "status": {
       "en": "verified",
-      "fr": "draft"
+      "fr": "verified"
     },
-    "reviewed_by": {
-      "name": "ردينة بلال",
-      "date": "2026-10-02"
-    }
+    "reviewed_by": [
+      {
+        "name": "ردينة بلال",
+        "date": "2026-10-02"
+      },
+      {
+        "name": "ردينة بلال",
+        "date": "2026-10-04",
+        "scope": "fr"
+      }
+    ]
   },
   {
     "id": "tajwid",
@@ -174,13 +181,13 @@
     },
     "fr": {
       "preferred": "tajwîd",
-      "gloss": "les règles de récitation du Coran",
+      "gloss": "les règles pour réciter le Coran correctement et posément",
       "avoid": [
         "chant",
         "psalmodie"
       ]
     },
-    "usage_note_ar": "التعريف: إعطاء كل حرف حقه ومستحقه في التلاوة. | الدليل: المزمل: 4. | في الجمهرة: EN «Tajwīd»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "usage_note_ar": "التعريف: إعطاء كل حرف حقه ومستحقه في التلاوة. | الدليل: المزمل: 4. | في الجمهرة: EN «Tajwīd»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تحقق الفرنسية (2026-10-04، الدفعة الثالثة، بحث بمساعدة Claude، وراجعته واعتمدته ردينة بلال): ترجمة رشيد معاش (QuranEnc) لآية الدليل: «en récitant le Coran posément» (المزمل 4).",
     "strategy": "keep_and_gloss",
     "source": {
       "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
@@ -189,12 +196,19 @@
     },
     "status": {
       "en": "verified",
-      "fr": "draft"
+      "fr": "verified"
     },
-    "reviewed_by": {
-      "name": "ردينة بلال",
-      "date": "2026-10-02"
-    }
+    "reviewed_by": [
+      {
+        "name": "ردينة بلال",
+        "date": "2026-10-02"
+      },
+      {
+        "name": "ردينة بلال",
+        "date": "2026-10-04",
+        "scope": "fr"
+      }
+    ]
   },
   {
     "id": "asbab_nuzul",
@@ -340,21 +354,28 @@
         "légende"
       ]
     },
-    "usage_note_ar": "في الحزمة العلمية (نماذج القاموس ص8): ما نُقل عن النبي ﷺ من قول أو فعل أو تقرير ونحو ذلك، مع بيان درجة الثبوت عند الاستدلال. | التعريف: ما أضيف إلى النبي ﷺ من قول أو فعل أو تقرير أو صفة. — tradition وlegend تُضعفان الثبوت؛ يُرفضان. | الدليل: سنن الترمذي (2656). | في الجمهرة: EN «Hadith»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تجنّب: EN: «saying» منفردةً دون شرح",
+    "usage_note_ar": "في الحزمة العلمية (نماذج القاموس ص8): ما نُقل عن النبي ﷺ من قول أو فعل أو تقرير ونحو ذلك، مع بيان درجة الثبوت عند الاستدلال. | التعريف: ما أضيف إلى النبي ﷺ من قول أو فعل أو تقرير أو صفة. — tradition وlegend تُضعفان الثبوت؛ يُرفضان. | الدليل: سنن الترمذي (2656). | في الجمهرة: EN «Hadith»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تجنّب: EN: «saying» منفردةً دون شرح | تحقق الفرنسية (2026-10-04، الدفعة الثالثة، بحث بمساعدة Claude، وراجعته واعتمدته ردينة بلال): موسوعة الأحاديث المترجمة (HadeethEnc، جهة رواد نفسها): عنوان الموسوعة «Encyclopédie des paroles prophétiques traduites»، وكل نص فيها معنون «Hadith».",
     "strategy": "keep_and_gloss",
     "source": {
       "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
-      "ref": "الحزمة العلمية — نماذج القاموس ص8 | EN: https://islamic-content.com/dictionary/word/4139/en | FR: غير متوفر في الجمهرة | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/71790 | الدليل: https://dorar.net/h/wIvObB47",
+      "ref": "الحزمة العلمية — نماذج القاموس ص8 | EN: https://islamic-content.com/dictionary/word/4139/en | FR: غير متوفر في الجمهرة | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/71790 | الدليل: https://dorar.net/h/wIvObB47 | تحقق الفرنسية: https://hadeethenc.com/fr/browse/hadith/5478",
       "retrieved": "2026-10-01"
     },
     "status": {
       "en": "verified",
-      "fr": "draft"
+      "fr": "verified"
     },
-    "reviewed_by": {
-      "name": "ردينة بلال",
-      "date": "2026-10-02"
-    }
+    "reviewed_by": [
+      {
+        "name": "ردينة بلال",
+        "date": "2026-10-02"
+      },
+      {
+        "name": "ردينة بلال",
+        "date": "2026-10-04",
+        "scope": "fr"
+      }
+    ]
   },
   {
     "id": "sunnah",
@@ -461,21 +482,28 @@
         "correct"
       ]
     },
-    "usage_note_ar": "التعريف: ما اتصل سنده بنقل العدل الضابط عن مثله من غير شذوذ ولا علة. | الدليل: اصطلاح حديثي — نزهة النظر لابن حجر. | في الجمهرة: EN «Authentic by itself»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): الاستراتيجية keep_and_gloss: يُبقى اللفظ العربي بالحروف اللاتينية لأنه لا مقابل إنجليزي يؤدي معناه الشرعي كاملًا، ومقابل الجمهرة «Authentic by itself» مذكور في الشرح. | تجنّب: EN: «correct» لأنها عامية — FR: «correct» لأنها عامية",
+    "usage_note_ar": "التعريف: ما اتصل سنده بنقل العدل الضابط عن مثله من غير شذوذ ولا علة. | الدليل: اصطلاح حديثي — نزهة النظر لابن حجر. | في الجمهرة: EN «Authentic by itself»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): الاستراتيجية keep_and_gloss: يُبقى اللفظ العربي بالحروف اللاتينية لأنه لا مقابل إنجليزي يؤدي معناه الشرعي كاملًا، ومقابل الجمهرة «Authentic by itself» مذكور في الشرح. | تجنّب: EN: «correct» لأنها عامية — FR: «correct» لأنها عامية | تحقق الفرنسية (2026-10-04، الدفعة الثالثة، بحث بمساعدة Claude، وراجعته واعتمدته ردينة بلال): موسوعة الأحاديث المترجمة (HadeethEnc، جهة رواد نفسها): درجة الحديث الصحيح مكتوبة «Authentique» (مثلًا الحديث 4704).",
     "strategy": "keep_and_gloss",
     "source": {
       "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
-      "ref": "EN: https://islamic-content.com/dictionary/word/6181/en | FR: غير متوفر في الجمهرة | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/71812 | الدليل: https://shamela.ws/book/1565",
+      "ref": "EN: https://islamic-content.com/dictionary/word/6181/en | FR: غير متوفر في الجمهرة | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/71812 | الدليل: https://shamela.ws/book/1565 | تحقق الفرنسية: https://hadeethenc.com/fr/browse/hadith/4704",
       "retrieved": "2026-10-01"
     },
     "status": {
       "en": "verified",
-      "fr": "draft"
+      "fr": "verified"
     },
-    "reviewed_by": {
-      "name": "ردينة بلال",
-      "date": "2026-10-02"
-    }
+    "reviewed_by": [
+      {
+        "name": "ردينة بلال",
+        "date": "2026-10-02"
+      },
+      {
+        "name": "ردينة بلال",
+        "date": "2026-10-04",
+        "scope": "fr"
+      }
+    ]
   },
   {
     "id": "daif",
@@ -615,12 +643,12 @@
     },
     "fr": {
       "preferred": "tâbi'î",
-      "gloss": "successeur des Compagnons",
+      "gloss": "successeur des Compagnons : ceux qui ont fidèlement suivi leur voie",
       "avoid": [
         "suiveur"
       ]
     },
-    "usage_note_ar": "التعريف: من لقي الصحابي مؤمناً ومات على الإسلام. | الدليل: التوبة: 100. | في الجمهرة: EN «Tābiʿī»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تجنّب: EN: «follower» منفردةً دون شرح — FR: «suiveur» منفردةً دون شرح",
+    "usage_note_ar": "التعريف: من لقي الصحابي مؤمناً ومات على الإسلام. | الدليل: التوبة: 100. | في الجمهرة: EN «Tābiʿī»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تجنّب: EN: «follower» منفردةً دون شرح — FR: «suiveur» منفردةً دون شرح | تحقق الفرنسية (2026-10-04، الدفعة الثالثة، بحث بمساعدة Claude، وراجعته واعتمدته ردينة بلال): ترجمة رشيد معاش (QuranEnc) لآية الدليل: «ceux qui ont fidèlement suivi leur voie» (التوبة 100).",
     "strategy": "keep_and_gloss",
     "source": {
       "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
@@ -629,12 +657,19 @@
     },
     "status": {
       "en": "verified",
-      "fr": "draft"
+      "fr": "verified"
     },
-    "reviewed_by": {
-      "name": "ردينة بلال",
-      "date": "2026-10-02"
-    }
+    "reviewed_by": [
+      {
+        "name": "ردينة بلال",
+        "date": "2026-10-02"
+      },
+      {
+        "name": "ردينة بلال",
+        "date": "2026-10-04",
+        "scope": "fr"
+      }
+    ]
   },
   {
     "id": "isra",
@@ -699,21 +734,28 @@
         "évasion"
       ]
     },
-    "usage_note_ar": "التعريف: انتقال النبي ﷺ وأصحابه من مكة إلى المدينة، وتطلق على الانتقال من دار الكفر إلى دار الإسلام. — flight تُصوّرها هروباً. | الدليل: التوبة: 40. | في الجمهرة: EN «Migration»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): الاستراتيجية keep_and_gloss: يُبقى اللفظ العربي بالحروف اللاتينية لأنه لا مقابل إنجليزي يؤدي معناه الشرعي كاملًا، ومقابل الجمهرة «Migration» مذكور في الشرح. | تدقيق الفرنسية (2026-10-03): أُعيد مسودة بعد التدقيق: عنوان رواد «Émigration (Hijrah)» عام في كل هجرة، ومقابلنا «hégire» خاص بهجرة النبي ﷺ؛ يحتاج شاهدًا خاصًّا.",
+    "usage_note_ar": "التعريف: انتقال النبي ﷺ وأصحابه من مكة إلى المدينة، وتطلق على الانتقال من دار الكفر إلى دار الإسلام. — flight تُصوّرها هروباً. | الدليل: التوبة: 40. | في الجمهرة: EN «Migration»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): الاستراتيجية keep_and_gloss: يُبقى اللفظ العربي بالحروف اللاتينية لأنه لا مقابل إنجليزي يؤدي معناه الشرعي كاملًا، ومقابل الجمهرة «Migration» مذكور في الشرح. | تدقيق الفرنسية (2026-10-03): أُعيد مسودة بعد التدقيق: عنوان رواد «Émigration (Hijrah)» عام في كل هجرة، ومقابلنا «hégire» خاص بهجرة النبي ﷺ؛ يحتاج شاهدًا خاصًّا. | تحقق الفرنسية (2026-10-04، الدفعة الثالثة، بحث بمساعدة Claude، وراجعته واعتمدته ردينة بلال): رواد (FR): «L'émigration désigne le fait qu'une personne abandonne le pays…»، والشرح عندنا «l'émigration du Prophète… (l'Hégire)» مطابق لآية الدليل (التوبة 40: «forcé par les impies à l'exil»).",
     "strategy": "keep_and_gloss",
     "source": {
       "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
-      "ref": "EN: https://islamic-content.com/dictionary/word/10677/en | FR: غير متوفر في الجمهرة | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/36590 | الدليل: https://api.quranpedia.net/v1/ayah/9/40/options | FR تحقق (رواد): https://terminologyenc.com/fr/browse/term/36590",
+      "ref": "EN: https://islamic-content.com/dictionary/word/10677/en | FR: غير متوفر في الجمهرة | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/36590 | الدليل: https://api.quranpedia.net/v1/ayah/9/40/options | FR تحقق (رواد): https://terminologyenc.com/fr/browse/term/36590 | تحقق الفرنسية: https://terminologyenc.com/fr/browse/term/36590",
       "retrieved": "2026-10-01"
     },
     "status": {
       "en": "verified",
-      "fr": "draft"
+      "fr": "verified"
     },
-    "reviewed_by": {
-      "name": "ردينة بلال",
-      "date": "2026-10-03"
-    }
+    "reviewed_by": [
+      {
+        "name": "ردينة بلال",
+        "date": "2026-10-03"
+      },
+      {
+        "name": "ردينة بلال",
+        "date": "2026-10-04",
+        "scope": "fr"
+      }
+    ]
   },
   {
     "id": "adalah",
