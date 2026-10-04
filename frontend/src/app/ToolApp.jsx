@@ -52,7 +52,8 @@ const tabFromHash = () => (TABS.some(([k]) => `#${k}` === window.location.hash) 
 export default function ToolApp() {
   const [tab, setTab] = useState(tabFromHash)
   const [state, setState] = useState({ text: '', lang: 'en', audience: 'general_non_muslim', status: 'idle', result: null, error: null, exampleId: null })
-  const [queue, setQueue] = useState(seedQueue)
+  // Live mode starts empty: the queue holds only real results, never demo items.
+  const [queue, setQueue] = useState(() => (MODE === 'demo' ? seedQueue() : []))
   const [tour, setTour] = useState(() => tabFromHash() === 'translate' && !tourSeen())
   const [enNote, setEnNote] = useState(cameFromEnglish)
   const closeEnNote = () => { setEnNote(false); try { sessionStorage.setItem('mowatin.enNote', 'closed') } catch { /* storage blocked */ } }
