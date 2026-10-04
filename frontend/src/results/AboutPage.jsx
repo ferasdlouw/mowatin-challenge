@@ -71,8 +71,8 @@ export default function AboutPage() {
           <Card Icon={Library} title="المسرد وبقية المصادر">
             <p>
               مصادر المسرد والأحاديث وعبارات الإحالة، وطريقة استخدامها والتحقق منها، موثّقة في ملف
-              {' '}<Ext href="https://github.com/ferasdlouw/mowatin/blob/main/docs/SOURCES.md">docs/SOURCES.md</Ext>،
-              وإشعارات المكتبات والخدمات في <Ext href="https://github.com/ferasdlouw/mowatin/blob/main/THIRD_PARTY_NOTICES.md">THIRD_PARTY_NOTICES.md</Ext>.
+              {' '}<Ext href="https://github.com/ferasdlouw/mowatin-challenge/blob/main/docs/SOURCES.md">docs/SOURCES.md</Ext>،
+              وإشعارات المكتبات والخدمات في <Ext href="https://github.com/ferasdlouw/mowatin-challenge/blob/main/THIRD_PARTY_NOTICES.md">THIRD_PARTY_NOTICES.md</Ext>.
             </p>
           </Card>
         </section>

@@ -5,7 +5,7 @@
 
 ## 1. Create the Render service (once)
 1. Sign in to <https://dashboard.render.com> with the account that should own the service.
-2. **New → Blueprint**, connect the GitHub repo `ferasdlouw/mowatin`, branch `main`. Render reads `render.yaml` and proposes one free web service, `muwattin-api`.
+2. **New → Blueprint**, connect the GitHub repo `ferasdlouw/mowatin-challenge`, branch `main`. Render reads `render.yaml` and proposes one free web service, `muwattin-api`.
 3. Render asks for every variable marked `sync: false`. Fill them from the table in §2, then **Apply**.
 4. Wait for the first deploy to go **Live**. The URL looks like `https://muwattin-api.onrender.com` (Render may add a suffix if the name is taken). Use it as `API` below.
 

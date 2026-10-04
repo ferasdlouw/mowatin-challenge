@@ -18,7 +18,7 @@ export default function Footer() {
           <a href="/results" className="hover:text-white">{t('النتائج', 'Results')}</a>
           <a href="/developers" className="hover:text-white">{t('للمطوّرين (API)', 'Developers (API)')}</a>
           <a href="/about" className="hover:text-white">{t('المصادر وحقوق النشر', 'Sources & credits')}</a>
-          <a href="https://github.com/ferasdlouw/mowatin" target="_blank" rel="noopener noreferrer" className="flex items-center gap-[0.35rem] hover:text-white"><FolderGit2 className="h-[1rem] w-[1rem]" aria-hidden />{t('المستودع على GitHub', 'GitHub repository')}</a>
+          <a href="https://github.com/ferasdlouw/mowatin-challenge" target="_blank" rel="noopener noreferrer" className="flex items-center gap-[0.35rem] hover:text-white"><FolderGit2 className="h-[1rem] w-[1rem]" aria-hidden />{t('المستودع على GitHub', 'GitHub repository')}</a>
           <a href="mailto:fadedalow@gmail.com" className="flex items-center gap-[0.5rem] rounded-full bg-white/10 px-[1rem] py-[0.5rem] transition-colors hover:bg-white/20"><Mail className="h-[1rem] w-[1rem]" aria-hidden /> {t('تواصل معنا', 'Contact')}</a>
           <span className="text-white/60">{t('© 2026 فريق أثر المدينة', '© 2026 Athar Al-Madinah Team')}</span>
         </div>
