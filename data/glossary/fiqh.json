@@ -148,26 +148,33 @@
     },
     "fr": {
       "preferred": "ijtihâd",
-      "gloss": "l'effort d'interprétation du savant qualifié",
+      "gloss": "l'effort personnel d'interprétation du savant qualifié",
       "avoid": [
         "opinion personnelle"
       ]
     },
-    "usage_note_ar": "التعريف: بذل الفقيه وسعه في استنباط الحكم الشرعي من الأدلة. | الدليل: صحيح البخاري (7352)؛ صحيح مسلم (1716). | في الجمهرة: EN «Ijtihad»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تجنّب: EN: «effort» منفردةً دون شرح — FR: «effort» منفردةً دون شرح",
+    "usage_note_ar": "التعريف: بذل الفقيه وسعه في استنباط الحكم الشرعي من الأدلة. | الدليل: صحيح البخاري (7352)؛ صحيح مسلم (1716). | في الجمهرة: EN «Ijtihad»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تجنّب: EN: «effort» منفردةً دون شرح — FR: «effort» منفردةً دون شرح | تحقق الفرنسية (2026-10-04، الدفعة الثالثة، بحث بمساعدة Claude، وراجعته واعتمدته ردينة بلال): موسوعة الأحاديث المترجمة (HadeethEnc، جهة رواد نفسها) (البخاري 7352، مسلم 1716، دليل المصطلح): «effort personnel d'interprétation».",
     "strategy": "keep_and_gloss",
     "source": {
       "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
-      "ref": "EN: https://islamic-content.com/dictionary/word/196/en | FR: غير متوفر في الجمهرة | الدليل: https://dorar.net/h/1EypRElR",
+      "ref": "EN: https://islamic-content.com/dictionary/word/196/en | FR: غير متوفر في الجمهرة | الدليل: https://dorar.net/h/1EypRElR | تحقق الفرنسية: https://hadeethenc.com/fr/browse/hadith/64682",
       "retrieved": "2026-10-01"
     },
     "status": {
       "en": "verified",
-      "fr": "draft"
+      "fr": "verified"
     },
-    "reviewed_by": {
-      "name": "ردينة بلال",
-      "date": "2026-10-02"
-    }
+    "reviewed_by": [
+      {
+        "name": "ردينة بلال",
+        "date": "2026-10-02"
+      },
+      {
+        "name": "ردينة بلال",
+        "date": "2026-10-04",
+        "scope": "fr"
+      }
+    ]
   },
   {
     "id": "ijma",
@@ -193,21 +200,28 @@
         "opinion populaire"
       ]
     },
-    "usage_note_ar": "التعريف: اتفاق مجتهدي الأمة بعد النبي ﷺ على حكم شرعي في عصر من العصور. | الدليل: النساء: 115. | في الجمهرة: EN «Unanimity»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): الاستراتيجية keep_and_gloss: يُبقى اللفظ العربي بالحروف اللاتينية لأنه لا مقابل إنجليزي يؤدي معناه الشرعي كاملًا، ومقابل الجمهرة «Unanimity» مذكور في الشرح.",
+    "usage_note_ar": "التعريف: اتفاق مجتهدي الأمة بعد النبي ﷺ على حكم شرعي في عصر من العصور. | الدليل: النساء: 115. | في الجمهرة: EN «Unanimity»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): الاستراتيجية keep_and_gloss: يُبقى اللفظ العربي بالحروف اللاتينية لأنه لا مقابل إنجليزي يؤدي معناه الشرعي كاملًا، ومقابل الجمهرة «Unanimity» مذكور في الشرح. | تحقق الفرنسية (2026-10-04، الدفعة الثالثة، بحث بمساعدة Claude، وراجعته واعتمدته ردينة بلال): رواد (FR): «L'Ijmā' : l'accord entre un groupe de personnes sur une certaine question».",
     "strategy": "keep_and_gloss",
     "source": {
       "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
-      "ref": "EN: https://islamic-content.com/dictionary/word/234/en | FR: غير متوفر في الجمهرة | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/570 | الدليل: https://api.quranpedia.net/v1/ayah/4/115/options",
+      "ref": "EN: https://islamic-content.com/dictionary/word/234/en | FR: غير متوفر في الجمهرة | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/570 | الدليل: https://api.quranpedia.net/v1/ayah/4/115/options | تحقق الفرنسية: https://terminologyenc.com/fr/browse/term/570",
       "retrieved": "2026-10-01"
     },
     "status": {
       "en": "verified",
-      "fr": "draft"
+      "fr": "verified"
     },
-    "reviewed_by": {
-      "name": "ردينة بلال",
-      "date": "2026-10-02"
-    }
+    "reviewed_by": [
+      {
+        "name": "ردينة بلال",
+        "date": "2026-10-02"
+      },
+      {
+        "name": "ردينة بلال",
+        "date": "2026-10-04",
+        "scope": "fr"
+      }
+    ]
   },
   {
     "id": "qiyas",
@@ -430,21 +444,28 @@
         "autorisé"
       ]
     },
-    "usage_note_ar": "التعريف: ما لا يتعلق به أمر ولا نهي لذاته. | الدليل: اصطلاح أصولي — روضة الناظر لابن قدامة. | في الجمهرة: EN «Permissible»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تجنّب: EN: «allowed» لعدم اتساق الكتابة — FR: «autorisé» لعدم اتساق الكتابة",
+    "usage_note_ar": "التعريف: ما لا يتعلق به أمر ولا نهي لذاته. | الدليل: اصطلاح أصولي — روضة الناظر لابن قدامة. | في الجمهرة: EN «Permissible»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تجنّب: EN: «allowed» لعدم اتساق الكتابة — FR: «autorisé» لعدم اتساق الكتابة | تحقق الفرنسية (2026-10-04، الدفعة الثالثة، بحث بمساعدة Claude، وراجعته واعتمدته ردينة بلال): رواد (FR): «Le Mubāh est une catégorie des jugements juridiques musulmans prescriptifs…»، وترجمة رشيد معاش (QuranEnc): «Il vous est dorénavant permis» (البقرة 187). ملاحظة: رواد يستعمل «autorisé» وهي في التجنب.",
     "strategy": "translate",
     "source": {
       "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
-      "ref": "EN: https://islamic-content.com/dictionary/word/8686/en | FR: غير متوفر في الجمهرة | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/75284 | الدليل: https://shamela.ws/book/12010",
+      "ref": "EN: https://islamic-content.com/dictionary/word/8686/en | FR: غير متوفر في الجمهرة | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/75284 | الدليل: https://shamela.ws/book/12010 | تحقق الفرنسية: https://terminologyenc.com/fr/browse/term/75284",
       "retrieved": "2026-10-01"
     },
     "status": {
       "en": "verified",
-      "fr": "draft"
+      "fr": "verified"
     },
-    "reviewed_by": {
-      "name": "ردينة بلال",
-      "date": "2026-10-02"
-    }
+    "reviewed_by": [
+      {
+        "name": "ردينة بلال",
+        "date": "2026-10-02"
+      },
+      {
+        "name": "ردينة بلال",
+        "date": "2026-10-04",
+        "scope": "fr"
+      }
+    ]
   },
   {
     "id": "halal",
@@ -549,27 +570,34 @@
     },
     "fr": {
       "preferred": "abattage rituel islamique",
-      "gloss": "tadhkiya : abattage selon les règles de la Charia, rendant l'animal licite",
+      "gloss": "tadhkiya : faire couler le sang de l'animal d'une manière spécifique, selon les règles de la Charia, ce qui le rend licite",
       "avoid": [
         "mise à mort rituelle",
         "sacrifice"
       ]
     },
-    "usage_note_ar": "التعريف: ذبح الحيوان المأكول على الوجه المشروع. | الدليل: المائدة: 3. | في الجمهرة: EN «Proper slaughter»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "usage_note_ar": "التعريف: ذبح الحيوان المأكول على الوجه المشروع. | الدليل: المائدة: 3. | في الجمهرة: EN «Proper slaughter»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تحقق الفرنسية (2026-10-04، الدفعة الثالثة، بحث بمساعدة Claude، وراجعته واعتمدته ردينة بلال): رواد (FR): «C'est faire couler le sang de l'animal d'une manière spécifique».",
     "strategy": "translate",
     "source": {
       "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
-      "ref": "EN: https://islamic-content.com/dictionary/word/5020/en | FR: غير متوفر في الجمهرة | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/7645 | الدليل: https://api.quranpedia.net/v1/ayah/5/3/options",
+      "ref": "EN: https://islamic-content.com/dictionary/word/5020/en | FR: غير متوفر في الجمهرة | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/7645 | الدليل: https://api.quranpedia.net/v1/ayah/5/3/options | تحقق الفرنسية: https://terminologyenc.com/fr/browse/term/7645",
       "retrieved": "2026-10-01"
     },
     "status": {
       "en": "verified",
-      "fr": "draft"
+      "fr": "verified"
     },
-    "reviewed_by": {
-      "name": "ردينة بلال",
-      "date": "2026-10-02"
-    }
+    "reviewed_by": [
+      {
+        "name": "ردينة بلال",
+        "date": "2026-10-02"
+      },
+      {
+        "name": "ردينة بلال",
+        "date": "2026-10-04",
+        "scope": "fr"
+      }
+    ]
   },
   {
     "id": "riba",
@@ -744,13 +772,12 @@
     },
     "fr": {
       "preferred": "mahr",
-      "gloss": "le don nuptial dû à l'épouse",
+      "gloss": "le don nuptial dû à l'épouse : la dot qui lui revient de droit",
       "avoid": [
-        "dot",
         "prix de la mariée"
       ]
     },
-    "usage_note_ar": "التعريف: المال الذي يجب للزوجة على زوجها بعقد النكاح. — dowry في الإنجليزية مال تقدمه أسرة الزوجة، وbride price توحي بالشراء؛ كلاهما مرفوض. | الدليل: النساء: 4. | في الجمهرة: EN «Dowry»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): الاستراتيجية keep_and_gloss: يُبقى اللفظ العربي بالحروف اللاتينية لأنه لا مقابل إنجليزي يؤدي معناه الشرعي كاملًا، ومقابل الجمهرة «Dowry» مذكور في الشرح. | تجنّب: FR: «dot» لأنها تدفعها أسرة الزوجة لا الزوج",
+    "usage_note_ar": "التعريف: المال الذي يجب للزوجة على زوجها بعقد النكاح. — dowry في الإنجليزية مال تقدمه أسرة الزوجة، وbride price توحي بالشراء؛ كلاهما مرفوض. | الدليل: النساء: 4. | في الجمهرة: EN «Dowry»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): الاستراتيجية keep_and_gloss: يُبقى اللفظ العربي بالحروف اللاتينية لأنه لا مقابل إنجليزي يؤدي معناه الشرعي كاملًا، ومقابل الجمهرة «Dowry» مذكور في الشرح. | تجنّب: FR: «dot» لأنها تدفعها أسرة الزوجة لا الزوج | تحقق الفرنسية (2026-10-04، الدفعة الثالثة، بحث بمساعدة Claude، وراجعته واعتمدته ردينة بلال): ترجمة رشيد معاش (QuranEnc) لآية الدليل: «la dot qui leur revient de droit» (النساء 4). حُذفت «dot» من التجنب لأن الترجمة المعتمدة تستعملها، والشرح يحدد أنها حق الزوجة.",
     "strategy": "keep_and_gloss",
     "source": {
       "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
@@ -759,12 +786,19 @@
     },
     "status": {
       "en": "verified",
-      "fr": "draft"
+      "fr": "verified"
     },
-    "reviewed_by": {
-      "name": "ردينة بلال",
-      "date": "2026-10-02"
-    }
+    "reviewed_by": [
+      {
+        "name": "ردينة بلال",
+        "date": "2026-10-02"
+      },
+      {
+        "name": "ردينة بلال",
+        "date": "2026-10-04",
+        "scope": "fr"
+      }
+    ]
   },
   {
     "id": "talaq",
@@ -784,26 +818,33 @@
     },
     "fr": {
       "preferred": "divorce",
-      "gloss": "talâq : divorce prononcé par le mari",
+      "gloss": "talâq : divorce prononcé par le mari (répudiation)",
       "avoid": [
-        "répudiation"
+        "annulation"
       ]
     },
-    "usage_note_ar": "التعريف: حل قيد النكاح أو بعضه. | الدليل: البقرة: 229؛ الطلاق: 1. | في الجمهرة: EN «Divorce»، FR «Divorce». ⚠️ يُحال إلى المختص إذا ورد في سياق حكم أو فتوى أو تطبيق عملي، لا في كل ورود.",
+    "usage_note_ar": "التعريف: حل قيد النكاح أو بعضه. | الدليل: البقرة: 229؛ الطلاق: 1. | في الجمهرة: EN «Divorce»، FR «Divorce». ⚠️ يُحال إلى المختص إذا ورد في سياق حكم أو فتوى أو تطبيق عملي، لا في كل ورود. | تحقق الفرنسية (2026-10-04، الدفعة الثالثة، بحث بمساعدة Claude، وراجعته واعتمدته ردينة بلال): رواد (FR): «Le divorce est la séparation des conjoints de manière légale». وحُذفت «répudiation» من التجنب لأن ترجمة رشيد معاش (QuranEnc) يستعملها في آيتي الدليل (البقرة 229، الطلاق 1). | تجنّب FR: «annulation» (الفسخ حكم آخر غير الطلاق).",
     "strategy": "translate",
     "source": {
       "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
-      "ref": "EN: https://islamic-content.com/dictionary/word/6595/en | FR: https://islamic-content.com/dictionary/word/6595/fr | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/1164 | الدليل: https://api.quranpedia.net/v1/ayah/2/229/options ؛ https://api.quranpedia.net/v1/ayah/65/1/options",
+      "ref": "EN: https://islamic-content.com/dictionary/word/6595/en | FR: https://islamic-content.com/dictionary/word/6595/fr | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/1164 | الدليل: https://api.quranpedia.net/v1/ayah/2/229/options ؛ https://api.quranpedia.net/v1/ayah/65/1/options | تحقق الفرنسية: https://terminologyenc.com/fr/browse/term/1164",
       "retrieved": "2026-10-01"
     },
     "status": {
       "en": "verified",
-      "fr": "draft"
+      "fr": "verified"
     },
-    "reviewed_by": {
-      "name": "ردينة بلال",
-      "date": "2026-10-02"
-    }
+    "reviewed_by": [
+      {
+        "name": "ردينة بلال",
+        "date": "2026-10-02"
+      },
+      {
+        "name": "ردينة بلال",
+        "date": "2026-10-04",
+        "scope": "fr"
+      }
+    ]
   },
   {
     "id": "iddah",
@@ -863,14 +904,14 @@
     },
     "fr": {
       "preferred": "jihad",
-      "gloss": "l'effort dans le sentier d'Allah, selon ses règles islamiques",
+      "gloss": "l'effort et la lutte de toutes ses forces pour la cause d'Allah, selon les règles de la Charia",
       "avoid": [
         "guerre sainte",
         "terrorisme",
         "violence"
       ]
     },
-    "usage_note_ar": "التعريف: بذل الجهد في سبيل الله، ويشمل جهاد النفس والدعوة والقتال المشروع بضوابطه. — holy war مفهوم صليبي مرفوض؛ يُبيَّن شمول المعنى، ويُحال كل نص يتضمن أحكام القتال للمختص. | الدليل: العنكبوت: 69؛ البقرة: 190. | في الجمهرة: EN «Jihad»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. ⚠️ يُحال إلى المختص إذا ورد في سياق حكم أو فتوى أو تطبيق عملي، لا في كل ورود.",
+    "usage_note_ar": "التعريف: بذل الجهد في سبيل الله، ويشمل جهاد النفس والدعوة والقتال المشروع بضوابطه. — holy war مفهوم صليبي مرفوض؛ يُبيَّن شمول المعنى، ويُحال كل نص يتضمن أحكام القتال للمختص. | الدليل: العنكبوت: 69؛ البقرة: 190. | في الجمهرة: EN «Jihad»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. ⚠️ يُحال إلى المختص إذا ورد في سياق حكم أو فتوى أو تطبيق عملي، لا في كل ورود. | تحقق الفرنسية (2026-10-04، الدفعة الثالثة، بحث بمساعدة Claude، وراجعته واعتمدته ردينة بلال): ترجمة رشيد معاش (QuranEnc): «Ceux qui luttent pour Notre cause» (العنكبوت 69، دليل المصطلح)، و«Luttez de toutes vos forces pour la cause d'Allah» (الحج 78). مصطلح حساس: يُستحسن أن يطّلع المراجع الشرعي على الشرح.",
     "strategy": "keep_and_gloss",
     "source": {
       "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
@@ -879,12 +920,19 @@
     },
     "status": {
       "en": "verified",
-      "fr": "draft"
+      "fr": "verified"
     },
-    "reviewed_by": {
-      "name": "ردينة بلال",
-      "date": "2026-10-02"
-    }
+    "reviewed_by": [
+      {
+        "name": "ردينة بلال",
+        "date": "2026-10-02"
+      },
+      {
+        "name": "ردينة بلال",
+        "date": "2026-10-04",
+        "scope": "fr"
+      }
+    ]
   },
   {
     "id": "mahram",

@@ -60,13 +60,13 @@
     },
     "fr": {
       "preferred": "dâ'iya",
-      "gloss": "prédicateur qui appelle à l'Islam avec science",
+      "gloss": "celui qui appelle les hommes à Allah avec clairvoyance et science",
       "avoid": [
         "missionnaire",
         "propagandiste"
       ]
     },
-    "usage_note_ar": "التعريف: من يدعو الناس إلى الإسلام والعمل به على علم وبصيرة. | الدليل: يوسف: 108. | في الجمهرة: EN «Advocate»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): الاستراتيجية keep_and_gloss: يُبقى اللفظ العربي بالحروف اللاتينية لأنه لا مقابل إنجليزي يؤدي معناه الشرعي كاملًا، ومقابل الجمهرة «Advocate» مذكور في الشرح. | تجنّب: EN: «preacher» بالمعنى التبشيري",
+    "usage_note_ar": "التعريف: من يدعو الناس إلى الإسلام والعمل به على علم وبصيرة. | الدليل: يوسف: 108. | في الجمهرة: EN «Advocate»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): الاستراتيجية keep_and_gloss: يُبقى اللفظ العربي بالحروف اللاتينية لأنه لا مقابل إنجليزي يؤدي معناه الشرعي كاملًا، ومقابل الجمهرة «Advocate» مذكور في الشرح. | تجنّب: EN: «preacher» بالمعنى التبشيري | تحقق الفرنسية (2026-10-04، الدفعة الثالثة، بحث بمساعدة Claude، وراجعته واعتمدته ردينة بلال): ترجمة رشيد معاش (QuranEnc) لآية الدليل: «j'appelle les hommes, avec la plus grande clairvoyance» (يوسف 108).",
     "strategy": "keep_and_gloss",
     "source": {
       "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
@@ -75,12 +75,19 @@
     },
     "status": {
       "en": "verified",
-      "fr": "draft"
+      "fr": "verified"
     },
-    "reviewed_by": {
-      "name": "ردينة بلال",
-      "date": "2026-10-02"
-    }
+    "reviewed_by": [
+      {
+        "name": "ردينة بلال",
+        "date": "2026-10-02"
+      },
+      {
+        "name": "ردينة بلال",
+        "date": "2026-10-04",
+        "scope": "fr"
+      }
+    ]
   },
   {
     "id": "amr_bil_maruf_wan_nahy_an_munkar",
@@ -98,14 +105,14 @@
       ]
     },
     "fr": {
-      "preferred": "commander le bien et interdire le mal",
-      "gloss": "ordonner ce que la Charia reconnaît comme bien et interdire ce qu'elle reconnaît comme mal, avec sagesse et selon ses règles",
+      "preferred": "inciter à la vertu et condamner le vice",
+      "gloss": "commander le bien et interdire le mal : ordonner ce que la Charia reconnaît comme bien et interdire ce qu'elle reconnaît comme mal, avec sagesse et selon ses règles",
       "avoid": [
         "police des mœurs",
         "police religieuse"
       ]
     },
-    "usage_note_ar": "التعريف: الأمر بما عرف حسنه شرعاً، والنهي عما عرف قبحه شرعاً، بالحكمة وضوابطه. | الدليل: آل عمران: 104. | في الجمهرة: EN «Enjoin what is right»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. ⚠️ يُحال إلى المختص إذا ورد في سياق حكم أو فتوى أو تطبيق عملي، لا في كل ورود. | سبب الاختلاف عن الجمهرة (EN): صيغة المصدر لتطابق المصطلح العربي، مع إكمال الشطر الثاني «والنهي عن المنكر».",
+    "usage_note_ar": "التعريف: الأمر بما عرف حسنه شرعاً، والنهي عما عرف قبحه شرعاً، بالحكمة وضوابطه. | الدليل: آل عمران: 104. | في الجمهرة: EN «Enjoin what is right»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. ⚠️ يُحال إلى المختص إذا ورد في سياق حكم أو فتوى أو تطبيق عملي، لا في كل ورود. | سبب الاختلاف عن الجمهرة (EN): صيغة المصدر لتطابق المصطلح العربي، مع إكمال الشطر الثاني «والنهي عن المنكر». | تحقق الفرنسية (2026-10-04، الدفعة الثالثة، بحث بمساعدة Claude، وراجعته واعتمدته ردينة بلال): ترجمة رشيد معاش (QuranEnc) لآية الدليل: «les incite à la vertu et condamne le vice» (آل عمران 104؛ وكذا 110، والتوبة 71). اعتُمدت صيغة الترجمة المعتمدة مقابلًا لتتسق مع الآيات المُدرجة.",
     "strategy": "translate",
     "source": {
       "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
@@ -114,12 +121,19 @@
     },
     "status": {
       "en": "verified",
-      "fr": "draft"
+      "fr": "verified"
     },
-    "reviewed_by": {
-      "name": "ردينة بلال",
-      "date": "2026-10-02"
-    }
+    "reviewed_by": [
+      {
+        "name": "ردينة بلال",
+        "date": "2026-10-02"
+      },
+      {
+        "name": "ردينة بلال",
+        "date": "2026-10-04",
+        "scope": "fr"
+      }
+    ]
   },
   {
     "id": "hisbah",
@@ -139,13 +153,13 @@
     },
     "fr": {
       "preferred": "hisba",
-      "gloss": "l'institution qui commande le bien et interdit le mal selon ses règles",
+      "gloss": "l'institution chargée d'inciter à la vertu et de condamner le vice, selon ses règles",
       "avoid": [
         "police des mœurs",
         "inquisition"
       ]
     },
-    "usage_note_ar": "التعريف: الأمر بالمعروف إذا ظهر تركه، والنهي عن المنكر إذا ظهر فعله، بضوابطه الشرعية. | الدليل: آل عمران: 104. | في الجمهرة: EN «ḥisbah»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. ⚠️ يُحال إلى المختص إذا ورد في سياق حكم أو فتوى أو تطبيق عملي، لا في كل ورود.",
+    "usage_note_ar": "التعريف: الأمر بالمعروف إذا ظهر تركه، والنهي عن المنكر إذا ظهر فعله، بضوابطه الشرعية. | الدليل: آل عمران: 104. | في الجمهرة: EN «ḥisbah»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. ⚠️ يُحال إلى المختص إذا ورد في سياق حكم أو فتوى أو تطبيق عملي، لا في كل ورود. | تحقق الفرنسية (2026-10-04، الدفعة الثالثة، بحث بمساعدة Claude، وراجعته واعتمدته ردينة بلال): ترجمة رشيد معاش (QuranEnc) لآية الدليل: «les incite à la vertu et condamne le vice» (آل عمران 104).",
     "strategy": "keep_and_gloss",
     "source": {
       "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
@@ -154,12 +168,19 @@
     },
     "status": {
       "en": "verified",
-      "fr": "draft"
+      "fr": "verified"
     },
-    "reviewed_by": {
-      "name": "ردينة بلال",
-      "date": "2026-10-02"
-    }
+    "reviewed_by": [
+      {
+        "name": "ردينة بلال",
+        "date": "2026-10-02"
+      },
+      {
+        "name": "ردينة بلال",
+        "date": "2026-10-04",
+        "scope": "fr"
+      }
+    ]
   },
   {
     "id": "hikmah",
@@ -298,21 +319,28 @@
         "honte"
       ]
     },
-    "usage_note_ar": "التعريف: خُلق يبعث على ترك القبيح. — shame في الإنجليزية سلبية فتُرفض. | الدليل: صحيح البخاري (9). | في الجمهرة: EN «Shyness»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تجنّب: EN: «shame» لأنها سلبية — FR: «honte» لأنها سلبية",
+    "usage_note_ar": "التعريف: خُلق يبعث على ترك القبيح. — shame في الإنجليزية سلبية فتُرفض. | الدليل: صحيح البخاري (9). | في الجمهرة: EN «Shyness»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تجنّب: EN: «shame» لأنها سلبية — FR: «honte» لأنها سلبية | تحقق الفرنسية (2026-10-04، الدفعة الثالثة، بحث بمساعدة Claude، وراجعته واعتمدته ردينة بلال): موسوعة الأحاديث المترجمة (HadeethEnc، جهة رواد نفسها) (صحيح البخاري 9، دليل المصطلح): «La pudeur fait partie de la foi»، و«La pudeur n'apporte que du bien».",
     "strategy": "translate",
     "source": {
       "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
-      "ref": "EN: https://islamic-content.com/dictionary/word/4553/en | FR: غير متوفر في الجمهرة | الدليل: https://dorar.net/h/iwOdeSLi",
+      "ref": "EN: https://islamic-content.com/dictionary/word/4553/en | FR: غير متوفر في الجمهرة | الدليل: https://dorar.net/h/iwOdeSLi | تحقق الفرنسية: https://hadeethenc.com/fr/browse/hadith/5478 ؛ https://hadeethenc.com/fr/browse/hadith/3055",
       "retrieved": "2026-10-01"
     },
     "status": {
       "en": "verified",
-      "fr": "draft"
+      "fr": "verified"
     },
-    "reviewed_by": {
-      "name": "ردينة بلال",
-      "date": "2026-10-02"
-    }
+    "reviewed_by": [
+      {
+        "name": "ردينة بلال",
+        "date": "2026-10-02"
+      },
+      {
+        "name": "ردينة بلال",
+        "date": "2026-10-04",
+        "scope": "fr"
+      }
+    ]
   },
   {
     "id": "birr_walidayn",
@@ -446,26 +474,33 @@
     },
     "fr": {
       "preferred": "calomnie colportée",
-      "gloss": "namîma : rapporter des propos pour semer la discorde",
+      "gloss": "namîma : rapporter les paroles des gens pour semer la zizanie entre eux",
       "avoid": [
         "rumeur"
       ]
     },
-    "usage_note_ar": "التعريف: نقل الكلام بين الناس على جهة الإفساد. | الدليل: صحيح مسلم (105). | في الجمهرة: EN «Tale-telling»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تجنّب: EN: «rumour» منفردةً دون شرح — FR: «rumeur» منفردةً دون شرح",
+    "usage_note_ar": "التعريف: نقل الكلام بين الناس على جهة الإفساد. | الدليل: صحيح مسلم (105). | في الجمهرة: EN «Tale-telling»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تجنّب: EN: «rumour» منفردةً دون شرح — FR: «rumeur» منفردةً دون شرح | تحقق الفرنسية (2026-10-04، الدفعة الثالثة، بحث بمساعدة Claude، وراجعته واعتمدته ردينة بلال): موسوعة الأحاديث المترجمة (HadeethEnc، جهة رواد نفسها) (صحيح مسلم 105، دليل المصطلح): «Aucun calomniateur n'entrera au Paradis»، وفي الشرح: «celui qui rapporte les paroles des gens dans le but de semer la zizanie entre eux». وترجمة رشيد معاش (QuranEnc): «semer la zizanie» (القلم 11).",
     "strategy": "translate",
     "source": {
       "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
-      "ref": "EN: https://islamic-content.com/dictionary/word/10621/en | FR: غير متوفر في الجمهرة | الدليل: https://dorar.net/h/8c6iiGij",
+      "ref": "EN: https://islamic-content.com/dictionary/word/10621/en | FR: غير متوفر في الجمهرة | الدليل: https://dorar.net/h/8c6iiGij | تحقق الفرنسية: https://hadeethenc.com/fr/browse/hadith/5368",
       "retrieved": "2026-10-01"
     },
     "status": {
       "en": "verified",
-      "fr": "draft"
+      "fr": "verified"
     },
-    "reviewed_by": {
-      "name": "ردينة بلال",
-      "date": "2026-10-02"
-    }
+    "reviewed_by": [
+      {
+        "name": "ردينة بلال",
+        "date": "2026-10-02"
+      },
+      {
+        "name": "ردينة بلال",
+        "date": "2026-10-04",
+        "scope": "fr"
+      }
+    ]
   },
   {
     "id": "nasihah",
@@ -490,21 +525,28 @@
         "critique"
       ]
     },
-    "usage_note_ar": "التعريف: إرادة الخير للمنصوح له. | الدليل: صحيح مسلم (55). | في الجمهرة: EN «Advice»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تجنّب: FR: «conseil» منفردةً دون شرح",
+    "usage_note_ar": "التعريف: إرادة الخير للمنصوح له. | الدليل: صحيح مسلم (55). | في الجمهرة: EN «Advice»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تجنّب: FR: «conseil» منفردةً دون شرح | تحقق الفرنسية (2026-10-04، الدفعة الثالثة، بحث بمساعدة Claude، وراجعته واعتمدته ردينة بلال): موسوعة الأحاديث المترجمة (HadeethEnc، جهة رواد نفسها) (صحيح مسلم 55، دليل المصطلح): «La religion, c'est la sincérité»، وفي الشرح: «lui vouloir du bien». وترجمة رشيد معاش (QuranEnc): «en toute sincérité et prodigué de bons conseils» (الأعراف 79).",
     "strategy": "translate",
     "source": {
       "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
-      "ref": "EN: https://islamic-content.com/dictionary/word/10465/en | FR: غير متوفر في الجمهرة | الدليل: https://dorar.net/h/AVT8KnJd",
+      "ref": "EN: https://islamic-content.com/dictionary/word/10465/en | FR: غير متوفر في الجمهرة | الدليل: https://dorar.net/h/AVT8KnJd | تحقق الفرنسية: https://hadeethenc.com/fr/browse/hadith/4309",
       "retrieved": "2026-10-01"
     },
     "status": {
       "en": "verified",
-      "fr": "draft"
+      "fr": "verified"
     },
-    "reviewed_by": {
-      "name": "ردينة بلال",
-      "date": "2026-10-02"
-    }
+    "reviewed_by": [
+      {
+        "name": "ردينة بلال",
+        "date": "2026-10-02"
+      },
+      {
+        "name": "ردينة بلال",
+        "date": "2026-10-04",
+        "scope": "fr"
+      }
+    ]
   },
   {
     "id": "ithar",

@@ -59,26 +59,33 @@
     },
     "fr": {
       "preferred": "zakât al-fitr",
-      "gloss": "impôt social purificateur ; l'aumône obligatoire de la fin du Ramadan",
+      "gloss": "l'aumône purificatrice de la fin du mois de jeûne de Ramadan",
       "avoid": [
         "aumône du petit-déjeuner"
       ]
     },
-    "usage_note_ar": "التعريف: صدقة واجبة بالفطر من رمضان، صاع من طعام عن كل نفس. — «الفطر» هنا الفطر من رمضان لا وجبة الإفطار. — تُسمّى أيضًا «الفطرة» عند بعض الفقهاء، ولم تُدرج متغيرًا لاشتباهها بمصطلح «الفطرة». | الدليل: صحيح البخاري (1503). | في الجمهرة: EN «Zakat al-Fiṭr»، FR «Impôt social purificateur». | تجنّب: EN: «breakfast charity» بالمعنى الحرفي — FR: «aumône du petit-déjeuner» بالمعنى الحرفي | تدقيق الفرنسية (2026-10-03): أُعيد مسودة بعد التدقيق: عنوان الجمهرة «Impôt social purificateur» يناقض تجنب «impôt» في مدخل الزكاة؛ المقترح: «l'aumône obligatoire de la rupture du jeûne».",
+    "usage_note_ar": "التعريف: صدقة واجبة بالفطر من رمضان، صاع من طعام عن كل نفس. — «الفطر» هنا الفطر من رمضان لا وجبة الإفطار. — تُسمّى أيضًا «الفطرة» عند بعض الفقهاء، ولم تُدرج متغيرًا لاشتباهها بمصطلح «الفطرة». | الدليل: صحيح البخاري (1503). | في الجمهرة: EN «Zakat al-Fiṭr»، FR «Impôt social purificateur». | تجنّب: EN: «breakfast charity» بالمعنى الحرفي — FR: «aumône du petit-déjeuner» بالمعنى الحرفي | تدقيق الفرنسية (2026-10-03): أُعيد مسودة بعد التدقيق: عنوان الجمهرة «Impôt social purificateur» يناقض تجنب «impôt» في مدخل الزكاة؛ المقترح: «l'aumône obligatoire de la rupture du jeûne». | تحقق الفرنسية (2026-10-04، الدفعة الثالثة، بحث بمساعدة Claude، وراجعته واعتمدته ردينة بلال): رواد (FR): «L'aumône purificatrice de la fin du mois de jeûne». حُذف «impôt social purificateur» من الشرح (تعارضه مع تجنب «impôt» في الزكاة كان سبب إعادته مسودة).",
     "strategy": "keep_and_gloss",
     "source": {
       "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
-      "ref": "EN: https://islamic-content.com/dictionary/word/5420/en | FR: https://islamic-content.com/dictionary/word/5420/fr | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/6420 | الدليل: https://dorar.net/h/z0B3dAz1",
+      "ref": "EN: https://islamic-content.com/dictionary/word/5420/en | FR: https://islamic-content.com/dictionary/word/5420/fr | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/6420 | الدليل: https://dorar.net/h/z0B3dAz1 | تحقق الفرنسية: https://terminologyenc.com/fr/browse/term/6420",
       "retrieved": "2026-10-01"
     },
     "status": {
       "en": "verified",
-      "fr": "draft"
+      "fr": "verified"
     },
-    "reviewed_by": {
-      "name": "ردينة بلال",
-      "date": "2026-10-03"
-    }
+    "reviewed_by": [
+      {
+        "name": "ردينة بلال",
+        "date": "2026-10-03"
+      },
+      {
+        "name": "ردينة بلال",
+        "date": "2026-10-04",
+        "scope": "fr"
+      }
+    ]
   },
   {
     "id": "sadaqah",
@@ -138,27 +145,34 @@
     },
     "fr": {
       "preferred": "waqf",
-      "gloss": "fondation pieuse islamique",
+      "gloss": "fondation pieuse islamique : immobiliser le fonds d'un bien et en donner le rendement en aumône",
       "avoid": [
         "fonds fiduciaire",
         "don"
       ]
     },
-    "usage_note_ar": "التعريف: تحبيس الأصل وتسبيل المنفعة. | الدليل: صحيح البخاري (2737)؛ صحيح مسلم (1632). | في الجمهرة: EN «Endowment»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): الاستراتيجية keep_and_gloss: يُبقى اللفظ العربي بالحروف اللاتينية لأنه لا مقابل إنجليزي يؤدي معناه الشرعي كاملًا، ومقابل الجمهرة «Endowment» مذكور في الشرح. | تجنّب: EN: «donation» منفردةً دون شرح — FR: «don» منفردةً دون شرح",
+    "usage_note_ar": "التعريف: تحبيس الأصل وتسبيل المنفعة. | الدليل: صحيح البخاري (2737)؛ صحيح مسلم (1632). | في الجمهرة: EN «Endowment»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): الاستراتيجية keep_and_gloss: يُبقى اللفظ العربي بالحروف اللاتينية لأنه لا مقابل إنجليزي يؤدي معناه الشرعي كاملًا، ومقابل الجمهرة «Endowment» مذكور في الشرح. | تجنّب: EN: «donation» منفردةً دون شرح — FR: «don» منفردةً دون شرح | تحقق الفرنسية (2026-10-04، الدفعة الثالثة، بحث بمساعدة Claude، وراجعته واعتمدته ردينة بلال): موسوعة الأحاديث المترجمة (HadeethEnc، جهة رواد نفسها) (حديث عمر في أرض خيبر، دليل المصطلح): «immobilises-en le fonds»، و«Fais-en aumône, à condition que son fond ne soit ni vendu, ni donné, ni hérité».",
     "strategy": "keep_and_gloss",
     "source": {
       "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
-      "ref": "EN: https://islamic-content.com/dictionary/word/10960/en | FR: غير متوفر في الجمهرة | الدليل: https://dorar.net/h/bwjgPWj2",
+      "ref": "EN: https://islamic-content.com/dictionary/word/10960/en | FR: غير متوفر في الجمهرة | الدليل: https://dorar.net/h/bwjgPWj2 | تحقق الفرنسية: https://hadeethenc.com/fr/browse/hadith/6031",
       "retrieved": "2026-10-01"
     },
     "status": {
       "en": "verified",
-      "fr": "draft"
+      "fr": "verified"
     },
-    "reviewed_by": {
-      "name": "ردينة بلال",
-      "date": "2026-10-02"
-    }
+    "reviewed_by": [
+      {
+        "name": "ردينة بلال",
+        "date": "2026-10-02"
+      },
+      {
+        "name": "ردينة بلال",
+        "date": "2026-10-04",
+        "scope": "fr"
+      }
+    ]
   },
   {
     "id": "fidyah",
@@ -299,27 +313,34 @@
     },
     "fr": {
       "preferred": "suhûr",
-      "gloss": "le repas d'avant l'aube",
+      "gloss": "la collation prise avant l'aube",
       "avoid": [
         "petit-déjeuner",
         "collation de minuit"
       ]
     },
-    "usage_note_ar": "التعريف: الطعام الذي يؤكل آخر الليل للصيام. | الدليل: صحيح البخاري (1923). | في الجمهرة: EN «Pre-fasting meal»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): الاستراتيجية keep_and_gloss: يُبقى اللفظ العربي بالحروف اللاتينية لأنه لا مقابل إنجليزي يؤدي معناه الشرعي كاملًا، ومقابل الجمهرة «Pre-fasting meal» مذكور في الشرح.",
+    "usage_note_ar": "التعريف: الطعام الذي يؤكل آخر الليل للصيام. | الدليل: صحيح البخاري (1923). | في الجمهرة: EN «Pre-fasting meal»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): الاستراتيجية keep_and_gloss: يُبقى اللفظ العربي بالحروف اللاتينية لأنه لا مقابل إنجليزي يؤدي معناه الشرعي كاملًا، ومقابل الجمهرة «Pre-fasting meal» مذكور في الشرح. | تحقق الفرنسية (2026-10-04، الدفعة الثالثة، بحث بمساعدة Claude، وراجعته واعتمدته ردينة بلال): موسوعة الأحاديث المترجمة (HadeethEnc، جهة رواد نفسها): «la collation prise avant l'aube» و«As-Saḥûr».",
     "strategy": "keep_and_gloss",
     "source": {
       "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
-      "ref": "EN: https://islamic-content.com/dictionary/word/5566/en | FR: غير متوفر في الجمهرة | الدليل: https://dorar.net/h/djGVYE9X",
+      "ref": "EN: https://islamic-content.com/dictionary/word/5566/en | FR: غير متوفر في الجمهرة | الدليل: https://dorar.net/h/djGVYE9X | تحقق الفرنسية: https://hadeethenc.com/fr/browse/hadith/6105",
       "retrieved": "2026-10-01"
     },
     "status": {
       "en": "verified",
-      "fr": "draft"
+      "fr": "verified"
     },
-    "reviewed_by": {
-      "name": "ردينة بلال",
-      "date": "2026-10-02"
-    }
+    "reviewed_by": [
+      {
+        "name": "ردينة بلال",
+        "date": "2026-10-02"
+      },
+      {
+        "name": "ردينة بلال",
+        "date": "2026-10-04",
+        "scope": "fr"
+      }
+    ]
   },
   {
     "id": "iftar",
@@ -658,21 +679,28 @@
         "hymne"
       ]
     },
-    "usage_note_ar": "التعريف: قول الحاج: لبيك اللهم لبيك... | الدليل: صحيح البخاري (1549). | في الجمهرة: EN «Talibyah»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Talibyah» فيه خطأ إملائي، والصواب Talbiyah.",
+    "usage_note_ar": "التعريف: قول الحاج: لبيك اللهم لبيك... | الدليل: صحيح البخاري (1549). | في الجمهرة: EN «Talibyah»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Talibyah» فيه خطأ إملائي، والصواب Talbiyah. | تحقق الفرنسية (2026-10-04، الدفعة الثالثة، بحث بمساعدة Claude، وراجعته واعتمدته ردينة بلال): موسوعة الأحاديث المترجمة (HadeethEnc، جهة رواد نفسها): «récitant la « Talbiyah »».",
     "strategy": "keep_and_gloss",
     "source": {
       "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
-      "ref": "EN: https://islamic-content.com/dictionary/word/3360/en | FR: غير متوفر في الجمهرة | الدليل: https://dorar.net/h/D9o5gCoR",
+      "ref": "EN: https://islamic-content.com/dictionary/word/3360/en | FR: غير متوفر في الجمهرة | الدليل: https://dorar.net/h/D9o5gCoR | تحقق الفرنسية: https://hadeethenc.com/fr/browse/hadith/3180",
       "retrieved": "2026-10-01"
     },
     "status": {
       "en": "verified",
-      "fr": "draft"
+      "fr": "verified"
     },
-    "reviewed_by": {
-      "name": "ردينة بلال",
-      "date": "2026-10-02"
-    }
+    "reviewed_by": [
+      {
+        "name": "ردينة بلال",
+        "date": "2026-10-02"
+      },
+      {
+        "name": "ردينة بلال",
+        "date": "2026-10-04",
+        "scope": "fr"
+      }
+    ]
   },
   {
     "id": "udhiyah",
