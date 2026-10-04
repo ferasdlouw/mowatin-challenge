@@ -1,0 +1,545 @@
+[
+  {
+    "id": "ibadah",
+    "ar": "العبادة",
+    "variants_ar": [
+      "عبادة",
+      "العبادات",
+      "يعبد",
+      "اعبدوا",
+      "العابد"
+    ],
+    "en": {
+      "preferred": "worship",
+      "gloss": "all inner and outward acts, words and deeds by which one draws near to God; everything Allah loves of words and deeds, inward and outward",
+      "avoid": [
+        "rituals",
+        "prayer"
+      ]
+    },
+    "fr": {
+      "preferred": "acte d'adoration",
+      "gloss": "tout acte du cœur, parole ou action par lequel on se rapproche de Dieu; 'ibâda : tout ce qu'Allah aime comme paroles et actes, intérieurs et extérieurs",
+      "avoid": [
+        "culte",
+        "rituels",
+        "prière"
+      ]
+    },
+    "usage_note_ar": "في الحزمة العلمية (نماذج القاموس ص8): تشمل أعمال القلب والقول والعمل التي يتقرب بها العبد إلى الله، ولا تحصر في الشعائر فقط. | التعريف: اسم جامع لكل ما يحبه الله ويرضاه من الأقوال والأعمال الظاهرة والباطنة. — worship في الإنجليزية تُفهم طقساً؛ يُشرح شمولها عند التعريف. | الدليل: الذاريات: 56. | في الجمهرة: EN «Worship»، FR «L'acte d'adoration». | تجنّب: EN: «rituals» منفردةً دون شرح؛ «prayer» منفردةً دون شرح — FR: «rituels» منفردةً دون شرح؛ «prière» منفردةً دون شرح | تحقق الفرنسية (2026-10-03): مقابل الجمهرة الفرنسي «L'acte d'adoration» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "الحزمة العلمية — نماذج القاموس ص8 | EN: https://islamic-content.com/dictionary/word/6732/en | FR: https://islamic-content.com/dictionary/word/6732/fr | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/15008 | الدليل: https://api.quranpedia.net/v1/ayah/51/56/options",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "ikhlas",
+    "ar": "الإخلاص",
+    "variants_ar": [
+      "إخلاص",
+      "مخلص",
+      "مخلصين",
+      "أخلص"
+    ],
+    "en": {
+      "preferred": "purity of devotion",
+      "gloss": "doing deeds purely for Allah",
+      "avoid": [
+        "honesty",
+        "loyalty"
+      ]
+    },
+    "fr": {
+      "preferred": "sincérité",
+      "gloss": "ikhlâs : accomplir les œuvres purement pour Allah",
+      "avoid": [
+        "honnêteté",
+        "loyauté"
+      ]
+    },
+    "usage_note_ar": "التعريف: تصفية العمل من كل شائبة، وإرادة وجه الله وحده به. | الدليل: البينة: 5. | في الجمهرة: EN «Purity of devotion»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تجنّب: EN: «purity» منفردةً دون شرح | تحقق الفرنسية (2026-10-03): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 98:5: «culte exclusif et sincère».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/516/en | FR: غير متوفر في الجمهرة | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/11107 | الدليل: https://api.quranpedia.net/v1/ayah/98/5/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/98/5",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "niyyah",
+    "ar": "النية",
+    "variants_ar": [
+      "نية",
+      "النيات",
+      "نوى",
+      "ينوي"
+    ],
+    "en": {
+      "preferred": "intention",
+      "gloss": "the heart's resolve to do an act for the sake of Allah",
+      "avoid": [
+        "plan",
+        "wish",
+        "motive"
+      ]
+    },
+    "fr": {
+      "preferred": "intention",
+      "gloss": "niyya : la résolution du cœur d'accomplir un acte pour Allah",
+      "avoid": [
+        "projet",
+        "souhait"
+      ]
+    },
+    "usage_note_ar": "التعريف: قصد القلب إلى العمل تقرباً إلى الله. | الدليل: صحيح البخاري (1). | في الجمهرة: EN «Intention»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تجنّب: EN: «motive» لأنها عامية | تحقق الفرنسية (2026-10-03): موسوعة رواد للمصطلحات (FR): «Intention (Niyyah)».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/10653/en | FR: غير متوفر في الجمهرة | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/6880 | الدليل: https://dorar.net/h/RaGR74gn | FR تحقق (رواد): https://terminologyenc.com/fr/browse/term/6880",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "taqwa",
+    "ar": "التقوى",
+    "variants_ar": [
+      "تقوى",
+      "المتقي",
+      "المتقون",
+      "المتقين",
+      "اتقوا",
+      "اتق الله",
+      "يتقي"
+    ],
+    "en": {
+      "preferred": "taqwa",
+      "gloss": "god-fearing: guarding oneself from Allah's displeasure by obeying Him",
+      "avoid": [
+        "piety",
+        "fear",
+        "righteousness"
+      ]
+    },
+    "fr": {
+      "preferred": "taqwâ",
+      "gloss": "la piété consciente d'Allah : se préserver de Son courroux en Lui obéissant",
+      "avoid": [
+        "peur",
+        "crainte"
+      ]
+    },
+    "usage_note_ar": "التعريف: أن يجعل العبد بينه وبين عذاب الله وقاية بفعل أوامره واجتناب نواهيه. — fear تُصوّر العلاقة رعباً، وpiety تُختزل في التدين الظاهري؛ النقل الصوتي إلزامي عند أول ورود. | الدليل: البقرة: 197؛ الحجرات: 13. | في الجمهرة: EN «God-fearing»، FR «La piété». | سبب الاختلاف عن الجمهرة (EN): الاستراتيجية keep_and_gloss: يُبقى اللفظ العربي بالحروف اللاتينية لأنه لا مقابل إنجليزي يؤدي معناه الشرعي كاملًا، ومقابل الجمهرة «God-fearing» مذكور في الشرح. | تجنّب: EN: «piety» منفردةً دون شرح؛ «fear» منفردةً دون شرح؛ «righteousness» منفردةً دون شرح — FR: «piété» منفردةً دون شرح؛ «peur» منفردةً دون شرح؛ «crainte» منفردةً دون شرح | تحقق الفرنسية (2026-10-03): مقابل الجمهرة الفرنسي «La piété» (الرابط في source.ref).",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/3269/en | FR: https://islamic-content.com/dictionary/word/3269/fr | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/10399 | الدليل: https://api.quranpedia.net/v1/ayah/2/197/options ؛ https://api.quranpedia.net/v1/ayah/49/13/options",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "tawakkul",
+    "ar": "التوكل",
+    "variants_ar": [
+      "توكل",
+      "المتوكلون",
+      "توكلت",
+      "يتوكل"
+    ],
+    "en": {
+      "preferred": "trust in Allah",
+      "gloss": "relying on Allah in the heart while taking the proper means",
+      "avoid": [
+        "fatalism",
+        "resignation",
+        "passivity"
+      ]
+    },
+    "fr": {
+      "preferred": "confiance en Allah",
+      "gloss": "s'en remettre à Allah ; tawakkul, tout en prenant les moyens",
+      "avoid": [
+        "fatalisme",
+        "résignation",
+        "passivité"
+      ]
+    },
+    "usage_note_ar": "التعريف: صدق اعتماد القلب على الله مع الأخذ بالأسباب. — قيد «مع الأخذ بالأسباب» يمنع فهمه تواكلاً. | الدليل: الطلاق: 3. | في الجمهرة: EN «Trust in God»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): توحيد الكتابة في المسرد بلفظ «Allah» بدل «God»، كما في مدخل الاستغفار. | تحقق الفرنسية (2026-10-03): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 65:3: «s'en remet à Lui».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/3582/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/65/3/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/65/3",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "sabr",
+    "ar": "الصبر",
+    "variants_ar": [
+      "صبر",
+      "الصابر",
+      "الصابرون",
+      "الصابرين",
+      "اصبروا"
+    ],
+    "en": {
+      "preferred": "patience in adversity",
+      "gloss": "steadfastness in obedience, restraint from sin, and endurance of trials",
+      "avoid": [
+        "tolerance",
+        "waiting",
+        "passivity"
+      ]
+    },
+    "fr": {
+      "preferred": "patience",
+      "gloss": "sabr : constance dans l'obéissance, abstention du péché et endurance face aux épreuves",
+      "avoid": [
+        "tolérance",
+        "attente",
+        "passivité"
+      ]
+    },
+    "usage_note_ar": "التعريف: حبس النفس على طاعة الله، وعن معصيته، وعلى أقداره المؤلمة. — الصبر ثلاثة أنواع؛ patience وحدها تُختزل في الانتظار. | الدليل: البقرة: 153. | في الجمهرة: EN «Patience in adversity»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تحقق الفرنسية (2026-10-03): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 2:153: «patience».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/6128/en | FR: غير متوفر في الجمهرة | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/181714 | الدليل: https://api.quranpedia.net/v1/ayah/2/153/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/2/153",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "tawbah",
+    "ar": "التوبة",
+    "variants_ar": [
+      "توبة",
+      "التائب",
+      "التائبون",
+      "تاب",
+      "توبوا",
+      "يتوب"
+    ],
+    "en": {
+      "preferred": "repentance",
+      "gloss": "turning back to Allah: leaving the sin, regretting it and resolving not to return",
+      "avoid": [
+        "confession",
+        "penance"
+      ]
+    },
+    "fr": {
+      "preferred": "repentir",
+      "gloss": "tawba : revenir à Allah en délaissant le péché, en le regrettant et en résolvant de ne pas y retourner",
+      "avoid": [
+        "confession",
+        "pénitence"
+      ]
+    },
+    "usage_note_ar": "التعريف: الرجوع من معصية الله إلى طاعته، بالإقلاع والندم والعزم على عدم العود. — confession وpenance مفاهيم كنسية فتُرفض. | الدليل: النور: 31. | في الجمهرة: EN «Repentance»، FR «Repentir». | تحقق الفرنسية (2026-10-03): مقابل الجمهرة الفرنسي «Repentir» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/3519/en | FR: https://islamic-content.com/dictionary/word/3519/fr | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/36599 | الدليل: https://api.quranpedia.net/v1/ayah/24/31/options",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "istighfar",
+    "ar": "الاستغفار",
+    "variants_ar": [
+      "استغفار",
+      "استغفروا",
+      "يستغفر",
+      "المستغفرين"
+    ],
+    "en": {
+      "preferred": "seeking forgiveness",
+      "gloss": "asking Allah to forgive one's sins",
+      "avoid": [
+        "apology",
+        "confession"
+      ]
+    },
+    "fr": {
+      "preferred": "demande de pardon à Allah",
+      "gloss": "istighfâr : demander à Allah de pardonner ses péchés",
+      "avoid": [
+        "excuse",
+        "confession"
+      ]
+    },
+    "usage_note_ar": "التعريف: طلب المغفرة من الله. | الدليل: نوح: 10. | في الجمهرة: EN «Seeking forgiveness»، FR «Demander pardon à Dieu». | سبب الاختلاف عن الجمهرة (FR): عنوان الجمهرة «Demander pardon à Dieu»، وتُوحَّد الكتابة في المسرد بلفظ «Allah». | تحقق الفرنسية (2026-10-03): مقابل الجمهرة الفرنسي «Demander pardon à Dieu» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/927/en | FR: https://islamic-content.com/dictionary/word/927/fr | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/4707 | الدليل: https://api.quranpedia.net/v1/ayah/71/10/options",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "dhikr",
+    "ar": "الذكر",
+    "variants_ar": [
+      "ذكر الله",
+      "الأذكار",
+      "اذكروا",
+      "الذاكرين"
+    ],
+    "en": {
+      "preferred": "dhikr",
+      "gloss": "remembrance of Allah",
+      "avoid": [
+        "meditation",
+        "chanting",
+        "mantra"
+      ]
+    },
+    "fr": {
+      "preferred": "évocation",
+      "gloss": "évocation / rappel ; dhikr",
+      "avoid": [
+        "méditation",
+        "psalmodie",
+        "mantra"
+      ]
+    },
+    "usage_note_ar": "التعريف: ذكر الله بالقلب واللسان من تسبيح وتحميد وتهليل وتلاوة. — meditation وchanting تستدعي ممارسات وثنية/صوفية غالية فتُرفض. | الدليل: الرعد: 28. | في الجمهرة: EN «Remembrance»، FR «Evocation / Rappel». | سبب الاختلاف عن الجمهرة (EN): الاستراتيجية keep_and_gloss: يُبقى اللفظ العربي بالحروف اللاتينية لأنه لا مقابل إنجليزي يؤدي معناه الشرعي كاملًا، ومقابل الجمهرة «Remembrance» مذكور في الشرح. | متعدد الدلالة: ذكر الله، والقرآن («إنا نحن نزلنا الذكر»)، والذَّكَر ضد الأنثى؛ يُختار المقابل حسب السياق. | تحقق الفرنسية (2026-10-03): مقابل الجمهرة الفرنسي «Evocation / Rappel» (الرابط في source.ref).",
+    "strategy": "context",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/5023/en | FR: https://islamic-content.com/dictionary/word/5023/fr | الدليل: https://api.quranpedia.net/v1/ayah/13/28/options",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "dua",
+    "ar": "الدعاء",
+    "variants_ar": [
+      "دعاء",
+      "الأدعية",
+      "ادعوا",
+      "يدعو",
+      "دعا"
+    ],
+    "en": {
+      "preferred": "supplication",
+      "gloss": "calling upon Allah and asking Him; itself an act of worship",
+      "avoid": [
+        "prayer"
+      ]
+    },
+    "fr": {
+      "preferred": "invocation",
+      "gloss": "du'â' : invoquer Allah et Lui demander ; c'est en soi un acte d'adoration",
+      "avoid": [
+        "prière"
+      ]
+    },
+    "usage_note_ar": "التعريف: سؤال العبد ربه وطلبه منه. — prayer تُحجز لـ«الصلاة» منعاً للالتباس؛ هذا من أهم قواعد الاتساق. | الدليل: غافر: 60؛ البقرة: 186. | في الجمهرة: EN «Supplication»، FR «L'invocation». | تجنّب: EN: «prayer» لالتباسها بالصلاة — FR: «prière» لالتباسها بالصلاة | تحقق الفرنسية (2026-10-03): مقابل الجمهرة الفرنسي «L'invocation» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/4887/en | FR: https://islamic-content.com/dictionary/word/4887/fr | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/14981 | الدليل: https://api.quranpedia.net/v1/ayah/40/60/options ؛ https://api.quranpedia.net/v1/ayah/2/186/options",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "khushu",
+    "ar": "الخشوع",
+    "variants_ar": [
+      "خشوع",
+      "الخاشعون",
+      "الخاشعين",
+      "خاشعين"
+    ],
+    "en": {
+      "preferred": "khushu'",
+      "gloss": "presence, humility and submission of the heart, especially in prayer",
+      "avoid": [
+        "trance",
+        "meditation"
+      ]
+    },
+    "fr": {
+      "preferred": "recueillement",
+      "gloss": "khushû' : présence, humilité et soumission du cœur, surtout dans la prière",
+      "avoid": [
+        "transe",
+        "méditation"
+      ]
+    },
+    "usage_note_ar": "التعريف: حضور القلب وسكون الجوارح في العبادة. | الدليل: المؤمنون: 1–2. | في الجمهرة: EN «Humility»، FR «Recueillement». | سبب الاختلاف عن الجمهرة (EN): الاستراتيجية keep_and_gloss لتمييزه عن «التواضع»؛ ومقابل الجمهرة «Humility» مذكور في الشرح. | تحقق الفرنسية (2026-10-03): مقابل الجمهرة الفرنسي «Recueillement» (الرابط في source.ref).",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/4638/en | FR: https://islamic-content.com/dictionary/word/4638/fr | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/16776 | الدليل: https://api.quranpedia.net/v1/ayah/23/1/options",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "zuhd",
+    "ar": "الزهد",
+    "variants_ar": [
+      "زهد",
+      "الزاهد",
+      "الزهاد"
+    ],
+    "en": {
+      "preferred": "zuhd",
+      "gloss": "asceticism; detachment from worldly life",
+      "avoid": [
+        "monasticism"
+      ]
+    },
+    "fr": {
+      "preferred": "détachement du bas-monde",
+      "gloss": "zuhd : délaisser ce qui n'est pas utile pour l'au-delà, sans interdire le licite",
+      "avoid": [
+        "ascétisme",
+        "monachisme"
+      ]
+    },
+    "usage_note_ar": "التعريف: ترك ما لا ينفع في الآخرة مع عدم تعلق القلب بالدنيا. — asceticism توحي بالرهبنة وتحريم الطيبات فتُرفض. | الدليل: الحديد: 20. | في الجمهرة: EN «Asceticism»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): الاستراتيجية keep_and_gloss: يُبقى اللفظ العربي بالحروف اللاتينية لأنه لا مقابل إنجليزي يؤدي معناه الشرعي كاملًا، ومقابل الجمهرة «Asceticism» مذكور في الشرح.",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/5433/en | FR: غير متوفر في الجمهرة | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/31641 | الدليل: https://api.quranpedia.net/v1/ayah/57/20/options",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-02"
+    }
+  },
+  {
+    "id": "wara",
+    "ar": "الورع",
+    "variants_ar": [
+      "ورع"
+    ],
+    "en": {
+      "preferred": "wara'",
+      "gloss": "godliness; scrupulous caution in religion",
+      "avoid": [
+        "fearfulness",
+        "obsessiveness"
+      ]
+    },
+    "fr": {
+      "preferred": "scrupule religieux",
+      "gloss": "wara' : délaisser ce qui peut nuire dans l'au-delà, y compris le douteux",
+      "avoid": [
+        "crainte excessive",
+        "obsession"
+      ]
+    },
+    "usage_note_ar": "التعريف: ترك ما يُخشى ضرره في الآخرة من المشتبهات. | الدليل: صحيح البخاري (52). | في الجمهرة: EN «Godliness»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): الاستراتيجية keep_and_gloss: يُبقى اللفظ العربي بالحروف اللاتينية لأنه لا مقابل إنجليزي يؤدي معناه الشرعي كاملًا، ومقابل الجمهرة «Godliness» مذكور في الشرح.",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/10868/en | FR: غير متوفر في الجمهرة | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/7127 | الدليل: https://dorar.net/h/4ZKVwaZy",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-02"
+    }
+  }
+]

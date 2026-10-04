@@ -1,0 +1,274 @@
+{
+  "status": "verified",
+  "reviewed_by": {
+    "name": "ردينة بلال",
+    "date": "2026-10-03"
+  },
+  "phrases": [
+    {
+      "text_ar": "هل يجوز لي",
+      "kind": "personal_ruling",
+      "note_ar": "طلب حكم لحالة السائل"
+    },
+    {
+      "text_ar": "هل يجوز لنا",
+      "kind": "personal_ruling",
+      "note_ar": "طلب حكم لحالة السائلين"
+    },
+    {
+      "text_ar": "هل يحل لي",
+      "kind": "personal_ruling",
+      "note_ar": "طلب حكم بالحل لحالة السائل"
+    },
+    {
+      "text_ar": "هل يحرم علي",
+      "kind": "personal_ruling",
+      "note_ar": "طلب حكم بالتحريم لحالة السائل"
+    },
+    {
+      "text_ar": "هل يلزمني",
+      "kind": "personal_ruling",
+      "note_ar": "سؤال عن لزوم حكم على السائل"
+    },
+    {
+      "text_ar": "هل يجب علي",
+      "kind": "personal_ruling",
+      "note_ar": "سؤال عن وجوب على السائل"
+    },
+    {
+      "text_ar": "هل أأثم",
+      "kind": "personal_ruling",
+      "note_ar": "سؤال عن الإثم"
+    },
+    {
+      "text_ar": "هل آثم",
+      "kind": "personal_ruling",
+      "note_ar": "سؤال عن الإثم (رسم آخر)"
+    },
+    {
+      "text_ar": "هل تصح صلاتي",
+      "kind": "personal_ruling",
+      "note_ar": "سؤال عن صحة عبادة السائل"
+    },
+    {
+      "text_ar": "هل يصح صيامي",
+      "kind": "personal_ruling",
+      "note_ar": "سؤال عن صحة عبادة السائل"
+    },
+    {
+      "text_ar": "هل يبطل",
+      "kind": "personal_ruling",
+      "note_ar": "سؤال عن بطلان عبادة أو عقد"
+    },
+    {
+      "text_ar": "هل يقع الطلاق",
+      "kind": "personal_ruling",
+      "note_ar": "سؤال عن وقوع طلاق بعينه"
+    },
+    {
+      "text_ar": "حلال أم حرام",
+      "kind": "personal_ruling",
+      "note_ar": "طلب حكم بالحل أو الحرمة"
+    },
+    {
+      "text_ar": "حلال ام حرام",
+      "kind": "personal_ruling",
+      "note_ar": "طلب حكم بالحل أو الحرمة (بلا همزة)"
+    },
+    {
+      "text_ar": "ماذا يجب علي",
+      "kind": "personal_ruling",
+      "note_ar": "سؤال عن الواجب على السائل"
+    },
+    {
+      "text_ar": "أفتوني",
+      "kind": "personal_ruling",
+      "note_ar": "طلب فتوى صريح"
+    },
+    {
+      "text_ar": "أريد فتوى",
+      "kind": "personal_ruling",
+      "note_ar": "طلب فتوى صريح"
+    },
+    {
+      "text_ar": "أحتاج فتوى",
+      "kind": "personal_ruling",
+      "note_ar": "طلب فتوى صريح"
+    },
+    {
+      "text_ar": "ما حكم",
+      "kind": "personal_ruling",
+      "note_ar": "طلب حكم؛ يُستثنى منه السياق العام في exclusions"
+    },
+    {
+      "text_ar": "في حالتي",
+      "kind": "personal_context",
+      "note_ar": "يدل على حالة بعينها"
+    },
+    {
+      "text_ar": "في وضعي",
+      "kind": "personal_context",
+      "note_ar": "يدل على حالة بعينها"
+    },
+    {
+      "text_ar": "طلقت زوجتي",
+      "kind": "personal_context",
+      "note_ar": "واقعة طلاق بعينها"
+    },
+    {
+      "text_ar": "طلقني زوجي",
+      "kind": "personal_context",
+      "note_ar": "واقعة طلاق بعينها"
+    },
+    {
+      "text_ar": "زوجي يرفض",
+      "kind": "personal_context",
+      "note_ar": "واقعة أسرية بعينها"
+    },
+    {
+      "text_ar": "هل علي ",
+      "kind": "personal_ruling",
+      "note_ar": "سؤال عن واجب أو إثم على السائل (بمسافة بعدها حتى لا تطابق «هل علينا»)"
+    },
+    {
+      "text_ar": "هل عليّ",
+      "kind": "personal_ruling",
+      "note_ar": "سؤال عن واجب أو إثم على السائل"
+    },
+    {
+      "text_ar": "هل علي؟",
+      "kind": "personal_ruling",
+      "note_ar": "سؤال عن واجب أو إثم على السائل"
+    },
+    {
+      "text_ar": "هل راتبي",
+      "kind": "personal_ruling",
+      "note_ar": "سؤال عن حكم كسب السائل"
+    },
+    {
+      "text_ar": "هل أنا آثم",
+      "kind": "personal_ruling",
+      "note_ar": "سؤال عن الإثم"
+    },
+    {
+      "text_ar": "فما الذي علي",
+      "kind": "personal_ruling",
+      "note_ar": "سؤال عن الواجب على السائل"
+    },
+    {
+      "text_ar": "هل وقع الطلاق",
+      "kind": "personal_ruling",
+      "note_ar": "سؤال عن وقوع طلاق بعينه"
+    },
+    {
+      "text_ar": "فهل وقع",
+      "kind": "personal_ruling",
+      "note_ar": "سؤال عن وقوع طلاق أو يمين بعينه"
+    },
+    {
+      "text_ar": "هل أعيد",
+      "kind": "personal_ruling",
+      "note_ar": "سؤال عن إعادة عبادة"
+    },
+    {
+      "text_ar": "هل تسقط عني",
+      "kind": "personal_ruling",
+      "note_ar": "سؤال عن سقوط واجب عن السائل"
+    },
+    {
+      "text_ar": "هل يجوز أن أ",
+      "kind": "personal_ruling",
+      "note_ar": "طلب حكم لفعل السائل"
+    },
+    {
+      "text_ar": "هل يجوز هذا",
+      "kind": "personal_ruling",
+      "note_ar": "طلب حكم لواقعة بعينها"
+    },
+    {
+      "text_ar": "افتوني",
+      "kind": "personal_ruling",
+      "note_ar": "طلب فتوى صريح (بلا همزة)"
+    },
+    {
+      "text_ar": "لدي قرض",
+      "kind": "personal_context",
+      "note_ar": "معاملة مالية شخصية"
+    },
+    {
+      "text_ar": "هل صلاتي",
+      "kind": "personal_ruling",
+      "note_ar": "سؤال عن صحة صلاة السائل"
+    },
+    {
+      "text_ar": "هل صيامي",
+      "kind": "personal_ruling",
+      "note_ar": "سؤال عن صحة صيام السائل"
+    },
+    {
+      "text_ar": "هل زواجي",
+      "kind": "personal_ruling",
+      "note_ar": "سؤال عن صحة عقد السائل"
+    },
+    {
+      "text_ar": "هل هذا حرام",
+      "kind": "personal_ruling",
+      "note_ar": "طلب حكم لواقعة بعينها"
+    },
+    {
+      "text_ar": "هل هذا حلال",
+      "kind": "personal_ruling",
+      "note_ar": "طلب حكم لواقعة بعينها"
+    },
+    {
+      "text_ar": "كفارة يميني",
+      "kind": "personal_ruling",
+      "note_ar": "سؤال عن كفارة يمين السائل"
+    },
+    {
+      "text_ar": "الذي يلزمني",
+      "kind": "personal_ruling",
+      "note_ar": "سؤال عن الواجب على السائل"
+    },
+    {
+      "text_ar": "هل تلزمني",
+      "kind": "personal_ruling",
+      "note_ar": "سؤال عن لزوم حكم على السائل"
+    },
+    {
+      "text_ar": "كم زكاة مالي",
+      "kind": "personal_context",
+      "note_ar": "مال السائل"
+    }
+  ],
+  "exclusions": [
+    {
+      "text_ar": "من أراد معرفة حكم",
+      "note_ar": "جملة توعوية عامة توجّه للسؤال، وليست سؤالًا شخصيًا (T148)"
+    },
+    {
+      "text_ar": "في حالته الخاصة",
+      "note_ar": "حديث بصيغة الغائب عن حالة عامة، لا سؤال من المتكلم"
+    },
+    {
+      "text_ar": "قد يسأل سائل",
+      "note_ar": "أسلوب تعليمي في الخطب والمقالات"
+    },
+    {
+      "text_ar": "فإن قيل",
+      "note_ar": "أسلوب تعليمي في الخطب والمقالات"
+    },
+    {
+      "text_ar": "فاسألوا أهل الذكر",
+      "note_ar": "آية (النحل 43) تُستشهد بها في المحتوى العام"
+    },
+    {
+      "text_ar": "ما حكمة",
+      "note_ar": "سؤال عن الحكمة من التشريع، لا عن الحكم (مثل: ما حكمة الصيام)"
+    },
+    {
+      "text_ar": "ما حكم الله به",
+      "note_ar": "حديث عن حكم الله في النصوص، لا سؤال شخصي"
+    }
+  ]
+}

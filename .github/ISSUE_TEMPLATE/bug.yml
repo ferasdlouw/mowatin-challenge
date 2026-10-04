@@ -1,0 +1,37 @@
+name: "خطأ · Bug"
+description: "شيء لا يعمل كما يجب"
+labels: ["type:bug"]
+body:
+  - type: textarea
+    id: steps
+    attributes:
+      label: "خطوات إعادة الخطأ"
+      value: |
+        1. 
+        2. 
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: "المتوقع مقابل ما حدث"
+    validations:
+      required: true
+  - type: dropdown
+    id: where
+    attributes:
+      label: "أين؟"
+      options: ["الرابط العام", "محلي", "الاثنان"]
+    validations:
+      required: true
+  - type: dropdown
+    id: severity
+    attributes:
+      label: "الخطورة"
+      options:
+        - "حرجة: خطأ شرعي أو المنتج لا يعمل"
+        - "عالية: ميزة Must معطلة"
+        - "متوسطة"
+        - "منخفضة: شكلي"
+    validations:
+      required: true

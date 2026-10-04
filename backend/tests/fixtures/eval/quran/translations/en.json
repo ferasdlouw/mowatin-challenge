@@ -1,0 +1,9 @@
+{
+ "status": "verified",
+ "language": "en",
+ "edition": "fixture",
+ "verses": {
+  "2:153": "Fixture approved verse two one five three.",
+  "1:2": "Fixture approved verse two one five three. (1:2)"
+ }
+}

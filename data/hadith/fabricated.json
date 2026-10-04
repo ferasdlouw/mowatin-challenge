@@ -1,0 +1,155 @@
+{
+  "status": "verified",
+  "reviewed_by": {
+    "name": "ردينة بلال",
+    "date": "2026-10-03"
+  },
+  "items": [
+    {
+      "id": "f_ilm_sin",
+      "text_ar": "اطلبوا العلم ولو في الصين",
+      "variants_ar": [
+        "اطلبوا العلم ولو بالصين",
+        "اطلب العلم ولو في الصين",
+        "اطلبوا العلم ولو كان بالصين"
+      ],
+      "ruling": "موضوع",
+      "scholar_ruling": "الألباني، السلسلة الضعيفة (416): «باطل»",
+      "source_url": "https://dorar.net/h/Yx6dE0Zf"
+    },
+    {
+      "id": "f_ikhtilaf_rahma",
+      "text_ar": "اختلاف أمتي رحمة",
+      "variants_ar": [
+        "اختلاف أمتي رحمة للناس",
+        "اختلاف العلماء رحمة"
+      ],
+      "ruling": "لا أصل له",
+      "scholar_ruling": "الألباني، السلسلة الضعيفة (57): «لا أصل له»",
+      "source_url": "https://dorar.net/h/Rf4rusmc"
+    },
+    {
+      "id": "f_hubb_watan",
+      "text_ar": "حب الوطن من الإيمان",
+      "variants_ar": [
+        "حب الأوطان من الإيمان"
+      ],
+      "ruling": "موضوع",
+      "scholar_ruling": "الصغاني، الموضوعات للصغاني (53): «موضوع»",
+      "source_url": "https://dorar.net/h/zjdwxrhg"
+    },
+    {
+      "id": "f_nazafa",
+      "text_ar": "النظافة من الإيمان",
+      "variants_ar": [
+        "النظافة من الايمان",
+        "تخللوا فإنه نظافة والنظافة تدعو إلى الإيمان"
+      ],
+      "ruling": "ليس بحديث",
+      "scholar_ruling": "ابن عثيمين، فتاوى نور على الدرب (2/536): «ليس بحديث، لكن معناه صحيح»",
+      "source_url": "https://dorar.net/h/nSjjabYW"
+    },
+    {
+      "id": "f_arafa_nafsah",
+      "text_ar": "من عرف نفسه فقد عرف ربه",
+      "variants_ar": [
+        "من عرف نفسه عرف ربه"
+      ],
+      "ruling": "لا أصل له",
+      "scholar_ruling": "الألباني، السلسلة الضعيفة (66): «لا أصل له»",
+      "source_url": "https://dorar.net/h/YfzEIaFu"
+    },
+    {
+      "id": "f_idnyak",
+      "text_ar": "اعمل لدنياك كأنك تعيش أبدا واعمل لآخرتك كأنك تموت غدا",
+      "variants_ar": [
+        "اعمل لدنياك كأنك تعيش أبدًا",
+        "اعمل لآخرتك كأنك تموت غدا"
+      ],
+      "ruling": "لا أصل له",
+      "scholar_ruling": "الألباني، السلسلة الضعيفة (8): «لا أصل له مرفوعاً»",
+      "source_url": "https://dorar.net/h/WzE3LjHB"
+    },
+    {
+      "id": "f_bida_ibada",
+      "text_ar": "كل بدعة ضلالة إلا بدعة في عبادة",
+      "variants_ar": [],
+      "ruling": "ضعيف جدًا",
+      "scholar_ruling": "ملا علي قاري، الأسرار المرفوعة (268): «في سنده كذاب ومتهم»",
+      "source_url": "https://dorar.net/h/5USZw0QH"
+    },
+    {
+      "id": "f_khayr_asma",
+      "text_ar": "خير الأسماء ما حمد وعبد",
+      "variants_ar": [
+        "خير الأسماء ما عبد وحمد",
+        "خير الأسماء ما حُمِّد وعُبِّد"
+      ],
+      "ruling": "لا أصل له",
+      "scholar_ruling": "ابن عثيمين، شرح مسلم (7/258): «لا أصل له وليس حديثاً عن رسول الله صلى الله عليه وسلم»",
+      "source_url": "https://dorar.net/h/cdplZIuf"
+    },
+    {
+      "id": "f_jihad_akbar",
+      "text_ar": "رجعنا من الجهاد الأصغر إلى الجهاد الأكبر",
+      "variants_ar": [
+        "قدمتم من الجهاد الأصغر إلى الجهاد الأكبر",
+        "رجعنا من الجهاد الأصغر إلى الجهاد الأكبر جهاد النفس"
+      ],
+      "ruling": "لا أصل له",
+      "scholar_ruling": "ابن تيمية، مجموع الفتاوى (11/197): «لا أصل له»",
+      "source_url": "https://dorar.net/h/8XYCbF3W"
+    },
+    {
+      "id": "f_din_muamala",
+      "text_ar": "الدين المعاملة",
+      "variants_ar": [
+        "الدين حسن المعاملة",
+        "الدين معاملة"
+      ],
+      "ruling": "ليس بحديث",
+      "scholar_ruling": "ابن باز، الفوائد العلمية من الدروس البازية (2/161): «ليس بحديث، فهذا لا أصل له، ولكن هو صحيح من حيث المعنى»",
+      "source_url": "https://dorar.net/h/M4PKNieX"
+    },
+    {
+      "id": "f_mida",
+      "text_ar": "المعدة بيت الداء والحمية رأس الدواء",
+      "variants_ar": [
+        "المعدة بيت الداء",
+        "المعدة بيت الداء والحمية رأس الدواء وأعط كل بدن ما عودته"
+      ],
+      "ruling": "ليس بحديث",
+      "scholar_ruling": "السمهودي، الغماز على اللماز (267): «إنما هو كلام الحارث بن كلدة طبيب العرب»",
+      "source_url": "https://dorar.net/h/h3cqmgKi"
+    },
+    {
+      "id": "f_tafakkur",
+      "text_ar": "تفكر ساعة خير من عبادة سنة",
+      "variants_ar": [
+        "تفكر ساعة خير من عبادة ستين سنة",
+        "تفكر ساعة خير من قيام ليلة"
+      ],
+      "ruling": "ليس بحديث",
+      "scholar_ruling": "القاوقجي، اللؤلؤ المرصوع (66): «من كلام السلف»",
+      "source_url": "https://dorar.net/h/mvfGDtJH"
+    },
+    {
+      "id": "f_ashabi_nujum",
+      "text_ar": "أصحابي كالنجوم بأيهم اقتديتم اهتديتم",
+      "variants_ar": [],
+      "ruling": "موضوع",
+      "scholar_ruling": "ابن حزم، الإحكام في أصول الأحكام (2/61): «باطل مكذوب»",
+      "source_url": "https://dorar.net/h/hzPa1eTh"
+    },
+    {
+      "id": "f_jafani",
+      "text_ar": "من حج ولم يزرني فقد جفاني",
+      "variants_ar": [
+        "من حج البيت ولم يزرني فقد جفاني"
+      ],
+      "ruling": "موضوع",
+      "scholar_ruling": "الألباني، السلسلة الضعيفة (45): «موضوع»",
+      "source_url": "https://dorar.net/h/5eLgzajm"
+    }
+  ]
+}

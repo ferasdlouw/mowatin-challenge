@@ -1,0 +1,1 @@
+"""Muwattin backend application."""

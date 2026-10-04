@@ -1,0 +1,48 @@
+{
+  "status": "verified",
+  "reviewed_by": {
+    "name": "ردينة بلال",
+    "date": "2026-10-03"
+  },
+  "message": {
+    "ar": "هذا سؤال يتعلق بحالة شخصية بعينها، والحكم فيه يحتاج إلى عالم مؤهل يطّلع على تفاصيلها. تُرجم النص كما هو دون إضافة أي حكم، وننصح صاحب السؤال بالتواصل مع جهة فتوى معتمدة، يسّر الله أمره.",
+    "en": "This question concerns a specific personal situation, and answering it requires a qualified scholar who can look into its details. The text was translated as it is, without adding any ruling. We advise the person asking to contact a recognised fatwa body. May Allah make it easy for them.",
+    "fr": "Cette question concerne une situation personnelle précise, et y répondre nécessite un savant qualifié qui en examine les détails. Le texte a été traduit tel quel, sans ajouter aucun avis juridique. Nous conseillons à la personne qui pose la question de s'adresser à une instance de fatwa reconnue. Qu'Allah lui facilite les choses."
+  },
+  "bodies": {
+    "en": [
+      {
+        "name": "General Presidency of Scholarly Research and Ifta",
+        "country": "Saudi Arabia",
+        "url": "https://www.alifta.gov.sa/En",
+        "note_ar": "الجهة الرسمية للإفتاء في المملكة العربية السعودية، ولها بوابة بالإنجليزية"
+      },
+      {
+        "name": "Assembly of Muslim Jurists of America (AMJA)",
+        "country": "USA",
+        "url": "https://www.amjaonline.org/",
+        "note_ar": "مجمع فقهي لمسلمي أمريكا الشمالية؛ صفحة إرسال الأسئلة متوقفة حاليًا، فالرابط للصفحة الرئيسية"
+      },
+      {
+        "name": "Australian Fatwa Council — Australian National Imams Council (ANIC)",
+        "country": "Australia",
+        "url": "https://www.anic.org.au/fatwa-council/",
+        "note_ar": "مجلس الفتوى التابع لمجلس الأئمة الوطني الأسترالي؛ يعرض فتاوى المجلس، والتواصل عبر الموقع"
+      }
+    ],
+    "fr": [
+      {
+        "name": "Présidence générale des recherches scientifiques et de l'Ifta",
+        "country": "Arabie saoudite",
+        "url": "https://www.alifta.gov.sa/Fr",
+        "note_ar": "الجهة الرسمية للإفتاء في المملكة العربية السعودية، ولها بوابة بالفرنسية"
+      },
+      {
+        "name": "Islamweb — Fatwas en français (ministère des Awqaf du Qatar)",
+        "country": "Qatar",
+        "url": "https://www.islamweb.net/fr/fatawa/",
+        "note_ar": "موقع وزارة الأوقاف القطرية، قسم الفتاوى بالفرنسية"
+      }
+    ]
+  }
+}

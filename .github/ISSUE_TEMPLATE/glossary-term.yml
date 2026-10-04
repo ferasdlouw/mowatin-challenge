@@ -1,0 +1,24 @@
+name: "مصطلح للمسرد · Glossary term"
+description: "اقتراح مصطلح جديد أو تصحيح مصطلح موجود"
+labels: ["area:glossary"]
+body:
+  - type: input
+    id: term
+    attributes:
+      label: "المصطلح بالعربية"
+    validations:
+      required: true
+  - type: input
+    id: locked
+    attributes:
+      label: "المقابل المقترح (en_locked)"
+  - type: textarea
+    id: wrong
+    attributes:
+      label: "ترجمات خاطئة شائعة رأيتها"
+  - type: textarea
+    id: source
+    attributes:
+      label: "المصدر"
+    validations:
+      required: true

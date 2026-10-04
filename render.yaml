@@ -1,0 +1,71 @@
+# Render Blueprint for the Muwattin API. Names only: every secret value is set by hand
+# in the Render dashboard (docs/dev/DEPLOY.md). No rootDir: Render hides files outside
+# rootDir, and the API reads data/ (glossary, flag messages, content slots).
+services:
+  - type: web
+    name: muwattin-api
+    runtime: python
+    plan: free
+    branch: main
+    autoDeploy: true
+    buildFilter:
+      paths:
+        - backend/**
+        - data/**
+        - render.yaml
+    # Every package pinned and hash-checked (NEW-8); regenerate the lock as its header says.
+    buildCommand: pip install --require-hashes -r backend/requirements.lock
+    # --factory: the app is built by create_app(). The access log is off because it
+    # prints query strings (/v1/glossary?q=...); the app logs its own request line.
+    startCommand: uvicorn --factory app.main:create_app --app-dir backend --host 0.0.0.0 --port $PORT --no-access-log --no-server-header
+    healthCheckPath: /health
+    envVars:
+      - key: ENV
+        value: production
+      - key: PYTHON_VERSION
+        value: "3.11.12"
+      - key: LLM_PROVIDER
+        sync: false
+      - key: LLM_API_KEY
+        sync: false
+      - key: LLM_MODEL
+        sync: false
+      - key: LLM_TIMEOUT_S
+        sync: false
+      - key: FALLBACK_PROVIDER
+        sync: false
+      - key: FALLBACK_API_KEY
+        sync: false
+      - key: FALLBACK_MODEL
+        sync: false
+      - key: JUDGE_PROVIDER
+        sync: false
+      - key: JUDGE_API_KEY
+        sync: false
+      - key: JUDGE_MODEL
+        sync: false
+      - key: LLM_BASE_URL
+        sync: false
+      - key: FALLBACK_BASE_URL
+        sync: false
+      - key: JUDGE_BASE_URL
+        sync: false
+      - key: LLM_BILLING
+        sync: false
+      - key: ALLOWED_ORIGINS
+        sync: false
+      - key: RATE_LIMIT_PER_MIN
+        sync: false
+      - key: MAX_TEXT_CHARS
+        sync: false
+      - key: TRUSTED_PROXY_HOPS
+        sync: false
+      # LLM consumption limits (D-034); defaults in backend/app/config.py.
+      - key: MAX_SEGMENTS
+        sync: false
+      - key: LLM_CALL_BUDGET
+        sync: false
+      - key: REQUEST_DEADLINE_S
+        sync: false
+      - key: LLM_DAILY_CALL_BUDGET
+        sync: false

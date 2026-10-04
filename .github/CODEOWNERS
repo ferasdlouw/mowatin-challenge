@@ -1,0 +1,13 @@
+# Default reviewer.
+*                          @ferasdlouw
+
+# Security-sensitive paths (Phase SEC): any change needs a review from these owners.
+# Later lines win, so these must stay after the `*` default.
+/.claude/                  @ferasdlouw
+/.agent/                   @ferasdlouw
+/.github/                  @ferasdlouw
+/backend/app/security/     @ferasdlouw
+/backend/app/prompts/      @ferasdlouw
+/render.yaml               @ferasdlouw
+/CLAUDE.md                 @ferasdlouw
+/SECURITY.md               @ferasdlouw

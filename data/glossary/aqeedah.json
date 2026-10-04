@@ -1,0 +1,1574 @@
+[
+  {
+    "id": "allah",
+    "ar": "الله",
+    "variants_ar": [
+      "لله",
+      "بالله",
+      "والله",
+      "اللهم",
+      "الإله الحق"
+    ],
+    "en": {
+      "preferred": "Allah",
+      "gloss": "the one true God",
+      "avoid": [
+        "Muslim God",
+        "Allah-god",
+        "a god"
+      ]
+    },
+    "fr": {
+      "preferred": "Allah",
+      "gloss": "le Dieu unique, seul digne d'adoration",
+      "avoid": [
+        "Dieu des musulmans",
+        "un dieu"
+      ]
+    },
+    "usage_note_ar": "التعريف: اسم العلم على الرب المعبود بحق، المتفرد بالربوبية والألوهية والأسماء والصفات. — لا يُترجم إلى God منفرداً في المحتوى العقدي؛ يجوز God في سياق الحوار العام مع إبقاء Allah عند أول ورود. | الدليل: الإخلاص: 1. | في الجمهرة: EN «Allah»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تحقق الفرنسية (2026-10-03): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 112:1: «Allah».",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/8504/en | FR: غير متوفر في الجمهرة | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/176418 | الدليل: https://api.quranpedia.net/v1/ayah/112/1/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/112/1",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "tawhid",
+    "ar": "التوحيد",
+    "variants_ar": [
+      "توحيد",
+      "الموحد",
+      "الموحدون",
+      "وحّد",
+      "يوحّد",
+      "توحيد الله"
+    ],
+    "en": {
+      "preferred": "tawhid",
+      "gloss": "the Oneness of God; Islamic monotheism: singling out Allah in His lordship, worship, names and attributes",
+      "avoid": [
+        "unity",
+        "numerical oneness",
+        "unification"
+      ]
+    },
+    "fr": {
+      "preferred": "tawhîd",
+      "gloss": "l'unicité de Dieu; unicité Divine ; l'unicité d'Allah dans Sa seigneurie, Son adoration, Ses noms et attributs",
+      "avoid": [
+        "unité",
+        "unification"
+      ]
+    },
+    "usage_note_ar": "في الحزمة العلمية (نماذج القاموس ص8): يفضل إبقاء المصطلح مع شرح معناه: إفراد الله بالربوبية والألوهية ووصفه بما جاء به الوحي من أسمائه الحسنى؛ ولا يختزل في ترجمة توحي بمجرد الوحدانية العددية. | التعريف: إفراد الله بما يختص به من الربوبية والألوهية والأسماء والصفات. — monotheism وحدها لا تغطي توحيد الألوهية؛ يلزم الشرح عند أول ورود. | الدليل: سورة الإخلاص. | في الجمهرة: EN «Monotheism»، FR «Unicité Divine». | سبب الاختلاف عن الجمهرة (EN): الاستراتيجية keep_and_gloss: يُبقى اللفظ العربي بالحروف اللاتينية لأنه لا مقابل إنجليزي يؤدي معناه الشرعي كاملًا، ومقابل الجمهرة «Monotheism» مذكور في الشرح. | تجنّب: EN: «oneness» منفردةً دون شرح — FR: «unité» منفردةً دون شرح | تحقق الفرنسية (2026-10-03): مقابل الجمهرة الفرنسي «Unicité Divine» (الرابط في source.ref).",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "الحزمة العلمية — نماذج القاموس ص8 | EN: https://islamic-content.com/dictionary/word/3529/en | FR: https://islamic-content.com/dictionary/word/3529/fr | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/10482 | الدليل: https://api.quranpedia.net/v1/ayah/112/1/options",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "tawhid_rububiyyah",
+    "ar": "توحيد الربوبية",
+    "variants_ar": [
+      "الربوبية",
+      "ربوبية الله"
+    ],
+    "en": {
+      "preferred": "tawhid ar-rububiyyah",
+      "gloss": "oneness of Lordship; affirming Allah alone as Creator, Owner and Disposer of all affairs",
+      "avoid": [
+        "unity of lordship"
+      ]
+    },
+    "fr": {
+      "preferred": "tawhîd ar-rubûbiyya",
+      "gloss": "l'unicité de la Seigneurie ; l'unicité d'Allah comme Créateur, Possesseur et Organisateur de toute chose",
+      "avoid": [
+        "unité de seigneurie"
+      ]
+    },
+    "usage_note_ar": "التعريف: إفراد الله بأفعاله: الخلق والملك والتدبير. — يُذكر مع قسيميه عند الحديث عن أقسام التوحيد. | الدليل: الفاتحة: 2. | في الجمهرة: EN «Oneness of Lordship»، FR «L'unicité de la Seigneurie». | سبب الاختلاف عن الجمهرة (EN): الاستراتيجية keep_and_gloss: يُبقى اللفظ العربي بالحروف اللاتينية لأنه لا مقابل إنجليزي يؤدي معناه الشرعي كاملًا، ومقابل الجمهرة «Oneness of Lordship» مذكور في الشرح. | تجنّب: EN: «unity of lordship» دون شرح — FR: «unité de seigneurie» دون شرح | تحقق الفرنسية (2026-10-03): مقابل الجمهرة الفرنسي «L'unicité de la Seigneurie» (الرابط في source.ref).",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/3536/en | FR: https://islamic-content.com/dictionary/word/3536/fr | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/10485 | الدليل: https://api.quranpedia.net/v1/ayah/1/2/options",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "tawhid_uluhiyyah",
+    "ar": "توحيد الألوهية",
+    "variants_ar": [
+      "الألوهية",
+      "توحيد العبادة",
+      "الإلهية"
+    ],
+    "en": {
+      "preferred": "tawhid al-uluhiyyah",
+      "gloss": "oneness of Godhead; singling out Allah alone in all acts of worship",
+      "avoid": [
+        "divinity unity",
+        "godhood"
+      ]
+    },
+    "fr": {
+      "preferred": "tawhîd al-ulûhiyya",
+      "gloss": "l'unicité de déité ; l'unicité d'Allah dans l'adoration",
+      "avoid": [
+        "unité de divinité"
+      ]
+    },
+    "usage_note_ar": "التعريف: إفراد الله بالعبادة، فلا يُصرف شيء منها لغيره. — هو مضمون شهادة أن لا إله إلا الله. | الدليل: محمد: 19. | في الجمهرة: EN «Oneness of Godhead»، FR «L'unicité de déité». | سبب الاختلاف عن الجمهرة (EN): الاستراتيجية keep_and_gloss: يُبقى اللفظ العربي بالحروف اللاتينية لأنه لا مقابل إنجليزي يؤدي معناه الشرعي كاملًا، ومقابل الجمهرة «Oneness of Godhead» مذكور في الشرح. | تجنّب: FR: «unité de divinité» دون شرح | تحقق الفرنسية (2026-10-03): مقابل الجمهرة الفرنسي «L'unicité de déité» (الرابط في source.ref).",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/3534/en | FR: https://islamic-content.com/dictionary/word/3534/fr | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/10483 | الدليل: https://api.quranpedia.net/v1/ayah/47/19/options",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "tawhid_asma_wa_sifat",
+    "ar": "توحيد الأسماء والصفات",
+    "variants_ar": [
+      "الأسماء والصفات",
+      "صفات الله",
+      "الصفات الإلهية"
+    ],
+    "en": {
+      "preferred": "tawhid al-asma' wa as-sifat",
+      "gloss": "monotheism in God's names and attributes; affirming Allah's names and attributes as revealed, without distortion, denial, likening or asking how",
+      "avoid": [
+        "anthropomorphic renderings",
+        "metaphorical reinterpretation"
+      ]
+    },
+    "fr": {
+      "preferred": "tawhîd al-asmâ' wa as-sifât",
+      "gloss": "l'unicité des noms et des attributs ; l'affirmation des noms et attributs d'Allah tels que révélés, sans altération, négation, assimilation ni questionnement sur le comment",
+      "avoid": [
+        "anthropomorphisme",
+        "interprétation allégorique"
+      ]
+    },
+    "usage_note_ar": "التعريف: إثبات ما أثبته الله لنفسه أو أثبته له رسوله من الأسماء والصفات من غير تحريف ولا تعطيل ولا تكييف ولا تمثيل. — ترجمة نصوص الصفات حساسة عقدياً؛ تُحال للمختص ولا تُؤوَّل في الترجمة. | الدليل: الشورى: 11؛ الأعراف: 180. | في الجمهرة: EN «Monotheism in God's names and attributes»، FR «L'unicité des noms et des attributs». ⚠️ يُحال إلى المختص إذا ورد في سياق حكم أو فتوى أو تطبيق عملي، لا في كل ورود. | سبب الاختلاف عن الجمهرة (EN): الاستراتيجية keep_and_gloss: يُبقى اللفظ العربي بالحروف اللاتينية لأنه لا مقابل إنجليزي يؤدي معناه الشرعي كاملًا، ومقابل الجمهرة «Monotheism in God's names and attributes» مذكور في الشرح. | تحقق الفرنسية (2026-10-03): مقابل الجمهرة الفرنسي «L'unicité des noms et des attributs» (الرابط في source.ref).",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/3532/en | FR: https://islamic-content.com/dictionary/word/3532/fr | الدليل: https://api.quranpedia.net/v1/ayah/42/11/options ؛ https://api.quranpedia.net/v1/ayah/7/180/options",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "rabb",
+    "ar": "الرب",
+    "variants_ar": [
+      "رب",
+      "ربنا",
+      "ربي",
+      "ربك",
+      "ربه",
+      "رب العالمين"
+    ],
+    "en": {
+      "preferred": "lord",
+      "gloss": "the Creator, Owner and Sustainer of all things: Allah",
+      "avoid": [
+        "master"
+      ]
+    },
+    "fr": {
+      "preferred": "seigneur",
+      "gloss": "rabb : Créateur, Possesseur et Pourvoyeur",
+      "avoid": [
+        "maître"
+      ]
+    },
+    "usage_note_ar": "التعريف: المالك الخالق المدبر لجميع الأمور. — «lord» مقبول بشرط بيان أنه الله عند أول ورود في المحتوى العقدي. | الدليل: الفاتحة: 2. | في الجمهرة: EN «The Lord»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تجنّب: EN: «lord» دون بيان أنه الله، بالمعنى المسيحي المتضمن للتجسيد | تحقق الفرنسية (2026-10-03): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 1:2: «Seigneur».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/5108/en | FR: غير متوفر في الجمهرة | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/177172 | الدليل: https://api.quranpedia.net/v1/ayah/1/2/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/1/2",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "ilah",
+    "ar": "الإله",
+    "variants_ar": [
+      "إله",
+      "آلهة",
+      "إلهنا",
+      "إلهكم"
+    ],
+    "en": {
+      "preferred": "deity",
+      "gloss": "deity; one worshipped",
+      "avoid": [
+        "God"
+      ]
+    },
+    "fr": {
+      "preferred": "divinité",
+      "gloss": "ilâh : celui qui est adoré",
+      "avoid": [
+        "Dieu"
+      ]
+    },
+    "usage_note_ar": "التعريف: المعبود؛ والإله الحق هو الله وحده. — يُكتب god بحرف صغير للآلهة الباطلة، ولا يُستعمل God إلا لله. | الدليل: محمد: 19. | في الجمهرة: EN «The Deity»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تجنّب: EN: «God» بالحرف الكبير لا يُستعمل للآلهة الباطلة، ويُخصّ بالله | تحقق الفرنسية (2026-10-03): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 47:19: «divinité».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/1541/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/47/19/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/47/19",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "iman",
+    "ar": "الإيمان",
+    "variants_ar": [
+      "إيمان",
+      "المؤمنون",
+      "المؤمنين",
+      "يؤمن",
+      "آمنوا",
+      "المؤمنة"
+    ],
+    "en": {
+      "preferred": "iman",
+      "gloss": "faith: belief in the heart, declaration by the tongue and action by the limbs",
+      "avoid": [
+        "blind faith"
+      ]
+    },
+    "fr": {
+      "preferred": "foi",
+      "gloss": "croyance, foi ; la foi : conviction du cœur, parole de la langue et œuvre des membres",
+      "avoid": [
+        "foi aveugle"
+      ]
+    },
+    "usage_note_ar": "التعريف: قول باللسان، واعتقاد بالقلب، وعمل بالجوارح، يزيد بالطاعة وينقص بالمعصية. — faith وحدها تختزله في التصديق القلبي؛ يلزم الشرح عند التعريف. | الدليل: حديث جبريل — صحيح مسلم (8). | في الجمهرة: EN «Faith»، FR «Croyance, Foi». | سبب الاختلاف عن الجمهرة (EN): الاستراتيجية keep_and_gloss: يُبقى اللفظ العربي بالحروف اللاتينية لأنه لا مقابل إنجليزي يؤدي معناه الشرعي كاملًا، ومقابل الجمهرة «Faith» مذكور في الشرح. | تجنّب: EN: «belief» منفردةً دون شرح | تحقق الفرنسية (2026-10-03): مقابل الجمهرة الفرنسي «Croyance, Foi» (الرابط في source.ref).",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/1952/en | FR: https://islamic-content.com/dictionary/word/1952/fr | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/46045 | الدليل: https://dorar.net/h/60wn0eQQ",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "islam",
+    "ar": "الإسلام",
+    "variants_ar": [
+      "إسلام",
+      "أسلم"
+    ],
+    "en": {
+      "preferred": "Islam",
+      "gloss": "submission to God through His Oneness and obedience to Him; submission to Allah through Tawhid and obedience",
+      "avoid": [
+        "a culture",
+        "a civilization",
+        "mohammedanism",
+        "islamism"
+      ]
+    },
+    "fr": {
+      "preferred": "islam",
+      "gloss": "la soumission à Dieu par Son unicité et l'obéissance à Lui; la soumission à Allah par le Tawhîd et l'obéissance",
+      "avoid": [
+        "mahométisme",
+        "islamisme"
+      ]
+    },
+    "usage_note_ar": "في الحزمة العلمية (نماذج القاموس ص8): دين الاستسلام لله بالتوحيد والانقياد له بالطاعة، ويشرح بحسب السياق ولا يختزل في معنى ثقافي عام. | التعريف: الاستسلام لله بالتوحيد والانقياد له بالطاعة والبراءة من الشرك وأهله. — Islamism مصطلح سياسي لا يُستعمل مقابلاً للإسلام. — لا تُعدّ «المسلم/المسلمون/المسلمين» متغيرات للمصطلح لأنها وصف للأشخاص لا اسم للدين، فلا تُقفل على Islam. | الدليل: آل عمران: 19؛ صحيح مسلم (8). | في الجمهرة: EN «Islam»، FR «Islam». | تحقق الفرنسية (2026-10-03): مقابل الجمهرة الفرنسي «Islam» (الرابط في source.ref).",
+    "strategy": "context",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "الحزمة العلمية — نماذج القاموس ص8 | EN: https://islamic-content.com/dictionary/word/1018/en | FR: https://islamic-content.com/dictionary/word/1018/fr | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/43613 | الدليل: https://api.quranpedia.net/v1/ayah/3/19/options ؛ https://dorar.net/h/60wn0eQQ",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "ihsan",
+    "ar": "الإحسان",
+    "variants_ar": [
+      "إحسان",
+      "المحسنون",
+      "المحسنين",
+      "أحسنوا"
+    ],
+    "en": {
+      "preferred": "ihsan",
+      "gloss": "excellence: worshipping Allah as though you see Him",
+      "avoid": [
+        "benevolence",
+        "charity",
+        "kindness"
+      ]
+    },
+    "fr": {
+      "preferred": "ihsân",
+      "gloss": "la bienfaisance ; l'excellence dans l'adoration : adorer Allah comme si on Le voyait",
+      "avoid": [
+        "bienveillance",
+        "charité",
+        "bonté"
+      ]
+    },
+    "usage_note_ar": "التعريف: مرتبة الدين العليا: أن تعبد الله كأنك تراه، فإن لم تكن تراه فإنه يراك. — مصطلح مشترك: إذا وُصف به الله فمعناه الإنعام والإتقان (Beneficence)، وإذا أريد به مرتبة الدين يُقفل بالصيغة المقابلة. التمييز بالسياق إلزامي. | الدليل: حديث جبريل — صحيح مسلم (8)؛ النحل: 90. | في الجمهرة: EN «Excellence»، FR «La bienfaisance». | سبب الاختلاف عن الجمهرة (EN): مصطلح متعدد المعاني (context): مرتبة الدين، والإحسان إلى الخلق، والصفة الإلهية؛ ويُختار المقابل بحسب السياق. | تجنّب: EN: «kindness» بهذا المعنى — FR: «bonté» بهذا المعنى | تدقيق الفرنسية (2026-10-03): أُعيد مسودة بعد التدقيق: عنوان الجمهرة «La bienfaisance» يخص المعنى الأخلاقي، وكلمة «bonté» في قائمة التجنب، فيحتاج شاهدًا لمعنى «مرتبة الإحسان».",
+    "strategy": "context",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/363/en | FR: https://islamic-content.com/dictionary/word/363/fr | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/181667 | الدليل: https://dorar.net/h/60wn0eQQ ؛ https://api.quranpedia.net/v1/ayah/16/90/options",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "shahadatan",
+    "ar": "الشهادتان",
+    "variants_ar": [
+      "شهادة التوحيد",
+      "النطق بالشهادتين"
+    ],
+    "en": {
+      "preferred": "shahadah",
+      "gloss": "the two declarations; testimony that none has the right to be worshipped except Allah, and that Muhammad is the Messenger of Allah",
+      "avoid": [
+        "there is no god but God"
+      ]
+    },
+    "fr": {
+      "preferred": "shahâda",
+      "gloss": "les deux témoignages ; le témoignage que nul n'est digne d'adoration en dehors d'Allah et que Muhammad est le Messager d'Allah",
+      "avoid": [
+        "il n'y a de dieu que Dieu"
+      ]
+    },
+    "usage_note_ar": "التعريف: شهادة أن لا إله إلا الله وأن محمداً رسول الله. — الصيغة المعتمدة تُبرز معنى «لا معبود بحق إلا الله». | الدليل: محمد: 19؛ صحيح البخاري (8). | في الجمهرة: EN «The two declarations»، FR «Les deux témoignages». | سبب الاختلاف عن الجمهرة (EN): الاستراتيجية keep_and_gloss: يُبقى اللفظ العربي بالحروف اللاتينية لأنه لا مقابل إنجليزي يؤدي معناه الشرعي كاملًا، ومقابل الجمهرة «The two declarations» مذكور في الشرح. | تجنّب: EN: «there is no god but God» دون بيان «المستحق للعبادة» — FR: «il n'y a de dieu que Dieu» دون بيان «المستحق للعبادة» | تحقق الفرنسية (2026-10-03): مقابل الجمهرة الفرنسي «Les deux témoignages» (الرابط في source.ref).",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/6027/en | FR: https://islamic-content.com/dictionary/word/6027/fr | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/10818 | الدليل: https://api.quranpedia.net/v1/ayah/47/19/options ؛ https://dorar.net/h/JDqeTpYd",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "aqidah",
+    "ar": "العقيدة",
+    "variants_ar": [
+      "عقيدة",
+      "العقائد",
+      "الاعتقاد",
+      "المعتقد"
+    ],
+    "en": {
+      "preferred": "'aqidah",
+      "gloss": "faith: the Islamic creed held firmly in the heart",
+      "avoid": [
+        "dogma",
+        "ideology"
+      ]
+    },
+    "fr": {
+      "preferred": "'aqîda",
+      "gloss": "la croyance islamique fermement ancrée dans le cœur",
+      "avoid": [
+        "dogme",
+        "idéologie"
+      ]
+    },
+    "usage_note_ar": "التعريف: ما يعتقده المسلم ويعقد عليه قلبه من أصول الدين. | الدليل: البقرة: 285. | في الجمهرة: EN «Faith»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): الاستراتيجية keep_and_gloss: يُبقى اللفظ العربي بالحروف اللاتينية لأنه لا مقابل إنجليزي يؤدي معناه الشرعي كاملًا، ومقابل الجمهرة «Faith» مذكور في الشرح. | تحقق الفرنسية (2026-10-03): موسوعة رواد للمصطلحات (FR): «Credo / Croyance / Dogme / Profession de foi ('Aqîdah)»؛ واستُبعد «Dogme» لما يحمله في الفرنسية من معنى التسليم بلا دليل.",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/6959/en | FR: غير متوفر في الجمهرة | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/47795 | الدليل: https://api.quranpedia.net/v1/ayah/2/285/options | FR تحقق (رواد): https://terminologyenc.com/fr/browse/term/47795",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "malaikah",
+    "ar": "الملائكة",
+    "variants_ar": [
+      "ملائكة",
+      "ملائكته",
+      "ملائكة الله"
+    ],
+    "en": {
+      "preferred": "angels",
+      "gloss": "created beings of light who worship Allah and carry out His commands",
+      "avoid": [
+        "spirits",
+        "demigods"
+      ]
+    },
+    "fr": {
+      "preferred": "anges",
+      "gloss": "créatures de lumière qui adorent Allah et exécutent Ses ordres",
+      "avoid": [
+        "esprits",
+        "demi-dieux"
+      ]
+    },
+    "usage_note_ar": "التعريف: عالم غيبي مخلوق من نور، لا يعصون الله ما أمرهم. — لا يُنسب إليهم ما في الثقافة الغربية من أجنحة طفولية أو أنوثة. — «المَلَك» تُضبط بفتح اللام تمييزًا لها عن «المَلِك» من أسماء الله الحسنى. — لم تُدرج «المَلَك» متغيرًا لأنها بغير تشكيل تطابق «الملك» من أسماء الله الحسنى. | الدليل: فاطر: 1. | في الجمهرة: EN «Angels»، FR «Les Anges». | تحقق الفرنسية (2026-10-03): مقابل الجمهرة الفرنسي «Les Anges» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/9961/en | FR: https://islamic-content.com/dictionary/word/9961/fr | الدليل: https://api.quranpedia.net/v1/ayah/35/1/options",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "jinn",
+    "ar": "الجن",
+    "variants_ar": [
+      "جن",
+      "الجان",
+      "الجني",
+      "جنّي"
+    ],
+    "en": {
+      "preferred": "jinn",
+      "gloss": "unseen beings created from fire, accountable like humans",
+      "avoid": [
+        "genie",
+        "genies",
+        "demons"
+      ]
+    },
+    "fr": {
+      "preferred": "djinns",
+      "gloss": "jinn ; êtres invisibles créés de feu, responsables comme les humains",
+      "avoid": [
+        "génie",
+        "démons"
+      ]
+    },
+    "usage_note_ar": "التعريف: عالم غيبي مخلوق من نار، مكلَّف، منهم المسلم والكافر. — genie يستدعي الصورة الخرافية الغربية فيُرفض. | الدليل: الجن: 1؛ الذاريات: 56. | في الجمهرة: EN «The jinn»، FR «Jinn». | تجنّب: EN: «demons» منفردةً دون شرح — FR: «démons» منفردةً دون شرح | تحقق الفرنسية (2026-10-03): مقابل الجمهرة الفرنسي «Jinn» (الرابط في source.ref).",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/3903/en | FR: https://islamic-content.com/dictionary/word/3903/fr | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/6776 | الدليل: https://api.quranpedia.net/v1/ayah/72/1/options ؛ https://api.quranpedia.net/v1/ayah/51/56/options",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "wahy",
+    "ar": "الوحي",
+    "variants_ar": [
+      "وحي",
+      "أوحى",
+      "يوحى",
+      "أوحينا"
+    ],
+    "en": {
+      "preferred": "revelation",
+      "gloss": "what God revealed to His prophets; Allah's communication of His message to His prophets",
+      "avoid": [
+        "inspiration",
+        "intuition"
+      ]
+    },
+    "fr": {
+      "preferred": "révélation",
+      "gloss": "ce que Dieu a révélé à Ses prophètes; wahy : la communication par Allah de Son message à Ses prophètes",
+      "avoid": [
+        "inspiration",
+        "intuition"
+      ]
+    },
+    "usage_note_ar": "في الحزمة العلمية (نماذج القاموس ص8): يشرح بوصفه ما أوحاه الله إلى أنبيائه، مع تجنب استعمالات فضفاضة قد توهم الإلهام الشخصي. | التعريف: إعلام الله أنبياءه بما يريد إبلاغه من شرع أو خبر. — inspiration تُضعف القطع بمصدره الإلهي. | الدليل: النجم: 3–4؛ الشورى: 51. | في الجمهرة: EN «Revelation»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تجنّب: EN: «inspiration» منفردةً دون شرح — FR: «inspiration» منفردةً دون شرح | تحقق الفرنسية (2026-10-03): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 42:51: «révéler».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "الحزمة العلمية — نماذج القاموس ص8 | EN: https://islamic-content.com/dictionary/word/10849/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/53/3/options ؛ https://api.quranpedia.net/v1/ayah/42/51/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/42/51",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "nubuwwah",
+    "ar": "النبوة",
+    "variants_ar": [
+      "نبوة",
+      "النبوات",
+      "دلائل النبوة",
+      "ختم النبوة"
+    ],
+    "en": {
+      "preferred": "prophethood",
+      "gloss": "God's choosing of prophets through revelation; Allah's selection of some of His servants to receive revelation, distinct from human religious leadership",
+      "avoid": [
+        "prophecy"
+      ]
+    },
+    "fr": {
+      "preferred": "prophétie",
+      "gloss": "le choix par Dieu de prophètes par la révélation; le choix par Allah de certains de Ses serviteurs pour recevoir la révélation",
+      "avoid": [
+        "divination",
+        "leadership religieux"
+      ]
+    },
+    "usage_note_ar": "في الحزمة العلمية (نماذج القاموس ص8): تستخدم للدلالة على اصطفاء الأنبياء بالوحي، مع التمييز بينها وبين القيادة الدينية البشرية. | التعريف: اصطفاء الله بعض عباده بالوحي إليهم، وهي منحة إلهية لا تُنال بالكسب. — من المصطلحات الأساسية في مرجعية التحدي: يُميَّز عن القيادة البشرية. | الدليل: الأنعام: 124؛ الأحزاب: 40. | في الجمهرة: EN «Prophethood»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تجنّب: EN: «prophecy» بمعنى الكهانة",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "الحزمة العلمية — نماذج القاموس ص8 | EN: https://islamic-content.com/dictionary/word/10342/en | FR: غير متوفر في الجمهرة | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/7365 | الدليل: https://api.quranpedia.net/v1/ayah/6/124/options ؛ https://api.quranpedia.net/v1/ayah/33/40/options",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-02"
+    }
+  },
+  {
+    "id": "nabiyy",
+    "ar": "النبي",
+    "variants_ar": [
+      "الأنبياء",
+      "نبي",
+      "نبيّنا"
+    ],
+    "en": {
+      "preferred": "prophet",
+      "gloss": "one chosen by Allah and given revelation",
+      "avoid": [
+        "soothsayer",
+        "seer"
+      ]
+    },
+    "fr": {
+      "preferred": "prophète",
+      "gloss": "celui qu'Allah a choisi et à qui Il a fait une révélation",
+      "avoid": [
+        "devin",
+        "voyant"
+      ]
+    },
+    "usage_note_ar": "التعريف: الرسول من أوحي إليه بشرع وأُمر بتبليغه، والنبي أعم منه عند جمهور العلماء. — يُحافظ على التمييز بين Prophet وMessenger ولا يُتبادلان. | الدليل: الحج: 52. | في الجمهرة: EN «Prophet»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تجنّب: EN/FR: soothsayer/seer وdevin/voyant لأنها بمعنى الكهانة | تحقق الفرنسية (2026-10-03): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 22:52: «prophète».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/10343/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/22/52/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/22/52",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "rasul",
+    "ar": "الرسول",
+    "variants_ar": [
+      "الرسل",
+      "رسول",
+      "رسول الله"
+    ],
+    "en": {
+      "preferred": "messenger",
+      "gloss": "one to whom Allah revealed a law and commanded him to convey it",
+      "avoid": [
+        "apostle",
+        "envoy"
+      ]
+    },
+    "fr": {
+      "preferred": "messager",
+      "gloss": "celui à qui Allah a révélé une législation et ordonné de la transmettre",
+      "avoid": [
+        "apôtre",
+        "émissaire"
+      ]
+    },
+    "usage_note_ar": "التعريف: الرسول من أوحي إليه بشرع وأُمر بتبليغه، والنبي أعم منه عند جمهور العلماء. — يُحافظ على التمييز بين Prophet وMessenger ولا يُتبادلان. | الدليل: الحج: 52. | في الجمهرة: EN «Messenger»، FR «Envoyé, messager, émissaire, apôtre, ambassadeur». | تجنّب: EN/FR: apostle/apôtre لحملها المعنى المسيحي، وenvoy/émissaire لأنها بالمعنى الدبلوماسي | تحقق الفرنسية (2026-10-03): مقابل الجمهرة الفرنسي «Envoyé, messager, émissaire, apôtre, ambassadeur» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/5216/en | FR: https://islamic-content.com/dictionary/word/5216/fr | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/14982 | الدليل: https://api.quranpedia.net/v1/ayah/22/52/options",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "mujizah",
+    "ar": "المعجزة",
+    "variants_ar": [
+      "معجزة",
+      "المعجزات",
+      "آيات الأنبياء"
+    ],
+    "en": {
+      "preferred": "miracle",
+      "gloss": "a supernatural sign granted by Allah to a prophet to confirm his message",
+      "avoid": [
+        "magic",
+        "trick",
+        "wonder"
+      ]
+    },
+    "fr": {
+      "preferred": "miracle",
+      "gloss": "signe surnaturel accordé par Allah à un prophète pour confirmer son message",
+      "avoid": [
+        "magie",
+        "prodige"
+      ]
+    },
+    "usage_note_ar": "التعريف: أمر خارق للعادة يُجريه الله على يد نبي تصديقًا لدعوته، مقرون بالتحدي. — يُفرَّق بينها وبين الكرامة (للأولياء) والسحر. | الدليل: الإسراء: 59. | في الجمهرة: EN «Miracle»، FR «Miracle». | تجنّب: EN: «wonder» لأنها مبهمة — FR: «prodige» لأنها مبهمة | تحقق الفرنسية (2026-10-03): مقابل الجمهرة الفرنسي «Miracle» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/9728/en | FR: https://islamic-content.com/dictionary/word/9728/fr | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/14895 | الدليل: https://api.quranpedia.net/v1/ayah/17/59/options",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "yawm_akhir",
+    "ar": "اليوم الآخر",
+    "variants_ar": [
+      "يوم القيامة",
+      "يوم الدين",
+      "يوم الحساب",
+      "الآخرة",
+      "يوم البعث"
+    ],
+    "en": {
+      "preferred": "last day",
+      "gloss": "the Day of Resurrection and Judgement",
+      "avoid": [
+        "end of the world",
+        "apocalypse"
+      ]
+    },
+    "fr": {
+      "preferred": "jour dernier",
+      "gloss": "le Jour de la Résurrection et du Jugement",
+      "avoid": [
+        "fin du monde",
+        "apocalypse"
+      ]
+    },
+    "usage_note_ar": "التعريف: يوم القيامة وما يكون فيه من بعث وحساب وجزاء. | الدليل: البقرة: 177. | في الجمهرة: EN «The Last Day»، FR «Le jour dernier». | تحقق الفرنسية (2026-10-03): مقابل الجمهرة الفرنسي «Le jour dernier» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/11207/en | FR: https://islamic-content.com/dictionary/word/11207/fr | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/11344 | الدليل: https://api.quranpedia.net/v1/ayah/2/177/options",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "bath",
+    "ar": "البعث",
+    "variants_ar": [
+      "بعث",
+      "البعث بعد الموت",
+      "يُبعثون",
+      "النشور"
+    ],
+    "en": {
+      "preferred": "resurrection",
+      "gloss": "the raising of the dead for judgement",
+      "avoid": [
+        "reincarnation",
+        "rebirth"
+      ]
+    },
+    "fr": {
+      "preferred": "résurrection",
+      "gloss": "la résurrection des morts pour le Jugement",
+      "avoid": [
+        "réincarnation",
+        "renaissance"
+      ]
+    },
+    "usage_note_ar": "التعريف: إحياء الله الموتى من قبورهم للحساب والجزاء. — rebirth توحي بالتناسخ فتُرفض. | الدليل: يس: 51–52. | في الجمهرة: EN «Expedition»، FR «La résurrection». | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Expedition» بمعنى البعث العسكري (السرية)، والمقصود هنا البعث بعد الموت. | تحقق الفرنسية (2026-10-03): مقابل الجمهرة الفرنسي «La résurrection» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/2118/en | FR: https://islamic-content.com/dictionary/word/2118/fr | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/10382 | الدليل: https://api.quranpedia.net/v1/ayah/36/51/options",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "jannah",
+    "ar": "الجنة",
+    "variants_ar": [
+      "جنة",
+      "الجنان",
+      "جنات",
+      "الفردوس",
+      "جنات النعيم"
+    ],
+    "en": {
+      "preferred": "paradise",
+      "gloss": "heaven: the abode of bliss prepared by Allah for the believers",
+      "avoid": [
+        "garden"
+      ]
+    },
+    "fr": {
+      "preferred": "paradis",
+      "gloss": "al-janna : la demeure de félicité qu'Allah a préparée pour les croyants",
+      "avoid": [
+        "ciel",
+        "jardin"
+      ]
+    },
+    "usage_note_ar": "التعريف: دار النعيم التي أعدها الله للمؤمنين. | الدليل: آل عمران: 133. | في الجمهرة: EN «Heaven»، FR «Le paradis». | سبب الاختلاف عن الجمهرة (EN): «Heaven» في الإنجليزية تُطلق على السماء وعلى المفهوم المسيحي، و«Paradise» أدق لمعنى الجنة؛ ومقابل الجمهرة مذكور في الشرح. | تجنّب: EN: «the garden» بالمعنى الحرفي — FR: «le ciel» لحملها المعنى المسيحي؛ «le jardin» بالمعنى الحرفي | «جنة» قد تعني بستانًا دنيويًا في القرآن (الكهف: 32)؛ يُختار المقابل حسب السياق. | تحقق الفرنسية (2026-10-03): مقابل الجمهرة الفرنسي «Le paradis» (الرابط في source.ref).",
+    "strategy": "context",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/3911/en | FR: https://islamic-content.com/dictionary/word/3911/fr | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/10674 | الدليل: https://api.quranpedia.net/v1/ayah/3/133/options",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "jahannam",
+    "ar": "جهنم",
+    "variants_ar": [
+      "نار جهنم",
+      "الجحيم",
+      "السعير"
+    ],
+    "en": {
+      "preferred": "hellfire",
+      "gloss": "the Fire prepared by Allah as punishment for the disbelievers and sinners",
+      "avoid": [
+        "underworld"
+      ]
+    },
+    "fr": {
+      "preferred": "géhenne",
+      "gloss": "jahannam : le Feu qu'Allah a préparé pour châtier les mécréants et les pécheurs",
+      "avoid": [
+        "enfers"
+      ]
+    },
+    "usage_note_ar": "التعريف: دار العذاب التي أعدها الله للكافرين والعصاة. | الدليل: التحريم: 6. | في الجمهرة: EN «Hellfire»، FR «Géhenne». | تجنّب: EN: «the fire» بالمعنى الحرفي — FR: «le feu» بالمعنى الحرفي | تحقق الفرنسية (2026-10-03): مقابل الجمهرة الفرنسي «Géhenne» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/3947/en | FR: https://islamic-content.com/dictionary/word/3947/fr | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/10673 | الدليل: https://api.quranpedia.net/v1/ayah/66/6/options",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "shafaah",
+    "ar": "الشفاعة",
+    "variants_ar": [
+      "شفاعة",
+      "الشفيع",
+      "يشفع",
+      "شفاعة النبي"
+    ],
+    "en": {
+      "preferred": "shafa'ah",
+      "gloss": "intercession, granted only by Allah's permission and for whom He is pleased with",
+      "avoid": [
+        "mediation",
+        "redemption",
+        "atonement"
+      ]
+    },
+    "fr": {
+      "preferred": "shafâ'a",
+      "gloss": "l'intercession, accordée uniquement avec la permission d'Allah",
+      "avoid": [
+        "médiation",
+        "rédemption"
+      ]
+    },
+    "usage_note_ar": "التعريف: سؤال الخير للغير يوم القيامة بإذن الله ورضاه عن المشفوع له. — قيد «بإذن الله» إلزامي لئلا يُفهم معنى الوساطة الكنسية. | الدليل: البقرة: 255. | في الجمهرة: EN «Intercession»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. ⚠️ يُحال إلى المختص إذا ورد في سياق حكم أو فتوى أو تطبيق عملي، لا في كل ورود. | سبب الاختلاف عن الجمهرة (EN): الاستراتيجية keep_and_gloss: يُبقى اللفظ العربي بالحروف اللاتينية لأنه لا مقابل إنجليزي يؤدي معناه الشرعي كاملًا، ومقابل الجمهرة «Intercession» مذكور في الشرح. | تحقق الفرنسية (2026-10-03): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 2:255: «intercéder».",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/5996/en | FR: غير متوفر في الجمهرة | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/31655 | الدليل: https://api.quranpedia.net/v1/ayah/2/255/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/2/255",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "sirat",
+    "ar": "الصراط",
+    "variants_ar": [
+      "الصراط المنصوب"
+    ],
+    "en": {
+      "preferred": "sirat",
+      "gloss": "the path (bridge) set over Hell on the Day of Judgement",
+      "avoid": [
+        "bridge of souls"
+      ]
+    },
+    "fr": {
+      "preferred": "sirât",
+      "gloss": "le pont dressé au-dessus de l'Enfer le Jour du Jugement",
+      "avoid": [
+        "chemin"
+      ]
+    },
+    "usage_note_ar": "التعريف: الجسر المنصوب على متن جهنم يمر عليه الناس يوم القيامة. — يُفرَّق بينه وبين «الصراط المستقيم» في الفاتحة (the Straight Path). | الدليل: صحيح مسلم (182). | في الجمهرة: EN «The path»، FR «Le Pont». | سبب الاختلاف عن الجمهرة (EN): الاستراتيجية keep_and_gloss: يُبقى اللفظ العربي بالحروف اللاتينية لأنه لا مقابل إنجليزي يؤدي معناه الشرعي كاملًا، ومقابل الجمهرة «The path» مذكور في الشرح. | تجنّب: EN: «straight path» بمعنى صراط الفاتحة حين يُقصد الجسر؛ «bridge of souls» لأنه مفهوم غير إسلامي — FR: «le chemin» حين يُقصد الجسر | تحقق الفرنسية (2026-10-03): مقابل الجمهرة الفرنسي «Le Pont» (الرابط في source.ref).",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/6259/en | FR: https://islamic-content.com/dictionary/word/6259/fr | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/14965 | الدليل: https://dorar.net/h/wK8Pu9d3",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "mizan",
+    "ar": "الميزان",
+    "variants_ar": [
+      "الموازين",
+      "ميزان الأعمال"
+    ],
+    "en": {
+      "preferred": "scales",
+      "gloss": "on which deeds are weighed",
+      "avoid": [
+        "balance",
+        "justice"
+      ]
+    },
+    "fr": {
+      "preferred": "balance",
+      "gloss": "sur laquelle les œuvres sont pesées",
+      "avoid": [
+        "équilibre",
+        "justice"
+      ]
+    },
+    "usage_note_ar": "التعريف: ما يضعه الله يوم القيامة لوزن أعمال العباد. | الدليل: الأنبياء: 47. | في الجمهرة: EN «The scales»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تجنّب: EN: «balance» بالمعنى المجرد؛ «justice» منفردةً دون شرح — FR: «équilibre» بالمعنى المجرد؛ «justice» منفردةً دون شرح | تحقق الفرنسية (2026-10-03): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 21:47: «balances».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/10277/en | FR: غير متوفر في الجمهرة | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/7165 | الدليل: https://api.quranpedia.net/v1/ayah/21/47/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/21/47",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "hawd",
+    "ar": "الحوض",
+    "variants_ar": [
+      "حوض النبي",
+      "الحوض المورود"
+    ],
+    "en": {
+      "preferred": "hawd",
+      "gloss": "the Prophet's Basin (pond) on the Day of Resurrection",
+      "avoid": [
+        "lake",
+        "fountain of youth"
+      ]
+    },
+    "fr": {
+      "preferred": "hawd",
+      "gloss": "le Bassin du Prophète au Jour de la Résurrection",
+      "avoid": [
+        "lac",
+        "fontaine"
+      ]
+    },
+    "usage_note_ar": "التعريف: حوض النبي ﷺ في عرصات القيامة، ماؤه أبيض من اللبن، من شرب منه لم يظمأ بعده أبدًا. — عنوان الجمهرة الإنجليزي Pond؛ يُكمَّل بالسياق الأخروي. — «الكوثر» نهر في الجنة يصب منه الحوض، وليس اسمًا آخر له. | الدليل: الكوثر: 1؛ صحيح البخاري — كتاب الرقاق. | في الجمهرة: EN «Pond»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): الاستراتيجية keep_and_gloss: يُبقى اللفظ العربي بالحروف اللاتينية لأنه لا مقابل إنجليزي يؤدي معناه الشرعي كاملًا، ومقابل الجمهرة «Pond» مذكور في الشرح. | تحقق الفرنسية (2026-10-03): موسوعة رواد للمصطلحات (FR): «Le Bassin (Al Hawd)».",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/4544/en | FR: غير متوفر في الجمهرة | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/14988 | الدليل: https://api.quranpedia.net/v1/ayah/108/1/options ؛ https://dorar.net/h/fkRhoVIa | FR تحقق (رواد): https://terminologyenc.com/fr/browse/term/14988",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "barzakh",
+    "ar": "البرزخ",
+    "variants_ar": [
+      "حياة البرزخ",
+      "عالم البرزخ"
+    ],
+    "en": {
+      "preferred": "barzakh",
+      "gloss": "barzakh; the intermediate life between death and resurrection",
+      "avoid": [
+        "purgatory",
+        "limbo"
+      ]
+    },
+    "fr": {
+      "preferred": "barzakh",
+      "gloss": "barzakh : monde intermédiaire entre la mort et la Résurrection",
+      "avoid": [
+        "purgatoire",
+        "limbes"
+      ]
+    },
+    "usage_note_ar": "التعريف: الحياة الفاصلة بين الموت والبعث. — purgatory مفهوم كنسي مخالف فيُرفض. — «القبر» موضع لا مرادف للبرزخ. | الدليل: المؤمنون: 100. | في الجمهرة: EN «Barzakh»، FR «Barzakh Monde Intermédiaire / Isthme / Séparation». | سبب الاختلاف عن الجمهرة (EN): الاستراتيجية keep_and_gloss: يُبقى اللفظ العربي بالحروف اللاتينية لأنه لا مقابل إنجليزي يؤدي معناه الشرعي كاملًا، ومقابل الجمهرة «Barzakh» مذكور في الشرح. | تحقق الفرنسية (2026-10-03): مقابل الجمهرة الفرنسي «Barzakh Monde Intermédiaire / Isthme / Séparation» (الرابط في source.ref).",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/2060/en | FR: https://islamic-content.com/dictionary/word/2060/fr | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/10379 | الدليل: https://api.quranpedia.net/v1/ayah/23/100/options",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "qada_wa_qadar",
+    "ar": "القضاء والقدر",
+    "variants_ar": [
+      "القدر",
+      "المقدّر",
+      "قدر الله",
+      "الإيمان بالقدر"
+    ],
+    "en": {
+      "preferred": "qadar",
+      "gloss": "divine decree: Allah's knowledge, writing, will and creation of all things",
+      "avoid": [
+        "fate",
+        "destiny",
+        "luck",
+        "fatalism"
+      ]
+    },
+    "fr": {
+      "preferred": "qadar",
+      "gloss": "le Destin et le Décret divin : science, écriture, volonté et création d'Allah",
+      "avoid": [
+        "fatalité",
+        "chance",
+        "fatalisme"
+      ]
+    },
+    "usage_note_ar": "التعريف: علم الله بالأشياء وكتابته لها ومشيئته وخلقه إياها. — fate وfatalism تنفيان كسب العبد واختياره فتُرفضان. | الدليل: القمر: 49؛ صحيح مسلم (8). | في الجمهرة: EN «Divine decree»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. ⚠️ يُحال إلى المختص إذا ورد في سياق حكم أو فتوى أو تطبيق عملي، لا في كل ورود. | سبب الاختلاف عن الجمهرة (EN): الاستراتيجية keep_and_gloss: يُبقى اللفظ العربي بالحروف اللاتينية لأنه لا مقابل إنجليزي يؤدي معناه الشرعي كاملًا، ومقابل الجمهرة «Divine decree» مذكور في الشرح. | «القدر» تأتي أيضًا في «ليلة القدر» (Laylat al-Qadr) وبمعنى المقدار؛ يُختار المقابل حسب السياق. | تحقق الفرنسية (2026-10-03): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 54:49: «décret».",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/7840/en | FR: غير متوفر في الجمهرة | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/16556 | الدليل: https://api.quranpedia.net/v1/ayah/54/49/options ؛ https://dorar.net/h/60wn0eQQ | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/54/49",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "ghayb",
+    "ar": "الغيب",
+    "variants_ar": [
+      "غيب",
+      "الغيبيات",
+      "عالم الغيب"
+    ],
+    "en": {
+      "preferred": "imperceptible realm",
+      "gloss": "what is beyond human perception, known fully only to Allah",
+      "avoid": [
+        "supernatural",
+        "occult",
+        "mystery"
+      ]
+    },
+    "fr": {
+      "preferred": "invisible",
+      "gloss": "al-ghayb : ce qui échappe à la perception humaine, connu pleinement d'Allah seul",
+      "avoid": [
+        "surnaturel",
+        "occulte",
+        "mystère"
+      ]
+    },
+    "usage_note_ar": "التعريف: ما غاب عن الحواس مما أخبر به الوحي. — the occult يرتبط بالسحر فيُرفض. | الدليل: البقرة: 3. | في الجمهرة: EN «The imperceptible realm»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تحقق الفرنسية (2026-10-03): موسوعة رواد للمصطلحات (FR): «L'Inconnu / L'Invisible (Al Ghayb)».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/7334/en | FR: غير متوفر في الجمهرة | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/47802 | الدليل: https://api.quranpedia.net/v1/ayah/2/3/options | FR تحقق (رواد): https://terminologyenc.com/fr/browse/term/47802",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "shirk",
+    "ar": "الشرك",
+    "variants_ar": [
+      "شرك",
+      "المشرك",
+      "المشركون",
+      "المشركين",
+      "أشرك",
+      "يشرك"
+    ],
+    "en": {
+      "preferred": "shirk",
+      "gloss": "polytheism; associating partners with Allah",
+      "avoid": [
+        "idolatry"
+      ]
+    },
+    "fr": {
+      "preferred": "shirk",
+      "gloss": "polythéisme ; l'association de partenaires à Allah",
+      "avoid": [
+        "idolâtrie"
+      ]
+    },
+    "usage_note_ar": "التعريف: جعل شريك لله في ربوبيته أو ألوهيته أو أسمائه وصفاته. — polytheism لا تشمل الشرك الأصغر ولا شرك العبادة مع الإقرار بالرب؛ يلزم النقل الصوتي. | الدليل: لقمان: 13؛ النساء: 48. | في الجمهرة: EN «Polytheism»، FR «Polythéisme». ⚠️ يُحال إلى المختص إذا ورد في سياق حكم أو فتوى أو تطبيق عملي، لا في كل ورود. | سبب الاختلاف عن الجمهرة (EN): الاستراتيجية keep_and_gloss: يُبقى اللفظ العربي بالحروف اللاتينية لأنه لا مقابل إنجليزي يؤدي معناه الشرعي كاملًا، ومقابل الجمهرة «Polytheism» مذكور في الشرح. | تجنّب: EN: «idolatry» منفردةً دون شرح — FR: «idolâtrie» منفردةً دون شرح | تحقق الفرنسية (2026-10-03): مقابل الجمهرة الفرنسي «Polythéisme» (الرابط في source.ref).",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/5954/en | FR: https://islamic-content.com/dictionary/word/5954/fr | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/4062 | الدليل: https://api.quranpedia.net/v1/ayah/31/13/options ؛ https://api.quranpedia.net/v1/ayah/4/48/options",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "kufr",
+    "ar": "الكفر",
+    "variants_ar": [
+      "كفر",
+      "الكافر",
+      "الكافرون",
+      "الكافرين",
+      "الكفار",
+      "كفروا"
+    ],
+    "en": {
+      "preferred": "kufr",
+      "gloss": "disbelief: rejecting faith in Allah or what He revealed, wholly or partly",
+      "avoid": [
+        "infidelity",
+        "blasphemy",
+        "heresy"
+      ]
+    },
+    "fr": {
+      "preferred": "kufr",
+      "gloss": "la mécréance : rejeter la foi en Allah ou ce qu'Il a révélé, en tout ou en partie",
+      "avoid": [
+        "infidélité",
+        "blasphème",
+        "hérésie"
+      ]
+    },
+    "usage_note_ar": "التعريف: عدم الإيمان بالله ورسله، تكذيباً أو إعراضاً أو جحوداً. — infidel لفظ تحقيري في الإنجليزية المعاصرة؛ disbeliever هو المقابل المعتمد للكافر. | الدليل: البقرة: 6. | في الجمهرة: EN «Disbelief»، FR «Mécréance». ⚠️ يُحال إلى المختص إذا ورد في سياق حكم أو فتوى أو تطبيق عملي، لا في كل ورود. | سبب الاختلاف عن الجمهرة (EN): الاستراتيجية keep_and_gloss: يُبقى اللفظ العربي بالحروف اللاتينية لأنه لا مقابل إنجليزي يؤدي معناه الشرعي كاملًا، ومقابل الجمهرة «Disbelief» مذكور في الشرح. | تحقق الفرنسية (2026-10-03): مقابل الجمهرة الفرنسي «Mécréance» (الرابط في source.ref).",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/8204/en | FR: https://islamic-content.com/dictionary/word/8204/fr | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/7349 | الدليل: https://api.quranpedia.net/v1/ayah/2/6/options",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "nifaq",
+    "ar": "النفاق",
+    "variants_ar": [
+      "نفاق",
+      "المنافق",
+      "المنافقون",
+      "المنافقين"
+    ],
+    "en": {
+      "preferred": "nifaq",
+      "gloss": "hypocrisy in faith: outwardly showing Islam while concealing disbelief",
+      "avoid": [
+        "two-facedness",
+        "insincerity"
+      ]
+    },
+    "fr": {
+      "preferred": "nifâq",
+      "gloss": "l'hypocrisie dans la foi : afficher l'Islam en cachant la mécréance",
+      "avoid": [
+        "duplicité"
+      ]
+    },
+    "usage_note_ar": "التعريف: إظهار الإسلام وإبطان الكفر (اعتقادي)، أو خصال المنافقين العملية. — يُفرَّق بين النفاق الاعتقادي والعملي في الشرح. | الدليل: النساء: 145. | في الجمهرة: EN «hypocrisy»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. ⚠️ يُحال إلى المختص إذا ورد في سياق حكم أو فتوى أو تطبيق عملي، لا في كل ورود. | سبب الاختلاف عن الجمهرة (EN): الاستراتيجية keep_and_gloss: يُبقى اللفظ العربي بالحروف اللاتينية لأنه لا مقابل إنجليزي يؤدي معناه الشرعي كاملًا، ومقابل الجمهرة «hypocrisy» مذكور في الشرح. | تجنّب: EN: «two-facedness» لأنها عامية — FR: «duplicité» لأنها عامية | تحقق الفرنسية (2026-10-03): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 4:145: «hypocrites».",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/10511/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/4/145/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/4/145",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "kabair",
+    "ar": "الكبائر",
+    "variants_ar": [
+      "كبائر الذنوب"
+    ],
+    "en": {
+      "preferred": "major sins",
+      "gloss": "grave sins carrying a prescribed penalty or a specific threat of punishment",
+      "avoid": [
+        "capital crimes",
+        "mortal sins"
+      ]
+    },
+    "fr": {
+      "preferred": "grands péchés",
+      "gloss": "péchés graves passibles d'une peine prescrite ou d'une menace spécifique",
+      "avoid": [
+        "péchés mortels"
+      ]
+    },
+    "usage_note_ar": "التعريف: الذنوب العظيمة التي ورد فيها حدٌّ في الدنيا أو وعيد خاص في الآخرة. — لا تُترجم بـ mortal sins لاختلاف المفهوم الكنسي. | الدليل: النساء: 31. | في الجمهرة: EN «Major sins»، FR «Les grands péchés». | تجنّب: EN: «mortal sins» لحملها المعنى المسيحي — FR: «péchés mortels» لحملها المعنى المسيحي | تحقق الفرنسية (2026-10-03): مقابل الجمهرة الفرنسي «Les grands péchés» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/8031/en | FR: https://islamic-content.com/dictionary/word/8031/fr | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/53658 | الدليل: https://api.quranpedia.net/v1/ayah/4/31/options",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "bidah",
+    "ar": "البدعة",
+    "variants_ar": [
+      "بدعة",
+      "البدع",
+      "المبتدع",
+      "ابتدع"
+    ],
+    "en": {
+      "preferred": "bid'ah",
+      "gloss": "deviation: innovation in religion without basis in the Shari'ah",
+      "avoid": [
+        "creativity"
+      ]
+    },
+    "fr": {
+      "preferred": "innovation religieuse",
+      "gloss": "bid'a : ce qui est introduit dans la religion sans fondement dans la Charia",
+      "avoid": [
+        "créativité"
+      ]
+    },
+    "usage_note_ar": "التعريف: ما أُحدث في الدين مما لا أصل له في الشرع بقصد التعبد. — innovation في الإنجليزية إيجابية؛ يجب التقييد «in religion». | الدليل: صحيح مسلم (867)؛ صحيح البخاري (2697). | في الجمهرة: EN «Deviation»، FR «innovation». ⚠️ يُحال إلى المختص إذا ورد في سياق حكم أو فتوى أو تطبيق عملي، لا في كل ورود. | سبب الاختلاف عن الجمهرة (EN): الاستراتيجية keep_and_gloss: يُبقى اللفظ العربي بالحروف اللاتينية لأنه لا مقابل إنجليزي يؤدي معناه الشرعي كاملًا، ومقابل الجمهرة «Deviation» مذكور في الشرح. | تجنّب: EN: «innovation» منفردةً لأنها إيجابية في الإنجليزية | تحقق الفرنسية (2026-10-03): مقابل الجمهرة الفرنسي «innovation» (الرابط في source.ref).",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/2013/en | FR: https://islamic-content.com/dictionary/word/2013/fr | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/46046 | الدليل: https://dorar.net/h/dlqn822W ؛ https://dorar.net/h/3vGYNOte",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "fitrah",
+    "ar": "الفطرة",
+    "variants_ar": [
+      "فطرة",
+      "فطرة الله"
+    ],
+    "en": {
+      "preferred": "fitrah",
+      "gloss": "nature; the natural disposition upon which Allah created people, inclined to Tawhid",
+      "avoid": [
+        "instinct",
+        "human nature"
+      ]
+    },
+    "fr": {
+      "preferred": "fitra",
+      "gloss": "la nature originelle sur laquelle Allah a créé les hommes, inclinée vers le Tawhîd",
+      "avoid": [
+        "instinct",
+        "nature humaine"
+      ]
+    },
+    "usage_note_ar": "التعريف: الخِلقة التي خلق الله الناس عليها من الاستعداد لقبول التوحيد. | الدليل: الروم: 30. | في الجمهرة: EN «Nature»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): الاستراتيجية keep_and_gloss: يُبقى اللفظ العربي بالحروف اللاتينية لأنه لا مقابل إنجليزي يؤدي معناه الشرعي كاملًا، ومقابل الجمهرة «Nature» مذكور في الشرح. | تجنّب: EN: «human nature» منفردةً دون شرح — FR: «nature humaine» منفردةً دون شرح | تحقق الفرنسية (2026-10-03): موسوعة رواد للمصطلحات (FR): «Disposition naturelle / Nature originelle (Fitrah)».",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/7479/en | FR: غير متوفر في الجمهرة | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/16555 | الدليل: https://api.quranpedia.net/v1/ayah/30/30/options | FR تحقق (رواد): https://terminologyenc.com/fr/browse/term/16555",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "hidayah",
+    "ar": "الهداية",
+    "variants_ar": [
+      "هداية",
+      "الهدى",
+      "هدى",
+      "اهدنا",
+      "يهدي",
+      "المهتدين"
+    ],
+    "en": {
+      "preferred": "guidance",
+      "gloss": "being shown the truth and enabled by Allah to follow it",
+      "avoid": [
+        "direction",
+        "enlightenment"
+      ]
+    },
+    "fr": {
+      "preferred": "guidée",
+      "gloss": "hidâya : être guidé vers la vérité et aidé par Allah à la suivre",
+      "avoid": [
+        "direction",
+        "illumination"
+      ]
+    },
+    "usage_note_ar": "التعريف: الدلالة على الحق والتوفيق لاتباعه. — enlightenment ذات حمولة فلسفية/بوذية فتُرفض. | الدليل: الفاتحة: 6. | في الجمهرة: EN «Guidance»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/10681/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/1/6/options",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-02"
+    }
+  },
+  {
+    "id": "ahl_kitab",
+    "ar": "أهل الكتاب",
+    "variants_ar": [
+      "اليهود والنصارى",
+      "أهل الكتابين"
+    ],
+    "en": {
+      "preferred": "people of the scripture",
+      "gloss": "people of scripture; Jews and Christians",
+      "avoid": [
+        "Abrahamic faiths"
+      ]
+    },
+    "fr": {
+      "preferred": "gens du livre",
+      "gloss": "juifs et chrétiens",
+      "avoid": [
+        "religions abrahamiques"
+      ]
+    },
+    "usage_note_ar": "التعريف: اليهود والنصارى. | الدليل: آل عمران: 64. | في الجمهرة: EN «People of scripture»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تحقق الفرنسية (2026-10-03): موسوعة رواد للمصطلحات (FR): «Les Gens du Livre».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/1817/en | FR: غير متوفر في الجمهرة | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/8659 | الدليل: https://api.quranpedia.net/v1/ayah/3/64/options | FR تحقق (رواد): https://terminologyenc.com/fr/browse/term/8659",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "ahl_sunnah_wal_jamaah",
+    "ar": "أهل السنة والجماعة",
+    "variants_ar": [
+      "أهل السنة",
+      "السنة والجماعة"
+    ],
+    "en": {
+      "preferred": "ahl as-sunnah wal-jama'ah",
+      "gloss": "the Sunni people; the people who adhere to the Sunnah and the consensus of the Companions",
+      "avoid": [
+        "Sunni sect",
+        "orthodox church"
+      ]
+    },
+    "fr": {
+      "preferred": "ahl as-sunna wal-jamâ'a",
+      "gloss": "les partisans de la Sunna et du consensus",
+      "avoid": [
+        "secte sunnite"
+      ]
+    },
+    "usage_note_ar": "التعريف: المتمسكون بما كان عليه النبي ﷺ وأصحابه في الاعتقاد والعمل، المجتمعون على الحق. — لا يُقدَّم على أنه «طائفة» بل منهج. | الدليل: سنن أبي داود (4607). | في الجمهرة: EN «The Sunni people»، FR «Les partisans de la Sunnah et du consensus». ⚠️ يُحال إلى المختص إذا ورد في سياق حكم أو فتوى أو تطبيق عملي، لا في كل ورود. | سبب الاختلاف عن الجمهرة (EN): الاستراتيجية keep_and_gloss: يُبقى اللفظ العربي بالحروف اللاتينية لأنه لا مقابل إنجليزي يؤدي معناه الشرعي كاملًا، ومقابل الجمهرة «The Sunni people» مذكور في الشرح. | تحقق الفرنسية (2026-10-03): مقابل الجمهرة الفرنسي «Les partisans de la Sunnah et du consensus» (الرابط في source.ref).",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/1805/en | FR: https://islamic-content.com/dictionary/word/1805/fr | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/46043 | الدليل: https://dorar.net/h/sBiWYl2o",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  }
+]

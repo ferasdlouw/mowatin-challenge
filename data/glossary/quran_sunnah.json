@@ -1,0 +1,761 @@
+[
+  {
+    "id": "tanzil",
+    "ar": "التنزيل",
+    "variants_ar": [
+      "تنزيل",
+      "القرآن المنزل"
+    ],
+    "en": {
+      "preferred": "tanzil",
+      "gloss": "the Quran, the Revelation: the Word of Allah sent down to Prophet Muhammad",
+      "avoid": [
+        "Koran",
+        "Muslim Bible",
+        "Muhammad's book"
+      ]
+    },
+    "fr": {
+      "preferred": "tanzîl",
+      "gloss": "la révélation : le Coran, Parole d'Allah descendue sur le Prophète Muhammad",
+      "avoid": [
+        "bible des musulmans",
+        "livre de Muhammad"
+      ]
+    },
+    "usage_note_ar": "التعريف: كلام الله المنزل على نبيه محمد ﷺ، المتعبد بتلاوته، المعجز بلفظه. — Koran صيغة قديمة مرفوضة، و«كتاب محمد» تنفي أنه كلام الله. | الدليل: يوسف: 2؛ البقرة: 185. | في الجمهرة: EN «The Quran, the Revelation»، FR «La révélation». | سبب الاختلاف عن الجمهرة (EN): الاستراتيجية keep_and_gloss: يُبقى اللفظ العربي بالحروف اللاتينية لأنه لا مقابل إنجليزي يؤدي معناه الشرعي كاملًا، ومقابل الجمهرة «The Quran, the Revelation» مذكور في الشرح. | تحقق الفرنسية (2026-10-03): مقابل الجمهرة الفرنسي «La révélation» (الرابط في source.ref)، ورواد (FR): «La révélation».",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/3453/en | FR: https://islamic-content.com/dictionary/word/3453/fr | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/10476 | الدليل: https://api.quranpedia.net/v1/ayah/12/2/options ؛ https://api.quranpedia.net/v1/ayah/2/185/options | FR تحقق (رواد): https://terminologyenc.com/fr/browse/term/10476",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "surah",
+    "ar": "السورة",
+    "variants_ar": [
+      "سورة",
+      "السور"
+    ],
+    "en": {
+      "preferred": "surah",
+      "gloss": "chapter of the Qur'an",
+      "avoid": [
+        "book"
+      ]
+    },
+    "fr": {
+      "preferred": "sourate",
+      "gloss": "chapitre du Coran",
+      "avoid": [
+        "livre"
+      ]
+    },
+    "usage_note_ar": "التعريف: طائفة من آيات القرآن لها مبدأ ونهاية. | الدليل: البقرة: 23. | في الجمهرة: EN «Surah»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تجنّب: EN: «chapter» منفردةً دون شرح — FR: «chapitre» منفردةً دون شرح | تحقق الفرنسية (2026-10-03): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 2:23: «une sourate identique».",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/5806/en | FR: غير متوفر في الجمهرة | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/14838 | الدليل: https://api.quranpedia.net/v1/ayah/2/23/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/2/23",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "ayah",
+    "ar": "الآية",
+    "variants_ar": [
+      "آية",
+      "الآيات",
+      "آياته"
+    ],
+    "en": {
+      "preferred": "ayah",
+      "gloss": "the sign; a verse of the Qur'an (sense depends on context)",
+      "avoid": [
+        "line",
+        "sentence"
+      ]
+    },
+    "fr": {
+      "preferred": "âya",
+      "gloss": "âya : verset du Coran ; aussi : signe",
+      "avoid": [
+        "ligne",
+        "phrase"
+      ]
+    },
+    "usage_note_ar": "التعريف: جملة من القرآن ذات مبدأ ومقطع مندرجة في سورة. — لها معنى ثانٍ «العلامة» (sign) حسب السياق. | الدليل: ص: 29. | في الجمهرة: EN «The sign»، FR «Signe». | سبب الاختلاف عن الجمهرة (EN): مصطلح متعدد المعاني (context): آية القرآن، والعلامة، والمعجزة؛ ويُختار المقابل بحسب السياق. | تحقق الفرنسية (2026-10-03): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 2:106: «Nous n’abrogeons nul verset» (المعنى الاصطلاحي)، وعنوان الجمهرة الفرنسي «Signe» للمعنى اللغوي الوارد في الشرح.",
+    "strategy": "context",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/1906/en | FR: https://islamic-content.com/dictionary/word/1906/fr | الدليل: https://api.quranpedia.net/v1/ayah/38/29/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/2/106",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "tafsir",
+    "ar": "التفسير",
+    "variants_ar": [
+      "تفسير",
+      "المفسر",
+      "المفسرون",
+      "فسّر"
+    ],
+    "en": {
+      "preferred": "tafsir",
+      "gloss": "understanding and explaining the meanings of the Qur'an (exegesis)",
+      "avoid": [
+        "interpretation",
+        "commentary"
+      ]
+    },
+    "fr": {
+      "preferred": "tafsîr",
+      "gloss": "l'exégèse : expliquer les sens du Coran",
+      "avoid": [
+        "interprétation",
+        "commentaire"
+      ]
+    },
+    "usage_note_ar": "التعريف: بيان معاني القرآن. | الدليل: النحل: 44. | في الجمهرة: EN «Understanding»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): الاستراتيجية keep_and_gloss: يُبقى اللفظ العربي بالحروف اللاتينية لأنه لا مقابل إنجليزي يؤدي معناه الشرعي كاملًا، ومقابل الجمهرة «Understanding» مذكور في الشرح. | تجنّب: EN: «interpretation» لأنها ذاتية؛ «commentary» منفردةً دون شرح — FR: «interprétation» لأنها ذاتية؛ «commentaire» منفردةً دون شرح",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/3153/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/16/44/options",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-02"
+    }
+  },
+  {
+    "id": "tajwid",
+    "ar": "التجويد",
+    "variants_ar": [
+      "تجويد",
+      "أحكام التجويد"
+    ],
+    "en": {
+      "preferred": "tajwid",
+      "gloss": "rules of Qur'anic recitation",
+      "avoid": [
+        "singing",
+        "chanting"
+      ]
+    },
+    "fr": {
+      "preferred": "tajwîd",
+      "gloss": "les règles de récitation du Coran",
+      "avoid": [
+        "chant",
+        "psalmodie"
+      ]
+    },
+    "usage_note_ar": "التعريف: إعطاء كل حرف حقه ومستحقه في التلاوة. | الدليل: المزمل: 4. | في الجمهرة: EN «Tajwīd»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/2451/en | FR: غير متوفر في الجمهرة | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/136 | الدليل: https://api.quranpedia.net/v1/ayah/73/4/options",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-02"
+    }
+  },
+  {
+    "id": "asbab_nuzul",
+    "ar": "أسباب النزول",
+    "variants_ar": [
+      "سبب النزول",
+      "أسباب نزول الآية"
+    ],
+    "en": {
+      "preferred": "asbab an-nuzul",
+      "gloss": "reasons of revelation; reasons (occasions) of revelation of Qur'anic verses",
+      "avoid": [
+        "causes of the Qur'an",
+        "historical origins"
+      ]
+    },
+    "fr": {
+      "preferred": "asbâb an-nuzûl",
+      "gloss": "circonstances de la révélation des versets coraniques",
+      "avoid": [
+        "causes du Coran"
+      ]
+    },
+    "usage_note_ar": "التعريف: ما نزلت الآية أو الآيات بشأنه وقت وقوعه من حادثة أو سؤال. — لا تعني أن الحكم مقصور على السبب (العبرة بعموم اللفظ). | الدليل: أسباب النزول للواحدي. | في الجمهرة: EN «Reasons of revelation»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): الاستراتيجية keep_and_gloss: يُبقى اللفظ العربي بالحروف اللاتينية لأنه لا مقابل إنجليزي يؤدي معناه الشرعي كاملًا، ومقابل الجمهرة «Reasons of revelation» مذكور في الشرح. | تجنّب: EN: «historical origins» لأنها تميّع الحكم",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/777/en | FR: غير متوفر في الجمهرة | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/14775 | الدليل: https://shamela.ws/book/11456",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-02"
+    }
+  },
+  {
+    "id": "naskh",
+    "ar": "النسخ",
+    "variants_ar": [
+      "الناسخ",
+      "المنسوخ",
+      "الناسخ والمنسوخ"
+    ],
+    "en": {
+      "preferred": "abrogation",
+      "gloss": "naskh: the lifting of an earlier legal ruling by a later textual proof",
+      "avoid": [
+        "copying",
+        "deletion of the Qur'an",
+        "correction of error"
+      ]
+    },
+    "fr": {
+      "preferred": "abrogation",
+      "gloss": "naskh : levée d'une règle antérieure par une preuve textuelle postérieure",
+      "avoid": [
+        "copie",
+        "correction d'erreur"
+      ]
+    },
+    "usage_note_ar": "التعريف: رفع حكم شرعي متقدم بدليل شرعي متأخر. — لا يعني تصحيح خطأ؛ تُحال النصوص المتعلقة به للمختص. | الدليل: البقرة: 106. | في الجمهرة: EN «Abrogation»، FR «Abrogation». ⚠️ يُحال إلى المختص إذا ورد في سياق حكم أو فتوى أو تطبيق عملي، لا في كل ورود. | تحقق الفرنسية (2026-10-03): مقابل الجمهرة الفرنسي «Abrogation» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/10404/en | FR: https://islamic-content.com/dictionary/word/10404/fr | الدليل: https://api.quranpedia.net/v1/ayah/2/106/options",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "basmalah",
+    "ar": "البسملة",
+    "variants_ar": [
+      "بسم الله",
+      "بسم الله الرحمن الرحيم"
+    ],
+    "en": {
+      "preferred": "basmalah",
+      "gloss": "saying 'In the name of Allah, the Most Merciful, the Especially Merciful'",
+      "avoid": [
+        "in the name of god almighty"
+      ]
+    },
+    "fr": {
+      "preferred": "basmala",
+      "gloss": "la formule « Au nom d'Allah, le Tout Miséricordieux, le Très Miséricordieux »",
+      "avoid": [
+        "au nom de dieu tout-puissant"
+      ]
+    },
+    "usage_note_ar": "التعريف: قول: بسم الله الرحمن الرحيم. | الدليل: النمل: 30. | في الجمهرة: EN «The basmalah»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تحقق الفرنسية (2026-10-03): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 27:30: «Au nom d'Allah, le Tout Miséricordieux, le Très Miséricordieux».",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/2082/en | FR: غير متوفر في الجمهرة | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/14819 | الدليل: https://api.quranpedia.net/v1/ayah/27/30/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/27/30",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "hadith",
+    "ar": "الحديث",
+    "variants_ar": [
+      "حديث",
+      "الأحاديث",
+      "حديث نبوي",
+      "الحديث الشريف"
+    ],
+    "en": {
+      "preferred": "hadith",
+      "gloss": "what is reported from the Prophet ﷺ of his sayings, actions or approvals; prophetic narration: what is reported from the Prophet of words, deeds, approvals or descriptions",
+      "avoid": [
+        "tradition",
+        "story",
+        "legend",
+        "saying"
+      ]
+    },
+    "fr": {
+      "preferred": "hadith",
+      "gloss": "ce qui est rapporté du Prophète ﷺ : paroles, actes ou approbations; parole ou récit prophétique",
+      "avoid": [
+        "tradition",
+        "histoire",
+        "légende"
+      ]
+    },
+    "usage_note_ar": "في الحزمة العلمية (نماذج القاموس ص8): ما نُقل عن النبي ﷺ من قول أو فعل أو تقرير ونحو ذلك، مع بيان درجة الثبوت عند الاستدلال. | التعريف: ما أضيف إلى النبي ﷺ من قول أو فعل أو تقرير أو صفة. — tradition وlegend تُضعفان الثبوت؛ يُرفضان. | الدليل: سنن الترمذي (2656). | في الجمهرة: EN «Hadith»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تجنّب: EN: «saying» منفردةً دون شرح",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "الحزمة العلمية — نماذج القاموس ص8 | EN: https://islamic-content.com/dictionary/word/4139/en | FR: غير متوفر في الجمهرة | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/71790 | الدليل: https://dorar.net/h/wIvObB47",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-02"
+    }
+  },
+  {
+    "id": "sunnah",
+    "ar": "السنة",
+    "variants_ar": [
+      "السنة النبوية",
+      "السنن",
+      "سنة النبي"
+    ],
+    "en": {
+      "preferred": "sunnah",
+      "gloss": "the Prophet's ﷺ guidance and way; the Prophet's teachings and way",
+      "avoid": [
+        "custom",
+        "year",
+        "tradition",
+        "habit"
+      ]
+    },
+    "fr": {
+      "preferred": "sunna",
+      "gloss": "la guidance et la voie du Prophète ﷺ; l'enseignement et la voie du Prophète",
+      "avoid": [
+        "coutume",
+        "tradition",
+        "habitude"
+      ]
+    },
+    "usage_note_ar": "في الحزمة العلمية (نماذج القاموس ص8): هدي النبي ﷺ وطريقته، ويحدد المقصود بحسب السياق العلمي. | التعريف: ما صدر عن النبي ﷺ من قول أو فعل أو تقرير. — «السنة» مصدراً تختلف عن «السنة» حكماً تكليفياً (recommended). | الدليل: الحشر: 7. | في الجمهرة: EN «The sunnah»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تحقق الفرنسية (2026-10-03): موسوعة رواد للمصطلحات (FR): «La Sunnah / Tradition [Prophétique]».",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "الحزمة العلمية — نماذج القاموس ص8 | EN: https://islamic-content.com/dictionary/word/5744/en | FR: غير متوفر في الجمهرة | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/10811 | الدليل: https://api.quranpedia.net/v1/ayah/59/7/options | FR تحقق (رواد): https://terminologyenc.com/fr/browse/term/10811",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "isnad",
+    "ar": "الإسناد",
+    "variants_ar": [
+      "إسناد",
+      "السند",
+      "الأسانيد"
+    ],
+    "en": {
+      "preferred": "isnad",
+      "gloss": "the chain of transmission; chain of narrators",
+      "avoid": [
+        "references",
+        "source list"
+      ]
+    },
+    "fr": {
+      "preferred": "isnâd",
+      "gloss": "isnâd : la chaîne des rapporteurs qui transmettent le texte jusqu'à sa source",
+      "avoid": [
+        "références",
+        "bibliographie"
+      ]
+    },
+    "usage_note_ar": "التعريف: سلسلة الرواة الموصلة إلى متن الحديث. | الدليل: مقدمة صحيح مسلم (قول ابن المبارك)؛ الحجرات: 6. | في الجمهرة: EN «The chain of transmission»، FR «Joindre, relier». | سبب الاختلاف عن الجمهرة (EN): الاستراتيجية keep_and_gloss: يُبقى اللفظ العربي بالحروف اللاتينية لأنه لا مقابل إنجليزي يؤدي معناه الشرعي كاملًا، ومقابل الجمهرة «The chain of transmission» مذكور في الشرح.",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/1061/en | FR: https://islamic-content.com/dictionary/word/1061/fr | الدليل: https://shamela.ws/book/12067/28 ؛ https://api.quranpedia.net/v1/ayah/49/6/options",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-02"
+    }
+  },
+  {
+    "id": "sahih_li_dhatih",
+    "ar": "الصحيح لذاته",
+    "variants_ar": [
+      "الحديث الصحيح لذاته"
+    ],
+    "en": {
+      "preferred": "sahih li-dhatih",
+      "gloss": "authentic by itself: a hadith meeting all conditions of authenticity without support",
+      "avoid": [
+        "true",
+        "correct"
+      ]
+    },
+    "fr": {
+      "preferred": "sahîh li-dhâtih",
+      "gloss": "authentique par lui-même : hadith réunissant toutes les conditions d'authenticité",
+      "avoid": [
+        "vrai",
+        "correct"
+      ]
+    },
+    "usage_note_ar": "التعريف: ما اتصل سنده بنقل العدل الضابط عن مثله من غير شذوذ ولا علة. | الدليل: اصطلاح حديثي — نزهة النظر لابن حجر. | في الجمهرة: EN «Authentic by itself»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): الاستراتيجية keep_and_gloss: يُبقى اللفظ العربي بالحروف اللاتينية لأنه لا مقابل إنجليزي يؤدي معناه الشرعي كاملًا، ومقابل الجمهرة «Authentic by itself» مذكور في الشرح. | تجنّب: EN: «correct» لأنها عامية — FR: «correct» لأنها عامية",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/6181/en | FR: غير متوفر في الجمهرة | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/71812 | الدليل: https://shamela.ws/book/1565",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-02"
+    }
+  },
+  {
+    "id": "daif",
+    "ar": "الضعيف",
+    "variants_ar": [
+      "حديث ضعيف"
+    ],
+    "en": {
+      "preferred": "weak",
+      "gloss": "weak hadith: one lacking a condition of acceptance",
+      "avoid": [
+        "false",
+        "fake"
+      ]
+    },
+    "fr": {
+      "preferred": "faible",
+      "gloss": "da'îf : hadith faible",
+      "avoid": [
+        "faux",
+        "inventé"
+      ]
+    },
+    "usage_note_ar": "التعريف: ما لم تجتمع فيه صفات الحديث المقبول. — الضعيف لا يساوي المكذوب. | الدليل: اصطلاح حديثي — نزهة النظر لابن حجر. | في الجمهرة: EN «Weak»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/6473/en | FR: غير متوفر في الجمهرة | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/71787 | الدليل: https://shamela.ws/book/1565",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-02"
+    }
+  },
+  {
+    "id": "mutawatir",
+    "ar": "المتواتر",
+    "variants_ar": [
+      "متواتر",
+      "التواتر",
+      "الحديث المتواتر"
+    ],
+    "en": {
+      "preferred": "mutawatir",
+      "gloss": "mass-transmitted: narrated by so many that collusion on a lie is impossible",
+      "avoid": [
+        "popular",
+        "famous"
+      ]
+    },
+    "fr": {
+      "preferred": "mutawâtir",
+      "gloss": "profus : transmis par un si grand nombre que la collusion sur un mensonge est impossible",
+      "avoid": [
+        "populaire",
+        "célèbre"
+      ]
+    },
+    "usage_note_ar": "التعريف: ما رواه جمع يستحيل في العادة تواطؤهم على الكذب عن مثلهم إلى منتهاه، وكان مستندهم الحس. | الدليل: اصطلاح حديثي — نزهة النظر لابن حجر. | في الجمهرة: EN «Mutawātir»، FR «Profus». | تجنّب: EN: «famous» منفردةً دون شرح — FR: «célèbre» منفردةً دون شرح | تحقق الفرنسية (2026-10-03): مقابل الجمهرة الفرنسي «Profus» (الرابط في source.ref)، ورواد (FR): «Profus».",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/8821/en | FR: https://islamic-content.com/dictionary/word/8821/fr | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/10480 | الدليل: https://shamela.ws/book/1565 | FR تحقق (رواد): https://terminologyenc.com/fr/browse/term/10480",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "sahabi",
+    "ar": "الصحابي",
+    "variants_ar": [
+      "صحابي",
+      "الصحابة",
+      "صحابية"
+    ],
+    "en": {
+      "preferred": "companion of the prophet",
+      "gloss": "one who met the Prophet as a believer and died as a Muslim",
+      "avoid": [
+        "friend",
+        "follower",
+        "disciple",
+        "apostle"
+      ]
+    },
+    "fr": {
+      "preferred": "compagnon",
+      "gloss": "sahâbî : celui qui a rencontré le Prophète en croyant et est mort musulman",
+      "avoid": [
+        "ami",
+        "disciple",
+        "apôtre"
+      ]
+    },
+    "usage_note_ar": "التعريف: من لقي النبي ﷺ مؤمناً به ومات على ذلك. — disciple وapostle مفاهيم كنسية؛ يُكتب Companion بحرف كبير. | الدليل: التوبة: 100. | في الجمهرة: EN «Companion of the Prophet»، FR «Le compagnon». | تحقق الفرنسية (2026-10-03): مقابل الجمهرة الفرنسي «Le compagnon» (الرابط في source.ref)، ورواد (FR): «Compagnon (Sahâbî)».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/6140/en | FR: https://islamic-content.com/dictionary/word/6140/fr | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/14964 | الدليل: https://api.quranpedia.net/v1/ayah/9/100/options | FR تحقق (رواد): https://terminologyenc.com/fr/browse/term/14964",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "tabii",
+    "ar": "التابعي",
+    "variants_ar": [
+      "تابعي",
+      "التابعون",
+      "التابعين"
+    ],
+    "en": {
+      "preferred": "tabi'i",
+      "gloss": "successor of the Companions",
+      "avoid": [
+        "follower"
+      ]
+    },
+    "fr": {
+      "preferred": "tâbi'î",
+      "gloss": "successeur des Compagnons",
+      "avoid": [
+        "suiveur"
+      ]
+    },
+    "usage_note_ar": "التعريف: من لقي الصحابي مؤمناً ومات على الإسلام. | الدليل: التوبة: 100. | في الجمهرة: EN «Tābiʿī»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تجنّب: EN: «follower» منفردةً دون شرح — FR: «suiveur» منفردةً دون شرح",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/2297/en | FR: غير متوفر في الجمهرة | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/71780 | الدليل: https://api.quranpedia.net/v1/ayah/9/100/options",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-02"
+    }
+  },
+  {
+    "id": "isra",
+    "ar": "الإسراء",
+    "variants_ar": [
+      "الإسراء والمعراج",
+      "ليلة الإسراء"
+    ],
+    "en": {
+      "preferred": "isra'",
+      "gloss": "the Night Journey of the Prophet from al-Masjid al-Haram to al-Masjid al-Aqsa",
+      "avoid": [
+        "dream journey",
+        "vision"
+      ]
+    },
+    "fr": {
+      "preferred": "isrâ'",
+      "gloss": "le Voyage nocturne du Prophète de la Mosquée sacrée à la Mosquée al-Aqsâ",
+      "avoid": [
+        "voyage en rêve"
+      ]
+    },
+    "usage_note_ar": "التعريف: رحلة النبي ﷺ ليلًا من المسجد الحرام إلى المسجد الأقصى. — الإسراء كان بالروح والجسد عند أهل السنة. | الدليل: الإسراء: 1. | في الجمهرة: EN «The night journey»، FR «Faire route la nuit». | سبب الاختلاف عن الجمهرة (EN): الاستراتيجية keep_and_gloss: يُبقى اللفظ العربي بالحروف اللاتينية لأنه لا مقابل إنجليزي يؤدي معناه الشرعي كاملًا، ومقابل الجمهرة «The night journey» مذكور في الشرح. | تجنّب: EN: «vision» منفردةً دون شرح | تحقق الفرنسية (2026-10-03): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 17:1: «de nuit, fit voyager Son serviteur»، أما عنوان الجمهرة ورواد «Faire route la nuit» فهو المعنى اللغوي فقط، فلا يُعتمد دليلًا.",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/995/en | FR: https://islamic-content.com/dictionary/word/995/fr | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/43336 | الدليل: https://api.quranpedia.net/v1/ayah/17/1/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/17/1",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "hijrah",
+    "ar": "الهجرة",
+    "variants_ar": [
+      "هجرة",
+      "هاجر",
+      "المهاجرون",
+      "المهاجرين"
+    ],
+    "en": {
+      "preferred": "hijrah",
+      "gloss": "the Prophet's migration from Makkah to Madinah",
+      "avoid": [
+        "flight",
+        "escape"
+      ]
+    },
+    "fr": {
+      "preferred": "hégire",
+      "gloss": "l'émigration du Prophète de La Mecque à Médine (l'Hégire)",
+      "avoid": [
+        "fuite",
+        "évasion"
+      ]
+    },
+    "usage_note_ar": "التعريف: انتقال النبي ﷺ وأصحابه من مكة إلى المدينة، وتطلق على الانتقال من دار الكفر إلى دار الإسلام. — flight تُصوّرها هروباً. | الدليل: التوبة: 40. | في الجمهرة: EN «Migration»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): الاستراتيجية keep_and_gloss: يُبقى اللفظ العربي بالحروف اللاتينية لأنه لا مقابل إنجليزي يؤدي معناه الشرعي كاملًا، ومقابل الجمهرة «Migration» مذكور في الشرح. | تدقيق الفرنسية (2026-10-03): أُعيد مسودة بعد التدقيق: عنوان رواد «Émigration (Hijrah)» عام في كل هجرة، ومقابلنا «hégire» خاص بهجرة النبي ﷺ؛ يحتاج شاهدًا خاصًّا.",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/10677/en | FR: غير متوفر في الجمهرة | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/36590 | الدليل: https://api.quranpedia.net/v1/ayah/9/40/options | FR تحقق (رواد): https://terminologyenc.com/fr/browse/term/36590",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "adalah",
+    "ar": "العدالة",
+    "variants_ar": [
+      "عدالة",
+      "العدول",
+      "عدالة الراوي",
+      "عدل الراوي",
+      "عدالة الصحابة",
+      "عدالة الشاهد"
+    ],
+    "en": {
+      "preferred": "probity",
+      "gloss": "'adalah: the uprightness of a narrator or witness that makes his report or testimony acceptable",
+      "avoid": [
+        "justice",
+        "equality"
+      ]
+    },
+    "fr": {
+      "preferred": "probité",
+      "gloss": "'adâla : intégrité morale du rapporteur ou du témoin qui rend son récit ou son témoignage recevable",
+      "avoid": [
+        "justice",
+        "égalité"
+      ]
+    },
+    "usage_note_ar": "التعريف: ملكة تحمل صاحبها على ملازمة التقوى والمروءة، وهي شرط في قبول رواية الراوي وشهادة الشاهد. — مصطلح حديثي وفقهي، ويُفرَّق بينه وبين «العدل» (justice) فهو مفهوم آخر له مدخل مستقل. | الدليل: الطلاق: 2 «وأشهدوا ذوي عدل منكم»؛ الحجرات: 6. | في الجمهرة: EN «Righteousness, fairness» (قسم الحديث وعلومه)؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة: «righteousness, fairness» يلتبس بالعدل العام، والمقصود هنا صفة الراوي والشاهد، فاعتُمد probity بحسب مراجعة الفريق. | تحقق الفرنسية (2026-10-03): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 65:2: «deux musulmans intègres».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/6762/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/65/2/options ؛ https://api.quranpedia.net/v1/ayah/49/6/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/65/2",
+      "retrieved": "2026-10-02"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  }
+]

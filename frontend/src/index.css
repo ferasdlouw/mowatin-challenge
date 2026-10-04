@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+ * Scale model: the design boards are drawn at 1536px. On desktop, 1rem tracks
+ * the viewport so the page reads exactly like the board at any width
+ * (1536px -> 16px). Phones/tablets use a normal fixed rem and a stacked layout.
+ */
+@layer base {
+  html { scroll-behavior: smooth; font-size: 16px; -webkit-text-size-adjust: 100%; }
+  @media (min-width: 1280px) { html { font-size: clamp(14px, calc(100vw / 96), 20px); } }
+
+  body { @apply bg-paper font-sans text-ink-900 antialiased; text-rendering: optimizeLegibility; }
+  ::selection { background: #A7D7C3; color: #0A4A37; }
+  :focus-visible { outline: 2px solid #1FA672; outline-offset: 3px; border-radius: 10px; }
+  a { text-underline-offset: 0.25em; }
+  .tabular { font-variant-numeric: tabular-nums; }
+
+  html { scrollbar-color: #A7D7C3 #F5F7FA; }
+  ::-webkit-scrollbar { width: 12px; }
+  ::-webkit-scrollbar-track { background: #F5F7FA; }
+  ::-webkit-scrollbar-thumb { background: #A7D7C3; border: 3px solid #F5F7FA; border-radius: 999px; }
+  ::-webkit-scrollbar-thumb:hover { background: #1FA672; }
+}
+
+@layer components {
+  .shell { @apply mx-auto w-full max-w-full px-4 sm:px-6 xl:px-0; }
+  .latin { @apply font-latin; direction: ltr; unicode-bidi: isolate; }
+  .eyebrow { @apply inline-flex items-center gap-[1.4rem] font-bold text-brand-800; }
+  .eyebrow::before, .eyebrow::after { content: ''; height: 1.5px; width: 3.4rem; background: linear-gradient(90deg, transparent, #1FA672); }
+  .eyebrow::after { transform: scaleX(-1); }
+}
+
+/* ───────────── Motion: one authored moment — the detection pass ───────────── */
+:root { --ease-out: cubic-bezier(0.16, 1, 0.3, 1); }
+
+/* Hero card: a scan line reads the source, each element is recognised,
+   its route is drawn, and the protected output resolves from blur to sharp. */
+.scan-play .scan-line { animation: scan 1.6s var(--ease-out) 0.25s both; }
+@keyframes scan {
+  0% { transform: translateY(-10%); opacity: 0; }
+  12% { opacity: 1; }
+  100% { transform: translateY(1050%); opacity: 0; }
+}
+.scan-play .detect { animation: detect 0.7s var(--ease-out) both; animation-delay: calc(0.45s + var(--i) * 0.32s); }
+@keyframes detect {
+  0% { box-shadow: 0 0 0 0 var(--glow); filter: saturate(0.2); }
+  45% { box-shadow: 0 0 0 0.35rem var(--glow); filter: saturate(1.25); }
+  100% { box-shadow: 0 0 0 0 transparent; filter: none; }
+}
+.scan-play .detect-bar { animation: bar 0.6s var(--ease-out) both; animation-delay: calc(0.45s + var(--i) * 0.32s); transform-origin: 50% 0; }
+@keyframes bar { from { transform: scaleY(0); } to { transform: scaleY(1); } }
+.scan-play .route path { stroke-dasharray: 30; animation: route 0.55s var(--ease-out) both; animation-delay: calc(0.8s + var(--i) * 0.32s); }
+@keyframes route { from { stroke-dashoffset: 30; } to { stroke-dashoffset: 0; } }
+.scan-play .resolve { animation: resolve 0.9s var(--ease-out) both; animation-delay: calc(1s + var(--i) * 0.32s); }
+@keyframes resolve {
+  from { filter: blur(6px); opacity: 0.25; transform: translateX(var(--dx, -0.6rem)); }
+  to { filter: blur(0); opacity: 1; transform: none; }
+}
+.scan-play .stamp { animation: stamp 0.8s var(--ease-out) 2.55s both; }
+@keyframes stamp {
+  0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(31,166,114,.55); }
+  35% { transform: scale(1.12) rotate(-4deg); }
+  100% { transform: scale(1); box-shadow: 0 0 0 1.1rem rgba(31,166,114,0); }
+}
+.scan-play .stamp-check { stroke-dasharray: 24; animation: route 0.5s var(--ease-out) 2.7s both; }
+
+/* Supporting: highlighter marks paint in when the How section arrives. */
+.hl { background-repeat: no-repeat; background-size: 100% 100%; transition: background-size 0.9s var(--ease-out); }
+.reveal-wait .hl { background-size: 0% 100%; }
+.reveal-in .hl { transition-delay: calc(var(--i) * 0.35s); }
+.flow-arrow path { stroke-dasharray: 40; stroke-dashoffset: 0; transition: stroke-dashoffset 0.8s var(--ease-out) 0.4s; }
+.reveal-wait .flow-arrow path { stroke-dashoffset: 40; }
+
+/* Ambient: very slow drift on the decorative imagery (pauses off-screen via IO). */
+.drift { animation: drift 18s ease-in-out infinite alternate; }
+@keyframes drift { from { transform: translate3d(0,0,0) scale(1.02); } to { transform: translate3d(-1.2%, -0.6%, 0) scale(1.06); } }
+.paused .drift { animation-play-state: paused; }
+
+/* Feedback */
+.lift { transition: transform 0.35s var(--ease-out), box-shadow 0.35s var(--ease-out); }
+.lift:hover { transform: translateY(-0.25rem); box-shadow: 0 1.4rem 3rem -1.2rem rgba(14,58,74,.22); }
+.btn-shine { position: relative; overflow: hidden; isolation: isolate; }
+.btn-shine::after { content: ''; position: absolute; inset: 0; z-index: -1; background: linear-gradient(110deg, transparent 30%, rgba(255,255,255,.28) 50%, transparent 70%); transform: translateX(120%); transition: transform 0.7s var(--ease-out); }
+.btn-shine:hover::after { transform: translateX(-120%); }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .scan-play .scan-line, .drift { animation: none !important; opacity: 0; }
+  .scan-play .detect, .scan-play .detect-bar, .scan-play .route path, .scan-play .stamp, .scan-play .stamp-check { animation: none !important; }
+  .scan-play .resolve { animation: fade 0.4s ease-out both; filter: none; transform: none; }
+  @keyframes fade { from { opacity: 0.4; } to { opacity: 1; } }
+  .lift:hover { transform: none; }
+  .tilt { transform: none !important; }
+}
+
+/* ───────────── Tool (/app) ───────────── */
+.seg-in { animation: segIn 0.7s var(--ease-out) both; animation-delay: calc(var(--i) * 0.12s); }
+@keyframes segIn { from { opacity: 0; transform: translateY(0.6rem); filter: blur(4px); } to { opacity: 1; transform: none; filter: none; } }
+.term-hit { background: linear-gradient(transparent 55%, #FDF1E3 55%); border-radius: 2px; cursor: pointer; transition: background 0.2s; }
+.term-hit:hover, .term-hit[aria-expanded="true"] { background: linear-gradient(transparent 0, #FBE3C4 0); }
+.mark-ok { background: linear-gradient(transparent 55%, #CDEBDD 55%); border-radius: 2px; }
+.mark-bad { background: #FDECEA; color: #B42318; text-decoration: line-through; text-decoration-thickness: 1.5px; border-radius: 3px; padding: 0 2px; }
+.step-run .step-dot { animation: pulse 1s ease-in-out infinite; }
+@keyframes pulse { 50% { box-shadow: 0 0 0 0.45rem rgba(31,166,114,.18); } }
+.skeleton { background: linear-gradient(90deg, #EEF2F5 25%, #F7F9FA 50%, #EEF2F5 75%); background-size: 200% 100%; animation: shimmer 1.2s linear infinite; }
+@keyframes shimmer { to { background-position: -200% 0; } }
+@media (prefers-reduced-motion: reduce) {
+  .seg-in { animation: fade 0.3s ease-out both; filter: none; transform: none; }
+  .skeleton, .step-run .step-dot { animation: none; }
+}
+
+/* Image fades — prefixed for Safari/older Chromium. */
+.mask-feather { -webkit-mask-image: radial-gradient(ellipse 46% 56% at 54% 54%, #000 60%, transparent 100%); mask-image: radial-gradient(ellipse 46% 56% at 54% 54%, #000 60%, transparent 100%); }
+.mask-hero-right { -webkit-mask-image: linear-gradient(to left, #000 78%, transparent); mask-image: linear-gradient(to left, #000 78%, transparent); }
+.mask-hero-left {
+  -webkit-mask-image: linear-gradient(to right, #000 62%, transparent), linear-gradient(to top, #000 80%, transparent);
+  -webkit-mask-composite: source-in;
+  mask-image: linear-gradient(to right, #000 62%, transparent), linear-gradient(to top, #000 80%, transparent);
+  mask-composite: intersect;
+}
+
+/* English landing page: Latin face first, Arabic fallback for scripture. */
+html[lang='en'] body { font-family: Inter, Tajawal, system-ui, sans-serif; }

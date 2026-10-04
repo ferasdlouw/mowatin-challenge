@@ -1,0 +1,971 @@
+[
+  {
+    "id": "shariah",
+    "ar": "الشريعة",
+    "variants_ar": [
+      "شريعة",
+      "الشرع",
+      "الشرائع"
+    ],
+    "en": {
+      "preferred": "sharia",
+      "gloss": "Islamic law and guidance; the sharia: the law revealed by Allah, covering worship, ethics and dealings",
+      "avoid": [
+        "penal code",
+        "criminal law",
+        "sharia law",
+        "religious code"
+      ]
+    },
+    "fr": {
+      "preferred": "charia",
+      "gloss": "la loi et la guidance islamiques; la législation ; la loi islamique révélée par Allah",
+      "avoid": [
+        "code pénal",
+        "loi charia",
+        "code religieux"
+      ]
+    },
+    "usage_note_ar": "في الحزمة العلمية (نماذج القاموس ص8): يشرح بحسب السياق، ولا يختزل في العقوبات أو القانون الجنائي. | التعريف: ما شرعه الله لعباده من الأحكام. — يُشرح شمولها للعبادات والأخلاق لا العقوبات وحدها. — المقابل «sharia» كما في الحزمة العلمية. | الدليل: الجاثية: 18. | في الجمهرة: EN «The sharia»، FR «La législation». ⚠️ يُحال إلى المختص إذا ورد في سياق حكم أو فتوى أو تطبيق عملي، لا في كل ورود. | سبب الاختلاف عن الجمهرة (EN): الاستراتيجية keep_and_gloss: يُبقى اللفظ العربي بالحروف اللاتينية لأنه لا مقابل إنجليزي يؤدي معناه الشرعي كاملًا، ومقابل الجمهرة «The sharia» مذكور في الشرح. | تجنّب: EN: «sharia law» لأنها قدحية — FR: «loi charia» لأنها قدحية | تحقق الفرنسية (2026-10-03): مقابل الجمهرة الفرنسي «La législation» (الرابط في source.ref).",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "الحزمة العلمية — نماذج القاموس ص8 | EN: https://islamic-content.com/dictionary/word/5979/en | FR: https://islamic-content.com/dictionary/word/5979/fr | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/47755 | الدليل: https://api.quranpedia.net/v1/ayah/45/18/options",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "fiqh",
+    "ar": "الفقه",
+    "variants_ar": [
+      "فقه",
+      "الفقيه",
+      "الفقهاء",
+      "فقهي"
+    ],
+    "en": {
+      "preferred": "fiqh",
+      "gloss": "Islamic jurisprudence: knowing practical rulings from their detailed evidence",
+      "avoid": [
+        "theology",
+        "canon law"
+      ]
+    },
+    "fr": {
+      "preferred": "fiqh",
+      "gloss": "la jurisprudence : connaître les règles pratiques à partir de leurs preuves détaillées",
+      "avoid": [
+        "théologie",
+        "droit canon"
+      ]
+    },
+    "usage_note_ar": "التعريف: معرفة الأحكام الشرعية العملية من أدلتها التفصيلية. | الدليل: صحيح البخاري (71). | في الجمهرة: EN «Fiqh»، FR «Jurisprudence». | تحقق الفرنسية (2026-10-03): مقابل الجمهرة الفرنسي «Jurisprudence» (الرابط في source.ref)، ورواد (FR): «Jurisprudence».",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/7490/en | FR: https://islamic-content.com/dictionary/word/7490/fr | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/31690 | الدليل: https://dorar.net/h/VtNiIYYI | FR تحقق (رواد): https://terminologyenc.com/fr/browse/term/31690",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "fatwa",
+    "ar": "الفتوى",
+    "variants_ar": [
+      "فتوى",
+      "الفتاوى",
+      "فتيا",
+      "الفتيا",
+      "الإفتاء",
+      "المفتي",
+      "أفتى",
+      "يفتيكم"
+    ],
+    "en": {
+      "preferred": "fatwa",
+      "gloss": "a religious ruling issued by a qualified scholar on a case or question",
+      "avoid": [
+        "general information",
+        "decree",
+        "death sentence",
+        "edict"
+      ]
+    },
+    "fr": {
+      "preferred": "fatwa",
+      "gloss": "un avis juridique religieux émis par un savant qualifié",
+      "avoid": [
+        "décret",
+        "condamnation à mort",
+        "édit"
+      ]
+    },
+    "usage_note_ar": "في الحزمة العلمية (نماذج القاموس ص8): جواب شرعي يصدره مؤهل في واقعة أو سؤال؛ ولا يساوى بالمعلومة العامة. | التعريف: جواب شرعي يصدره مؤهل في واقعة أو سؤال؛ ولا يساوى بالمعلومة العامة، ولا يُختزل في «حكم بالإعدام». — «الإفتاء» (إصدار الفتوى) متغير لهذا المصطلح. | الدليل: النساء: 127؛ النحل: 43. | في الجمهرة: EN «Legal opinion»، FR «Fatwa» (مدخل «فتيا»)، ومدخل «الإفتاء»: EN «Issuing a fatwa». | سبب الاختلاف عن الجمهرة (EN): «fatwa» هو المقابل في الحزمة العلمية الرسمية، ومقابل الجمهرة «legal opinion» مذكور في الشرح. | تجنّب: EN: «death sentence» و«edict» لأنهما يحرّفان معنى الفتوى — FR: «condamnation à mort» و«édit» كذلك. ⚠️ يُحال كل نص فيه فتوى إلى المختص الشرعي قبل النشر. | تحقق الفرنسية (2026-10-03): مقابل الجمهرة الفرنسي «Fatwa» (الرابط في source.ref).",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "الحزمة العلمية — نماذج القاموس ص8 | EN: https://islamic-content.com/dictionary/word/12075/en | FR: https://islamic-content.com/dictionary/word/12075/fr | الإفتاء: https://islamic-content.com/dictionary/word/1366/en | الدليل: https://api.quranpedia.net/v1/ayah/4/127/options ؛ https://api.quranpedia.net/v1/ayah/16/43/options",
+      "retrieved": "2026-10-02"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "ijtihad",
+    "ar": "الاجتهاد",
+    "variants_ar": [
+      "اجتهاد",
+      "المجتهد"
+    ],
+    "en": {
+      "preferred": "ijtihad",
+      "gloss": "independent scholarly reasoning",
+      "avoid": [
+        "personal opinion",
+        "effort"
+      ]
+    },
+    "fr": {
+      "preferred": "ijtihâd",
+      "gloss": "l'effort d'interprétation du savant qualifié",
+      "avoid": [
+        "opinion personnelle"
+      ]
+    },
+    "usage_note_ar": "التعريف: بذل الفقيه وسعه في استنباط الحكم الشرعي من الأدلة. | الدليل: صحيح البخاري (7352)؛ صحيح مسلم (1716). | في الجمهرة: EN «Ijtihad»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تجنّب: EN: «effort» منفردةً دون شرح — FR: «effort» منفردةً دون شرح",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/196/en | FR: غير متوفر في الجمهرة | الدليل: https://dorar.net/h/1EypRElR",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-02"
+    }
+  },
+  {
+    "id": "ijma",
+    "ar": "الإجماع",
+    "variants_ar": [
+      "إجماع",
+      "أجمع العلماء",
+      "مجمع عليه"
+    ],
+    "en": {
+      "preferred": "ijma'",
+      "gloss": "unanimity: the consensus of qualified scholars after the Prophet on a ruling",
+      "avoid": [
+        "majority vote",
+        "popular opinion"
+      ]
+    },
+    "fr": {
+      "preferred": "ijmâ'",
+      "gloss": "le consensus des savants qualifiés après le Prophète sur une règle",
+      "avoid": [
+        "vote majoritaire",
+        "opinion populaire"
+      ]
+    },
+    "usage_note_ar": "التعريف: اتفاق مجتهدي الأمة بعد النبي ﷺ على حكم شرعي في عصر من العصور. | الدليل: النساء: 115. | في الجمهرة: EN «Unanimity»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): الاستراتيجية keep_and_gloss: يُبقى اللفظ العربي بالحروف اللاتينية لأنه لا مقابل إنجليزي يؤدي معناه الشرعي كاملًا، ومقابل الجمهرة «Unanimity» مذكور في الشرح.",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/234/en | FR: غير متوفر في الجمهرة | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/570 | الدليل: https://api.quranpedia.net/v1/ayah/4/115/options",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-02"
+    }
+  },
+  {
+    "id": "qiyas",
+    "ar": "القياس",
+    "variants_ar": [
+      "قياس"
+    ],
+    "en": {
+      "preferred": "analogy",
+      "gloss": "analogical reasoning: extending a textual ruling to a new case sharing its effective cause",
+      "avoid": [
+        "comparison"
+      ]
+    },
+    "fr": {
+      "preferred": "raisonnement analogique",
+      "gloss": "qiyâs : étendre la règle d'un texte à un cas nouveau partageant la même cause",
+      "avoid": [
+        "comparaison"
+      ]
+    },
+    "usage_note_ar": "التعريف: إلحاق فرع بأصل في حكم لعلة جامعة بينهما. | الدليل: الحشر: 2؛ روضة الناظر لابن قدامة. | في الجمهرة: EN «Analogy»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تجنّب: EN: «comparison» لأنها عامية — FR: «comparaison» لأنها عامية",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/7947/en | FR: غير متوفر في الجمهرة | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/7034 | الدليل: https://api.quranpedia.net/v1/ayah/59/2/options ؛ https://shamela.ws/book/12010",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-02"
+    }
+  },
+  {
+    "id": "madhhab",
+    "ar": "المذهب",
+    "variants_ar": [
+      "مذهب",
+      "المذاهب",
+      "المذاهب الأربعة",
+      "مذهبي"
+    ],
+    "en": {
+      "preferred": "school of fiqh",
+      "gloss": "school of jurisprudence",
+      "avoid": [
+        "sect",
+        "denomination"
+      ]
+    },
+    "fr": {
+      "preferred": "école juridique",
+      "gloss": "madhhab : école de jurisprudence fondée par un imam et ses disciples",
+      "avoid": [
+        "secte",
+        "confession"
+      ]
+    },
+    "usage_note_ar": "التعريف: ما ذهب إليه إمام من الأئمة من الأحكام وأصول الاستنباط. — sect توحي بالانشقاق العقدي فتُرفض. | الدليل: اصطلاح فقهي. | في الجمهرة: EN «School of fiqh»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/9210/en | FR: غير متوفر في الجمهرة",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-02"
+    }
+  },
+  {
+    "id": "fard",
+    "ar": "الفرض",
+    "variants_ar": [
+      "الواجب",
+      "فريضة",
+      "الفرائض",
+      "واجب"
+    ],
+    "en": {
+      "preferred": "obligation",
+      "gloss": "fard / wajib",
+      "avoid": [
+        "recommended",
+        "required"
+      ]
+    },
+    "fr": {
+      "preferred": "obligation",
+      "gloss": "obligation : ce que le Législateur a exigé de façon ferme (fard / wâjib)",
+      "avoid": [
+        "recommandé",
+        "requis"
+      ]
+    },
+    "usage_note_ar": "التعريف: ما طلب الشارع فعله طلباً جازماً، يُثاب فاعله ويستحق تاركه العقاب. — يُثبَّت obligatory دون مرادفات. | الدليل: اصطلاح أصولي — روضة الناظر لابن قدامة. | في الجمهرة: EN «Obligation»، FR «Obligation». | تجنّب: EN: «required» لعدم اتساق الكتابة — FR: «requis» لعدم اتساق الكتابة | تحقق الفرنسية (2026-10-03): مقابل الجمهرة الفرنسي «Obligation» (الرابط في source.ref)، ورواد (FR): «Obligation».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/7427/en | FR: https://islamic-content.com/dictionary/word/7427/fr | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/6680 | الدليل: https://shamela.ws/book/12010 | FR تحقق (رواد): https://terminologyenc.com/fr/browse/term/6680",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "mustahabb",
+    "ar": "المستحب",
+    "variants_ar": [
+      "مستحب",
+      "المندوب"
+    ],
+    "en": {
+      "preferred": "desirable",
+      "gloss": "an act rewarded when done and not punished when left",
+      "avoid": [
+        "optional",
+        "tradition"
+      ]
+    },
+    "fr": {
+      "preferred": "recommandé",
+      "gloss": "mustahabb : acte récompensé si on l'accomplit, sans péché si on le délaisse",
+      "avoid": [
+        "facultatif",
+        "tradition"
+      ]
+    },
+    "usage_note_ar": "التعريف: ما طلب الشارع فعله طلباً غير جازم، يُثاب فاعله ولا يُعاقب تاركه. — يُفرَّق بين «السنة» حكماً (recommended) و«السنة» مصدراً (the Sunnah). — يُطلق عليه «سنة» عند بعض الفقهاء، ولم تُدرج متغيرًا لاشتباهها بمصطلح «السنة». | الدليل: اصطلاح أصولي — روضة الناظر لابن قدامة. | في الجمهرة: EN «Desirable»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تجنّب: EN: «optional» منفردةً دون شرح — FR: «facultatif» منفردةً دون شرح",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/9388/en | FR: غير متوفر في الجمهرة | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/4114 | الدليل: https://shamela.ws/book/12010",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-02"
+    }
+  },
+  {
+    "id": "makruh",
+    "ar": "المكروه",
+    "variants_ar": [
+      "مكروه",
+      "يُكره",
+      "كراهة"
+    ],
+    "en": {
+      "preferred": "reprehensible",
+      "gloss": "an act rewarded when left for Allah's sake and not punished when done",
+      "avoid": [
+        "hated",
+        "forbidden"
+      ]
+    },
+    "fr": {
+      "preferred": "réprouvé",
+      "gloss": "makrûh : acte récompensé si on le délaisse pour Allah, sans péché si on l'accomplit",
+      "avoid": [
+        "détesté",
+        "interdit"
+      ]
+    },
+    "usage_note_ar": "التعريف: ما طلب الشارع تركه طلباً غير جازم. | الدليل: اصطلاح أصولي — روضة الناظر لابن قدامة. | في الجمهرة: EN «Reprehensible»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/9936/en | FR: غير متوفر في الجمهرة | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/7351 | الدليل: https://shamela.ws/book/12010",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-02"
+    }
+  },
+  {
+    "id": "mubah",
+    "ar": "المباح",
+    "variants_ar": [
+      "مباح",
+      "يباح",
+      "الإباحة"
+    ],
+    "en": {
+      "preferred": "permissible",
+      "gloss": "an act neither rewarded nor punished in itself",
+      "avoid": [
+        "neutral",
+        "allowed"
+      ]
+    },
+    "fr": {
+      "preferred": "permis",
+      "gloss": "mubâh : acte qui n'entraîne en soi ni récompense ni châtiment",
+      "avoid": [
+        "neutre",
+        "autorisé"
+      ]
+    },
+    "usage_note_ar": "التعريف: ما لا يتعلق به أمر ولا نهي لذاته. | الدليل: اصطلاح أصولي — روضة الناظر لابن قدامة. | في الجمهرة: EN «Permissible»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تجنّب: EN: «allowed» لعدم اتساق الكتابة — FR: «autorisé» لعدم اتساق الكتابة",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/8686/en | FR: غير متوفر في الجمهرة | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/75284 | الدليل: https://shamela.ws/book/12010",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-02"
+    }
+  },
+  {
+    "id": "halal",
+    "ar": "الحلال",
+    "variants_ar": [
+      "حلال",
+      "أحلّ"
+    ],
+    "en": {
+      "preferred": "halal",
+      "gloss": "permissible; lawful: what the Shari'ah allows",
+      "avoid": [
+        "kosher",
+        "clean"
+      ]
+    },
+    "fr": {
+      "preferred": "halal",
+      "gloss": "licite : ce que la Charia permet",
+      "avoid": [
+        "casher",
+        "propre"
+      ]
+    },
+    "usage_note_ar": "التعريف: ما أباحه الشرع. | الدليل: صحيح البخاري (52)؛ البقرة: 275. | في الجمهرة: EN «Permissible»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): الاستراتيجية keep_and_gloss: يُبقى اللفظ العربي بالحروف اللاتينية لأنه لا مقابل إنجليزي يؤدي معناه الشرعي كاملًا، ومقابل الجمهرة «Permissible» مذكور في الشرح. | تحقق الفرنسية (2026-10-03): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 2:168: «nourritures pures et licites».",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/4469/en | FR: غير متوفر في الجمهرة | الدليل: https://dorar.net/h/4ZKVwaZy ؛ https://api.quranpedia.net/v1/ayah/2/275/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/2/168",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "haram",
+    "ar": "الحرام",
+    "variants_ar": [
+      "حرام",
+      "محرّم",
+      "التحريم",
+      "حرّم",
+      "المحرمات",
+      "المحظور"
+    ],
+    "en": {
+      "preferred": "haram",
+      "gloss": "forbidden: what the Lawgiver has decisively prohibited",
+      "avoid": [
+        "taboo",
+        "sin",
+        "sacred"
+      ]
+    },
+    "fr": {
+      "preferred": "haram",
+      "gloss": "illicite : ce que le Législateur a interdit de façon catégorique",
+      "avoid": [
+        "tabou",
+        "péché",
+        "sacré"
+      ]
+    },
+    "usage_note_ar": "التعريف: ما طلب الشارع تركه طلبًا جازمًا، يُثاب تاركه امتثالًا ويستحق فاعله العقاب. — يحذر من خلطه بـ«البيت الحرام» (sacred). | الدليل: البقرة: 275؛ صحيح البخاري (52). | في الجمهرة: EN «Forbidden»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): الاستراتيجية keep_and_gloss: يُبقى اللفظ العربي بالحروف اللاتينية لأنه لا مقابل إنجليزي يؤدي معناه الشرعي كاملًا، ومقابل الجمهرة «Forbidden» مذكور في الشرح. | تجنّب: EN: «sin» منفردةً دون شرح — FR: «péché» منفردةً دون شرح | تحقق الفرنسية (2026-10-03): موسوعة رواد للمصطلحات (FR): «Illicite (Ḥarâm)»، وترجمة رشيد معاش (16:116): «illicite».",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/4169/en | FR: غير متوفر في الجمهرة | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/779 | الدليل: https://api.quranpedia.net/v1/ayah/2/275/options ؛ https://dorar.net/h/4ZKVwaZy | FR تحقق (رواد): https://terminologyenc.com/fr/browse/term/779 | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/16/116",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "tadhkiyah",
+    "ar": "الذكاة",
+    "variants_ar": [
+      "التذكية",
+      "الذبح الشرعي",
+      "ذكّى",
+      "المذكّى"
+    ],
+    "en": {
+      "preferred": "proper slaughter",
+      "gloss": "slaughtering an animal in the manner prescribed by the Shari'ah so that it becomes lawful to eat",
+      "avoid": [
+        "ritual killing",
+        "sacrifice"
+      ]
+    },
+    "fr": {
+      "preferred": "abattage rituel islamique",
+      "gloss": "tadhkiya : abattage selon les règles de la Charia, rendant l'animal licite",
+      "avoid": [
+        "mise à mort rituelle",
+        "sacrifice"
+      ]
+    },
+    "usage_note_ar": "التعريف: ذبح الحيوان المأكول على الوجه المشروع. | الدليل: المائدة: 3. | في الجمهرة: EN «Proper slaughter»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/5020/en | FR: غير متوفر في الجمهرة | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/7645 | الدليل: https://api.quranpedia.net/v1/ayah/5/3/options",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-02"
+    }
+  },
+  {
+    "id": "riba",
+    "ar": "الربا",
+    "variants_ar": [
+      "ربا",
+      "المرابي",
+      "الربوي"
+    ],
+    "en": {
+      "preferred": "riba",
+      "gloss": "usury / interest",
+      "avoid": [
+        "profit"
+      ]
+    },
+    "fr": {
+      "preferred": "ribâ",
+      "gloss": "l'usure / l'intérêt",
+      "avoid": [
+        "profit"
+      ]
+    },
+    "usage_note_ar": "التعريف: الزيادة في أشياء مخصوصة أو التأخير فيها على وجه محرم. | الدليل: البقرة: 275. | في الجمهرة: EN «Usury»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): الاستراتيجية keep_and_gloss: يُبقى اللفظ العربي بالحروف اللاتينية لأنه لا مقابل إنجليزي يؤدي معناه الشرعي كاملًا، ومقابل الجمهرة «Usury» مذكور في الشرح. | تجنّب: EN: «interest» منفردةً لأنها محايدة — FR: «intérêt» منفردةً لأنها محايدة | تحقق الفرنسية (2026-10-03): موسوعة رواد للمصطلحات (FR): «Intérêt / Usure (Ribâ)»، وترجمة رشيد معاش (2:275): «l’usure».",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/5109/en | FR: غير متوفر في الجمهرة | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/6512 | الدليل: https://api.quranpedia.net/v1/ayah/2/275/options | FR تحقق (رواد): https://terminologyenc.com/fr/browse/term/6512 | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/2/275",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "gharar",
+    "ar": "الغرر",
+    "variants_ar": [
+      "غرر",
+      "بيع الغرر"
+    ],
+    "en": {
+      "preferred": "gharar",
+      "gloss": "hazard; excessive uncertainty in contracts",
+      "avoid": [
+        "risk",
+        "gambling"
+      ]
+    },
+    "fr": {
+      "preferred": "gharar",
+      "gloss": "l'incertitude excessive dans les contrats",
+      "avoid": [
+        "risque",
+        "jeu de hasard"
+      ]
+    },
+    "usage_note_ar": "التعريف: ما كانت عاقبته مجهولة في العقود. | الدليل: صحيح مسلم (1513). | في الجمهرة: EN «Hazard»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): الاستراتيجية keep_and_gloss: يُبقى اللفظ العربي بالحروف اللاتينية لأنه لا مقابل إنجليزي يؤدي معناه الشرعي كاملًا، ومقابل الجمهرة «Hazard» مذكور في الشرح. | تجنّب: EN: «risk» منفردةً دون شرح — FR: «risque» منفردةً دون شرح",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/7256/en | FR: غير متوفر في الجمهرة | الدليل: https://dorar.net/h/hFGGDXw8",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-02"
+    }
+  },
+  {
+    "id": "mirath",
+    "ar": "الإرث",
+    "variants_ar": [
+      "ميراث",
+      "المواريث",
+      "الورثة"
+    ],
+    "en": {
+      "preferred": "estate",
+      "gloss": "inheritance: the transfer of a deceased's wealth to the heirs as set by the Shari'ah",
+      "avoid": [
+        "will",
+        "legacy"
+      ]
+    },
+    "fr": {
+      "preferred": "héritage islamique",
+      "gloss": "mîrâth : transmission des biens du défunt à ses héritiers selon les parts fixées par la Charia",
+      "avoid": [
+        "testament",
+        "legs"
+      ]
+    },
+    "usage_note_ar": "التعريف: انتقال مال الميت إلى ورثته على الوجه المشروع. — يُفرَّق بين الميراث والوصية (waṣiyyah). — يُسمّى علم المواريث «علم الفرائض»، ولم تُدرج «الفرائض» متغيرًا لاشتباهها بجمع «الفرض». | الدليل: النساء: 11. | في الجمهرة: EN «Estate»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تحقق الفرنسية (2026-10-03): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 4:11: «les deux tiers de l'héritage».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/701/en | FR: غير متوفر في الجمهرة | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/618 | الدليل: https://api.quranpedia.net/v1/ayah/4/11/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/4/11",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "nikah",
+    "ar": "النكاح",
+    "variants_ar": [
+      "نكاح",
+      "الزواج",
+      "عقد النكاح",
+      "تزوّج"
+    ],
+    "en": {
+      "preferred": "marriage",
+      "gloss": "Islamic marriage contract",
+      "avoid": [
+        "wedding"
+      ]
+    },
+    "fr": {
+      "preferred": "mariage",
+      "gloss": "nikâh : contrat de mariage islamique",
+      "avoid": [
+        "noces"
+      ]
+    },
+    "usage_note_ar": "التعريف: عقد بين رجل وامرأة يحل به استمتاع كل منهما بالآخر. | الدليل: النساء: 3. | في الجمهرة: EN «Marriage»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تجنّب: EN: «wedding» بمعنى الحفل فقط — FR: «noces» بمعنى الحفل فقط | تحقق الفرنسية (2026-10-03): موسوعة رواد للمصطلحات (FR): «Mariage (Nikâh)».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/10592/en | FR: غير متوفر في الجمهرة | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/131 | الدليل: https://api.quranpedia.net/v1/ayah/4/3/options | FR تحقق (رواد): https://terminologyenc.com/fr/browse/term/131",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "mahr",
+    "ar": "المهر",
+    "variants_ar": [
+      "مهر",
+      "الصداق",
+      "المهور"
+    ],
+    "en": {
+      "preferred": "mahr",
+      "gloss": "dowry; bridal gift owed to the wife",
+      "avoid": [
+        "bride price"
+      ]
+    },
+    "fr": {
+      "preferred": "mahr",
+      "gloss": "le don nuptial dû à l'épouse",
+      "avoid": [
+        "dot",
+        "prix de la mariée"
+      ]
+    },
+    "usage_note_ar": "التعريف: المال الذي يجب للزوجة على زوجها بعقد النكاح. — dowry في الإنجليزية مال تقدمه أسرة الزوجة، وbride price توحي بالشراء؛ كلاهما مرفوض. | الدليل: النساء: 4. | في الجمهرة: EN «Dowry»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): الاستراتيجية keep_and_gloss: يُبقى اللفظ العربي بالحروف اللاتينية لأنه لا مقابل إنجليزي يؤدي معناه الشرعي كاملًا، ومقابل الجمهرة «Dowry» مذكور في الشرح. | تجنّب: FR: «dot» لأنها تدفعها أسرة الزوجة لا الزوج",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/10153/en | FR: غير متوفر في الجمهرة | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/7082 | الدليل: https://api.quranpedia.net/v1/ayah/4/4/options",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-02"
+    }
+  },
+  {
+    "id": "talaq",
+    "ar": "الطلاق",
+    "variants_ar": [
+      "طلاق",
+      "طلّق",
+      "المطلقة",
+      "المطلقات"
+    ],
+    "en": {
+      "preferred": "divorce",
+      "gloss": "divorce initiated by the husband",
+      "avoid": [
+        "repudiation"
+      ]
+    },
+    "fr": {
+      "preferred": "divorce",
+      "gloss": "talâq : divorce prononcé par le mari",
+      "avoid": [
+        "répudiation"
+      ]
+    },
+    "usage_note_ar": "التعريف: حل قيد النكاح أو بعضه. | الدليل: البقرة: 229؛ الطلاق: 1. | في الجمهرة: EN «Divorce»، FR «Divorce». ⚠️ يُحال إلى المختص إذا ورد في سياق حكم أو فتوى أو تطبيق عملي، لا في كل ورود.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/6595/en | FR: https://islamic-content.com/dictionary/word/6595/fr | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/1164 | الدليل: https://api.quranpedia.net/v1/ayah/2/229/options ؛ https://api.quranpedia.net/v1/ayah/65/1/options",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-02"
+    }
+  },
+  {
+    "id": "iddah",
+    "ar": "العدة",
+    "variants_ar": [
+      "المعتدة",
+      "اعتدّت"
+    ],
+    "en": {
+      "preferred": "'iddah",
+      "gloss": "waiting period a woman observes after divorce or her husband's death",
+      "avoid": [
+        "mourning period"
+      ]
+    },
+    "fr": {
+      "preferred": "'idda",
+      "gloss": "délai de viduité : la période d'attente",
+      "avoid": [
+        "période de deuil"
+      ]
+    },
+    "usage_note_ar": "التعريف: مدة تتربص فيها المرأة بعد الفرقة أو الوفاة. | الدليل: البقرة: 228؛ الطلاق: 1. | في الجمهرة: EN «Waiting period»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): الاستراتيجية keep_and_gloss: يُبقى اللفظ العربي بالحروف اللاتينية لأنه لا مقابل إنجليزي يؤدي معناه الشرعي كاملًا، ومقابل الجمهرة «Waiting period» مذكور في الشرح. | تجنّب: EN: «mourning period» منفردةً دون شرح — FR: «période de deuil» منفردةً دون شرح | تحقق الفرنسية (2026-10-03): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 2:228: «un délai de viduité».",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/6771/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/2/228/options ؛ https://api.quranpedia.net/v1/ayah/65/1/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/2/228",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "jihad",
+    "ar": "الجهاد",
+    "variants_ar": [
+      "جهاد",
+      "المجاهد",
+      "المجاهدين",
+      "جاهد",
+      "جاهدوا"
+    ],
+    "en": {
+      "preferred": "jihad",
+      "gloss": "striving in the path of Allah, according to its Islamic rulings",
+      "avoid": [
+        "holy war",
+        "terrorism",
+        "violence"
+      ]
+    },
+    "fr": {
+      "preferred": "jihad",
+      "gloss": "l'effort dans le sentier d'Allah, selon ses règles islamiques",
+      "avoid": [
+        "guerre sainte",
+        "terrorisme",
+        "violence"
+      ]
+    },
+    "usage_note_ar": "التعريف: بذل الجهد في سبيل الله، ويشمل جهاد النفس والدعوة والقتال المشروع بضوابطه. — holy war مفهوم صليبي مرفوض؛ يُبيَّن شمول المعنى، ويُحال كل نص يتضمن أحكام القتال للمختص. | الدليل: العنكبوت: 69؛ البقرة: 190. | في الجمهرة: EN «Jihad»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. ⚠️ يُحال إلى المختص إذا ورد في سياق حكم أو فتوى أو تطبيق عملي، لا في كل ورود.",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/3925/en | FR: غير متوفر في الجمهرة | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/6778 | الدليل: https://api.quranpedia.net/v1/ayah/29/69/options ؛ https://api.quranpedia.net/v1/ayah/2/190/options",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-02"
+    }
+  },
+  {
+    "id": "mahram",
+    "ar": "محارم",
+    "variants_ar": [
+      "المحارم",
+      "ذو محرم",
+      "محرمات النكاح",
+      "ذوات المحارم"
+    ],
+    "en": {
+      "preferred": "mahram",
+      "gloss": "the women whom a man is forbidden to marry; unmarriageable kin: those one may never marry due to lineage, nursing or marriage ties",
+      "avoid": [
+        "guardian",
+        "chaperone"
+      ]
+    },
+    "fr": {
+      "preferred": "mahram",
+      "gloss": "personnes avec lesquelles le mariage est interdit (parenté, allaitement, alliance)",
+      "avoid": [
+        "tuteur",
+        "chaperon"
+      ]
+    },
+    "usage_note_ar": "التعريف: من تحرم عليه المرأة على التأبيد بنسب أو رضاع أو مصاهرة. — يحذر من خلطه بـ«المُحرِم» في الحج. | الدليل: النساء: 23. | في الجمهرة: EN «The women whom a man is forbidden to marry»، FR «Personnes avec lesquelles le mariage est interdit». | سبب الاختلاف عن الجمهرة (EN): الاستراتيجية keep_and_gloss: يُبقى اللفظ العربي بالحروف اللاتينية لأنه لا مقابل إنجليزي يؤدي معناه الشرعي كاملًا، ومقابل الجمهرة «The women whom a man is forbidden to marry» مذكور في الشرح. | تجنّب: EN: «chaperone» منفردةً دون شرح — FR: «chaperon» منفردةً دون شرح | تحقق الفرنسية (2026-10-03): مقابل الجمهرة الفرنسي «Personnes avec lesquelles le mariage est interdit» (الرابط في source.ref)، ورواد (FR): «Personnes avec lesquelles le mariage est interdit.».",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/12230/en | FR: https://islamic-content.com/dictionary/word/12230/fr | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/6736 | الدليل: https://api.quranpedia.net/v1/ayah/4/23/options | FR تحقق (رواد): https://terminologyenc.com/fr/browse/term/6736",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "fitnah",
+    "ar": "الفتنة",
+    "variants_ar": [
+      "فتنة",
+      "الفتن",
+      "فتنوا",
+      "المفتون"
+    ],
+    "en": {
+      "preferred": "fitnah",
+      "gloss": "trial / tribulation — sense depends on context",
+      "avoid": [
+        "seduction",
+        "charm"
+      ]
+    },
+    "fr": {
+      "preferred": "épreuve",
+      "gloss": "fitna : épreuve, tribulation ou discorde selon le contexte",
+      "avoid": [
+        "séduction",
+        "charme"
+      ]
+    },
+    "usage_note_ar": "التعريف: الابتلاء والاختبار، وتطلق على الشر والاقتتال والصد عن الدين. — مصطلح متعدد الدلالة؛ يُختار المقابل حسب السياق ويُراجع. | الدليل: الأنفال: 28. | في الجمهرة: EN «Trial»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. ⚠️ يُحال إلى المختص إذا ورد في سياق حكم أو فتوى أو تطبيق عملي، لا في كل ورود. | سبب الاختلاف عن الجمهرة (EN): مصطلح متعدد المعاني (context): الابتلاء، والشرك، والاقتتال، والإضلال؛ ويُختار المقابل بحسب السياق. | تجنّب: EN: «charm» منفردةً دون شرح — FR: «charme» منفردةً دون شرح | تحقق الفرنسية (2026-10-03): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 8:28: «tentation et épreuve».",
+    "strategy": "context",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/7394/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/8/28/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/8/28",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  }
+]

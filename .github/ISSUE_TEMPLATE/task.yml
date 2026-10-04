@@ -1,0 +1,40 @@
+name: "مهمة · Task"
+description: "عمل محدد له مسؤول ومعيار قبول"
+labels: ["type:feature"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: "ما المطلوب؟"
+      description: "جملة أو جملتان: ماذا سيتغير عند انتهاء المهمة؟"
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: "معيار القبول"
+      description: "كيف نتحقق أن المهمة تمت؟ يجب أن يكون قابلًا للفحص."
+      value: |
+        - [ ] 
+        - [ ] 
+    validations:
+      required: true
+  - type: dropdown
+    id: criterion
+    attributes:
+      label: "معيار التحكيم الذي تخدمه"
+      options:
+        - "جودة الحل التقني وتوظيف الذكاء الاصطناعي (25%)"
+        - "تحقيق النفع وفق معيار المسار (20%)"
+        - "الموثوقية والسلامة العلمية (15%)"
+        - "الابتكار والقيمة المضافة (15%)"
+        - "تجربة المستفيد والتواصل والإتاحة (10%)"
+        - "واقعية التشغيل والاستكمال (10%)"
+        - "وضوح العرض وإتاحة التحقق (5%)"
+    validations:
+      required: true
+  - type: textarea
+    id: deps
+    attributes:
+      label: "يعتمد على / يُعطّل"
+      description: "روابط Issues أخرى، مثل: يعتمد على #3"

@@ -1,0 +1,23 @@
+[
+ {
+  "id": "tawhid",
+  "ar": "التوحيد",
+  "variants_ar": [],
+  "strategy": "keep_and_gloss",
+  "en": {
+   "preferred": "tawhid",
+   "gloss": "the Oneness of God",
+   "avoid": [
+    "unity",
+    "monotheism"
+   ]
+  },
+  "fr": {
+   "preferred": "tawhîd",
+   "gloss": "l'unicité de Dieu",
+   "avoid": [
+    "unité"
+   ]
+  }
+ }
+]

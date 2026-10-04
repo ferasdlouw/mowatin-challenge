@@ -1,0 +1,721 @@
+{
+  "status": "verified",
+  "reviewed_by": {
+    "name": "ردينة بلال",
+    "date": "2026-10-03"
+  },
+  "items": [
+    {
+      "id": "h_niyyat",
+      "text_ar": "إنما الأعمال بالنيات، وإنما لكل امرئ ما نوى",
+      "variants_ar": [
+        "إنما الأعمال بالنية",
+        "الأعمال بالنيات",
+        "إنما الأعمال بالنيات وإنما لكل امرئ ما نوى"
+      ],
+      "collection": "bukhari",
+      "number": "1",
+      "grade": "صحيح",
+      "source_url": "https://dorar.net/h/45wXAdej",
+      "also": [
+        "bukhari:6689",
+        "bukhari:6953",
+        "abudawud:2201",
+        "ibnmajah:4227",
+        "muslim:1907"
+      ]
+    },
+    {
+      "id": "h_jibril_ihsan",
+      "text_ar": "أن تعبد الله كأنك تراه، فإن لم تكن تراه فإنه يراك",
+      "variants_ar": [
+        "الإحسان أن تعبد الله كأنك تراه",
+        "أن تعبد الله كأنك تراه"
+      ],
+      "collection": "bukhari",
+      "number": "50",
+      "grade": "صحيح",
+      "source_url": "https://dorar.net/h/RZLtWDoB",
+      "also": [
+        "bukhari:4777",
+        "muslim:9",
+        "muslim:8"
+      ]
+    },
+    {
+      "id": "h_din_nasiha",
+      "text_ar": "الدين النصيحة. قلنا: لمن؟ قال: لله ولكتابه ولرسوله ولأئمة المسلمين وعامتهم",
+      "variants_ar": [
+        "الدين النصيحة"
+      ],
+      "collection": "muslim",
+      "number": "55",
+      "grade": "صحيح",
+      "source_url": "https://dorar.net/h/EsvPuuoh",
+      "also": [
+        "abudawud:4944",
+        "nasai:4197"
+      ]
+    },
+    {
+      "id": "h_muslim_salima",
+      "text_ar": "المسلم من سلم المسلمون من لسانه ويده، والمهاجر من هجر ما نهى الله عنه",
+      "variants_ar": [
+        "المسلم من سلم المسلمون من لسانه ويده"
+      ],
+      "collection": "bukhari",
+      "number": "10",
+      "grade": "صحيح",
+      "source_url": "https://dorar.net/h/9itq9NoB",
+      "also": [
+        "bukhari:6484",
+        "muslim:40"
+      ],
+      "note_ar": "الدرر يعرض حكم البخاري بعبارة «أورده في صحيحه»، أي صحيح."
+    },
+    {
+      "id": "h_tuhur_shatr",
+      "text_ar": "الطهور شطر الإيمان، والحمد لله تملأ الميزان",
+      "variants_ar": [
+        "الطهور شطر الإيمان"
+      ],
+      "collection": "muslim",
+      "number": "223",
+      "grade": "صحيح",
+      "source_url": "https://dorar.net/h/TvSSnRwa",
+      "also": []
+    },
+    {
+      "id": "h_halal_bayyin",
+      "text_ar": "الحلال بين، والحرام بين، وبينهما مشبهات لا يعلمها كثير من الناس",
+      "variants_ar": [
+        "الحلال بين والحرام بين",
+        "الحلال بين والحرام بين وبينهما أمور مشتبهات"
+      ],
+      "collection": "bukhari",
+      "number": "52",
+      "grade": "صحيح",
+      "source_url": "https://dorar.net/h/wrjvh9Lg",
+      "also": [
+        "bukhari:2051",
+        "muslim:1599"
+      ]
+    },
+    {
+      "id": "h_la_yuthi_jarah",
+      "text_ar": "من كان يؤمن بالله واليوم الآخر فلا يؤذي جاره",
+      "variants_ar": [
+        "فلا يؤذي جاره",
+        "فلا يؤذ جاره"
+      ],
+      "collection": "muslim",
+      "number": "47",
+      "grade": "صحيح",
+      "source_url": "https://dorar.net/h/K3Df3Vmd",
+      "also": [
+        "bukhari:6018",
+        "bukhari:6136"
+      ]
+    },
+    {
+      "id": "h_falyaqul_khayran",
+      "text_ar": "من كان يؤمن بالله واليوم الآخر فليقل خيرا أو ليصمت",
+      "variants_ar": [
+        "فليقل خيرا أو ليصمت"
+      ],
+      "collection": "bukhari",
+      "number": "6018",
+      "grade": "صحيح",
+      "source_url": "https://dorar.net/h/HXe5YKJL",
+      "also": [
+        "muslim:47",
+        "bukhari:6136",
+        "bukhari:6475",
+        "bukhari:6138"
+      ]
+    },
+    {
+      "id": "h_akhul_muslim_bukhari",
+      "text_ar": "المسلم أخو المسلم، لا يظلمه ولا يسلمه",
+      "variants_ar": [
+        "المسلم أخو المسلم"
+      ],
+      "collection": "bukhari",
+      "number": "2442",
+      "grade": "صحيح",
+      "source_url": "https://dorar.net/h/jlxZZOdn",
+      "also": [
+        "bukhari:6951",
+        "muslim:2580"
+      ]
+    },
+    {
+      "id": "h_akhul_muslim_muslim",
+      "text_ar": "المسلم أخو المسلم، لا يظلمه، ولا يخذله، ولا يحقره",
+      "variants_ar": [],
+      "collection": "muslim",
+      "number": "2564",
+      "grade": "صحيح",
+      "source_url": "https://dorar.net/h/ZiboTABY",
+      "also": []
+    },
+    {
+      "id": "h_talab_ilm_tariq",
+      "text_ar": "من سلك طريقا يلتمس فيه علما سهل الله له به طريقا إلى الجنة",
+      "variants_ar": [
+        "من سلك طريقا يلتمس فيه علما",
+        "من سلك طريقا يطلب فيه علما"
+      ],
+      "collection": "muslim",
+      "number": "2699",
+      "grade": "صحيح",
+      "source_url": "https://dorar.net/h/evvcYL9G",
+      "also": []
+    },
+    {
+      "id": "h_yuhibbu_liakhih",
+      "text_ar": "لا يؤمن أحدكم حتى يحب لأخيه ما يحب لنفسه",
+      "variants_ar": [
+        "لا يؤمن أحدكم حتى يحب لأخيه"
+      ],
+      "collection": "bukhari",
+      "number": "13",
+      "grade": "صحيح",
+      "source_url": "https://dorar.net/h/a3n67ZEt",
+      "also": [
+        "muslim:45"
+      ]
+    },
+    {
+      "id": "h_kalima_tayyiba",
+      "text_ar": "والكلمة الطيبة صدقة",
+      "variants_ar": [
+        "الكلمة الطيبة صدقة"
+      ],
+      "collection": "bukhari",
+      "number": "2989",
+      "grade": "صحيح",
+      "source_url": "https://dorar.net/h/Tszg5ZRJ",
+      "also": [
+        "muslim:1009",
+        "bukhari:2891"
+      ]
+    },
+    {
+      "id": "h_sama_ramadan",
+      "text_ar": "من صام رمضان إيمانا واحتسابا غفر له ما تقدم من ذنبه",
+      "variants_ar": [
+        "من صام رمضان إيمانا واحتسابا"
+      ],
+      "collection": "bukhari",
+      "number": "38",
+      "grade": "صحيح",
+      "source_url": "https://dorar.net/h/OiAmKj95",
+      "also": [
+        "muslim:760",
+        "bukhari:1901",
+        "bukhari:2014"
+      ]
+    },
+    {
+      "id": "h_buniya_islam",
+      "text_ar": "بني الإسلام على خمس: شهادة أن لا إله إلا الله وأن محمدا رسول الله، وإقام الصلاة، وإيتاء الزكاة، والحج، وصوم رمضان",
+      "variants_ar": [
+        "بني الإسلام على خمس",
+        "بني الإسلام على خمسة"
+      ],
+      "collection": "bukhari",
+      "number": "8",
+      "grade": "صحيح",
+      "source_url": "https://dorar.net/h/JDqeTpYd",
+      "also": [
+        "muslim:16"
+      ]
+    },
+    {
+      "id": "h_shadid_sura",
+      "text_ar": "ليس الشديد بالصرعة، إنما الشديد الذي يملك نفسه عند الغضب",
+      "variants_ar": [
+        "ليس الشديد بالصرعة"
+      ],
+      "collection": "bukhari",
+      "number": "6114",
+      "grade": "صحيح",
+      "source_url": "https://dorar.net/h/SllC88XC",
+      "also": [
+        "muslim:2609"
+      ]
+    },
+    {
+      "id": "h_khayrukum_quran",
+      "text_ar": "خيركم من تعلم القرآن وعلمه",
+      "variants_ar": [],
+      "collection": "bukhari",
+      "number": "5027",
+      "grade": "صحيح",
+      "source_url": "https://dorar.net/h/ymYWjzdb",
+      "also": [
+        "abudawud:1452",
+        "tirmidhi:2907",
+        "ahmad:412"
+      ]
+    },
+    {
+      "id": "h_ihsan_kulli_shay",
+      "text_ar": "إن الله كتب الإحسان على كل شيء",
+      "variants_ar": [],
+      "collection": "muslim",
+      "number": "1955",
+      "grade": "صحيح",
+      "source_url": "https://dorar.net/h/zJB1WCUU",
+      "also": [
+        "abudawud:2815",
+        "tirmidhi:1409",
+        "nasai:4405",
+        "ibnmajah:3170"
+      ]
+    },
+    {
+      "id": "h_yufaqqihhu",
+      "text_ar": "من يرد الله به خيرا يفقهه في الدين",
+      "variants_ar": [],
+      "collection": "bukhari",
+      "number": "71",
+      "grade": "صحيح",
+      "source_url": "https://dorar.net/h/dmrsq583",
+      "also": [
+        "bukhari:3116",
+        "bukhari:7312",
+        "muslim:1037",
+        "ibnmajah:221",
+        "ahmad:16837"
+      ]
+    },
+    {
+      "id": "h_ahdatha_radd",
+      "text_ar": "من أحدث في أمرنا هذا ما ليس فيه فهو رد",
+      "variants_ar": [],
+      "collection": "bukhari",
+      "number": "2697",
+      "grade": "صحيح",
+      "source_url": "https://dorar.net/h/jbBC850l",
+      "also": []
+    },
+    {
+      "id": "h_alaykum_bisunnati",
+      "text_ar": "عليكم بسنتي وسنة الخلفاء الراشدين المهديين",
+      "variants_ar": [],
+      "collection": "abudawud",
+      "number": "4607",
+      "grade": "صحيح",
+      "source_url": "https://dorar.net/h/H61Xt94W",
+      "also": []
+    },
+    {
+      "id": "h_haya_shuba",
+      "text_ar": "الإيمان بضع وستون شعبة والحياء شعبة من الإيمان",
+      "variants_ar": [
+        "الحياء شعبة من الإيمان"
+      ],
+      "collection": "bukhari",
+      "number": "9",
+      "grade": "صحيح",
+      "source_url": "https://dorar.net/h/Ki7jDJqM",
+      "also": [
+        "muslim:35"
+      ]
+    },
+    {
+      "id": "h_ghiba",
+      "text_ar": "أتدرون ما الغيبة؟ قالوا: الله ورسوله أعلم، قال: ذكرك أخاك بما يكره",
+      "variants_ar": [
+        "ذكرك أخاك بما يكره"
+      ],
+      "collection": "muslim",
+      "number": "2589",
+      "grade": "صحيح",
+      "source_url": "https://dorar.net/h/MNdCTVnv",
+      "also": []
+    },
+    {
+      "id": "h_nammam",
+      "text_ar": "لا يدخل الجنة نمام",
+      "variants_ar": [],
+      "collection": "muslim",
+      "number": "105",
+      "grade": "صحيح",
+      "source_url": "https://dorar.net/h/8c6iiGij",
+      "also": []
+    },
+    {
+      "id": "h_tawadu",
+      "text_ar": "وما تواضع أحد لله إلا رفعه الله",
+      "variants_ar": [
+        "ما تواضع أحد لله إلا رفعه"
+      ],
+      "collection": "muslim",
+      "number": "2588",
+      "grade": "صحيح",
+      "source_url": "https://dorar.net/h/5ny4Eh57",
+      "also": []
+    },
+    {
+      "id": "h_kibr",
+      "text_ar": "الكبر بطر الحق وغمط الناس",
+      "variants_ar": [],
+      "collection": "muslim",
+      "number": "91",
+      "grade": "صحيح",
+      "source_url": "https://dorar.net/h/AT9RQqKI",
+      "also": []
+    },
+    {
+      "id": "h_ard_masjid",
+      "text_ar": "وجعلت لي الأرض مسجدا وطهورا",
+      "variants_ar": [
+        "جعلت لي الأرض مسجدا وطهورا"
+      ],
+      "collection": "bukhari",
+      "number": "335",
+      "grade": "صحيح",
+      "source_url": "https://dorar.net/h/sVQNOdpT",
+      "also": [
+        "bukhari:438"
+      ]
+    },
+    {
+      "id": "h_sallu_kama",
+      "text_ar": "صلوا كما رأيتموني أصلي",
+      "variants_ar": [],
+      "collection": "bukhari",
+      "number": "631",
+      "grade": "صحيح",
+      "source_url": "https://dorar.net/h/aGcTSZdD",
+      "also": [
+        "bukhari:6008",
+        "bukhari:7246"
+      ]
+    },
+    {
+      "id": "h_ijtihad_ajran",
+      "text_ar": "إذا حكم الحاكم فاجتهد ثم أصاب فله أجران، وإذا حكم فاجتهد ثم أخطأ فله أجر",
+      "variants_ar": [],
+      "collection": "bukhari",
+      "number": "7352",
+      "grade": "صحيح",
+      "source_url": "https://dorar.net/h/1EypRElR",
+      "also": []
+    },
+    {
+      "id": "h_qama_ramadan",
+      "text_ar": "من قام رمضان إيمانا واحتسابا غفر له ما تقدم من ذنبه",
+      "variants_ar": [
+        "من قام رمضان إيمانا واحتسابا"
+      ],
+      "collection": "bukhari",
+      "number": "37",
+      "grade": "صحيح",
+      "source_url": "https://dorar.net/h/UwSZBvh6",
+      "also": [
+        "bukhari:2009"
+      ]
+    },
+    {
+      "id": "h_suhur_baraka",
+      "text_ar": "تسحروا فإن في السحور بركة",
+      "variants_ar": [],
+      "collection": "bukhari",
+      "number": "1923",
+      "grade": "صحيح",
+      "source_url": "https://dorar.net/h/djGVYE9X",
+      "also": [
+        "muslim:1095"
+      ]
+    },
+    {
+      "id": "h_ajjalu_fitr",
+      "text_ar": "لا يزال الناس بخير ما عجلوا الفطر",
+      "variants_ar": [],
+      "collection": "bukhari",
+      "number": "1957",
+      "grade": "صحيح",
+      "source_url": "https://dorar.net/h/dvXWPa7D",
+      "also": [
+        "muslim:1098"
+      ]
+    },
+    {
+      "id": "h_hajj_arafa",
+      "text_ar": "الحج عرفة",
+      "variants_ar": [],
+      "collection": "tirmidhi",
+      "number": "889",
+      "grade": "صحيح",
+      "source_url": "https://dorar.net/h/N9ofjwEJ",
+      "also": []
+    },
+    {
+      "id": "h_naddara",
+      "text_ar": "نضر الله امرأ سمع منا حديثا فحفظه حتى يبلغه",
+      "variants_ar": [],
+      "collection": "tirmidhi",
+      "number": "2656",
+      "grade": "صحيح",
+      "source_url": "https://dorar.net/h/FbuPu5xx",
+      "also": []
+    },
+    {
+      "id": "h_kull_bida",
+      "text_ar": "وشر الأمور محدثاتها، وكل بدعة ضلالة",
+      "variants_ar": [
+        "كل بدعة ضلالة",
+        "وكل بدعة ضلالة"
+      ],
+      "collection": "muslim",
+      "number": "867",
+      "grade": "صحيح",
+      "source_url": "https://dorar.net/h/eZaDzwvF",
+      "also": []
+    },
+    {
+      "id": "h_witr_akhir",
+      "text_ar": "اجعلوا آخر صلاتكم بالليل وترا",
+      "variants_ar": [],
+      "collection": "bukhari",
+      "number": "998",
+      "grade": "صحيح",
+      "source_url": "https://dorar.net/h/eUqTOTvr",
+      "also": [
+        "bukhari:472"
+      ]
+    },
+    {
+      "id": "h_imam_yutam",
+      "text_ar": "إنما جعل الإمام ليؤتم به",
+      "variants_ar": [],
+      "collection": "bukhari",
+      "number": "722",
+      "grade": "صحيح",
+      "source_url": "https://dorar.net/h/2rwqsioX",
+      "also": []
+    },
+    {
+      "id": "h_ballighu",
+      "text_ar": "بلغوا عني ولو آية",
+      "variants_ar": [],
+      "collection": "bukhari",
+      "number": "3461",
+      "grade": "صحيح",
+      "source_url": "https://dorar.net/h/I31nZp4n",
+      "also": []
+    },
+    {
+      "id": "h_dal_khayr",
+      "text_ar": "من دل على خير فله مثل أجر فاعله",
+      "variants_ar": [],
+      "collection": "muslim",
+      "number": "1893",
+      "grade": "صحيح",
+      "source_url": "https://dorar.net/h/cNjI0Xlr",
+      "also": []
+    },
+    {
+      "id": "h_yassiru",
+      "text_ar": "يسروا ولا تعسروا، وبشروا ولا تنفروا",
+      "variants_ar": [
+        "يسروا ولا تعسروا"
+      ],
+      "collection": "bukhari",
+      "number": "69",
+      "grade": "صحيح",
+      "source_url": "https://dorar.net/h/pUdg3tMv",
+      "also": [
+        "muslim:1734"
+      ]
+    },
+    {
+      "id": "h_ittaqillah",
+      "text_ar": "اتق الله حيثما كنت، وأتبع السيئة الحسنة تمحها، وخالق الناس بخلق حسن",
+      "variants_ar": [
+        "اتق الله حيثما كنت"
+      ],
+      "collection": "tirmidhi",
+      "number": "1987",
+      "grade": "حسن",
+      "source_url": "https://dorar.net/h/iKCjI7Yu",
+      "also": []
+    },
+    {
+      "id": "h_husn_islam",
+      "text_ar": "من حسن إسلام المرء تركه ما لا يعنيه",
+      "variants_ar": [],
+      "collection": "tirmidhi",
+      "number": "2317",
+      "grade": "صحيح",
+      "source_url": "https://dorar.net/h/KNNXwrpc",
+      "also": [
+        "ibnmajah:3976"
+      ]
+    },
+    {
+      "id": "h_la_taghdab",
+      "text_ar": "لا تغضب",
+      "variants_ar": [],
+      "collection": "bukhari",
+      "number": "6116",
+      "grade": "صحيح",
+      "source_url": "https://dorar.net/h/YsUk7RDs",
+      "also": []
+    },
+    {
+      "id": "h_rahimun",
+      "text_ar": "الراحمون يرحمهم الرحمن، ارحموا من في الأرض يرحمكم من في السماء",
+      "variants_ar": [
+        "الراحمون يرحمهم الرحمن ارحموا من في الأرض يرحمكم من في السماء",
+        "الراحمون يرحمهم الرحمن"
+      ],
+      "collection": "abudawud",
+      "number": "4941",
+      "grade": "صحيح",
+      "source_url": "https://dorar.net/h/fw8OeMw3",
+      "also": []
+    },
+    {
+      "id": "h_rifq",
+      "text_ar": "إن الله رفيق يحب الرفق في الأمر كله",
+      "variants_ar": [],
+      "collection": "bukhari",
+      "number": "6927",
+      "grade": "صحيح",
+      "source_url": "https://dorar.net/h/zeW4mElV",
+      "also": []
+    },
+    {
+      "id": "h_tabassum",
+      "text_ar": "تبسمك في وجه أخيك لك صدقة",
+      "variants_ar": [
+        "تبسمك في وجه أخيك صدقة"
+      ],
+      "collection": "tirmidhi",
+      "number": "1956",
+      "grade": "صحيح",
+      "source_url": "https://dorar.net/h/6Lt3mhVZ",
+      "also": []
+    },
+    {
+      "id": "h_shukr_nas",
+      "text_ar": "من لا يشكر الناس لا يشكر الله",
+      "variants_ar": [],
+      "collection": "abudawud",
+      "number": "4811",
+      "grade": "صحيح",
+      "source_url": "https://dorar.net/h/TYWnZxAz",
+      "also": []
+    },
+    {
+      "id": "h_adwamuha",
+      "text_ar": "أحب الأعمال إلى الله أدومها وإن قل",
+      "variants_ar": [],
+      "collection": "bukhari",
+      "number": "6464",
+      "grade": "صحيح",
+      "source_url": "https://dorar.net/h/Sbgu4t05",
+      "also": [
+        "bukhari:6465"
+      ]
+    },
+    {
+      "id": "h_mathal_muminin",
+      "text_ar": "مثل المؤمنين في توادهم وتراحمهم وتعاطفهم مثل الجسد",
+      "variants_ar": [],
+      "collection": "muslim",
+      "number": "2586",
+      "grade": "صحيح",
+      "source_url": "https://dorar.net/h/uji2RLBR",
+      "also": []
+    },
+    {
+      "id": "h_akmal_iman",
+      "text_ar": "أكمل المؤمنين إيمانا أحسنهم خلقا",
+      "variants_ar": [],
+      "collection": "tirmidhi",
+      "number": "1162",
+      "grade": "حسن صحيح",
+      "source_url": "https://dorar.net/h/J1Km2Y6L",
+      "also": []
+    },
+    {
+      "id": "h_dunya_sijn",
+      "text_ar": "الدنيا سجن المؤمن وجنة الكافر",
+      "variants_ar": [],
+      "collection": "muslim",
+      "number": "2956",
+      "grade": "صحيح",
+      "source_url": "https://dorar.net/h/HhUOmW5o",
+      "also": []
+    },
+    {
+      "id": "h_din_yusr",
+      "text_ar": "إن الدين يسر، ولن يشاد الدين أحد إلا غلبه",
+      "variants_ar": [
+        "إن الدين يسر"
+      ],
+      "collection": "bukhari",
+      "number": "39",
+      "grade": "صحيح",
+      "source_url": "https://dorar.net/h/lXt1iJzo",
+      "also": []
+    },
+    {
+      "id": "h_kull_maruf",
+      "text_ar": "كل معروف صدقة",
+      "variants_ar": [],
+      "collection": "bukhari",
+      "number": "6021",
+      "grade": "صحيح",
+      "source_url": "https://dorar.net/h/vJkLWESL",
+      "also": []
+    },
+    {
+      "id": "h_ghash",
+      "text_ar": "من غشنا فليس منا",
+      "variants_ar": [],
+      "collection": "muslim",
+      "number": "101",
+      "grade": "صحيح",
+      "source_url": "https://dorar.net/h/xNJyF35K",
+      "also": []
+    },
+    {
+      "id": "h_la_darar",
+      "text_ar": "لا ضرر ولا ضرار",
+      "variants_ar": [],
+      "collection": "ibnmajah",
+      "number": "2341",
+      "grade": "صحيح لغيره",
+      "source_url": "https://dorar.net/h/YGbZdnG5",
+      "also": [],
+      "note_ar": "الرقم 2341 في سنن ابن ماجه؛ ويعرضه الدرر من «صحيح ابن ماجه» للألباني برقم 1910، وحكمه صحيح لغيره."
+    },
+    {
+      "id": "h_tayyib",
+      "text_ar": "إن الله طيب لا يقبل إلا طيبا",
+      "variants_ar": [],
+      "collection": "muslim",
+      "number": "1015",
+      "grade": "صحيح",
+      "source_url": "https://dorar.net/h/opZZUyEc",
+      "also": []
+    },
+    {
+      "id": "h_suwarikum",
+      "text_ar": "إن الله لا ينظر إلى صوركم وأموالكم، ولكن ينظر إلى قلوبكم وأعمالكم",
+      "variants_ar": [],
+      "collection": "muslim",
+      "number": "2564",
+      "grade": "صحيح",
+      "source_url": "https://dorar.net/h/nva12onJ",
+      "also": []
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "status": "pending",
+  "generated_at": null,
+  "testset": { "size": 162, "split": { "dev": 47, "test": 115 }, "languages": ["en", "fr"], "frozen_at": "2026-10-03" },
+  "runs": 3,
+  "systems": [
+    { "id": "mt", "label": "ترجمة آلية عامة", "detail": "Google Translate API" },
+    { "id": "llm", "label": "النموذج نفسه بلا مُوطِّن", "detail": "نفس النموذج اللغوي، بلا مسرد ولا تحقق" },
+    { "id": "mowatin", "label": "مُوطِّن", "detail": "النموذج + المسرد + الترجمات المعتمدة + طبقة التحقق" }
+  ],
+  "error_categories": [
+    { "id": "quran", "label": "تحريف آية أو ترجمتها آليًا" },
+    { "id": "hadith", "label": "حديث بلا مصدر أو بتحريف" },
+    { "id": "term", "label": "مصطلح شرعي خاطئ" },
+    { "id": "ruling", "label": "حكم مضاف أو محرّف" },
+    { "id": "referral", "label": "إحالة فائتة (مستوى د)" }
+  ],
+  "errors_per_100": { "mt": {}, "llm": {}, "mowatin": {} },
+  "metrics": [
+    { "id": "term_accuracy", "label": "دقة المصطلحات", "unit": "%", "higher_is_better": true, "method": "آلي: مطابقة المقابل المعتمد في المسرد", "values": {} },
+    { "id": "scripture_integrity", "label": "سلامة الآيات والأحاديث", "unit": "%", "higher_is_better": true, "method": "آلي: مطابقة الترجمة المعتمدة والمصدر", "values": {} },
+    { "id": "meaning", "label": "الحفاظ على الجوهر", "unit": "/5", "higher_is_better": true, "method": "بشري أعمى على عيّنة", "values": {} },
+    { "id": "clarity", "label": "الوضوح والملاءمة الثقافية", "unit": "/5", "higher_is_better": true, "method": "بشري أعمى (ناطقون أصليون)", "values": {} },
+    { "id": "safe_referral", "label": "الإحالة في الحالات الملزمة", "unit": "%", "higher_is_better": true, "method": "آلي: حالات مستوى (د) والأقوال بلا مصدر", "values": {} }
+  ],
+  "agreement": { "kappa": null, "sample_size": null, "raters": 2 },
+  "examples": [],
+  "limitations": []
+}

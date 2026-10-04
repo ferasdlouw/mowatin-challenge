@@ -1,0 +1,680 @@
+[
+  {
+    "id": "taharah",
+    "ar": "الطهارة",
+    "variants_ar": [
+      "طهارة",
+      "التطهر",
+      "الطهور",
+      "المتطهرين",
+      "تطهّر"
+    ],
+    "en": {
+      "preferred": "purification",
+      "gloss": "ritual purity: removing ritual impurity and physical filth",
+      "avoid": [
+        "hygiene",
+        "cleanliness"
+      ]
+    },
+    "fr": {
+      "preferred": "purification rituelle",
+      "gloss": "tahâra : lever l'impureté rituelle et ôter la souillure matérielle",
+      "avoid": [
+        "hygiène",
+        "propreté"
+      ]
+    },
+    "usage_note_ar": "التعريف: رفع الحدث وزوال الخبث. | الدليل: البقرة: 222؛ صحيح مسلم (223). | في الجمهرة: EN «Purification»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تجنّب: EN: «cleanliness» منفردةً دون شرح — FR: «propreté» منفردةً دون شرح | تحقق الفرنسية (2026-10-03): موسوعة رواد للمصطلحات (FR): «Purification (Tahârah)».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/6621/en | FR: غير متوفر في الجمهرة | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/4064 | الدليل: https://api.quranpedia.net/v1/ayah/2/222/options ؛ https://dorar.net/h/f9AZVYqM | FR تحقق (رواد): https://terminologyenc.com/fr/browse/term/4064",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "wudu",
+    "ar": "الوضوء",
+    "variants_ar": [
+      "وضوء",
+      "توضأ",
+      "يتوضأ",
+      "المتوضئ"
+    ],
+    "en": {
+      "preferred": "wudu'",
+      "gloss": "wudu, ablution; ablution before prayer",
+      "avoid": [
+        "washing",
+        "bath"
+      ]
+    },
+    "fr": {
+      "preferred": "wudû'",
+      "gloss": "les ablutions avant la prière",
+      "avoid": [
+        "lavage",
+        "bain"
+      ]
+    },
+    "usage_note_ar": "التعريف: استعمال الماء في أعضاء مخصوصة بنية التعبد. | الدليل: المائدة: 6. | في الجمهرة: EN «Wudu, ablution»، FR «Ablution». | سبب الاختلاف عن الجمهرة (EN): نفس مقابل الجمهرة «Wudu, ablution» بصيغة مختصرة دون أداة التعريف أو الإضافات الشارحة، والإضافة مذكورة في الشرح. | تحقق الفرنسية (2026-10-03): مقابل الجمهرة الفرنسي «Ablution» (الرابط في source.ref).",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/10922/en | FR: https://islamic-content.com/dictionary/word/10922/fr | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/6733 | الدليل: https://api.quranpedia.net/v1/ayah/5/6/options",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "ghusl",
+    "ar": "الغسل",
+    "variants_ar": [
+      "غسل",
+      "الاغتسال",
+      "اغتسل",
+      "غسل الجنابة"
+    ],
+    "en": {
+      "preferred": "ghusl",
+      "gloss": "full ritual bath",
+      "avoid": [
+        "shower"
+      ]
+    },
+    "fr": {
+      "preferred": "ghusl",
+      "gloss": "les grandes ablutions ; le grand lavage rituel",
+      "avoid": [
+        "douche",
+        "bain"
+      ]
+    },
+    "usage_note_ar": "التعريف: تعميم البدن بالماء بنية رفع الحدث الأكبر. | الدليل: المائدة: 6. | في الجمهرة: EN «Ghusl»، FR «Les grandes ablutions». | تجنّب: EN: «bath» منفردةً دون شرح — FR: «bain» منفردةً دون شرح | تحقق الفرنسية (2026-10-03): مقابل الجمهرة الفرنسي «Les grandes ablutions» (الرابط في source.ref).",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/7292/en | FR: https://islamic-content.com/dictionary/word/7292/fr | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/172 | الدليل: https://api.quranpedia.net/v1/ayah/5/6/options",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "tayammum",
+    "ar": "التيمم",
+    "variants_ar": [
+      "تيمم",
+      "تيمّموا",
+      "يتيمم"
+    ],
+    "en": {
+      "preferred": "tayammum",
+      "gloss": "tayammum dry ablution; dry ablution with clean earth",
+      "avoid": [
+        "sand washing",
+        "dust bath"
+      ]
+    },
+    "fr": {
+      "preferred": "tayammum",
+      "gloss": "les ablutions sèches avec de la terre pure",
+      "avoid": [
+        "lavage au sable",
+        "bain de poussière"
+      ]
+    },
+    "usage_note_ar": "التعريف: مسح الوجه واليدين بالصعيد الطيب بنية مخصوصة عند فقد الماء أو العجز عن استعماله. | الدليل: المائدة: 6؛ صحيح البخاري (335). | في الجمهرة: EN «Tayammum dry ablution»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): نفس مقابل الجمهرة «Tayammum dry ablution» بصيغة مختصرة دون أداة التعريف أو الإضافات الشارحة، والإضافة مذكورة في الشرح. | تحقق الفرنسية (2026-10-03): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 5:6: «usez de terre pure».",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/3599/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/5/6/options ؛ https://dorar.net/h/6AXMxV2S | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/5/6",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "hadath",
+    "ar": "الحدث",
+    "variants_ar": [
+      "الحدث الأصغر",
+      "الحدث الأكبر",
+      "المحدث"
+    ],
+    "en": {
+      "preferred": "ceremonial impurity",
+      "gloss": "ritual impurity that prevents prayer until wudu' or ghusl is performed",
+      "avoid": [
+        "dirtiness",
+        "sin"
+      ]
+    },
+    "fr": {
+      "preferred": "impureté rituelle",
+      "gloss": "hadath : état d'impureté rituelle qui empêche la prière jusqu'aux ablutions",
+      "avoid": [
+        "saleté",
+        "péché"
+      ]
+    },
+    "usage_note_ar": "التعريف: وصف قائم بالبدن يمنع من الصلاة ونحوها. — ليس نجاسة حسية ولا ذنباً. | الدليل: صحيح البخاري (135)؛ صحيح مسلم (225). | في الجمهرة: EN «Ceremonial impurity»، FR «Incidents, évènements, état d'impureté rituelle». | تحقق الفرنسية (2026-10-03): مقابل الجمهرة الفرنسي «Incidents, évènements, état d'impureté rituelle» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/4090/en | FR: https://islamic-content.com/dictionary/word/4090/fr | الدليل: https://dorar.net/h/jpe7w3tT",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "salah",
+    "ar": "الصلاة",
+    "variants_ar": [
+      "صلاة",
+      "الصلوات",
+      "صلى",
+      "يصلي",
+      "المصلي",
+      "المصلين",
+      "صلاتي"
+    ],
+    "en": {
+      "preferred": "salah",
+      "gloss": "the prescribed prayer",
+      "avoid": [
+        "prayer-exercise",
+        "worship service",
+        "mass",
+        "supplication"
+      ]
+    },
+    "fr": {
+      "preferred": "salât",
+      "gloss": "la prière prescrite",
+      "avoid": [
+        "exercice de prière",
+        "office",
+        "messe",
+        "invocation"
+      ]
+    },
+    "usage_note_ar": "التعريف: التعبد لله بأقوال وأفعال مخصوصة مفتتحة بالتكبير مختتمة بالتسليم. — prayer تُحجز لهذا المعنى فقط في كل المحتوى. | الدليل: البقرة: 43؛ صحيح البخاري (631). | في الجمهرة: EN «Prayer»، FR «Prière». | سبب الاختلاف عن الجمهرة (EN): الاستراتيجية keep_and_gloss: يُبقى اللفظ العربي بالحروف اللاتينية لأنه لا مقابل إنجليزي يؤدي معناه الشرعي كاملًا، ومقابل الجمهرة «Prayer» مذكور في الشرح. | تحقق الفرنسية (2026-10-03): مقابل الجمهرة الفرنسي «Prière» (الرابط في source.ref).",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/6327/en | FR: https://islamic-content.com/dictionary/word/6327/fr | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/6638 | الدليل: https://api.quranpedia.net/v1/ayah/2/43/options ؛ https://dorar.net/h/KdtHihir",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "awqat_salah",
+    "ar": "أوقات الصلاة",
+    "variants_ar": [
+      "مواقيت الصلاة",
+      "وقت الصلاة"
+    ],
+    "en": {
+      "preferred": "prayer times",
+      "gloss": "the prescribed times of the five daily prayers: Fajr, Dhuhr, 'Asr, Maghrib, 'Isha'",
+      "avoid": [
+        "prayer schedule"
+      ]
+    },
+    "fr": {
+      "preferred": "horaires de prière",
+      "gloss": "les horaires prescrits des cinq prières : Fajr, Dhuhr, 'Asr, Maghrib, 'Ishâ'",
+      "avoid": [
+        "planning de prière"
+      ]
+    },
+    "usage_note_ar": "التعريف: الأوقات المحددة شرعًا لأداء الصلوات الخمس. — أسماء الصلوات (الفجر، الظهر، العصر، المغرب، العشاء) ليست متغيرات للمصطلح، و«العشاء» تشتبه بالوجبة. | الدليل: النساء: 103. | في الجمهرة: EN «Prayer times»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تجنّب: EN: «prayer schedule» لأنها عامية",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/11330/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/4/103/options",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-02"
+    }
+  },
+  {
+    "id": "adhan",
+    "ar": "الأذان",
+    "variants_ar": [
+      "أذان",
+      "المؤذن",
+      "أذّن",
+      "النداء للصلاة"
+    ],
+    "en": {
+      "preferred": "adhan",
+      "gloss": "call to prayer",
+      "avoid": [
+        "chant",
+        "song",
+        "bell"
+      ]
+    },
+    "fr": {
+      "preferred": "adhân",
+      "gloss": "l'appel à la prière",
+      "avoid": [
+        "chant",
+        "cloche"
+      ]
+    },
+    "usage_note_ar": "التعريف: الإعلام بدخول وقت الصلاة بألفاظ مخصوصة. | الدليل: المائدة: 58؛ صحيح البخاري (631). | في الجمهرة: EN «Adhān»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تحقق الفرنسية (2026-10-03): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 5:58: «appel à la prière».",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/670/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/5/58/options ؛ https://dorar.net/h/KdtHihir | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/5/58",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "sujud_tilawah",
+    "ar": "سجود التلاوة",
+    "variants_ar": [
+      "سجدة التلاوة"
+    ],
+    "en": {
+      "preferred": "sujud at-tilawah",
+      "gloss": "prostration during Qur'anic recitation, at verses of prostration",
+      "avoid": [
+        "reading bow"
+      ]
+    },
+    "fr": {
+      "preferred": "sujûd at-tilâwa",
+      "gloss": "prosternation lors de la récitation du Coran, aux versets de prosternation",
+      "avoid": [
+        "salut de lecture"
+      ]
+    },
+    "usage_note_ar": "التعريف: سجدة يسجدها القارئ أو المستمع عند المرور بآية سجدة. — المقابل الفرنسي غير متوفر في الجمهرة. | الدليل: صحيح مسلم (81). | في الجمهرة: EN «prostration during Qur'anic recitation»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): الاستراتيجية keep_and_gloss: يُبقى اللفظ العربي بالحروف اللاتينية لأنه لا مقابل إنجليزي يؤدي معناه الشرعي كاملًا، ومقابل الجمهرة «prostration during Qur'anic recitation» مذكور في الشرح.",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/5558/en | FR: غير متوفر في الجمهرة | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/14837 | الدليل: https://dorar.net/h/TuJWUD4E",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-02"
+    }
+  },
+  {
+    "id": "qiblah",
+    "ar": "القبلة",
+    "variants_ar": [
+      "قبلة",
+      "استقبال القبلة"
+    ],
+    "en": {
+      "preferred": "qiblah",
+      "gloss": "direction of the Ka'bah faced in prayer",
+      "avoid": [
+        "east",
+        "altar"
+      ]
+    },
+    "fr": {
+      "preferred": "qibla",
+      "gloss": "la direction de la Ka'ba vers laquelle on prie",
+      "avoid": [
+        "Est",
+        "autel"
+      ]
+    },
+    "usage_note_ar": "التعريف: جهة الكعبة التي يستقبلها المصلي. | الدليل: البقرة: 144. | في الجمهرة: EN «The qiblah»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تحقق الفرنسية (2026-10-03): موسوعة رواد للمصطلحات (FR): «Direction [de La Mecque] (Qiblah)».",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/7670/en | FR: غير متوفر في الجمهرة | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/5289 | الدليل: https://api.quranpedia.net/v1/ayah/2/144/options | FR تحقق (رواد): https://terminologyenc.com/fr/browse/term/5289",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "ruku",
+    "ar": "الركوع",
+    "variants_ar": [
+      "ركوع",
+      "ركع",
+      "راكع",
+      "الراكعين"
+    ],
+    "en": {
+      "preferred": "bowing",
+      "gloss": "ruku': bowing in prayer with a level back, in reverence to Allah",
+      "avoid": [
+        "kneeling",
+        "worshipping the ground"
+      ]
+    },
+    "fr": {
+      "preferred": "inclinaison",
+      "gloss": "rukû' : s'incliner dans la prière, le dos droit, par révérence envers Allah",
+      "avoid": [
+        "agenouillement",
+        "adorer le sol"
+      ]
+    },
+    "usage_note_ar": "التعريف: الركوع: الانحناء بالظهر تعظيماً لله. السجود: وضع الجبهة على الأرض خضوعاً لله. | الدليل: الحج: 77. | في الجمهرة: EN «Bowing»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تحقق الفرنسية (2026-10-03): موسوعة رواد للمصطلحات (FR): «Inclinaison (Rukû')».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/5290/en | FR: غير متوفر في الجمهرة | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/8708 | الدليل: https://api.quranpedia.net/v1/ayah/22/77/options | FR تحقق (رواد): https://terminologyenc.com/fr/browse/term/8708",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "sujud_sahw",
+    "ar": "سجود السهو",
+    "variants_ar": [
+      "سجدتا السهو"
+    ],
+    "en": {
+      "preferred": "sujud as-sahw",
+      "gloss": "prostration to rectify an unintended error in prayer",
+      "avoid": [
+        "penance prostration"
+      ]
+    },
+    "fr": {
+      "preferred": "sujûd as-sahw",
+      "gloss": "prosternation de l'oubli, pour réparer une erreur involontaire dans la prière",
+      "avoid": [
+        "prosternation de pénitence"
+      ]
+    },
+    "usage_note_ar": "التعريف: سجدتان يسجدهما المصلي لجبر خلل وقع في صلاته سهوًا من زيادة أو نقص أو شك. | الدليل: صحيح مسلم (572). | في الجمهرة: EN «Prostration to rectify an unintended error»، FR «Prosternation de l'oubli, de la distraction». | سبب الاختلاف عن الجمهرة (EN): الاستراتيجية keep_and_gloss: يُبقى اللفظ العربي بالحروف اللاتينية لأنه لا مقابل إنجليزي يؤدي معناه الشرعي كاملًا، ومقابل الجمهرة «Prostration to rectify an unintended error» مذكور في الشرح. | تحقق الفرنسية (2026-10-03): مقابل الجمهرة الفرنسي «Prosternation de l'oubli, de la distraction» (الرابط في source.ref).",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/5559/en | FR: https://islamic-content.com/dictionary/word/5559/fr | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/8711 | الدليل: https://dorar.net/h/9Fn9C2BU",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "imam",
+    "ar": "الإمام",
+    "variants_ar": [
+      "إمام",
+      "الأئمة",
+      "أمّ الناس"
+    ],
+    "en": {
+      "preferred": "imam",
+      "gloss": "prayer leader; the one whom the congregation follows in prayer",
+      "avoid": [
+        "priest",
+        "clergyman",
+        "pastor"
+      ]
+    },
+    "fr": {
+      "preferred": "imam",
+      "gloss": "celui qui dirige la prière",
+      "avoid": [
+        "prêtre",
+        "clergé",
+        "pasteur"
+      ]
+    },
+    "usage_note_ar": "التعريف: من يتقدم المصلين في الصلاة، ويطلق على المقتدى به في العلم. — لا كهنوت في الإسلام؛ priest مرفوضة. | الدليل: صحيح البخاري (722). | في الجمهرة: EN «The Imam»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/1577/en | FR: غير متوفر في الجمهرة | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/43624 | الدليل: https://dorar.net/h/2rwqsioX",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-02"
+    }
+  },
+  {
+    "id": "witr",
+    "ar": "صلاة الوتر",
+    "variants_ar": [
+      "وتر",
+      "أوتر"
+    ],
+    "en": {
+      "preferred": "witr",
+      "gloss": "the witr prayer; the odd-numbered night prayer",
+      "avoid": [
+        "odd prayer"
+      ]
+    },
+    "fr": {
+      "preferred": "witr",
+      "gloss": "la prière impaire ; la prière nocturne impaire",
+      "avoid": [
+        "prière paire"
+      ]
+    },
+    "usage_note_ar": "التعريف: صلاة تُختم بها صلاة الليل وعدد ركعاتها وتر. | الدليل: صحيح البخاري (998). | في الجمهرة: EN «The witr prayer»، FR «La prière impaire». | تجنّب: EN: «odd prayer» بالمعنى الحرفي — FR: «prière impaire» بالمعنى الحرفي | سبب الاختلاف عن الجمهرة (EN): نفس مقابل الجمهرة «The witr prayer» بصيغة مختصرة دون أداة التعريف أو الإضافات الشارحة، والإضافة مذكورة في الشرح. | تحقق الفرنسية (2026-10-03): مقابل الجمهرة الفرنسي «La prière impaire» (الرابط في source.ref).",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/6345/en | FR: https://islamic-content.com/dictionary/word/6345/fr | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/356 | الدليل: https://dorar.net/h/eUqTOTvr",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "tarawih",
+    "ar": "التراويح",
+    "variants_ar": [
+      "صلاة التراويح"
+    ],
+    "en": {
+      "preferred": "tarawih",
+      "gloss": "night prayers in Ramadan",
+      "avoid": [
+        "Ramadan vigils"
+      ]
+    },
+    "fr": {
+      "preferred": "tarâwîh",
+      "gloss": "tarâwîḥ ; les prières nocturnes du Ramadan",
+      "avoid": [
+        "veillées du Ramadan"
+      ]
+    },
+    "usage_note_ar": "التعريف: صلاة الليل في رمضان جماعةً بعد العشاء. — «قيام الليل» أعم من التراويح فلا يُعدّ متغيرًا لها. | الدليل: صحيح البخاري (37). | في الجمهرة: EN «Tarāwīḥ»، FR «Tarâwîḥ». | تجنّب: EN: «Ramadan vigils» لأنها مبهمة — FR: «veillées du Ramadan» لأنها مبهمة | تحقق الفرنسية (2026-10-03): مقابل الجمهرة الفرنسي «Tarâwîḥ» (الرابط في source.ref).",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/2668/en | FR: https://islamic-content.com/dictionary/word/2668/fr | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/7271 | الدليل: https://dorar.net/h/UwSZBvh6",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "masjid",
+    "ar": "المسجد",
+    "variants_ar": [
+      "مسجد",
+      "المساجد"
+    ],
+    "en": {
+      "preferred": "mosque",
+      "gloss": "a place dedicated to prayer, especially congregational prayer",
+      "avoid": [
+        "church",
+        "temple"
+      ]
+    },
+    "fr": {
+      "preferred": "mosquée",
+      "gloss": "masjid : lieu consacré à la prière, en particulier en assemblée",
+      "avoid": [
+        "Église",
+        "temple"
+      ]
+    },
+    "usage_note_ar": "التعريف: المكان المعد لأداء الصلاة. | الدليل: صحيح البخاري (335). | في الجمهرة: EN «Mosque»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تحقق الفرنسية (2026-10-03): موسوعة رواد للمصطلحات (FR): «Mosquée (Masjid)».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/9429/en | FR: غير متوفر في الجمهرة | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/8984 | الدليل: https://dorar.net/h/6AXMxV2S | FR تحقق (رواد): https://terminologyenc.com/fr/browse/term/8984",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "eid",
+    "ar": "العيد",
+    "variants_ar": [
+      "عيد",
+      "الأعياد",
+      "عيد الفطر",
+      "عيد الأضحى",
+      "العيدين"
+    ],
+    "en": {
+      "preferred": "eid",
+      "gloss": "the two annual festivals of Islam: 'Id al-Fitr and 'Id al-Adha",
+      "avoid": [
+        "festival service",
+        "holiday mass"
+      ]
+    },
+    "fr": {
+      "preferred": "aïd",
+      "gloss": "les deux fêtes annuelles de l'Islam : l'Aïd al-Fitr et l'Aïd al-Adha",
+      "avoid": [
+        "office de fête",
+        "messe de fête"
+      ]
+    },
+    "usage_note_ar": "التعريف: ركعتان تُصليان صباح يوم الفطر والأضحى. | الدليل: صحيح البخاري (956). | في الجمهرة: EN «The Eid»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تحقق الفرنسية (2026-10-03): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 2:185 (حاشية): «le jour de l'aïd».",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/7224/en | FR: غير متوفر في الجمهرة | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/6881 | الدليل: https://dorar.net/h/aKDwne7S | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/2/185",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  }
+]

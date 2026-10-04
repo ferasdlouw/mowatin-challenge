@@ -1,0 +1,69 @@
+{
+  "status": "verified",
+  "reviewed_by": {
+    "name": "ردينة بلال",
+    "date": "2026-10-03"
+  },
+  "items": [
+    {
+      "id": "d1_terms",
+      "label_ar": "فقرة دعوية بمصطلحات",
+      "hint_ar": "التقوى + التوحيد + الإخلاص",
+      "shows": "term_lock",
+      "text_ar": "التقوى سبيل كل خير، ومن حقق التوحيد وأخلص في عبادته نال رضا الله.",
+      "expected": {
+        "en": "Taqwa (guarding oneself from Allah's displeasure by obeying Him) is the path to all good, and whoever fulfils tawhid (the Oneness of God) and has purity of devotion in his worship attains Allah's pleasure.",
+        "fr": "La taqwâ est la voie de tout bien, et quiconque réalise le tawhîd (l'unicité de Dieu) et fait preuve de sincérité (ikhlâs) dans son adoration obtient l'agrément d'Allah.",
+        "notes_ar": "المترجم العادي يكتب piety وmonotheism وsincerity؛ مُوطِّن يقفل taqwa وtawhid ومقابل الإخلاص المعتمد، ويشرحها أول مرة."
+      }
+    },
+    {
+      "id": "d2_quran_mismatch",
+      "label_ar": "آية منقولة بخطأ",
+      "hint_ar": "زيادة كلمة في الآية",
+      "shows": "quran_mismatch",
+      "text_ar": "قال الله تعالى: ﴿وَإِذَا سَأَلَكَ عِبَادِي عَنِّي فَإِنِّي قَرِيبٌ مِنْكُمْ﴾.",
+      "expected": {
+        "en": "Allah the Exalted said: \"And when My servants ask you, [O Muḥammad], concerning Me - indeed I am near. I respond to the invocation of the supplicant when he calls upon Me. So let them respond to Me [by obedience] and believe in Me that they may be [rightly] guided.\" (Al-Baqarah 2:186 — Saheeh International, QuranEnc) [Flag: the quoted text does not match the Mushaf; the approved translation of the correct verse was inserted.]",
+        "fr": "Allah le Très-Haut a dit : « Que ceux de Mes serviteurs qui t’interrogent sur Moi sachent que Je suis tout proche et que J’exauce quiconque M’invoque sincèrement. Qu’ils suivent donc la voie du salut en se soumettant à Mes commandements et en croyant en Moi. » (Al-Baqara 2:186 — trad. Rachid Maach, QuranEnc) [Alerte : le texte cité ne correspond pas au Mus-haf ; la traduction approuvée du verset correct a été insérée.]",
+        "notes_ar": "النص المُدخل زاد «منكم» وليست في المصحف. مُوطِّن ينبّه ويعرض الصواب: ﴿وَإِذَا سَأَلَكَ عِبَادِي عَنِّي فَإِنِّي قَرِيبٌ﴾ (البقرة 186)، ويُدرج الترجمة المعتمدة للنص الصحيح بدل ترجمة آلية."
+      }
+    },
+    {
+      "id": "d3_hadith_unsourced",
+      "label_ar": "قول منسوب للنبي ﷺ",
+      "hint_ar": "قول منتشر منسوب للنبي ﷺ بلا مصدر",
+      "shows": "hadith_unsourced",
+      "text_ar": "قال النبي ﷺ: «العلم في الصغر كالنقش على الحجر»، فعلّموا أبناءكم القرآن منذ الصغر.",
+      "expected": {
+        "en": "[Flag: this saying is attributed to the Prophet ﷺ, but no approved source was found for it; it is not translated as a hadith and is referred for review.] So teach your children the Qur'an from a young age.",
+        "fr": "[Alerte : cette parole est attribuée au Prophète ﷺ, mais aucune source approuvée n'a été trouvée ; elle n'est pas traduite comme hadith et est renvoyée pour vérification.] Enseignez donc le Coran à vos enfants dès leur jeune âge.",
+        "notes_ar": "المترجم العادي يكتب «The Prophet said…» فينسب للنبي ﷺ ما لا يثبت عنه. مُوطِّن لا يجد القول في قائمة الأحاديث الثابتة فينبّه عليه ويحيله للمراجعة. (القول ليس من مجموعة الاختبار ولا من قائمة الموضوعات.)"
+      }
+    },
+    {
+      "id": "d4_fatwa",
+      "label_ar": "سؤال فتوى شخصي",
+      "hint_ar": "حالة خاصة تحتاج مفتيًا",
+      "shows": "fatwa_referral",
+      "text_ar": "أنا طالب أدرس في بريطانيا ومحاضراتي وقت صلاة الظهر، هل يجوز لي أن أجمعها مع العصر؟",
+      "expected": {
+        "en": "I am a student studying in Britain and my lectures are at the time of the Dhuhr prayer. Is it permissible for me to combine it with the Asr prayer? [Referral: this question concerns a specific personal situation and needs a qualified scholar; it was translated as it is, without adding any ruling.]",
+        "fr": "Je suis étudiant au Royaume-Uni et mes cours ont lieu à l'heure de la prière du Dhuhr. M'est-il permis de la regrouper avec la prière du 'Asr ? [Renvoi : cette question concerne une situation personnelle et nécessite un savant qualifié ; elle a été traduite telle quelle, sans ajouter d'avis juridique.]",
+        "notes_ar": "مُوطِّن لا يجيب عن الحكم ولا يضيف فتوى؛ يترجم السؤال كما هو ويعرض رسالة الإحالة وجهات الفتوى المعتمدة."
+      }
+    },
+    {
+      "id": "d5_general",
+      "label_ar": "فقرة دعوية متكاملة",
+      "hint_ar": "مصطلح + آية + حديث صحيح",
+      "shows": "general",
+      "text_ar": "الإسلام دين الرحمة، قال الله تعالى: ﴿وَمَا أَرْسَلْنَاكَ إِلَّا رَحْمَةً لِّلْعَالَمِينَ﴾، وقال رسول الله ﷺ: «الراحمون يرحمهم الرحمن».",
+      "expected": {
+        "en": "Islam is the religion of mercy. Allah the Exalted said: \"And We have not sent you, [O Muḥammad], except as a mercy to the worlds.\" (Al-Anbiya 21:107 — Saheeh International). And the Messenger of Allah ﷺ said: \"The merciful are shown mercy by the Most Merciful.\" (Abu Dawud 4941 — graded sahih by al-Albani)",
+        "fr": "L'islam est la religion de la miséricorde. Allah le Très-Haut a dit : « Nous ne t’avons suscité que par miséricorde pour l’humanité. » (Al-Anbiyâ’ 21:107 — trad. Rachid Maach). Et le Messager d'Allah ﷺ a dit : « Les miséricordieux, le Tout Miséricordieux leur fait miséricorde. » (Abû Dâwûd 4941 — authentifié par al-Albânî)",
+        "notes_ar": "يعرض الثلاثة معًا: المصطلح مقفول، والآية من الترجمة المعتمدة لا آلية، والحديث بمصدره ودرجته من الدرر السنية (https://dorar.net/h/fw8OeMw3)."
+      }
+    }
+  ]
+}

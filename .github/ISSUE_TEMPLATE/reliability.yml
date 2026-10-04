@@ -1,0 +1,35 @@
+name: "خطأ شرعي أو دلالي · Reliability issue"
+description: "ترجمة حرّفت معنى، أو مصطلح خاطئ، أو إحالة فائتة. يُتتبع حتى الإصلاح (معيار الموثوقية)."
+labels: ["reliability", "type:bug"]
+body:
+  - type: textarea
+    id: source
+    attributes:
+      label: "النص العربي"
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: "مخرج مُوطِّن"
+    validations:
+      required: true
+  - type: dropdown
+    id: error
+    attributes:
+      label: "نوع الخطأ (docs/EVALUATION.md)"
+      options:
+        - "E1 تحريف آية أو ترجمتها"
+        - "E2 تحريف حديث"
+        - "E3 تحريف معنى عقدي أو حكم"
+        - "E4 مصطلح بمقابل يُفقده دلالته"
+        - "E5 إحالة فائتة"
+        - "E6 عدم اتساق المصطلح"
+        - "E7 حذف أو إضافة"
+        - "E8 ركاكة أو عدم ملاءمة للجمهور"
+    validations:
+      required: true
+  - type: textarea
+    id: fix
+    attributes:
+      label: "التصحيح المقترح والمصدر"

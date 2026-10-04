@@ -1,0 +1,9 @@
+# Engine 0.1.9 release hashes, committed by Muwattin Phase SEC (F8). Both launchers refuse a
+# downloaded engine whose SHA-256 is not listed here, so a replaced release asset never runs.
+# Checked 2026-10-03: each .sha256 sidecar equals GitHub's own asset digest. When VERSION
+# changes, add engine-<new version>.sha256 the same way, or every download is refused.
+31ea726ff96fa5ad95ed34f7254e8d144a1f0e32def38462f2adb6e512cd9388  impeccable-darwin-arm64
+e0f5cd0aedebd5c18bb3937e4fb756d11309ce2f14164405fdbf456bd9ecca62  impeccable-darwin-x64
+45e03c790555842a8a8a02e6a230d9359a8ce87508ec53470b3ebf56c5cdd63a  impeccable-linux-arm64
+b7a6c6b9c2b1f2e3941ae17fb4c3bee33637e4a13b0e245d32b896e778a45763  impeccable-linux-x64
+cbfe0cfbf553a9e2fe65ee4fe61c9adad56fb9d3f277dc73f32a735a571e6a22  impeccable-windows-x64.exe

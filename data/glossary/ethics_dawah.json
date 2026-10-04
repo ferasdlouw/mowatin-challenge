@@ -1,0 +1,749 @@
+[
+  {
+    "id": "dawah",
+    "ar": "الدعوة",
+    "variants_ar": [
+      "دعوة",
+      "الدعوة إلى الله"
+    ],
+    "en": {
+      "preferred": "da'wah",
+      "gloss": "inviting to Islam with wisdom; invitation: making Islam known and calling to it with wisdom",
+      "avoid": [
+        "proselytism",
+        "missionary work",
+        "propaganda",
+        "proselytising"
+      ]
+    },
+    "fr": {
+      "preferred": "da'wa",
+      "gloss": "l'invitation à l'islam avec sagesse; l'appel à l'Islam",
+      "avoid": [
+        "prosélytisme",
+        "propagande",
+        "mission"
+      ]
+    },
+    "usage_note_ar": "في الحزمة العلمية (نماذج القاموس ص8): التعريف بالإسلام والدعوة إليه بالحكمة، ويختار المقابل بحسب السياق والجمهور. | التعريف: دعوة الناس إلى الإسلام بالحكمة والموعظة الحسنة. — propaganda مرفوضة قطعاً. | الدليل: النحل: 125. | في الجمهرة: EN «Invitation»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): الاستراتيجية keep_and_gloss: يُبقى اللفظ العربي بالحروف اللاتينية لأنه لا مقابل إنجليزي يؤدي معناه الشرعي كاملًا، ومقابل الجمهرة «Invitation» مذكور في الشرح. | تجنّب: EN: «proselytising» لأنها قدحية — FR: «prosélytisme» لأنها قدحية | تحقق الفرنسية (2026-10-03): موسوعة رواد للمصطلحات (FR): «La prédication à Allah (Ad-Da'wah Ilâ Allah)» (المدخل: الدعوة إلى الله).",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "الحزمة العلمية — نماذج القاموس ص8 | EN: https://islamic-content.com/dictionary/word/4890/en | FR: غير متوفر في الجمهرة | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/72440 | الدليل: https://api.quranpedia.net/v1/ayah/16/125/options | FR تحقق (رواد): https://terminologyenc.com/fr/browse/term/72440",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "daiyah",
+    "ar": "الداعية",
+    "variants_ar": [
+      "داعية",
+      "الدعاة",
+      "داعٍ"
+    ],
+    "en": {
+      "preferred": "da'iyah",
+      "gloss": "a caller (advocate) inviting people to Islam with knowledge",
+      "avoid": [
+        "missionary",
+        "preacher",
+        "propagandist"
+      ]
+    },
+    "fr": {
+      "preferred": "dâ'iya",
+      "gloss": "prédicateur qui appelle à l'Islam avec science",
+      "avoid": [
+        "missionnaire",
+        "propagandiste"
+      ]
+    },
+    "usage_note_ar": "التعريف: من يدعو الناس إلى الإسلام والعمل به على علم وبصيرة. | الدليل: يوسف: 108. | في الجمهرة: EN «Advocate»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): الاستراتيجية keep_and_gloss: يُبقى اللفظ العربي بالحروف اللاتينية لأنه لا مقابل إنجليزي يؤدي معناه الشرعي كاملًا، ومقابل الجمهرة «Advocate» مذكور في الشرح. | تجنّب: EN: «preacher» بالمعنى التبشيري",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/4829/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/12/108/options",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-02"
+    }
+  },
+  {
+    "id": "amr_bil_maruf_wan_nahy_an_munkar",
+    "ar": "الأمر بالمعروف والنهي عن المنكر",
+    "variants_ar": [
+      "يأمرون بالمعروف وينهون عن المنكر",
+      "تأمرون بالمعروف وتنهون عن المنكر"
+    ],
+    "en": {
+      "preferred": "enjoining what is right and forbidding what is wrong",
+      "gloss": "commanding what the Shari'ah recognises as good and forbidding what it recognises as evil, with wisdom and within its rulings",
+      "avoid": [
+        "moral policing",
+        "religious police"
+      ]
+    },
+    "fr": {
+      "preferred": "commander le bien et interdire le mal",
+      "gloss": "ordonner ce que la Charia reconnaît comme bien et interdire ce qu'elle reconnaît comme mal, avec sagesse et selon ses règles",
+      "avoid": [
+        "police des mœurs",
+        "police religieuse"
+      ]
+    },
+    "usage_note_ar": "التعريف: الأمر بما عرف حسنه شرعاً، والنهي عما عرف قبحه شرعاً، بالحكمة وضوابطه. | الدليل: آل عمران: 104. | في الجمهرة: EN «Enjoin what is right»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. ⚠️ يُحال إلى المختص إذا ورد في سياق حكم أو فتوى أو تطبيق عملي، لا في كل ورود. | سبب الاختلاف عن الجمهرة (EN): صيغة المصدر لتطابق المصطلح العربي، مع إكمال الشطر الثاني «والنهي عن المنكر».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/1610/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/3/104/options",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-02"
+    }
+  },
+  {
+    "id": "hisbah",
+    "ar": "الحسبة",
+    "variants_ar": [
+      "حسبة",
+      "المحتسب",
+      "الاحتساب"
+    ],
+    "en": {
+      "preferred": "hisbah",
+      "gloss": "the institution of enjoining good and forbidding evil, within its rulings",
+      "avoid": [
+        "moral police",
+        "inquisition"
+      ]
+    },
+    "fr": {
+      "preferred": "hisba",
+      "gloss": "l'institution qui commande le bien et interdit le mal selon ses règles",
+      "avoid": [
+        "police des mœurs",
+        "inquisition"
+      ]
+    },
+    "usage_note_ar": "التعريف: الأمر بالمعروف إذا ظهر تركه، والنهي عن المنكر إذا ظهر فعله، بضوابطه الشرعية. | الدليل: آل عمران: 104. | في الجمهرة: EN «ḥisbah»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. ⚠️ يُحال إلى المختص إذا ورد في سياق حكم أو فتوى أو تطبيق عملي، لا في كل ورود.",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/4304/en | FR: غير متوفر في الجمهرة | تحقق ثانٍ (رواد): https://terminologyenc.com/ar/browse/term/3665 | الدليل: https://api.quranpedia.net/v1/ayah/3/104/options",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-02"
+    }
+  },
+  {
+    "id": "hikmah",
+    "ar": "الحكمة",
+    "variants_ar": [
+      "حكمة",
+      "بالحكمة"
+    ],
+    "en": {
+      "preferred": "wisdom",
+      "gloss": "sound judgement in word and deed; in some verses it denotes the Sunnah",
+      "avoid": [
+        "philosophy",
+        "cleverness"
+      ]
+    },
+    "fr": {
+      "preferred": "sagesse",
+      "gloss": "justesse dans la parole et l'acte ; dans certains versets, la Sunna",
+      "avoid": [
+        "philosophie",
+        "ruse"
+      ]
+    },
+    "usage_note_ar": "التعريف: الإصابة في القول والعمل، ووضع الشيء في موضعه؛ وتطلق في القرآن على السنة. — مشتركة الدلالة: في «الكتاب والحكمة» المقصود السنة. | الدليل: النحل: 125؛ البقرة: 129. | في الجمهرة: EN «Wisdom»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تحقق الفرنسية (2026-10-03): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 2:129: «la Sagesse».",
+    "strategy": "context",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/4460/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/16/125/options ؛ https://api.quranpedia.net/v1/ayah/2/129/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/2/129",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "ummah",
+    "ar": "الأمة",
+    "variants_ar": [
+      "الأمة الإسلامية",
+      "أمة محمد"
+    ],
+    "en": {
+      "preferred": "ummah",
+      "gloss": "the Muslim community",
+      "avoid": [
+        "church",
+        "state"
+      ]
+    },
+    "fr": {
+      "preferred": "oumma",
+      "gloss": "la communauté musulmane",
+      "avoid": [
+        "Église",
+        "État"
+      ]
+    },
+    "usage_note_ar": "التعريف: جماعة المسلمين المتبعين لنبيهم ﷺ. | الدليل: آل عمران: 110. | في الجمهرة: EN «Ummah»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تحقق الفرنسية (2026-10-03): موسوعة رواد للمصطلحات (FR): «La communauté».",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/1595/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/3/110/options | FR تحقق (رواد): https://terminologyenc.com/fr/browse/term/43629 | رواد (AR): https://terminologyenc.com/ar/browse/term/43629",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "amanah",
+    "ar": "الأمانة",
+    "variants_ar": [
+      "أمانة",
+      "الأمانات"
+    ],
+    "en": {
+      "preferred": "trust",
+      "gloss": "fulfilling what one is entrusted with: duties, property, words and secrets",
+      "avoid": [
+        "honesty",
+        "deposit"
+      ]
+    },
+    "fr": {
+      "preferred": "fidélité au dépôt",
+      "gloss": "amâna : confiance et dépôt",
+      "avoid": [
+        "honnêteté"
+      ]
+    },
+    "usage_note_ar": "التعريف: أداء الحقوق وحفظها، وتشمل التكاليف الشرعية. | الدليل: النساء: 58. | في الجمهرة: EN «trust»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تجنّب: EN: «honesty» منفردةً دون شرح؛ «deposit» منفردةً دون شرح — FR: «honnêteté» منفردةً دون شرح؛ «dépôt» منفردةً دون شرح | تحقق الفرنسية (2026-10-03): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 4:58: «restituer les dépôts».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/1592/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/4/58/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/4/58",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "haya",
+    "ar": "الحياء",
+    "variants_ar": [
+      "حياء"
+    ],
+    "en": {
+      "preferred": "shyness",
+      "gloss": "bashfulness that prompts doing good and refraining from what is blameworthy",
+      "avoid": [
+        "shame"
+      ]
+    },
+    "fr": {
+      "preferred": "pudeur",
+      "gloss": "hayâ' : pudeur qui pousse à faire le bien et à délaisser le blâmable",
+      "avoid": [
+        "timidité",
+        "honte"
+      ]
+    },
+    "usage_note_ar": "التعريف: خُلق يبعث على ترك القبيح. — shame في الإنجليزية سلبية فتُرفض. | الدليل: صحيح البخاري (9). | في الجمهرة: EN «Shyness»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تجنّب: EN: «shame» لأنها سلبية — FR: «honte» لأنها سلبية",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/4553/en | FR: غير متوفر في الجمهرة | الدليل: https://dorar.net/h/iwOdeSLi",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-02"
+    }
+  },
+  {
+    "id": "birr_walidayn",
+    "ar": "بر الوالدين",
+    "variants_ar": [
+      "البر بالوالدين",
+      "الإحسان إلى الوالدين"
+    ],
+    "en": {
+      "preferred": "dutifulness to parents",
+      "gloss": "kindness, good treatment and obedience to parents in what is right",
+      "avoid": [
+        "obeying parents blindly"
+      ]
+    },
+    "fr": {
+      "preferred": "piété filiale",
+      "gloss": "bonté, bon traitement et obéissance aux parents dans le bien",
+      "avoid": [
+        "obéissance aveugle aux parents"
+      ]
+    },
+    "usage_note_ar": "التعريف: الإحسان إلى الوالدين وطاعتهما في المعروف. — ضده: عقوق الوالدين (لا يُعدّ متغيرًا للمصطلح). | الدليل: الإسراء: 23. | في الجمهرة: EN «Dutifulness to parents»، FR «La piété filiale». | تحقق الفرنسية (2026-10-03): مقابل الجمهرة الفرنسي «La piété filiale» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/2039/en | FR: https://islamic-content.com/dictionary/word/2039/fr | الدليل: https://api.quranpedia.net/v1/ayah/17/23/options",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "zulm",
+    "ar": "الظلم",
+    "variants_ar": [
+      "ظلم",
+      "الظالم",
+      "الظالمين",
+      "ظلموا"
+    ],
+    "en": {
+      "preferred": "injustice",
+      "gloss": "zulm: wrongdoing, the greatest of which is shirk",
+      "avoid": [
+        "darkness"
+      ]
+    },
+    "fr": {
+      "preferred": "injustice",
+      "gloss": "zulm : le tort, dont le plus grand est le shirk",
+      "avoid": [
+        "obscurité"
+      ]
+    },
+    "usage_note_ar": "التعريف: وضع الشيء في غير موضعه، وأعظمه الشرك، ويشمل ظلم النفس وظلم الناس. | الدليل: لقمان: 13. | في الجمهرة: EN «Injustice»، FR «L'injustice». | تجنّب: EN: «darkness» لاشتباهها بكلمة أخرى بنفس الرسم — FR: «obscurité» لاشتباهها بكلمة أخرى بنفس الرسم | تحقق الفرنسية (2026-10-03): مقابل الجمهرة الفرنسي «L'injustice» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/6670/en | FR: https://islamic-content.com/dictionary/word/6670/fr | الدليل: https://api.quranpedia.net/v1/ayah/31/13/options",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "ghibah",
+    "ar": "الغيبة",
+    "variants_ar": [
+      "غيبة",
+      "اغتاب",
+      "يغتب"
+    ],
+    "en": {
+      "preferred": "backbiting",
+      "gloss": "mentioning a person in his absence with what he would dislike",
+      "avoid": [
+        "gossip"
+      ]
+    },
+    "fr": {
+      "preferred": "médisance",
+      "gloss": "ghîba : évoquer une personne absente par ce qu'elle détesterait",
+      "avoid": [
+        "commérage",
+        "absence"
+      ]
+    },
+    "usage_note_ar": "التعريف: ذكرك أخاك بما يكره. | الدليل: الحجرات: 12؛ صحيح مسلم (2589). | في الجمهرة: EN «Backbiting»، FR «Médisance». | تجنّب: EN: «gossip» منفردةً دون شرح؛ «absence» بالمعنى الحرفي — FR: «commérage» منفردةً دون شرح؛ «absence» بالمعنى الحرفي | تحقق الفرنسية (2026-10-03): مقابل الجمهرة الفرنسي «Médisance» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/7335/en | FR: https://islamic-content.com/dictionary/word/7335/fr | الدليل: https://api.quranpedia.net/v1/ayah/49/12/options ؛ https://dorar.net/h/MNdCTVnv",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "namimah",
+    "ar": "النميمة",
+    "variants_ar": [
+      "نميمة",
+      "النمام",
+      "النميم"
+    ],
+    "en": {
+      "preferred": "tale-telling",
+      "gloss": "carrying people's words to others in order to stir up discord",
+      "avoid": [
+        "rumour"
+      ]
+    },
+    "fr": {
+      "preferred": "calomnie colportée",
+      "gloss": "namîma : rapporter des propos pour semer la discorde",
+      "avoid": [
+        "rumeur"
+      ]
+    },
+    "usage_note_ar": "التعريف: نقل الكلام بين الناس على جهة الإفساد. | الدليل: صحيح مسلم (105). | في الجمهرة: EN «Tale-telling»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تجنّب: EN: «rumour» منفردةً دون شرح — FR: «rumeur» منفردةً دون شرح",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/10621/en | FR: غير متوفر في الجمهرة | الدليل: https://dorar.net/h/8c6iiGij",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-02"
+    }
+  },
+  {
+    "id": "nasihah",
+    "ar": "النصيحة",
+    "variants_ar": [
+      "نصيحة",
+      "النصح",
+      "نصح",
+      "الناصح"
+    ],
+    "en": {
+      "preferred": "advice",
+      "gloss": "sincerely wishing and seeking good for the one advised",
+      "avoid": [
+        "criticism"
+      ]
+    },
+    "fr": {
+      "preferred": "conseil sincère",
+      "gloss": "nasîha : vouloir sincèrement le bien pour celui qu'on conseille",
+      "avoid": [
+        "critique"
+      ]
+    },
+    "usage_note_ar": "التعريف: إرادة الخير للمنصوح له. | الدليل: صحيح مسلم (55). | في الجمهرة: EN «Advice»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تجنّب: FR: «conseil» منفردةً دون شرح",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/10465/en | FR: غير متوفر في الجمهرة | الدليل: https://dorar.net/h/AVT8KnJd",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-02"
+    }
+  },
+  {
+    "id": "ithar",
+    "ar": "الإيثار",
+    "variants_ar": [
+      "إيثار",
+      "يؤثرون",
+      "آثر"
+    ],
+    "en": {
+      "preferred": "altruism",
+      "gloss": "ithar: preferring others over oneself for the sake of Allah",
+      "avoid": [
+        "self-neglect"
+      ]
+    },
+    "fr": {
+      "preferred": "altruisme",
+      "gloss": "îthâr : préférer autrui à soi-même pour Allah",
+      "avoid": [
+        "négligence de soi"
+      ]
+    },
+    "usage_note_ar": "التعريف: تقديم الغير على النفس في حظوظ الدنيا رغبةً في ثواب الآخرة. | الدليل: الحشر: 9. | في الجمهرة: EN «Altruism»، FR «Altruisme / Devancement». | تحقق الفرنسية (2026-10-03): مقابل الجمهرة الفرنسي «Altruisme / Devancement» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/1924/en | FR: https://islamic-content.com/dictionary/word/1924/fr | الدليل: https://api.quranpedia.net/v1/ayah/59/9/options",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "tawadu",
+    "ar": "التواضع",
+    "variants_ar": [
+      "تواضع",
+      "المتواضع",
+      "تواضعوا"
+    ],
+    "en": {
+      "preferred": "modesty",
+      "gloss": "humility: lowering oneself and accepting the truth from anyone",
+      "avoid": [
+        "self-humiliation",
+        "weakness"
+      ]
+    },
+    "fr": {
+      "preferred": "humilité",
+      "gloss": "la modestie : s'abaisser et accepter la vérité de quiconque",
+      "avoid": [
+        "auto-humiliation",
+        "faiblesse"
+      ]
+    },
+    "usage_note_ar": "التعريف: خفض الجناح ولين الجانب وقبول الحق ممن كان. | الدليل: صحيح مسلم (2588). | في الجمهرة: EN «Modesty»، FR «L'humilité / La modestie». | تحقق الفرنسية (2026-10-03): مقابل الجمهرة الفرنسي «L'humilité / La modestie» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/3514/en | FR: https://islamic-content.com/dictionary/word/3514/fr | الدليل: https://dorar.net/h/4OE5LvNG",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "hasad",
+    "ar": "الحسد",
+    "variants_ar": [
+      "حسد",
+      "الحاسد",
+      "حاسد",
+      "حسدوا"
+    ],
+    "en": {
+      "preferred": "envy",
+      "gloss": "hasad: wishing for a blessing to be removed from another",
+      "avoid": [
+        "jealousy",
+        "admiration"
+      ]
+    },
+    "fr": {
+      "preferred": "envie",
+      "gloss": "hasad : souhaiter la disparition d'un bienfait chez autrui",
+      "avoid": [
+        "jalousie"
+      ]
+    },
+    "usage_note_ar": "التعريف: تمني زوال النعمة عن الغير. — يُفرَّق بينه وبين الغبطة (تمني مثل النعمة دون زوالها). | الدليل: الفلق: 5. | في الجمهرة: EN «Envy»، FR «Envie». | تجنّب: EN: «jealousy» منفردةً دون شرح — FR: «jalousie» منفردةً دون شرح | تحقق الفرنسية (2026-10-03): مقابل الجمهرة الفرنسي «Envie» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/4306/en | FR: https://islamic-content.com/dictionary/word/4306/fr | الدليل: https://api.quranpedia.net/v1/ayah/113/5/options",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "riya",
+    "ar": "الرياء",
+    "variants_ar": [
+      "رياء",
+      "المرائي",
+      "يراؤون"
+    ],
+    "en": {
+      "preferred": "ostentatiousness",
+      "gloss": "riya': performing worship to be seen and praised by people",
+      "avoid": [
+        "hypocrisy",
+        "pride"
+      ]
+    },
+    "fr": {
+      "preferred": "ostentation",
+      "gloss": "riyâ' : accomplir l'adoration pour être vu et loué",
+      "avoid": [
+        "hypocrisie"
+      ]
+    },
+    "usage_note_ar": "التعريف: إظهار العبادة لقصد رؤية الناس فيحمدوا صاحبها. — يُعد من الشرك الأصغر؛ لا يُخلط بالنفاق. | الدليل: الماعون: 6. | في الجمهرة: EN «Ostentatiousness»، FR «Ostentation». | تجنّب: EN: «hypocrisy» فهو النفاق لا الرياء — FR: «hypocrisie» فهو النفاق لا الرياء | تحقق الفرنسية (2026-10-03): مقابل الجمهرة الفرنسي «Ostentation» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/5384/en | FR: https://islamic-content.com/dictionary/word/5384/fr | الدليل: https://api.quranpedia.net/v1/ayah/107/6/options",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "kibr",
+    "ar": "الكبر",
+    "variants_ar": [
+      "كبر",
+      "التكبر",
+      "المتكبرين",
+      "استكبر",
+      "الاستكبار"
+    ],
+    "en": {
+      "preferred": "conceit",
+      "gloss": "arrogance; kibr: rejecting the truth and looking down on people",
+      "avoid": [
+        "old age",
+        "greatness"
+      ]
+    },
+    "fr": {
+      "preferred": "orgueil",
+      "gloss": "kibr : rejeter la vérité et mépriser les gens",
+      "avoid": [
+        "vieillesse"
+      ]
+    },
+    "usage_note_ar": "التعريف: بطر الحق وغمط الناس، أي ردّ الحق واحتقار الناس. — عنوان الجمهرة: Conceit. | الدليل: صحيح مسلم (91). | في الجمهرة: EN «Conceit»، FR «Orgueil». | تجنّب: FR: «vieillesse» لاشتباهها بكلمة أخرى بنفس الرسم | تحقق الفرنسية (2026-10-03): مقابل الجمهرة الفرنسي «Orgueil» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/8033/en | FR: https://islamic-content.com/dictionary/word/8033/fr | الدليل: https://dorar.net/h/9bX3TFz4",
+      "retrieved": "2026-10-01"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  },
+  {
+    "id": "adl",
+    "ar": "العدل",
+    "variants_ar": [
+      "اعدلوا",
+      "يعدل",
+      "القسط",
+      "الإنصاف",
+      "العدل بين الناس"
+    ],
+    "en": {
+      "preferred": "justice",
+      "gloss": "giving everyone their due, and judging by what Allah has revealed",
+      "avoid": [
+        "equality",
+        "probity"
+      ]
+    },
+    "fr": {
+      "preferred": "justice",
+      "gloss": "donner à chacun son dû et juger selon ce qu'Allah a révélé",
+      "avoid": [
+        "égalité",
+        "probité"
+      ]
+    },
+    "usage_note_ar": "التعريف: إعطاء كل ذي حق حقه. — العدل لا يساوي المساواة المطلقة فيُحذر من ترجمته equality، ولا يُخلط بـ«العدالة» (probity) التي هي صفة الراوي والشاهد. وإذا ورد وصفًا لله تعالى يُراجَع مع المختص. — لم تُدرج «عدل/العادل» منفردتين لأن «العدل» من أسماء الله في بعض الروايات؛ وإذا جاء وصفًا لله يُحال للمختص. | الدليل: النحل: 90؛ المائدة: 8. | في الجمهرة: لا يوجد مدخل مستقل لـ«العدل» (الموجود «العدالة» و«أصحاب العدل والتوحيد»)؛ المقابلان الإنجليزي والفرنسي من صياغة الفريق، والتعريف موثق في موسوعة الأخلاق بالدرر السنية. | تحقق الفرنسية (2026-10-03): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 5:8: «Pratiquez la justice».",
+    "strategy": "translate",
+    "source": {
+      "name": "الدرر السنية — موسوعة الأخلاق والسلوك (dorar.net)",
+      "ref": "https://dorar.net/alakhlaq/1933 | الجمهرة: لا يوجد مدخل مستقل | الدليل: https://api.quranpedia.net/v1/ayah/16/90/options ؛ https://api.quranpedia.net/v1/ayah/5/8/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/5/8",
+      "retrieved": "2026-10-02"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-03"
+    }
+  }
+]
