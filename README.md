@@ -99,8 +99,8 @@ python scripts/run_eval.py --split dev --runs 1
 
 ## ما قبل التحدي وما بعده
 
-بدأ العمل على مُوطِّن في 1 أكتوبر 2026، قبل التحدي. هذا المستودع أُنشئ لأيام التحدي، وأول ما رُفع فيه (4 أكتوبر) نسخةٌ من مستودع التطوير السابق [`ferasdlouw/mowatin`](https://github.com/ferasdlouw/mowatin).
-ما كان موجودًا قبل التحدي محدّد هناك بالوسم [`v0-start`](https://github.com/ferasdlouw/mowatin/tree/v0-start)، وموثّق في [`docs/PRE_CHALLENGE.md`](docs/PRE_CHALLENGE.md)، وسجلّ التطوير الكامل قبل ذلك في المستودع نفسه. شارك في الإعداد قبل التحدي أعضاء سابقون في الفريق.
+بدأ العمل على مُوطِّن في 1 أكتوبر 2026، قبل التحدي. هذا المستودع أُنشئ لأيام التحدي، وأول ما رُفع فيه (4 أكتوبر) نسخةٌ من مستودع التطوير السابق `ferasdlouw/mowatin`، وهو مستودع خاص يُفتح للجنة التحكيم عند الطلب.
+ما كان موجودًا قبل التحدي محدّد هناك بالوسم `v0-start`، وموثّق في [`docs/PRE_CHALLENGE.md`](docs/PRE_CHALLENGE.md)، وسجلّ التطوير الكامل قبل ذلك في المستودع نفسه. شارك في الإعداد قبل التحدي أعضاء سابقون في الفريق.
 
 ## الإفصاح
 
@@ -132,4 +132,4 @@ python scripts/run_eval.py --split dev --runs 1
 - **Fatwa questions** are referred to qualified bodies instead of being answered.
 - Everything else is translated by an LLM under explicit constraints, then checked (back-translation and an LLM judge). Low-confidence segments go to a human reviewer.
 
-Live: [mowatin.pages.dev](https://mowatin.pages.dev) · Code: [ferasdlouw/mowatin-challenge](https://github.com/ferasdlouw/mowatin-challenge) (development history before the challenge: [ferasdlouw/mowatin](https://github.com/ferasdlouw/mowatin)) · License: proprietary, source-available for evaluation only.
+Live: [mowatin.pages.dev](https://mowatin.pages.dev) · Code: [ferasdlouw/mowatin-challenge](https://github.com/ferasdlouw/mowatin-challenge) (development history before the challenge: the private repository `ferasdlouw/mowatin`, available to the judges on request) · License: proprietary, source-available for evaluation only.
