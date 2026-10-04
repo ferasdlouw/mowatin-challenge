@@ -1,0 +1,100 @@
+# مُوطِّن · Mowatin
+
+> **أداة لترجمة المحتوى الدعوي من العربية تحافظ على المعنى الشرعي.**
+> Translating Islamic da'wah content from Arabic into English and French without changing its religious meaning.
+
+**التحدي:** تحدي الذكاء الاصطناعي في خدمة المحتوى الإسلامي 2026
+**المسار:** 02 — صناعة المحتوى متعدد اللغات والتوطين الثقافي
+**الفريق:** فريق أثر المدينة
+
+| | |
+|---|---|
+| 🔗 الموقع | [mowatin.pages.dev](https://mowatin.pages.dev) |
+| 🛠️ الأداة | [mowatin.pages.dev/app](https://mowatin.pages.dev/app) |
+| 💻 الكود الكامل | [github.com/ferasdlouw/mowatin](https://github.com/ferasdlouw/mowatin) |
+
+---
+
+## المشكلة
+
+حين يُترجم المحتوى الدعوي بأدوات الترجمة العامة أو بالنماذج اللغوية وحدها، قد يتغيّر معناه الشرعي دون أن يلاحظ أحد:
+
+- تُترجم الآية ترجمةً آلية بدل الترجمة المعتمدة لمعانيها.
+- يُنقل قولٌ على أنه حديث وهو بلا مصدر أو موضوع.
+- يُترجم المصطلح الشرعي (التوحيد، العبادة، الزكاة…) بكلمة تغيّر دلالته.
+- يجيب النظام عن سؤال فتوى شخصي بدل أن يحيله إلى أهل العلم.
+
+## الحل
+
+**مُوطِّن** طبقة فوق الترجمة الآلية، يستخدمها صانع المحتوى الدعوي العربي حين يريد نشر نصه بلغة أخرى. يلصق النص العربي، ويختار اللغة (الإنجليزية أو الفرنسية) والجمهور، فيحصل على ترجمة مقطعًا مقطعًا:
+
+| ما في النص | ما يفعله مُوطِّن |
+|---|---|
+| **آية** | يطابقها مع نص القرآن (مشروع تنزيل)، ويُدرج ترجمة معانيها المعتمدة من QuranEnc.com مع رقم السورة والآية. لا يترجم آية آليًا أبدًا. وإن كانت الآية محرّفة نبّه عليها. |
+| **حديث** | يطابقه مع قائمة أحاديث موثّقة بمصدرها ودرجتها. والقول الموضوع أو الذي بلا مصدر لا يُترجم، ويُحال إلى المراجعة. |
+| **مصطلح شرعي** | يقفل ترجمته على مقابل ثابت من مسرد موثّق (150 مصطلحًا)، ويُظهر تعريفه ومصدره. |
+| **سؤال فتوى** | لا يجيب عنه؛ يترجم السؤال ويحيل السائل إلى جهات الفتوى المعتمدة. |
+| **نص عادي** | يترجمه النموذج اللغوي ضمن قيود صريحة، ثم يتحقق منه (ترجمة عكسية ونموذج حَكَم) ويعطيه درجة ثقة. |
+
+كل ما يشك فيه النظام يذهب إلى **لوحة المراجع** ليقرّه مراجع شرعي قبل النشر. وشاشة **«قبل وبعد»** تقارن نتيجة مُوطِّن بالترجمة العادية على النص نفسه.
+
+## كيف يعمل
+
+```
+النص العربي
+   │
+   ├─ الكشف: تقسيم النص، وتحديد الآيات والأحاديث والمصطلحات وأسئلة الفتوى
+   ├─ الترجمة: إدراج الترجمات المعتمدة، وقفل المصطلحات، وترجمة الباقي بالنموذج اللغوي
+   └─ التحقق: فحص المصطلحات، وترجمة عكسية، ونموذج حَكَم ← درجة ثقة لكل مقطع
+                                                      └─ أقل من الحد ← لوحة المراجع
+```
+
+- **الخادم:** Python (FastAPI)، منشور على Render.
+- **الواجهة:** React (Vite + Tailwind)، منشورة على Cloudflare Pages، وتدعم العربية من اليمين إلى اليسار والجوال.
+- **النماذج اللغوية:** Gemini (أساسي وحَكَم)، وOpenRouter (احتياطي عند الفشل).
+
+التفاصيل الكاملة (المعمارية، والقرارات، والتقييم، والأمان) في [المستودع الرئيسي](https://github.com/ferasdlouw/mowatin).
+
+## المصادر
+
+- **نص القرآن الكريم:** [مشروع تنزيل](https://tanzil.net) (CC BY 3.0).
+- **ترجمات معاني القرآن:** [QuranEnc.com](https://quranenc.com): Saheeh International (الإنجليزية) ورشيد معاش (الفرنسية).
+- **المسرد:** مصطلحات موثّقة بمصادرها، راجعتها م. ردينة بلال.
+
+قائمة المصادر ورخصها في [`docs/SOURCES.md`](https://github.com/ferasdlouw/mowatin/blob/main/docs/SOURCES.md) و[`THIRD_PARTY_NOTICES.md`](https://github.com/ferasdlouw/mowatin/blob/main/THIRD_PARTY_NOTICES.md).
+
+## ما قبل التحدي وما بعده
+
+العمل بدأ في 1 أكتوبر 2026. ما كان موجودًا قبل التحدي محدّد بالوسم [`v0-start`](https://github.com/ferasdlouw/mowatin/tree/v0-start) في المستودع الرئيسي، وموثّق في [`docs/PRE_CHALLENGE.md`](https://github.com/ferasdlouw/mowatin/blob/main/docs/PRE_CHALLENGE.md). كل ما بعد الوسم هو عمل أيام التحدي (4–6 أكتوبر).
+
+## الإفصاح
+
+- مُوطِّن أداة مدعومة بالذكاء الاصطناعي، ومخرجاته تحتاج **مراجعة بشرية مؤهلة قبل النشر**.
+- لا نخزّن النصوص: يبقى النص في ذاكرة الخادم ساعة واحدة فقط، ويُرسل للترجمة إلى نماذج Google وOpenRouter المجانية.
+- كُتب جزء كبير من الكود والتوثيق بمساعدة وكيل برمجة بالذكاء الاصطناعي، بإشراف الفريق ومراجعته.
+
+## الفريق
+
+| الاسم | الدور |
+|---|---|
+| م. فارس دلو | الواجهة والنشر |
+| م. محمد سعدالدين | الخادم وخط المعالجة |
+| م. ردينة بلال | المحتوى الشرعي والمسرد والمراجعة |
+
+## الترخيص
+
+الكود منشور **للاطلاع والتحكيم فقط**، وليس مفتوح المصدر. التفاصيل في [`LICENSE`](LICENSE) وملخصه العربي في [`LICENSE.ar.md`](LICENSE.ar.md).
+
+---
+
+### English summary
+
+**Mowatin** is a layer on top of machine translation for Arabic da'wah content creators. It translates Arabic texts into English and French segment by segment:
+
+- **Qur'an verses** are matched against the Tanzil text and replaced with an approved translation of their meanings (QuranEnc.com), never machine-translated.
+- **Hadith** are matched against a sourced list. Fabricated or unsourced sayings are not translated and go to review.
+- **Islamic terms** are locked to a verified glossary.
+- **Fatwa questions** are referred to qualified bodies instead of being answered.
+- Everything else is translated by an LLM under explicit constraints, then checked (back-translation and an LLM judge). Low-confidence segments go to a human reviewer.
+
+Live: [mowatin.pages.dev](https://mowatin.pages.dev) · Code: [ferasdlouw/mowatin](https://github.com/ferasdlouw/mowatin) · License: proprietary, source-available for evaluation only.

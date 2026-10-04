@@ -1,0 +1,61 @@
+Mowatin (مُوطِّن) — Proprietary Source-Available License
+Version 1.0 — October 2026
+
+Copyright (c) 2026 Feras Abdo Dalou, Mohamed Saadalden, Rodainah Abdulaziz Belal.
+("Athar Al-Madinah Team" / فريق أثر المدينة). All rights reserved.
+
+1. OWNERSHIP
+   This software, including its source code, prompts, prompt templates,
+   pipeline design, user interface, documentation, and any original data
+   created by the authors (together, the "Software"), is the exclusive
+   property of the copyright holders named above. Third-party materials
+   included in or used by the Software remain the property of their
+   respective owners and are listed in THIRD_PARTY_NOTICES.md.
+
+2. WHAT YOU MAY DO
+   The source code is published publicly for transparency and evaluation
+   only. You may:
+   (a) view and read the source code; and
+   (b) if you are a judge, reviewer, or organizer of the "AI Challenge for
+       Serving Islamic Content" (IslamicAIch.org, Bathel Foundation), run,
+       test, and inspect the Software solely to evaluate the submission,
+       and display screenshots or short excerpts in materials announcing
+       or reporting on the challenge, with attribution to the authors.
+
+3. WHAT YOU MAY NOT DO
+   Without prior written permission from all copyright holders, you may not:
+   (a) copy, reproduce, or fork the Software for any purpose other than
+       Section 2;
+   (b) modify, adapt, translate, or create derivative works of it;
+   (c) deploy, host, or operate it, or any part of it, as a service,
+       whether commercial or non-commercial, including for charitable,
+       educational, or da'wah organizations;
+   (d) sell, sublicense, distribute, or publish it, in whole or in part;
+   (e) use its code, prompts, or design to build a competing product;
+   (f) use it or its outputs to train or fine-tune machine-learning models;
+   (g) remove or alter this license or any copyright notice.
+
+4. NO IMPLIED RIGHTS
+   Public visibility of this repository (for example on GitHub) does not
+   grant any license beyond Section 2. Forking features provided by a
+   hosting platform do not grant rights to use, modify, or distribute the
+   Software.
+
+5. PERMISSION REQUESTS
+   For licensing, partnership, or adoption by an organization, contact the
+   copyright holders: fadedalow@gmail.com
+
+6. TERMINATION
+   Any use in breach of this license automatically terminates all rights
+   granted under Section 2.
+
+7. NO WARRANTY
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+   OR IMPLIED. IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM,
+   DAMAGES, OR OTHER LIABILITY ARISING FROM THE USE OF THE SOFTWARE.
+   Outputs are AI-assisted and must be reviewed by qualified people before
+   publication.
+
+8. LANGUAGE
+   An Arabic summary is provided in LICENSE.ar.md for convenience. In case
+   of conflict, this English text prevails.
