@@ -14,6 +14,7 @@ CONTRACT_SEGMENT_KEYS = {
     "confidence",
     "flags",
     "baseline",
+    "back_translation",
 }
 
 

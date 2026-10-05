@@ -24,7 +24,14 @@ def _prefix(key: str) -> str:
 
 
 def _shows(segments: list[dict]) -> set[str]:
-    flags = [f for s in segments for f in s["flags"]]
+    # Tests run without model keys, so LLM segments carry "translation_unavailable" (D-049);
+    # that says nothing about the demo item's own feature.
+    flags = [
+        f
+        for s in segments
+        for f in s["flags"]
+        if not f["text"].startswith(_prefix("translation_unavailable"))
+    ]
     found = set()
     if any(
         s["type"] == "term_heavy" and any(x["kind"] == "glossary" for x in s["sources"])

@@ -210,7 +210,7 @@ def test_hero_text_through_the_pipeline_needs_no_llm_and_keeps_the_contract():
     assert len(info) == 1
     assert set(seg.model_dump()) == {
         "id", "source", "output", "type", "level", "locked_terms", "marks",
-        "sources", "confidence", "flags", "baseline",
+        "sources", "confidence", "flags", "baseline", "back_translation",
     }  # fmt: skip
 
 

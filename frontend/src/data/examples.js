@@ -17,7 +17,9 @@ export const EXAMPLES = [
   {
     id: 'basics',
     label: 'فقرة دعوية',
+    label_en: 'Da‘wah paragraph',
     hint: 'مصطلحات + آية + حديث',
+    hint_en: 'Terms + verse + hadith',
     text: 'التوحيد أساس الإسلام، وهو إفراد الله بالعبادة. قال الله تعالى: ﴿إِنَّمَا الْمُؤْمِنُونَ إِخْوَةٌ﴾. وقال النبي ﷺ: «إنما الأعمال بالنيات». فالعبادة تشمل كل ما يحبه الله من الأقوال والأعمال.',
     segments: [
       {
@@ -67,7 +69,9 @@ export const EXAMPLES = [
   {
     id: 'errors',
     label: 'نص فيه أخطاء',
+    label_en: 'Text with errors',
     hint: 'آية محرّفة + قول بلا مصدر',
+    hint_en: 'Altered verse + unsourced saying',
     text: 'قال الله تعالى: ﴿قُلْ هُوَ اللَّهُ وَاحِدٌ﴾. وقال النبي ﷺ: «اطلبوا العلم ولو في الصين». والسنة هدي النبي ﷺ.',
     segments: [
       {
@@ -108,7 +112,9 @@ export const EXAMPLES = [
   {
     id: 'fatwa',
     label: 'سؤال شخصي',
+    label_en: 'Personal question',
     hint: 'مستوى (د): إحالة لا حكم',
+    hint_en: 'Level D: referral, not a ruling',
     text: 'أنا أعيش في فرنسا، هل يجوز لي أن أتزوج بهذه الطريقة؟',
     segments: [
       {

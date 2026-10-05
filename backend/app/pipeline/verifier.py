@@ -99,17 +99,18 @@ def _term_check(
     return score, marks, flags
 
 
-async def _backtranslation_score(
+async def _backtranslation(
     text: str, output: str, target_lang: TargetLang, router: JsonCompleter
-) -> float:
-    """(b) Back-translate and compare with the original; a failed call scores 0."""
+) -> tuple[float, str | None]:
+    """(b) Back-translate and compare with the original; a failed call scores 0, no text."""
     prompt = _prompt(
         BACKTRANSLATE_PROMPT, lang_name=_lang_name(target_lang), output=neutralize_tags(output)
     )
     result = await router.complete_json(prompt, BackTranslation)
     if result.data is None:
-        return 0.0
-    return backtranslation_similarity(text, result.data.arabic_text)
+        return 0.0, None
+    back = result.data.arabic_text
+    return backtranslation_similarity(text, back), back
 
 
 def _judge_router(llm_router: Any) -> JsonCompleter | None:
@@ -163,12 +164,16 @@ async def verify(  # noqa: PLR0913
     locked_terms: list[LockedTerm],
     llm_router: JsonCompleter,
     on_usage: UsageHook | None = None,
+    on_back: Callable[[str], None] | None = None,
 ) -> tuple[float, list[str], list[Flag]]:
-    """Return (confidence, marks, flags). ``on_usage`` receives the judge result for cost totals."""
+    """Return (confidence, marks, flags). ``on_usage`` receives the judge result for cost totals;
+    ``on_back`` receives the Arabic back-translation when there is one (shown to the user)."""
     if not output:
         return 0.0, [], []
     term_score, marks, flags = _term_check(output, target_lang, locked_terms)
-    bt_score = await _backtranslation_score(text, output, target_lang, llm_router)
+    bt_score, back = await _backtranslation(text, output, target_lang, llm_router)
+    if back and on_back is not None:
+        on_back(back)
     judge = _judge_router(llm_router)
     share_budget = getattr(llm_router, "share_budget", None)
     if judge is not None and share_budget is not None:

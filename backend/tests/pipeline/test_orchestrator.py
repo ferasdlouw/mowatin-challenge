@@ -147,7 +147,9 @@ def test_llm_paths_are_null_and_in_review_until_phase_3(client, monkeypatch):
     assert seg["type"] == "term_heavy"
     assert seg["output"] is None
     assert seg["confidence"] == 0.0
-    assert seg["flags"] == []
+    # No model answered: the segment says why instead of showing an empty translation (D-049).
+    assert [f["severity"] for f in seg["flags"]] == ["warn"]
+    assert seg["back_translation"] is None
     assert seg["id"] in body["review_queue"]
     assert {"kind": "glossary", "ref": "التوحيد", "edition": None, "grade": None} in seg["sources"]
 

@@ -101,6 +101,15 @@ async def test_sourced_hadith_without_llm_data_stays_null():
     assert seg.output is None
     assert seg.confidence == 0.0
     assert seg.sources[0].grade == "صحيح"
+    # No promise of a translation that is not there; the reason is shown instead (D-049).
+    assert load_messages()["hadith_sourced"] not in _texts(seg)
+    assert load_messages()["translation_unavailable"] in _texts(seg)
+    assert seg.back_translation is None
+
+
+async def test_sourced_hadith_returns_the_back_translation():
+    seg = (await _translate(SOURCED_TEXT, FakeRouter())).segments[0]
+    assert seg.back_translation == "إنما الأعمال بالنيات"
 
 
 @pytest.mark.parametrize(

@@ -35,6 +35,9 @@ from app.schemas import (
 )
 from app.security.privacy import fingerprint
 
+# Every model failed for a segment (D-049); text in flags.ar.json.
+UNAVAILABLE = "translation_unavailable"
+
 logger = logging.getLogger("app.pipeline.orchestrator")
 
 _RAW_TYPE: SegmentType = "general"
@@ -117,6 +120,7 @@ class _Handled:
     flags: list[Flag] = field(default_factory=list)
     locked_terms: list = field(default_factory=list)
     marks: list[str] = field(default_factory=list)
+    back_translation: str | None = None
 
 
 def _quran(text: str, lang: TargetLang) -> _Handled:
@@ -148,20 +152,41 @@ async def _localize(  # noqa: PLR0913
     meter: _CostMeter,
 ) -> _Handled:
     """Localizer (term lock on ``term_ids``) then verifier; glossary sources for the terms."""
+    denied_before = router.budget.denied
     output, locked_terms, llm_flags = await localize_segment(
         text, lang, audience, term_ids, router
     )
+    back: list[str] = []
     confidence, marks, verifier_flags = await verify(
-        text, output, lang, audience, locked_terms, router, on_usage=meter.record
+        text,
+        output,
+        lang,
+        audience,
+        locked_terms,
+        router,
+        on_usage=meter.record,
+        on_back=back.append,
     )
     return _Handled(
         output=output,
         confidence=confidence,
         sources=_glossary_sources(term_ids),
-        flags=llm_flags + verifier_flags + _steering_flags(text, output),
+        flags=llm_flags
+        + verifier_flags
+        + _steering_flags(text, output)
+        + _unavailable(output, router, denied_before),
         locked_terms=locked_terms,
         marks=marks,
+        back_translation=back[0] if back else None,
     )
+
+
+def _unavailable(output: str | None, router: _MeteredRouter, denied_before: int) -> list[Flag]:
+    """No translation because every model failed (not the budget, which has its own flag):
+    say so, so a segment never shows an empty translation without a reason (D-049)."""
+    if output is None and router.budget.denied == denied_before:
+        return [Flag(type="warn", key=UNAVAILABLE)]
+    return []
 
 
 async def _hadith(
@@ -178,7 +203,8 @@ async def _hadith(
         return _Handled(sources=sources, flags=flags)
     handled = await _localize(text, lang, audience, _glossary_detected_ids(text), router, meter)
     handled.sources = sources + handled.sources
-    handled.flags = flags + handled.flags
+    # "A translation of the meaning follows" is only true when one does (D-049).
+    handled.flags = (flags if handled.output else []) + handled.flags
     return handled
 
 
@@ -191,17 +217,20 @@ async def _fatwa(
     claim. No translation keeps ``output`` null; the warn flag keeps the segment in review.
     """
     flags = fatwa_guard.referral_flags()
+    denied_before = router.budget.denied
     question, llm_flags = await raw_translate(text, lang, router)
     if not question:
-        return _Handled(flags=flags + llm_flags)
+        return _Handled(flags=flags + llm_flags + _unavailable(question, router, denied_before))
+    back: list[str] = []
     confidence, _marks, verifier_flags = await verify(
-        text, question, lang, audience, [], router, on_usage=meter.record
+        text, question, lang, audience, [], router, on_usage=meter.record, on_back=back.append
     )
     referral = fatwa_guard.referral_text(lang)
     return _Handled(
         output=f"{question}\n\n{referral}" if referral else question,
         confidence=confidence,
         flags=flags + llm_flags + verifier_flags + _steering_flags(text, question),
+        back_translation=back[0] if back else None,
     )
 
 
@@ -345,6 +374,7 @@ async def _build_segment(
         marks=handled.marks,
         flags=final_flags,
         baseline=baseline,
+        back_translation=handled.back_translation,
     )
 
 

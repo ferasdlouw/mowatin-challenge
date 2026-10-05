@@ -21,7 +21,7 @@ MESSAGE_KEYS = {
     "hadith_sourced", "hadith_unsourced", "hadith_fabricated", "fatwa_referral", "low_confidence",
     "term_check_failed", "avoid_word_found", "provider_fallback", "compare_why_term", "compare_why_quran",
     "compare_why_hadith", "glossary_source", "text_too_long", "rate_limited", "validation_error",
-    "general_error", "limit_reached", "injection_suspected", "raw_unprotected",
+    "general_error", "limit_reached", "injection_suspected", "raw_unprotected", "translation_unavailable",
 }
 PLACEHOLDERS = {
     "quran_mismatch": {"{correct_text}", "{ref}"}, "quran_ambiguous": {"{refs}", "{ref}"},
