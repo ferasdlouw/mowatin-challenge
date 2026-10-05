@@ -71,6 +71,7 @@ function normalize(data) {
     sources: s.sources ?? [],
     flags: s.flags ?? [],
     confidence: s.confidence ?? null,
+    back_translation: s.back_translation ?? null,
   }))
   const base = finalize(segments)
   return {

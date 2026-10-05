@@ -84,7 +84,8 @@ Input (AR text + target lang + audience)
       "sources": [{ "kind": "glossary", "ref": "المسرد: التوحيد" }],
       "confidence": 0.95,
       "flags": [],
-      "baseline": { "output": "…", "wrong": ["unity"], "why": "…" }
+      "baseline": { "output": "…", "wrong": ["unity"], "why": "…" },
+      "back_translation": "التوحيد أساس الإسلام…"
     }
   ],
   "summary": { "segments": 4, "flagged": 0, "avg_confidence": 0.94 },
@@ -103,6 +104,7 @@ Input (AR text + target lang + audience)
 | `confidence` | 0–1 | من طبقة التحقق؛ < 0.75 يُحال تلقائيًا |
 | `flags[]` | `{severity: info\|warn\|block, text}` | `text` بالعربية لعرضه للمستخدم |
 | `baseline` | `{output, wrong[], why}` | فقط في `mode=compare` |
+| `back_translation` | string \| null | الترجمة العكسية إلى العربية التي قارنها المتحقق بالأصل؛ `null` حين لا توجد (D-049) |
 
 الأخطاء: `400` مدخل غير صالح · `413` النص أطول من الحد · `429` تجاوز حد الطلبات · `5xx` الخادم.
 

@@ -26,6 +26,7 @@ _UNFILLED_RE = re.compile(r"\{[a-z_]+\}")
 # existing message is shown instead, so these flags never fail a request.
 _FALLBACK_KEYS = {
     "limit_reached": "general_error",
+    "translation_unavailable": "general_error",
     "injection_suspected": "low_confidence",
     "raw_unprotected": "low_confidence",
 }

@@ -85,6 +85,8 @@ class Segment(BaseModel):
     confidence: float = Field(default=0.0, ge=0.0, le=1.0)
     flags: list[SegmentFlag] = Field(default_factory=list)
     baseline: Baseline | None = None
+    # The verifier's Arabic back-translation of ``output`` (null when there is none, D-049).
+    back_translation: str | None = None
 
 
 class Summary(BaseModel):
