@@ -81,7 +81,7 @@ export default function ToolApp() {
     try {
       const result = await translate({ text: state.text, target_lang: state.lang, audience: state.audience })
       if (result.demo_only) { setState((s) => ({ ...s, status: 'demo', result: null })); return }
-      setState((s) => ({ ...s, status: 'done', result, resultLang: state.lang }))
+      setState((s) => ({ ...s, status: 'done', result, resultLang: state.lang, resultAudience: state.audience }))
       const items = toQueueItems(result.segments, state.lang, result.review_queue)
       if (items.length) setQueue((q) => [...items.filter((it) => !q.some((x) => x.id === it.id)), ...q])
     } catch (e) {

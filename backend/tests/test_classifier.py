@@ -1,6 +1,8 @@
 import json
 from pathlib import Path
 
+import pytest
+
 from app.pipeline.classifier import classify
 from app.pipeline.segmenter import segment
 
@@ -96,3 +98,19 @@ def test_dev_categories_all_correct():
     for category, results in sorted(per_category.items()):
         print(f"\n[2.1] {category}: {sum(results)}/{len(results)}")
     assert all(all(results) for results in per_category.values()), per_category
+
+
+# D-051: ornate brackets around English or French are not a verse to check against the Mushaf.
+@pytest.mark.parametrize(
+    "text",
+    [
+        "Allah says: ﴿Say, He is Allah, One﴾ and be kind.",
+        "Allah dit : ﴿Dis : Il est Allah, Unique﴾.",
+    ],
+)
+def test_ornate_brackets_without_arabic_are_not_quran(text):
+    assert classify(text)["category"] != "quran"
+
+
+def test_ornate_brackets_around_arabic_stay_quran():
+    assert classify("Allah says: ﴿قل هو الله أحد﴾")["category"] == "quran"

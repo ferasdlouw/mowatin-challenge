@@ -383,17 +383,81 @@ def _diacritized_flags(idx: QuranIndex, span: tuple[int, int]) -> list[Flag]:
     return [Flag(type="info", key="quran_diacritized", detail=f"{ref}|{text}")]
 
 
+# Short vowels and tanwin (D-051): the marks that carry grammatical case, so a swap can
+# reverse the meaning (اللهَ … العلماءُ → اللهُ … العلماءَ: who fears whom).
+_VOWELS = frozenset("\u064b\u064c\u064d\u064e\u064f\u0650")
+_LETTER_FOLD = str.maketrans(
+    {
+        "\u0623": "\u0627",
+        "\u0625": "\u0627",
+        "\u0622": "\u0627",
+        "\u0671": "\u0627",
+        "\u0649": "\u064a",
+        "\u0629": "\u0647",
+    }
+)
+_ARABIC_RUN = re.compile(r"[\u0621-\u065f\u0670\u0671\u06d6-\u06ed]+")
+
+
+def _letter_vowels(word: str) -> list[tuple[str, frozenset[str]]]:
+    """Each base letter of ``word`` with the short vowels written on it; other marks ignored."""
+    out: list[tuple[str, set[str]]] = []
+    for ch in word:
+        if ch in _VOWELS:
+            if out:
+                out[-1][1].add(ch)
+        elif "\u0621" <= ch <= "\u064a" or ch == "\u0671":
+            out.append((ch.translate(_LETTER_FOLD), set()))
+    return [(letter, frozenset(vowels)) for letter, vowels in out if letter != "\u0640"]
+
+
+def _raw_window(text: str, words: list[str]) -> list[str] | None:
+    """The run of ``text``'s Arabic words (marks kept) that normalizes to ``words``."""
+    tokens = _ARABIC_RUN.findall(text)
+    n = len(words)
+    for start in range(len(tokens) - n + 1):
+        window = tokens[start : start + n]
+        if _match_words(" ".join(window)) == words:
+            return window
+    return None
+
+
+def tashkeel_conflicts(raw_words: list[str], tanzil: str) -> list[str]:
+    """Words whose written short vowels contradict Tanzil's (D-051).
+
+    Only letters vowelled on both sides are compared, so an unvowelled or partly vowelled
+    quote never conflicts. Empty when the two do not line up word for word.
+    """
+    tanzil_words = tanzil.split()
+    if len(tanzil_words) != len(raw_words):
+        return []
+    conflicts = []
+    for mine, ref in zip(raw_words, tanzil_words, strict=True):
+        a, b = _letter_vowels(mine), _letter_vowels(ref)
+        if [x for x, _ in a] != [y for y, _ in b]:
+            continue
+        if any(va and vb and va != vb for (_x, va), (_y, vb) in zip(a, b, strict=True)):
+            conflicts.append(mine)
+    return conflicts
+
+
 def _not_found() -> dict:
     flags = [Flag(type="warn", key="quran_not_found")]
     return {"output": None, "sources": [], "flags": flags, "review": True}
 
 
 def _from_exact(
-    idx: QuranIndex, spans: list[tuple[int, int]], matched_chars: int, lang: str
+    idx: QuranIndex,
+    spans: list[tuple[int, int]],
+    matched_chars: int,
+    lang: str,
+    raw_words: list[str] | None = None,
 ) -> dict:
     """Approved translation of the first exact match; a quote under 10% of its verse is not enough.
 
     A single match also gets its words with Tanzil's tashkeel (D-044); an ambiguous one does not.
+    Letters match only once marks are dropped, so a quote whose own short vowels contradict
+    the verse (``raw_words``) is blocked and reviewed, never certain (D-051).
     """
     matches = [idx.verse_range(span) for span in spans]
     v_start, v_end = matches[0]
@@ -414,6 +478,13 @@ def _from_exact(
     if output is not None:
         flags.append(Flag(type="info", key="quran_from_approved"))
     if len(spans) == 1:
+        tanzil = idx.diacritized_text(spans[0])
+        if tanzil and raw_words and tashkeel_conflicts(raw_words, tanzil):
+            ref = _ref(idx, *idx.verse_range(spans[0]))
+            flags.append(
+                Flag(type="block", key="quran_tashkeel_mismatch", detail=f"{ref}|{tanzil}")
+            )
+            return {"output": output, "sources": sources, "flags": flags, "review": True}
         flags += _diacritized_flags(idx, spans[0])
     return {"output": output, "sources": sources, "flags": flags, "review": False}
 
@@ -459,7 +530,7 @@ def _resolve_unbracketed(idx: QuranIndex, text: str, lang: str) -> dict:
     for words in _unbracketed_candidates(text):
         spans = idx.word_spans(words)
         if spans:
-            return _from_exact(idx, spans, len(" ".join(words)), lang)
+            return _from_exact(idx, spans, len(" ".join(words)), lang, _raw_window(text, words))
     return _not_found()
 
 
@@ -475,7 +546,8 @@ def resolve_quran(text: str, target_lang: str) -> dict:
 
     spans = idx.exact_spans(query_norm)
     if spans:
-        return _from_exact(idx, spans, len(query_norm), target_lang)
+        raw_words = _raw_window(query, _match_words(query_clean))
+        return _from_exact(idx, spans, len(query_norm), target_lang, raw_words)
 
     v_start, v_end, rate = idx.find_near(query_norm)
     if rate >= NEAR_MAX_RATE:

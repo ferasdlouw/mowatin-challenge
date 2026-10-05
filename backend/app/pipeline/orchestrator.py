@@ -203,8 +203,10 @@ async def _hadith(
         return _Handled(sources=sources, flags=flags)
     handled = await _localize(text, lang, audience, _glossary_detected_ids(text), router, meter)
     handled.sources = sources + handled.sources
-    # "A translation of the meaning follows" is only true when one does (D-049).
-    handled.flags = (flags if handled.output else []) + handled.flags
+    # "A translation of the meaning follows" is only true when one does (D-049); the full
+    # text of an identified hadith is shown either way (D-052).
+    kept = flags if handled.output else [f for f in flags if f.key != "hadith_sourced"]
+    handled.flags = kept + handled.flags
     return handled
 
 

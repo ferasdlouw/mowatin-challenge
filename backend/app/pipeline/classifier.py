@@ -77,9 +77,15 @@ _QUOTED_HADITH_ATTRIBUTIONS = tuple(
 )
 
 
+_ORNATE_QUOTE = re.compile(r"\uFD3F(.*?)\uFD3E", re.S)
+_ARABIC_LETTER = re.compile(r"[\u0621-\u064A]")
+
+
 def _scripture_category(text: str) -> str | None:
     """``quran`` or ``hadith`` when the text quotes or attributes scripture, else ``None``."""
-    if "﴿" in text and "﴾" in text:
+    # Ornate brackets mark a verse only around Arabic: an English or French quote of a verse
+    # is not checked against the Mushaf (D-051).
+    if any(_ARABIC_LETTER.search(q) for q in _ORNATE_QUOTE.findall(text)):
         return "quran"
     canon = canonicalize_for_matching(text)
     if "«" in text and "»" in text and any(a in canon for a in _QUOTED_HADITH_ATTRIBUTIONS):
@@ -93,7 +99,10 @@ def _scripture_category(text: str) -> str | None:
 
     if contains_bare_verse(text):
         return "quran"
-    return None
+    # A known hadith quoted with no formula and no «…» (D-052).
+    from app.pipeline.hadith import find_bare
+
+    return "hadith" if find_bare(text) is not None else None
 
 
 _SCRIPTURE_LEVELS = {"quran": "A", "hadith": "C"}

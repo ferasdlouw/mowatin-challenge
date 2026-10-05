@@ -32,3 +32,6 @@ eval/results/runs/
 
 # blind-rating sheets and the A/B/C key (scripts/blind_eval.py): never in git
 eval/blind/
+
+# pytest-cov data
+.coverage

@@ -80,13 +80,12 @@ def test_quote_across_two_verses_joins_each_part():
 @pytest.mark.parametrize(
     "typed",
     [
-        "﴿وَمِا أَرْسَلْنَاكُ إلا رَحْمَةٌ لِلْعَالَمِينَ﴾",  # wrong marks
         "﴿وَمَا أرسلناك إلا رَحمة للعالمين﴾",  # partial marks
         "﴿ومـــا أرسلـناك إلا رحمة للعالمين﴾",  # tatweel
         f"﴿وما أرسل{ZWSP}ناك إلا رح{ZWNJ}مة للعا{RLO}لمين﴾",  # zero-width and bidi
     ],
 )
-def test_typed_marks_and_hidden_characters_are_replaced_by_the_files(typed):
+def test_partial_marks_and_hidden_characters_are_replaced_by_the_files(typed):
     res = resolve_quran(f"قال الله تعالى: {typed}", "en")
     assert _diacritized(res).detail == f"21:107|{_line('21:107')}"
 
@@ -220,3 +219,57 @@ def test_bare_three_word_verse_typed_without_hamza_gets_the_files_marks():
     assert res["sources"][0].ref == "49:10"
     assert res["review"] is False
     assert _diacritized(res).detail == f"49:10|{_words('49:10', 0, 3)}"
+
+
+# D-051: letters match once marks are dropped, so the quote's own short vowels are checked.
+FEAR_RIGHT = "إِنَّمَا يَخْشَى اللَّهَ مِنْ عِبَادِهِ الْعُلَمَاءُ"
+FEAR_SWAPPED = "إِنَّمَا يَخْشَى اللَّهُ مِنْ عِبَادِهِ الْعُلَمَاءَ"  # who fears whom, reversed
+
+
+def _tashkeel(res: dict) -> Flag | None:
+    return next((f for f in res["flags"] if f.key == "quran_tashkeel_mismatch"), None)
+
+
+@pytest.mark.parametrize(
+    "text",
+    [
+        f"قال تعالى: ﴿{FEAR_SWAPPED}﴾",
+        f"قال تعالى: {FEAR_SWAPPED}",
+        "قال الله تعالى: ﴿وَمِا أَرْسَلْنَاكُ إلا رَحْمَةٌ لِلْعَالَمِينَ﴾",
+    ],
+)
+def test_vowels_that_contradict_the_verse_are_blocked_and_reviewed(text):
+    res = resolve_quran(text, "en")
+    flag = _tashkeel(res)
+    assert flag is not None and flag.type == "block"
+    assert res["review"] is True
+    assert res["output"] is not None  # the correct verse's approved translation
+    assert _diacritized(res) is None
+
+
+@pytest.mark.parametrize(
+    "text",
+    [
+        f"قال تعالى: ﴿{FEAR_RIGHT}﴾",
+        "قال تعالى: ﴿إنما يخشى الله من عباده العلماء﴾",  # no marks
+        "قال تعالى: ﴿إِنَّمَا يخشى الله من عباده العلماء﴾",  # partly vowelled
+        "قال تعالى: ﴿قُلْ هُوَ اللَّهُ أَحَدٌ﴾",
+    ],
+)
+def test_matching_or_missing_vowels_stay_certain(text):
+    res = resolve_quran(text, "en")
+    assert _tashkeel(res) is None
+    assert res["review"] is False
+
+
+def test_tashkeel_conflicts_needs_the_same_words_and_letters():
+    assert quran_module.tashkeel_conflicts(["اللَّهُ"], "اللَّهَ") == ["اللَّهُ"]
+    assert quran_module.tashkeel_conflicts(["اللَّهُ", "أَحَدٌ"], "اللَّهَ") == []  # word counts differ
+    assert quran_module.tashkeel_conflicts(["كَذَلِكَ"], "كَذَٰلِكَ") == []  # dagger alef is not a letter
+    assert (
+        quran_module.tashkeel_conflicts(["عِلْماً"], "عِلْمًا") == []
+    )  # tanwin on the alef or before it
+
+
+def test_unmatched_raw_window_is_none():
+    assert quran_module._raw_window("نص آخر", ["قل", "هو"]) is None

@@ -19,6 +19,12 @@ DISCLOSURE = "مخرجات مدعومة بالذكاء الاصطناعي، وت
 
 # Flags whose `detail` is the value of a single placeholder in their message.
 _SINGLE_PLACEHOLDER = {"hadith_fabricated": "ruling", "term_check_failed": "term"}
+# Flags whose `detail` is "ref|text", and the placeholder the text fills.
+_REF_AND_TEXT = {
+    "quran_diacritized": "verse",
+    "quran_tashkeel_mismatch": "verse",
+    "hadith_identified": "hadith",
+}
 
 _UNFILLED_RE = re.compile(r"\{[a-z_]+\}")
 
@@ -48,9 +54,9 @@ def _placeholders(flag: Flag) -> dict[str, str]:
     if flag.key == "quran_mismatch":
         ref, _, correct_text = flag.detail.partition("|")
         return {"ref": ref, "correct_text": correct_text}
-    if flag.key == "quran_diacritized":
-        ref, _, verse = flag.detail.partition("|")
-        return {"ref": ref, "verse": verse}
+    if flag.key in _REF_AND_TEXT:
+        ref, _, text = flag.detail.partition("|")
+        return {"ref": ref, _REF_AND_TEXT[flag.key]: text}
     if flag.key == "quran_ambiguous":
         return {"refs": flag.detail, "ref": flag.detail.split(",")[0].strip()}
     if flag.key in ("avoid_word_found", "compare_why_term"):

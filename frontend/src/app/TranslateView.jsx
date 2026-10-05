@@ -17,6 +17,14 @@ const AUDIENCES = [
   ['youth', 'الشباب', 'Youth'],
   ['academic', 'أكاديمي / طالب علم', 'Academic / student of knowledge'],
 ]
+// What the audience choice changes, shown above the result (the localizer's AUDIENCE_MAP).
+const AUDIENCE_HINT = {
+  general_non_muslim: ['للقارئ غير المسلم: شرحٌ مبسّط للمفاهيم دون افتراض معرفة سابقة بالإسلام.', 'For non-Muslim readers: concepts explained simply, with no prior knowledge of Islam assumed.'],
+  new_muslim: ['للمسلم الجديد: تبقى المصطلحات الشرعية مع شرح قصير لكلٍّ منها أول مرة، بأسلوب ودود مشجّع.', 'For new Muslims: Islamic terms are kept, each briefly explained on first use, in a warm, encouraging tone.'],
+  youth: ['للشباب: جمل قصيرة وألفاظ يومية واضحة، مع الحفاظ على الاحترام.', 'For young readers: short sentences and clear everyday wording, with a respectful tone.'],
+  academic: ['لطالب العلم والأكاديمي: دقة علمية ومصطلحات منضبطة وأسلوب علمي.', 'For academics and students of knowledge: scholarly rigour, precise terminology and an academic tone.'],
+}
+
 const LANGS = [['en', 'English', 'الإنجليزية'], ['fr', 'Français', 'الفرنسية']]
 const HOWTO = [['الصق النص أو ارفع ملفًا', 'Paste the text or upload a file'], ['اختر اللغة والجمهور', 'Choose the language and audience'], ['اضغط «ترجم بأمان»', 'Press “Translate safely”']]
 const STEPS = [
@@ -60,13 +68,15 @@ export default function TranslateView({ state, setState, run }) {
       setUpload({ busy: false, error: null, drag: false })
     } catch (e) { setUpload({ busy: false, error: e.message || tr('تعذّرت قراءة الملف.', 'Could not read the file.'), drag: false }) }
   }
-  const canRun = text.trim().length > 1 && status !== 'loading'
+  // Mowatin translates from Arabic: text with no Arabic letter is not sent (D-051).
+  const notArabic = text.trim().length > 1 && !/[\u0621-\u064A]/.test(text)
+  const canRun = text.trim().length > 1 && !notArabic && status !== 'loading'
 
   return (
     <div dir="ltr" className="grid grid-cols-1 gap-[1.4rem] xl:grid-cols-[1fr_30rem]">
       {/* ── RESULTS (left on desktop) ── */}
       <section ref={resultsRef} data-tour="results" dir={dir} aria-live="polite" className="scroll-mt-[5rem] order-2 min-w-0 rounded-[1.2rem] border border-slate-200/70 bg-white shadow-[0_1rem_2.5rem_-1.6rem_rgba(14,58,74,.3)] xl:order-1">
-        <Results step={step} lang={state.resultLang ?? lang} status={status} result={result} error={error} onRetry={run} onPick={pick} />
+        <Results step={step} lang={state.resultLang ?? lang} audience={state.resultAudience ?? audience} status={status} result={result} error={error} onRetry={run} onPick={pick} />
       </section>
 
       {/* ── INPUT (right on desktop) ── */}
@@ -160,6 +170,9 @@ export default function TranslateView({ state, setState, run }) {
             className="btn-shine group mt-[1.1rem] inline-flex h-[3.1rem] w-full items-center justify-center gap-[0.6rem] rounded-[0.9rem] bg-brand-800 text-[1.05rem] font-bold text-white shadow-[0_0.9rem_1.8rem_-0.9rem_rgba(10,74,55,.7)] transition-colors hover:bg-brand-900 disabled:cursor-not-allowed disabled:bg-slate-300 disabled:shadow-none">
             {status === 'loading' ? <><Loader2 className="h-[1.2rem] w-[1.2rem] animate-spin" aria-hidden /> {tr('جارٍ المعالجة…', 'Processing…')}</> : <>{tr('ترجم بأمان', 'Translate safely')} {dir === 'rtl' ? <ArrowLeft className="h-[1.2rem] w-[1.2rem] transition-transform group-hover:-translate-x-1" aria-hidden /> : <ArrowRight className="h-[1.2rem] w-[1.2rem] transition-transform group-hover:translate-x-1" aria-hidden />}</>}
           </button>
+          {notArabic && (
+            <p role="alert" className="mt-[0.5rem] text-center text-[0.78rem] text-danger-fg">{tr('مُوطِّن يترجم من العربية: الصق نصًا عربيًا.', 'Mowatin translates from Arabic: paste an Arabic text.')}</p>
+          )}
           {status === 'done' && state.resultLang && state.resultLang !== lang && (
             <p role="status" className="mt-[0.5rem] text-center text-[0.78rem] text-pending-fg">{tr('غيّرت لغة الهدف؛ اضغط «ترجم بأمان» لتحديث النتيجة.', 'You changed the target language; press “Translate safely” to update the result.')}</p>
           )}
@@ -205,7 +218,7 @@ function segmentsLabel(n, lang) {
 }
 
 /* ───────────────────────── results ───────────────────────── */
-function Results({ step, lang, status, result, error, onRetry, onPick }) {
+function Results({ step, lang, audience, status, result, error, onRetry, onPick }) {
   const [copied, setCopied] = useState(false)
   const { speaking, toggle, stop } = useSpeaker()
   useEffect(() => stop, [result, stop]) // a new result stops any reading
@@ -290,6 +303,13 @@ function Results({ step, lang, status, result, error, onRetry, onPick }) {
         </div>
       </header>
 
+      {AUDIENCE_HINT[audience] && (
+        <p className="mx-[1.2rem] mt-[1rem] flex items-start gap-[0.5rem] rounded-[0.8rem] bg-brand-50 px-[0.9rem] py-[0.6rem] text-[0.84rem] leading-[1.45rem] text-brand-900">
+          <UserCheck className="mt-[0.2rem] h-[0.95rem] w-[0.95rem] shrink-0" aria-hidden />
+          <span>{tr(...AUDIENCE_HINT[audience])} {tr('الآيات تبقى بترجمتها المعتمدة كما هي.', 'Verses keep their approved translation as is.')}</span>
+        </p>
+      )}
+
       {result.fallback && (
         <p role="status" className="mx-[1.2rem] mt-[1rem] rounded-[0.8rem] bg-pending-bg px-[0.9rem] py-[0.7rem] text-[0.86rem] leading-[1.5rem] text-[#8A3A0C]">
           {tr('جارٍ تشغيل الخادم أو أنه لا يستجيب الآن، فنعرض النتيجة المحفوظة لهذا المثال. أعد المحاولة بعد لحظات.', 'The server is starting or not responding right now, so we show the saved result for this example. Try again in a moment.')}
@@ -358,7 +378,7 @@ function Segment({ s, i, lang, speaking, onSpeak }) {
         <ArrowDown className="order-2 mx-auto h-[1rem] w-[1rem] text-brand-600 md:hidden" aria-hidden />
         {/* source (right) */}
         <div dir="rtl" className="order-1 md:order-3">
-          <p className={`text-[1.02rem] leading-[1.95rem] text-ink-900 ${s.type === 'quran' ? 'font-quran text-[1.12rem]' : ''}`}>
+          <p dir="auto" className={`text-[1.02rem] leading-[1.95rem] text-ink-900 ${s.type === 'quran' ? 'font-quran text-[1.12rem]' : ''}`}>
             {source}
           </p>
           {open && <TermCard term={termOf(open)} lang={lang} onClose={() => setOpen(null)} />}
@@ -368,10 +388,13 @@ function Segment({ s, i, lang, speaking, onSpeak }) {
       {(s.sources.length > 0 || s.flags.length > 0 || s.back_translation) && (
         <div className="space-y-[0.5rem] border-t border-slate-100 px-[1rem] py-[0.7rem]">
           {s.back_translation && (
-            <p className="flex items-start gap-[0.4rem] text-[0.8rem] leading-[1.45rem] text-ink-600" title={tr('أعاد النظام ترجمة الناتج إلى العربية ليقارنه بالأصل', 'The system translated the output back into Arabic to compare it with the source')}>
-              <RotateCcw className="mt-[0.25rem] h-[0.85rem] w-[0.85rem] shrink-0 text-brand-800" aria-hidden />
-              <span><b className="text-ink-900">{tr('الترجمة العكسية للتحقق:', 'Back-translation check:')}</b> <span dir="rtl">«{s.back_translation}»</span></span>
-            </p>
+            <div className="rounded-[0.7rem] border border-brand-100 bg-brand-50 px-[0.8rem] py-[0.55rem]">
+              <p className="flex items-center gap-[0.4rem] text-[0.78rem] font-bold text-brand-800">
+                <RotateCcw className="h-[0.85rem] w-[0.85rem] shrink-0" aria-hidden />{tr('الترجمة العكسية للتحقق', 'Back-translation check')}
+              </p>
+              <p className="mt-[0.15rem] text-[0.72rem] text-ink-600">{tr('أعاد النظام ترجمة الناتج إلى العربية ليقارنه بالأصل.', 'The output translated back into Arabic, to compare with the source.')}</p>
+              <p dir="rtl" className="mt-[0.3rem] text-[0.95rem] leading-[1.7rem] text-ink-900">«{s.back_translation}»</p>
+            </div>
           )}
           {s.sources.map((src, k) => (
             <p key={k} className="flex flex-wrap items-center gap-[0.4rem] text-[0.78rem] text-ink-600">
