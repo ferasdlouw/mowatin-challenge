@@ -53,7 +53,7 @@ def test_translate_logs_fingerprint_only(make_client, captured):
 
 
 def test_unhandled_error_logs_type_not_message(make_client, captured, monkeypatch):
-    async def explode(req, router, limits=None):
+    async def explode(req, router, limits=None, use_cache=True):
         raise ValueError(f"cannot handle {req.text}")
 
     monkeypatch.setattr(orchestrator, "translate", explode)

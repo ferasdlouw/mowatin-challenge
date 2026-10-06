@@ -5,7 +5,13 @@ import pytest
 import app.pipeline.verifier as verifier_module
 from app.llm.base import LLMResult
 from app.llm.router import LLMRouter
-from app.pipeline.verifier import backtranslation_similarity, combine, find_whole_word, verify
+from app.pipeline.verifier import (
+    Draft,
+    backtranslation_similarity,
+    combine,
+    find_whole_word,
+    verify,
+)
 from app.schemas import LockedTerm, TargetLang
 
 
@@ -21,8 +27,8 @@ async def test_deterministic_term_failure_caps_confidence():
     # Create empty router that returns None for llm calls
     router = LLMRouter([])
 
-    confidence, marks, flags = await verify(
-        text, output, lang, "general_non_muslim", locked_terms, router
+    confidence, _marks, flags = await verify(
+        Draft(text, output, lang, locked_terms), llm_router=router
     )
     assert confidence < 0.75
     assert any(f.key == "term_check_failed" for f in flags)
@@ -38,8 +44,8 @@ async def test_marks_contain_exact_rendered_strings():
 
     router = LLMRouter([])
 
-    confidence, marks, flags = await verify(
-        text, output, lang, "general_non_muslim", locked_terms, router
+    _confidence, marks, _flags = await verify(
+        Draft(text, output, lang, locked_terms), llm_router=router
     )
     assert "Tawhid" in marks
 
@@ -97,14 +103,14 @@ async def test_avoid_word_inside_longer_word_does_not_fail_term_check():
     # "unity" is a tawhid avoid word; it appears only inside "community".
     output = "Tawhid unites the community."
     router = _Answers(BackTranslation={"arabic_text": TEXT})
-    _, _, flags = await verify(TEXT, output, "en", "general_non_muslim", TAWHID, router)
+    _, _, flags = await verify(Draft(TEXT, output, "en", TAWHID), llm_router=router)
     assert not any(f.key == "avoid_word_found" for f in flags)
 
 
 async def test_avoid_word_as_whole_word_fails_term_check():
     output = "Tawhid, or Unity, is the basis of Islam."
     router = _Answers(BackTranslation={"arabic_text": TEXT})
-    confidence, _, flags = await verify(TEXT, output, "en", "general_non_muslim", TAWHID, router)
+    confidence, _, flags = await verify(Draft(TEXT, output, "en", TAWHID), llm_router=router)
     assert any(f.key == "avoid_word_found" for f in flags)
     assert confidence < 0.75
 
@@ -112,9 +118,7 @@ async def test_avoid_word_as_whole_word_fails_term_check():
 async def test_judge_unset_keeps_confidence_below_threshold():
     """Perfect term check and back-translation, but no JUDGE_* slot: the segment goes to review."""
     router = _Answers(BackTranslation={"arabic_text": TEXT})
-    confidence, _, flags = await verify(
-        TEXT, GOOD_OUTPUT, "en", "general_non_muslim", TAWHID, router
-    )
+    confidence, _, flags = await verify(Draft(TEXT, GOOD_OUTPUT, "en", TAWHID), llm_router=router)
     assert flags == []
     assert confidence == 0.6
     assert confidence < 0.75
@@ -126,7 +130,9 @@ async def test_judge_failure_scores_zero(monkeypatch):
     router = _Answers(BackTranslation={"arabic_text": TEXT})
     seen = []
     confidence, _, _ = await verify(
-        TEXT, GOOD_OUTPUT, "en", "general_non_muslim", TAWHID, router, on_usage=seen.append
+        Draft(TEXT, GOOD_OUTPUT, "en", TAWHID),
+        llm_router=router,
+        on_usage=seen.append,
     )
     assert judge.calls == ["JudgeOutput"]
     assert len(seen) == 1
@@ -137,7 +143,7 @@ async def test_all_checks_pass_reaches_threshold(monkeypatch):
     judge = _Answers(JudgeOutput={"score": 0.9})
     monkeypatch.setattr(verifier_module, "_judge_router", lambda _router: judge)
     router = _Answers(BackTranslation={"arabic_text": TEXT})
-    confidence, _, _ = await verify(TEXT, GOOD_OUTPUT, "en", "general_non_muslim", TAWHID, router)
+    confidence, _, _ = await verify(Draft(TEXT, GOOD_OUTPUT, "en", TAWHID), llm_router=router)
     assert confidence == 0.96
 
 
@@ -145,7 +151,7 @@ async def test_backtranslation_failure_scores_zero(monkeypatch):
     judge = _Answers(JudgeOutput={"score": 1.0})
     monkeypatch.setattr(verifier_module, "_judge_router", lambda _router: judge)
     router = _Answers(BackTranslation=None)
-    confidence, _, _ = await verify(TEXT, GOOD_OUTPUT, "en", "general_non_muslim", TAWHID, router)
+    confidence, _, _ = await verify(Draft(TEXT, GOOD_OUTPUT, "en", TAWHID), llm_router=router)
     assert confidence == 0.75
 
 

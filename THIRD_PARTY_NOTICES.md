@@ -69,6 +69,10 @@ Free tiers: the providers' terms may allow them to use submitted text to improve
 
 Outputs are AI-assisted; see the README for the human review process.
 
+## Hadith references — Dorar (الدرر السنية), dorar.net
+
+When `HADITH_LOOKUP=dorar` (off by default, docs/DECISIONS.md D-067), a quoted saying that is in neither the approved nor the fabricated list is looked up in Dorar's Hadith Encyclopedia (الموسوعة الحديثية, `https://dorar.net/dorar_api.json`; service described at https://dorar.net/article/389). Only the quoted saying is sent. Results are shown to the reviewer as references (book, number, muhaddith, «خلاصة حكم المحدث» as written) with `dorar.net` as their edition, fetched per request and kept in memory for at most 500 sayings; nothing is stored in the repository. Dorar's grading is not used as a verdict. The terms of use of the service must be checked before it is switched on (see docs/dev/PROGRESS.md, waiting on humans). The response format was read from the MIT-licensed `dorar_hadith` package (github.com/MoathCodes/dorar_hadith); no code was copied.
+
 ## Development tools (not part of the shipped product)
 
 | Tool | License | Source | Purpose |

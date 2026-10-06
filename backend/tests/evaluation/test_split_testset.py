@@ -138,7 +138,7 @@ def test_add_keeps_the_existing_split_and_appends_new_cases(tmp_path):
 
 
 def test_add_refuses_a_changed_test_file(tmp_path):
-    out, _rows_, new_file = _frozen_set(tmp_path)
+    out, _rows, new_file = _frozen_set(tmp_path)
     (out / "test.jsonl").write_text("tampered\n", encoding="utf-8")
     proc = _tool("add", str(new_file), "--out", str(out))
     assert proc.returncode != 0

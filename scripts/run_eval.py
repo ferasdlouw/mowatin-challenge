@@ -25,9 +25,10 @@ from typing import Any
 
 import httpx
 
+# Python puts this script's folder on the path, so the sibling module imports directly.
+from eval_metrics import load_approved, load_glossary, score_run
+
 REPO = Path(__file__).resolve().parent.parent
-sys.path.insert(0, str(Path(__file__).resolve().parent))
-from eval_metrics import load_approved, load_glossary, score_run  # noqa: E402
 
 
 @dataclass(frozen=True)
@@ -212,6 +213,10 @@ def format_table(scores: dict[str, list[dict[str, Any]]]) -> str:
 # ── wiring (I/O edge) ────────────────────────────────────────────────
 
 IN_PROCESS_RATE_LIMIT = 1_000_000  # per minute; far above any split size
+SERVER_CACHE_WARNING = (
+    "warning: several runs against --api-url: start that server with RESPONSE_CACHE=false, "
+    "or runs 2..N are served from its response cache and repeat run 1 (D-059)."
+)
 
 
 def _in_process_post() -> tuple[Post, Callable[[], None]]:
@@ -223,7 +228,10 @@ def _in_process_post() -> tuple[Post, Callable[[], None]]:
 
     # Every case comes from one client address; the per-IP limit guards the public service,
     # so here it would only turn units into failed calls (429) after the first few.
-    settings = get_settings().model_copy(update={"rate_limit_per_min": IN_PROCESS_RATE_LIMIT})
+    # No response cache (D-059): every run must call the models again, or runs 2..N repeat run 1.
+    settings = get_settings().model_copy(
+        update={"rate_limit_per_min": IN_PROCESS_RATE_LIMIT, "response_cache": False}
+    )
     # A server crash must score as one failed unit (HTTP 500), not abort the whole run.
     client = TestClient(create_app(settings=settings), raise_server_exceptions=False)
     client.__enter__()  # runs startup (glossary load)
@@ -261,13 +269,24 @@ def parse_args(argv: list[str] | None) -> argparse.Namespace:
     return args
 
 
+def _api_post(http: httpx.Client, api_url: str) -> Post:
+    """Posts each case to a running API's translate endpoint."""
+    url = f"{api_url.rstrip('/')}/v1/translate"
+
+    def post(body: dict[str, Any]) -> httpx.Response:
+        return http.post(url, json=body)
+
+    return post
+
+
 def main(argv: list[str] | None = None) -> None:
     args = parse_args(argv)
     cases = load_cases(resolve_split(args.split, args.i_confirm_frozen, args.data_dir / "testset"))
     http = httpx.Client(timeout=60)
+    if args.api_url and args.runs > 1:
+        print(SERVER_CACHE_WARNING, file=sys.stderr)
     if args.api_url:
-        post: Post = lambda body: http.post(f"{args.api_url.rstrip('/')}/v1/translate", json=body)  # noqa: E731
-        close = http.close
+        post, close = _api_post(http, args.api_url), http.close
     else:
         post, close = _in_process_post()
     post = throttled(post, args.delay)

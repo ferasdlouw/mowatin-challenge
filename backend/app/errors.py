@@ -80,9 +80,19 @@ async def _validation_error_handler(request: Request, exc: RequestValidationErro
 
     ``exc.errors()`` holds the rejected input, so it is inspected but never logged.
     """
-    if any(error.get("type") == "string_too_long" for error in exc.errors()):
+    if any(_text_too_long(error) for error in exc.errors()):
         return text_too_long_response(_max_chars(request))
     return _error_json(400, "VALIDATION_ERROR", _arabic("validation_error"))
+
+
+def _text_too_long(error: dict[str, Any]) -> bool:
+    """Only the translation text over its cap is 413 «text too long» (D-062). Any other field
+    over its own cap (``q`` of ``/v1/glossary``, 200 chars) is a plain 400: the 413 message
+    names ``MAX_TEXT_CHARS``, which says nothing about that field."""
+    return error.get("type") == "string_too_long" and tuple(error.get("loc", ())) == (
+        "body",
+        "text",
+    )
 
 
 async def _text_too_long_handler(_request: Request, exc: TextTooLongError) -> JSONResponse:

@@ -36,7 +36,12 @@ def num(v, where):
 
 
 def kappa(x, y):
+    """(observed agreement, Cohen's kappa) of two raters' labels for the same units, in order."""
+    if len(x) != len(y):
+        raise ValueError(f"kappa needs one label per unit from each rater; got {len(x)} and {len(y)}")
     n = len(x)
+    if not n:
+        raise ValueError("kappa of no ratings is undefined")
     po = sum(a == b for a, b in zip(x, y)) / n
     cx, cy = Counter(x), Counter(y)
     pe = sum(cx[k] * cy[k] for k in set(cx) | set(cy)) / (n * n)

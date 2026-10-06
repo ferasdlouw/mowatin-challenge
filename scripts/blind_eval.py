@@ -3,15 +3,16 @@
 إخفاء أسماء الأنظمة (A/B/C) وتوليد أوراق التقييم الأعمى. يُشغَّل مرة لكل لغة.
 
 التشغيل (من جذر المشروع)، بملفات run_eval.py:
-    python scripts/blind_eval.py --lang en \
+    python scripts/blind_eval.py --lang en --i-confirm-frozen \
         --mt      eval/results/runs/gt_run1.jsonl \
         --llm     eval/results/runs/raw_run1.jsonl \
         --mowatin eval/results/runs/mowatten_run1.jsonl
-    python scripts/blind_eval.py --lang fr  (بنفس الملفات)
+    python scripts/blind_eval.py --lang fr --i-confirm-frozen  (بنفس الملفات)
 
 معرّفات الأنظمة مطابقة لـ summary.json: mt (Google) وllm (النموذج بلا مُوطِّن) وmowatin.
 الإدخال: JSONL من run_eval.py، صف لكل (id, target): {id, target, output, segments}.
 يُقيَّم فقط ما في data/testset/test.jsonl وهدفه يشمل --lang؛ أي مقطع من dev يُتجاهل مع تنبيه.
+مجموعة test مختومة: لا تُقرأ إلا مع --i-confirm-frozen وبعد مطابقة test.sha256 (كما في run_eval.py).
 
 المخرجات في eval/blind/<lang>/:
     shared_sample.csv : العينة المشتركة (30 مقطعًا) يقيّمها الشخصان معًا
@@ -29,6 +30,9 @@ import json
 import random
 from pathlib import Path
 
+from run_eval import resolve_split
+
+TESTSET_DIR = Path(__file__).resolve().parent.parent / "data" / "testset"
 SEED = 20261005
 SHARED_N = 30
 SYSTEMS = ["mt", "llm", "mowatin"]  # = eval/results/summary.json system ids
@@ -72,20 +76,32 @@ def load(path, field, lang, name):
     return out
 
 
-def main():
+def source_path(test_arg, confirmed):
+    """The sealed test set only with consent and a matching checksum, checked before it is read;
+    any other file (a fixture, dev) as given."""
+    path = Path(test_arg)
+    if path.resolve() != (TESTSET_DIR / "test.jsonl").resolve():
+        return path
+    return resolve_split("test", confirmed, TESTSET_DIR)
+
+
+def main(argv=None):
     p = argparse.ArgumentParser()
     for s in SYSTEMS:
         p.add_argument(f"--{s}", required=True)
-    p.add_argument("--test", default="data/testset/test.jsonl")
+    p.add_argument("--test", default=str(TESTSET_DIR / "test.jsonl"))
+    p.add_argument("--i-confirm-frozen", action="store_true",
+                   help="مطلوب لقراءة مجموعة test المختومة (التقييم الرسمي فقط)")
     p.add_argument("--field", default="output")
     p.add_argument("--source-field", default="text_ar", help="حقل النص العربي في test.jsonl")
     p.add_argument("--lang", default="en", help="اللغة الهدف المقيَّمة: en أو fr")
     p.add_argument("--outdir", help="الافتراضي eval/blind/<lang>")
-    a = p.parse_args()
+    a = p.parse_args(argv)
     outdir = a.outdir or f"eval/blind/{a.lang}"
+    test_path = source_path(a.test, a.i_confirm_frozen)
 
     outs = {s: load(getattr(a, s), a.field, a.lang, s) for s in SYSTEMS}
-    test = [json.loads(l) for l in Path(a.test).read_text(encoding="utf-8").splitlines() if l.strip()]
+    test = [json.loads(l) for l in test_path.read_text(encoding="utf-8").splitlines() if l.strip()]
     skipped = [r["id"] for r in test if a.lang not in r["targets"]]
     test = [r for r in test if a.lang in r["targets"]]
     ids = sorted(r["id"] for r in test)

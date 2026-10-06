@@ -73,15 +73,7 @@ async def localize_segment(
                 )
                 locked_terms.append(LockedTerm(ar=ar_text, out=preferred, glossary_id=term_id))
             elif strategy == "context":
-                avoid_str = ", ".join(avoid)
-                if avoid_str:
-                    constraints.append(
-                        f"- For '{ar_text}', choose the translation based on context, but AVOID these words: {avoid_str}"
-                    )
-                else:
-                    constraints.append(
-                        f"- For '{ar_text}', choose the translation based on context."
-                    )
+                constraints.append(_context_constraint(ar_text, preferred, gloss, avoid))
 
     constraints_section = "\n".join(constraints) if constraints else ""
 
@@ -97,6 +89,18 @@ async def localize_segment(
 
     output = res.data.output if res.data else None
     return output, locked_terms, res.flags
+
+
+def _context_constraint(ar_text: str, preferred: str, gloss: str, avoid: list[str]) -> str:
+    """A multi-sense term (D-058): the approved rendering is the default, not forced, since
+    another sense may be meant («الإحسان» said of Allah is beneficence); avoid words never."""
+    rule = f"- For '{ar_text}', the sense depends on the context"
+    if preferred:
+        usual = f"{preferred} ({gloss})" if gloss else preferred
+        rule += f"; the approved rendering of its usual sense is '{usual}', use it unless the context requires another sense"
+    if avoid:
+        rule += f"; AVOID these words: {', '.join(avoid)}"
+    return rule + "."
 
 
 async def raw_translate(

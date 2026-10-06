@@ -49,7 +49,8 @@ function finalize(segments) {
   }
 }
 
-const TIMEOUT_MS = 60000 // allows for a cold start of the server
+// The server answers within REQUEST_DEADLINE_S (90 s, D-060); +60 s for a cold start on Render.
+const TIMEOUT_MS = 150000
 
 const HTTP_ERROR = {
   400: 'النص فارغ أو غير صالح. اكتب نصًا عربيًا ثم أعد المحاولة.',

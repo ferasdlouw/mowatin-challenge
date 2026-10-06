@@ -80,6 +80,8 @@ export function LtrBrackets({ children }) {
 export function highlight(text, needles, wrap) {
   if (!text || !needles?.length) return text
   const list = needles.filter(Boolean).sort((a, b) => b.length - a.length)
+  // Only blank needles would build the pattern `()`, which splits the text into single letters.
+  if (!list.length) return text
   const esc = list.map((n) => n.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'))
   const re = new RegExp(`(${esc.join('|')})`, 'g')
   return text.split(re).map((part, i) => (list.includes(part) ? wrap(part, i) : part))

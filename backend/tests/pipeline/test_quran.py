@@ -56,6 +56,7 @@ def load_dev_cases(category):
 def test_quran_quotes():
     cases = load_dev_cases("quran_quote")
     assert len(cases) > 0, "No quran_quote cases found in dev.jsonl"
+    reviewed = set()
     for case in cases:
         text = case["text_ar"]
         res = resolve_quran(text, "en")
@@ -80,7 +81,15 @@ def test_quran_quotes():
             "16:125",
         ]
         assert any(f.key == "quran_from_approved" for f in res["flags"])
-        assert not res["review"]
+        # D-055: only a partial quote (under 40% of its verse) or one whose places translate
+        # differently is reviewed; the approved translation is inserted either way.
+        warned = {f.key for f in res["flags"] if f.type != "info"}
+        assert warned <= {"quran_partial", "quran_ambiguous"}
+        assert res["review"] == bool(warned)
+        if res["review"]:
+            reviewed.add(case["id"])
+    # «إن الله مع الصابرين» (2:153, 8:46), «إن الصلاة تنهى…», «فإذا عزمت…», «ادع إلى سبيل ربك…».
+    assert reviewed == {"T031", "T043", "T120", "T123"}
 
 
 def test_quran_misquotes():

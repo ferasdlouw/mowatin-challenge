@@ -16,5 +16,5 @@ known-first-party = ["app"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
-pythonpath = ["."]
+pythonpath = [".", "../scripts"]
 asyncio_mode = "auto"

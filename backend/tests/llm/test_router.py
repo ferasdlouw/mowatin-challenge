@@ -11,7 +11,7 @@ import respx
 
 from app.llm.base import Usage
 from app.llm.gemini import GeminiClient
-from app.llm.notices import FALLBACK_KEY, FLAGS_PATH
+from app.llm.notices import FALLBACK_KEY, FLAGS_PATH, fallback_flag
 from app.llm.router import BACKOFF_S, MAX_RETRY_AFTER_S, NOT_CONFIGURED, LLMRouter
 from tests.llm.conftest import (
     GEMINI_URL,
@@ -96,8 +96,6 @@ async def test_timeout_twice_fails_over_with_info_flag(
 
 
 def test_fallback_flag_text_comes_from_messages_file() -> None:
-    from app.llm.notices import fallback_flag
-
     messages = json.loads(Path(FLAGS_PATH).read_text(encoding="utf-8"))["messages"]
 
     assert fallback_flag().msg == messages[FALLBACK_KEY]
@@ -212,3 +210,17 @@ async def test_no_provider_configured_fails_safe() -> None:
     assert result.data is None
     assert result.error == NOT_CONFIGURED
     assert result.usage == Usage()
+
+
+async def test_double_escaped_characters_from_the_model_are_decoded(
+    mock_api: respx.MockRouter, router: LLMRouter
+) -> None:
+    """Gemini sometimes escapes twice («\\u00ab» inside the JSON string), which reached the user
+    as the six characters ``\\u00ab``; a control character stays escaped."""
+    raw = '{"translation": "said: \\\\u00abPart of Islam\\\\u00bb \\\\u0007"}'
+    mock_api.post(GEMINI_URL).mock(return_value=gemini_ok(raw))
+
+    result = await router.complete_json("p", Answer)
+
+    assert result.data is not None
+    assert result.data.translation == "said: «Part of Islam» \\u0007"

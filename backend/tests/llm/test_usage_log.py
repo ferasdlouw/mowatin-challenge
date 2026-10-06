@@ -10,6 +10,8 @@ import httpx
 import pytest
 import respx
 
+from app.llm.gemini import GeminiClient
+from app.llm.openrouter import OpenRouterClient
 from app.llm.router import LLMRouter
 from app.security.privacy import keyed_digest
 from tests.llm.conftest import (
@@ -120,8 +122,6 @@ async def test_total_failure_logs_llm_failed(
 async def test_unknown_model_cost_is_null_not_guessed(
     mock_api: respx.MockRouter, http: httpx.AsyncClient, caplog: pytest.LogCaptureFixture
 ) -> None:
-    from app.llm.gemini import GeminiClient
-
     caplog.set_level(logging.INFO, logger="app.llm")
     client = GeminiClient(http, FAKE_KEY, "gemini-9-experimental", 5.0)
     url = GEMINI_URL.replace("gemini-2.0-flash", "gemini-9-experimental")
@@ -140,8 +140,6 @@ async def test_unknown_model_cost_is_null_not_guessed(
 async def test_free_tier_logs_actual_zero_and_list_price(
     mock_api: respx.MockRouter, http: httpx.AsyncClient, caplog: pytest.LogCaptureFixture
 ) -> None:
-    from app.llm.gemini import GeminiClient
-
     caplog.set_level(logging.INFO, logger="app.llm")
     client = GeminiClient(http, FAKE_KEY, "gemini-2.0-flash", 5.0)
     client.free_tier = True  # type: ignore[attr-defined]
@@ -161,8 +159,6 @@ async def test_free_tier_logs_actual_zero_and_list_price(
 async def test_free_model_costs_zero_and_lists_its_paid_variant(
     mock_api: respx.MockRouter, http: httpx.AsyncClient, caplog: pytest.LogCaptureFixture
 ) -> None:
-    from app.llm.openrouter import OpenRouterClient
-
     caplog.set_level(logging.INFO, logger="app.llm")
     client = OpenRouterClient(http, FAKE_KEY, "qwen/qwen3.8-27b:free", 5.0)
     mock_api.post(OPENROUTER_URL).mock(return_value=openrouter_ok(answer_json()))
