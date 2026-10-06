@@ -186,7 +186,8 @@ def test_misquoted_or_unmatched_verse_is_never_verified(text):
     assert seg.verification is None
     assert seg.confidence == 0.0
     assert response.review_queue == [seg.id]
-    assert response.summary.avg_confidence == 0.0
+    # Nothing was scored (D-078): no average rather than a misleading 0%.
+    assert response.summary.avg_confidence is None
 
 
 # ── Response-level average ───────────────────────────────────────────
@@ -212,11 +213,12 @@ def test_mixed_input_average_leaves_out_the_verified_verse_only():
 def test_assemble_average_without_verified_segments_is_unchanged():
     segments = [
         Segment(id=1, confidence=1.0, verification="verified_retrieval"),
-        Segment(id=2, confidence=0.9),
-        Segment(id=3, confidence=0.8),
+        Segment(id=2, output="x", confidence=0.9),
+        Segment(id=3, output="x", confidence=0.8),
         Segment(id=4, confidence=0.0, verification="ambiguous_verse"),
     ]
     body = assemble(segments)
-    # The ambiguous verse still counts at 0.0, as any unresolved segment does.
-    assert body.summary.avg_confidence == 0.57
+    # The ambiguous verse has no output and no score, so it is left out (D-078); it still
+    # counts in review_queue.
+    assert body.summary.avg_confidence == 0.85
     assert body.review_queue == [4]

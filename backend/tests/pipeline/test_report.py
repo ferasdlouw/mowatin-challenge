@@ -71,9 +71,9 @@ def test_needs_review_truth_table(confidence, severities, review):
 
 def test_assemble_queue_summary_and_disclosure():
     segments = [
-        Segment(id=1, confidence=0.95),
-        Segment(id=2, confidence=0.5),
-        Segment(id=3, confidence=0.9, flags=[SegmentFlag(severity="warn", text="x")]),
+        Segment(id=1, output="x", confidence=0.95),
+        Segment(id=2, output="x", confidence=0.5),
+        Segment(id=3, output="x", confidence=0.9, flags=[SegmentFlag(severity="warn", text="x")]),
     ]
     body = assemble(segments)
     assert body.review_queue == [2, 3]

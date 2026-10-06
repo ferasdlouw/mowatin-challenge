@@ -9,7 +9,15 @@ import unicodedata
 
 import pytest
 
-from app.pipeline.quran import _match_words, get_index, input_form, resolve_quran
+from app.pipeline.glossary import detect
+from app.pipeline.quran import (
+    TANZIL_PATH,
+    _match_words,
+    _read_tanzil,
+    get_index,
+    input_form,
+    resolve_quran,
+)
 
 TAWHEED_PLACES = ["37:35", "47:19"]
 
@@ -103,3 +111,33 @@ def test_near_match_of_identical_verses_picks_no_place(text: str, first: str, co
     places = _places(result)
     assert places[0] == first
     assert len(places) == count
+
+
+@pytest.mark.parametrize(
+    ("text", "places"),
+    [
+        ("لا إله إلا الله (٣٧:٣٥)", ["37:35"]),
+        ("لا إله إلا الله (47:19)", ["47:19"]),
+        # a reference that matches no place found leaves every place, for review
+        ("لا إله إلا الله (2:255)", []),
+    ],
+)
+def test_reference_in_plain_brackets_narrows(text: str, places: list[str]) -> None:
+    result = resolve_quran(text, "en")
+    assert [s.ref for s in result["sources"]] == places
+    if not places:
+        assert result["output"] is None and result["review"]
+
+
+@pytest.mark.parametrize("ref", ["2:14", "2:255", "53:19"])
+def test_uthmani_hamza_seats_find_their_verse(ref: str) -> None:
+    """«مستهزءون», «يوده», «أفرءيتم»: Simple writes the hamza on another seat, or not at all."""
+    uthmani = _read_tanzil(TANZIL_PATH.with_name("quran-uthmani.txt"))
+    assert uthmani is not None
+    result = resolve_quran(f"﴾{uthmani[ref]}﴿", "en")
+    assert [s.ref for s in result["sources"]] == [ref]
+    assert not any(f.key == "quran_mismatch" for f in result["flags"])
+
+
+def test_glossary_reads_persian_letters() -> None:
+    assert [m["id"] for m in detect("الزکاة")] == [m["id"] for m in detect("الزكاة")]

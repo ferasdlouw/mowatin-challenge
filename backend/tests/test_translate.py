@@ -214,10 +214,10 @@ def test_review_queue_lists_low_confidence_and_warned_segments():
     """review_queue holds ids under 0.75 confidence or with a non-info flag, like the client."""
 
     segments = [
-        Segment(id=1, confidence=0.95),
-        Segment(id=2, confidence=0.5),
-        Segment(id=3, confidence=0.9, flags=[SegmentFlag(severity="warn", text="x")]),
-        Segment(id=4, confidence=0.9, flags=[SegmentFlag(severity="info", text="x")]),
+        Segment(id=1, output="x", confidence=0.95),
+        Segment(id=2, output="x", confidence=0.5),
+        Segment(id=3, output="x", confidence=0.9, flags=[SegmentFlag(severity="warn", text="x")]),
+        Segment(id=4, output="x", confidence=0.9, flags=[SegmentFlag(severity="info", text="x")]),
     ]
     body = assemble(segments)
     assert body.review_queue == [2, 3]

@@ -136,6 +136,13 @@ def _continuation(record: Record, quote_key: str) -> tuple[str, str]:
     return "", ""
 
 
+def contains(text: str) -> bool:
+    """``text`` is, as written, a specific contiguous run of words of a corpus record."""
+    corpus = load_corpus()
+    key = hadith.match_key(text)
+    return corpus is not None and is_specific(key) and bool(_candidates(corpus, key))
+
+
 def complete(quote_key: str) -> Completion | None:
     """Completion for a quote already known to be neither fabricated nor approved.
 

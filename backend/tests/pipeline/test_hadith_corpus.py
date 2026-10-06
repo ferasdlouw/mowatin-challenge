@@ -17,6 +17,12 @@ from app.pipeline.hadith import load_items, match_key, resolve_hadith
 from app.pipeline.report import render_flag
 from app.schemas import TranslateRequest
 
+SHIPPED = (
+    Path(hadith_corpus.__file__).resolve().parents[3]
+    / "data"
+    / "hadith"
+    / "corpus_bukhari_muslim.json.gz"
+)
 NOT_TAKHRIJ = "ليس رقم التخريج المطبوع"
 
 # Small made-up records in the corpus file's shape; never shipped as content.
@@ -202,3 +208,16 @@ def test_shipped_corpus_is_a_draft_with_keys_the_server_would_compute():
     assert len(data["items"]) == 14736
     for item in random.Random(0).sample(data["items"], 200):
         assert item["k"] == match_key(item["t"])
+
+
+def test_bare_hadith_split_at_a_dot_stays_one_hadith_segment(monkeypatch):
+    from app.pipeline import hadith_corpus as module
+    from app.pipeline.classifier import classify
+    from app.pipeline.segmenter import segment
+
+    monkeypatch.setattr(module, "CORPUS_PATH", SHIPPED)
+    module.load_corpus.cache_clear()
+    text = "إنما الأعمال بالنيات. وإنما لكل امرئ ما نوى"
+    assert segment(text) == [text]
+    assert classify(text)["category"] == "hadith"
+    assert classify("وإنما لكل امرئ ما نوى")["category"] == "hadith"

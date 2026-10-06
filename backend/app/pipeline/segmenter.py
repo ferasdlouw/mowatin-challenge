@@ -1,7 +1,9 @@
 import re
 
+from app.pipeline import hadith_corpus
 from app.pipeline.classifier import is_fatwa_like
-from app.pipeline.quran import VERSE_REF_RE, VERSE_SPAN_RE, lead_in_start
+from app.pipeline.hadith import is_approved_text
+from app.pipeline.quran import VERSE_REF_RE, VERSE_SPAN_RE, contains_bare_verse, lead_in_start
 
 # A Quran span (ornate parentheses U+FD3F...U+FD3E) or a hadith span (guillemets) is one token.
 _TOKEN_RE = re.compile(r"(﴿[^﴾]*﴾|«[^»]*»|.)", re.DOTALL)
@@ -41,7 +43,26 @@ def segment(text: str) -> list[str]:
             clauses = _split(sentence, _CLAUSE_ENDS)
             parts = [piece for clause in clauses for piece in _split_verses("".join(clause))]
         segments.extend(s for s in (part.strip() for part in parts) if s)
-    return segments
+    return _join_split_hadith(text, segments)
+
+
+def _join_split_hadith(text: str, segments: list[str]) -> list[str]:
+    """Two neighbouring segments that together are a known hadith stay one segment: a bare
+    «إنما الأعمال بالنيات. وإنما لكل امرئ ما نوى» split at the dot looked like plain text."""
+    spans: list[tuple[int, int]] = []
+    end = 0
+    for part in segments:
+        start = text.index(part, end)
+        end = start + len(part)
+        if spans:
+            joined = text[spans[-1][0] : end]
+            if not contains_bare_verse(joined) and (
+                is_approved_text(joined) or hadith_corpus.contains(joined)
+            ):
+                spans[-1] = (spans[-1][0], end)
+                continue
+        spans.append((start, end))
+    return [text[a:b] for a, b in spans]
 
 
 def _join_decimals(tokens: list[str]) -> list[str]:

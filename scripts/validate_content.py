@@ -20,7 +20,7 @@ MESSAGE_KEYS = {
     "quran_diacritized", "quran_context_resolved", "quran_partial", "quran_extra_text",
     "hadith_sourced", "hadith_unsourced", "hadith_fabricated", "hadith_corpus_partial", "hadith_corpus_match",
     "hadith_corpus_ambiguous", "hadith_corpus_record", "fatwa_referral", "low_confidence",
-    "term_check_failed", "avoid_word_found", "provider_fallback", "compare_why_term", "compare_why_quran",
+    "term_check_failed", "avoid_word_found", "provider_fallback", "judge_unavailable", "compare_why_term", "compare_why_quran",
     "compare_why_hadith", "glossary_source", "text_too_long", "rate_limited", "validation_error",
     "general_error", "limit_reached", "injection_suspected", "raw_unprotected", "translation_unavailable",
 }

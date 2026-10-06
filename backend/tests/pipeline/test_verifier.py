@@ -129,7 +129,7 @@ async def test_judge_failure_scores_zero(monkeypatch):
     monkeypatch.setattr(verifier_module, "_judge_router", lambda _router: judge)
     router = _Answers(BackTranslation={"arabic_text": TEXT})
     seen = []
-    confidence, _, _ = await verify(
+    confidence, _, flags = await verify(
         Draft(TEXT, GOOD_OUTPUT, "en", TAWHID),
         llm_router=router,
         on_usage=seen.append,
@@ -137,6 +137,8 @@ async def test_judge_failure_scores_zero(monkeypatch):
     assert judge.calls == ["JudgeOutput"]
     assert len(seen) == 1
     assert confidence == 0.6
+    # Still 0 (fail safe), but the user is told why the score is low.
+    assert [(f.type, f.key) for f in flags] == [("info", "judge_unavailable")]
 
 
 async def test_all_checks_pass_reaches_threshold(monkeypatch):

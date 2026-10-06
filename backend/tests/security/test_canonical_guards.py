@@ -197,10 +197,12 @@ def test_dev_categories_unchanged():
                 target[classify(part)["category"]] += 1
     # Measured before Phase SEC on the same 44 dev cases (docs/security/AUDIT.md). D-068: T028
     # «الإحسان أن تعبد الله كأنك تراه» is now the approved hadith bukhari:50 (term_heavy → hadith),
-    # which is what the dev case expects (hadith_refs bukhari:50).
+    # which is what the dev case expects (hadith_refs bukhari:50). D-077: its next clause
+    # «فإن لم تكن تراه فإنه يراك» completes that corpus hadith, so the two stay one hadith
+    # segment (one general segment fewer), again what the case expects.
     assert dict(counts) == {
         "term_heavy": 29,
-        "general": 8,
+        "general": 7,
         "quran": 9,
         "hadith": 8,
         "fatwa_like": 2,
