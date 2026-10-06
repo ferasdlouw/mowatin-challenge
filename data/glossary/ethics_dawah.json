@@ -787,5 +787,1984 @@
       "name": "ردينة بلال",
       "date": "2026-10-03"
     }
+  },
+  {
+    "id": "sidq",
+    "ar": "الصدق",
+    "variants_ar": [
+      "الصادقين",
+      "الصادق",
+      "الصادقون"
+    ],
+    "en": {
+      "preferred": "truthfulness",
+      "gloss": "sidq: conformity of speech, intention and deed to the truth",
+      "avoid": [
+        "frankness only",
+        "bluntness"
+      ]
+    },
+    "fr": {
+      "preferred": "véracité",
+      "gloss": "sidq : conformité de la parole, de l'intention et de l'acte à la vérité",
+      "avoid": [
+        "franchise brutale",
+        "brusquerie"
+      ]
+    },
+    "usage_note_ar": "التعريف: مطابقة القول والنية والعمل للحقيقة. | الدليل: التوبة: 119. | في الجمهرة: EN «Telling the truth»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Telling the truth» فعل، فكُتب بصيغة الاسم. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 9:119: «véridiques».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/6197/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/9/119/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/9/119",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "kadhib",
+    "ar": "الكذب",
+    "variants_ar": [
+      "الكاذب",
+      "الكاذبين",
+      "يكذبون"
+    ],
+    "en": {
+      "preferred": "lying",
+      "gloss": "kadhib: stating what is contrary to reality, among the gravest of sins when deliberate",
+      "avoid": [
+        "fiction",
+        "joke"
+      ]
+    },
+    "fr": {
+      "preferred": "mensonge",
+      "gloss": "kadhib : affirmer le contraire de la réalité, l'un des plus graves péchés lorsqu'il est délibéré",
+      "avoid": [
+        "fiction",
+        "plaisanterie"
+      ]
+    },
+    "usage_note_ar": "التعريف: الإخبار عن الشيء بخلاف ما هو عليه. | الدليل: النحل: 105. | في الجمهرة: EN «Lies»، FR «Mensonge». | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Lies» جمع، واختير المصدر lying. | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «Mensonge» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/8137/en | FR: https://islamic-content.com/dictionary/word/8137/fr | الدليل: https://api.quranpedia.net/v1/ayah/16/105/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "wafa",
+    "ar": "الوفاء",
+    "variants_ar": [
+      "وفاء",
+      "الوفاء بالعهد",
+      "أوفوا",
+      "الوفاء بالوعد"
+    ],
+    "en": {
+      "preferred": "honouring commitments",
+      "gloss": "wafa': fulfilling one's promises, contracts and the rights of others",
+      "avoid": [
+        "blind loyalty",
+        "nostalgia"
+      ]
+    },
+    "fr": {
+      "preferred": "loyauté",
+      "gloss": "wafâ' : honorer ses promesses, ses contrats et les droits d'autrui",
+      "avoid": [
+        "loyauté aveugle",
+        "nostalgie"
+      ]
+    },
+    "usage_note_ar": "التعريف: القيام بما التزمه الإنسان من عهد ووعد وحق. | الدليل: المائدة: 1. | في الجمهرة: EN «Honouring commitments»، FR «Loyauté». | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «Loyauté» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/10940/en | FR: https://islamic-content.com/dictionary/word/10940/fr | الدليل: https://api.quranpedia.net/v1/ayah/5/1/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "khiyanah",
+    "ar": "الخيانة",
+    "variants_ar": [
+      "خيانة",
+      "الخائن",
+      "الخائنين",
+      "تخونوا"
+    ],
+    "en": {
+      "preferred": "betrayal",
+      "gloss": "khiyanah: breaching a trust or a covenant, whether towards Allah or people",
+      "avoid": [
+        "adultery only",
+        "treason only"
+      ]
+    },
+    "fr": {
+      "preferred": "trahison",
+      "gloss": "khiyâna : manquer à un dépôt ou à un engagement, envers Allah ou envers les gens",
+      "avoid": [
+        "adultère seulement",
+        "haute trahison seulement"
+      ]
+    },
+    "usage_note_ar": "التعريف: مخالفة الحق بنقض العهد في السر أو تضييع الأمانة. | الدليل: الأنفال: 27. | في الجمهرة: EN «Betrayal»، FR «La trahison». | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «La trahison» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/4803/en | FR: https://islamic-content.com/dictionary/word/4803/fr | الدليل: https://api.quranpedia.net/v1/ayah/8/27/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "afw",
+    "ar": "العفو",
+    "variants_ar": [
+      "عفا",
+      "اعفوا",
+      "العافين",
+      "وليعفوا"
+    ],
+    "en": {
+      "preferred": "pardon",
+      "gloss": "'afw: forgoing one's right to punish or blame someone who wronged one",
+      "avoid": [
+        "amnesty law",
+        "excuse"
+      ]
+    },
+    "fr": {
+      "preferred": "pardon",
+      "gloss": "'afw : renoncer à son droit de punir ou de blâmer celui qui nous a fait du tort",
+      "avoid": [
+        "loi d'amnistie",
+        "excuse"
+      ]
+    },
+    "usage_note_ar": "التعريف: ترك المؤاخذة بالذنب مع القدرة. — «العفو» أيضًا من أسماء الله الحسنى، والمقصود هنا الخلق. | الدليل: النور: 22. | في الجمهرة: لا يوجد عنوان إنجليزي في الصفحة (عربي فقط)، والمقابل الإنجليزي هنا مقترح من الفريق؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 24:22: «pardonnent».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/6923/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/24/22/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/24/22",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "draft",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "karam",
+    "ar": "الكرم",
+    "variants_ar": [
+      "كرم",
+      "الكريم في عطائه",
+      "الجود",
+      "السخاء"
+    ],
+    "en": {
+      "preferred": "generosity",
+      "gloss": "karam: giving willingly and abundantly without expecting a return",
+      "avoid": [
+        "extravagance",
+        "wastefulness"
+      ]
+    },
+    "fr": {
+      "preferred": "générosité",
+      "gloss": "karam : donner de bon cœur et avec largesse sans attendre de retour",
+      "avoid": [
+        "extravagance",
+        "gaspillage"
+      ]
+    },
+    "usage_note_ar": "التعريف: بذل الخير بسخاء من غير انتظار مقابل. | الدليل: صحيح الجامع (1801). | في الجمهرة: EN «Generosity»، FR «Générosité / Noblesse / Préciosité». | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «Générosité / Noblesse / Préciosité» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/8163/en | FR: https://islamic-content.com/dictionary/word/8163/fr | الدليل: https://dorar.net/h/QRcxR2Ff",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "bukhl",
+    "ar": "البخل",
+    "variants_ar": [
+      "بخل",
+      "البخيل",
+      "يبخلون"
+    ],
+    "en": {
+      "preferred": "stinginess",
+      "gloss": "bukhl: withholding what one ought to give of one's wealth",
+      "avoid": [
+        "thrift",
+        "saving"
+      ]
+    },
+    "fr": {
+      "preferred": "avarice",
+      "gloss": "bukhl : retenir ce que l'on devrait donner de ses biens",
+      "avoid": [
+        "économie",
+        "épargne"
+      ]
+    },
+    "usage_note_ar": "التعريف: منع ما يجب بذله من المال. | الدليل: آل عمران: 180. | في الجمهرة: EN «Stinginess»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 3:180: «avares».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/2004/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/3/180/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/3/180",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "israf",
+    "ar": "الإسراف",
+    "variants_ar": [
+      "إسراف",
+      "المسرفين",
+      "تسرفوا"
+    ],
+    "en": {
+      "preferred": "excess",
+      "gloss": "israf: exceeding the proper limit in spending, eating or conduct",
+      "avoid": [
+        "luxury",
+        "generosity"
+      ]
+    },
+    "fr": {
+      "preferred": "excès",
+      "gloss": "isrâf : gaspillage, dépasser la juste mesure dans la dépense, la nourriture ou la conduite",
+      "avoid": [
+        "luxe",
+        "générosité"
+      ]
+    },
+    "usage_note_ar": "التعريف: مجاوزة الحد في الإنفاق أو غيره. | الدليل: الأعراف: 31. | في الجمهرة: EN «Being excessive»، FR «Le gaspillage». | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Being excessive» صفة، فكُتب بصيغة الاسم. | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «Le gaspillage» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/998/en | FR: https://islamic-content.com/dictionary/word/998/fr | الدليل: https://api.quranpedia.net/v1/ayah/7/31/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "tabdhir",
+    "ar": "التبذير",
+    "variants_ar": [
+      "تبذير",
+      "المبذرين",
+      "تبذيرا"
+    ],
+    "en": {
+      "preferred": "squandering",
+      "gloss": "tabdhir: spending wealth on what is forbidden or useless",
+      "avoid": [
+        "investment",
+        "charity"
+      ]
+    },
+    "fr": {
+      "preferred": "dilapidation",
+      "gloss": "tabdhîr : dépenser ses biens dans l'interdit ou l'inutile",
+      "avoid": [
+        "investissement",
+        "charité"
+      ]
+    },
+    "usage_note_ar": "التعريف: إنفاق المال في غير حقه. | الدليل: الإسراء: 26. | في الجمهرة: EN «Squandering»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 17:26: «prodigalité».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/2368/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/17/26/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/17/26",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "wasatiyyah",
+    "ar": "الوسطية",
+    "variants_ar": [
+      "أمة وسطا",
+      "الاعتدال"
+    ],
+    "en": {
+      "preferred": "moderation",
+      "gloss": "wasatiyyah: balance and justice between excess and negligence in belief, worship and conduct",
+      "avoid": [
+        "compromise of principles",
+        "lukewarmness"
+      ]
+    },
+    "fr": {
+      "preferred": "juste milieu",
+      "gloss": "wasatiyya : équilibre et justice entre l'excès et la négligence dans la croyance, l'adoration et la conduite",
+      "avoid": [
+        "compromission",
+        "tiédeur"
+      ]
+    },
+    "usage_note_ar": "التعريف: الاعتدال والعدل بين الإفراط والتفريط في الاعتقاد والعبادة والسلوك. | الدليل: البقرة: 143. | في الجمهرة: EN «Central position»، FR «Le juste milieu». | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Central position» حرفي، واختير moderation الشائع. | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «Le juste milieu» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/10885/en | FR: https://islamic-content.com/dictionary/word/10885/fr | الدليل: https://api.quranpedia.net/v1/ayah/2/143/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "qatiat_rahim",
+    "ar": "قطيعة الرحم",
+    "variants_ar": [
+      "قطع الرحم",
+      "قاطع رحم",
+      "تقطعوا أرحامكم"
+    ],
+    "en": {
+      "preferred": "severance of kinship",
+      "gloss": "cutting ties with one's relatives by abandonment or ill treatment, a major sin",
+      "avoid": [
+        "divorce",
+        "emigration"
+      ]
+    },
+    "fr": {
+      "preferred": "rupture des liens de parenté",
+      "gloss": "rompre avec ses proches parents par l'abandon ou les mauvais traitements, un grand péché",
+      "avoid": [
+        "divorce",
+        "émigration"
+      ]
+    },
+    "usage_note_ar": "التعريف: هجر الأقارب والإساءة إليهم وترك صلتهم. | الدليل: محمد: 22. | في الجمهرة: EN «Severance of kinship»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | مدخل الجمهرة: «قَطِيعَةُ الأَرْحَام» | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 47:22: «rompre les liens de parenté».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/7863/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/47/22/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/47/22",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "huquq_jar",
+    "ar": "حقوق الجار",
+    "variants_ar": [
+      "حق الجار",
+      "الإحسان إلى الجار"
+    ],
+    "en": {
+      "preferred": "neighbours' rights",
+      "gloss": "the duties owed to neighbours, such as kindness, help and not causing them harm",
+      "avoid": [
+        "property law",
+        "neighbourhood watch"
+      ]
+    },
+    "fr": {
+      "preferred": "droits du voisin",
+      "gloss": "les devoirs envers les voisins, comme la bonté, l'entraide et le fait de ne pas leur nuire",
+      "avoid": [
+        "droit immobilier",
+        "surveillance de quartier"
+      ]
+    },
+    "usage_note_ar": "التعريف: ما يجب للجار من الإحسان وكف الأذى. | الدليل: النساء: 36. | في الجمهرة: EN «Neighbours' rights»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | مدخل الجمهرة: «حُقُوقُ الجِيْرَانِ» | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 4:36: «voisins».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/4410/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/4/36/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/4/36",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "iffah",
+    "ar": "العفة",
+    "variants_ar": [
+      "عفة",
+      "العفيف",
+      "يستعفف",
+      "وليستعفف"
+    ],
+    "en": {
+      "preferred": "chastity",
+      "gloss": "'iffah: restraining oneself from what is unlawful, especially in desires",
+      "avoid": [
+        "celibacy",
+        "prudishness"
+      ]
+    },
+    "fr": {
+      "preferred": "chasteté",
+      "gloss": "'iffa : se retenir de l'illicite, surtout dans les désirs",
+      "avoid": [
+        "célibat",
+        "pudibonderie"
+      ]
+    },
+    "usage_note_ar": "التعريف: كف النفس عما لا يحل. | الدليل: النور: 33. | في الجمهرة: EN «Probity, virtue»، FR «Chasteté». | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Probity, virtue» عام، واختير chastity الموافق لعنوانها الفرنسي «Chasteté». | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «Chasteté» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/6919/en | FR: https://islamic-content.com/dictionary/word/6919/fr | الدليل: https://api.quranpedia.net/v1/ayah/24/33/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "ghadd_basar",
+    "ar": "غض البصر",
+    "variants_ar": [
+      "يغضوا من أبصارهم",
+      "غض الطرف"
+    ],
+    "en": {
+      "preferred": "lowering one's gaze",
+      "gloss": "restraining the eyes from looking at what is not permitted",
+      "avoid": [
+        "shyness",
+        "closing the eyes"
+      ]
+    },
+    "fr": {
+      "preferred": "baisser le regard",
+      "gloss": "retenir ses yeux de regarder ce qui n'est pas permis",
+      "avoid": [
+        "timidité",
+        "fermer les yeux"
+      ]
+    },
+    "usage_note_ar": "التعريف: كف النظر عما لا يحل النظر إليه. | الدليل: النور: 30. | في الجمهرة: EN «Lowering one's gaze»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 24:30: «baisser leur regard».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/7296/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/24/30/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/24/30",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "satr",
+    "ar": "الستر",
+    "variants_ar": [
+      "ستر المسلم",
+      "من ستر مسلما"
+    ],
+    "en": {
+      "preferred": "concealing faults",
+      "gloss": "satr: covering a Muslim's faults rather than exposing them, unless that harms others; in fiqh also covering the body",
+      "avoid": [
+        "cover-up of crimes",
+        "censorship"
+      ]
+    },
+    "fr": {
+      "preferred": "discrétion sur les fautes",
+      "gloss": "satr : couvrir les fautes d'un musulman plutôt que de les dévoiler, sauf si cela nuit à autrui ; en fiqh, aussi couvrir le corps",
+      "avoid": [
+        "dissimulation de crimes",
+        "censure"
+      ]
+    },
+    "usage_note_ar": "التعريف: إخفاء عيوب المسلم وزلاته وعدم إشاعتها. — يأتي في الفقه بمعنى ستر العورة، فالمعنى بالسياق. | الدليل: صحيح البخاري (2442). | في الجمهرة: لا يوجد عنوان إنجليزي في الصفحة (عربي فقط)، والمقابل الإنجليزي هنا مقترح من الفريق؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "context",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/5548/en | FR: غير متوفر في الجمهرة | الدليل: https://dorar.net/h/jlxZZOdn",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "draft",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "hijab",
+    "ar": "الحجاب",
+    "variants_ar": [
+      "حجاب",
+      "الجلباب",
+      "جلابيبهن"
+    ],
+    "en": {
+      "preferred": "hijab",
+      "gloss": "the covering a Muslim woman wears before men who are not her mahram; in other contexts «حجاب» means a screen or barrier",
+      "avoid": [
+        "oppression",
+        "veil of ignorance"
+      ]
+    },
+    "fr": {
+      "preferred": "hijab",
+      "gloss": "le vêtement couvrant que porte la musulmane devant les hommes qui ne sont pas ses mahram ; ailleurs, « حجاب » signifie écran ou barrière",
+      "avoid": [
+        "oppression",
+        "voile d'ignorance"
+      ]
+    },
+    "usage_note_ar": "التعريف: ما تستر به المرأة المسلمة بدنها عن الرجال الأجانب. — يأتي بمعنى الساتر والحاجز، فالمعنى بالسياق. | الدليل: الأحزاب: 53. | في الجمهرة: EN «The hijab»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "context",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/4054/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/33/53/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "husn_khuluq",
+    "ar": "حسن الخلق",
+    "variants_ar": [
+      "الخلق الحسن",
+      "مكارم الأخلاق",
+      "خلق عظيم"
+    ],
+    "en": {
+      "preferred": "good character",
+      "gloss": "treating people well through kindness, cheerfulness and refraining from harm",
+      "avoid": [
+        "politeness only",
+        "etiquette"
+      ]
+    },
+    "fr": {
+      "preferred": "bon comportement",
+      "gloss": "bien traiter les gens par la bonté, la bonne humeur et l'abstention de nuire",
+      "avoid": [
+        "politesse seulement",
+        "étiquette"
+      ]
+    },
+    "usage_note_ar": "التعريف: بذل المعروف وكف الأذى وطلاقة الوجه. | الدليل: القلم: 4. | في الجمهرة: EN «Fine manners»، FR «Le bon comportement». | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Fine manners»، واختير good character الأشيع في ترجمة الأحاديث. | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «Le bon comportement» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/4318/en | FR: https://islamic-content.com/dictionary/word/4318/fr | الدليل: https://api.quranpedia.net/v1/ayah/68/4/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "ifsha_salam",
+    "ar": "إفشاء السلام",
+    "variants_ar": [
+      "أفشوا السلام",
+      "إلقاء السلام"
+    ],
+    "en": {
+      "preferred": "spreading the greeting of peace",
+      "gloss": "spreading the greeting «as-salamu alaykum» among Muslims, known and unknown",
+      "avoid": [
+        "peace activism",
+        "pacifism"
+      ]
+    },
+    "fr": {
+      "preferred": "répandre le salut",
+      "gloss": "répandre la salutation « as-salâmu 'alaykum » entre musulmans, connus et inconnus",
+      "avoid": [
+        "militantisme pacifiste",
+        "pacifisme"
+      ]
+    },
+    "usage_note_ar": "التعريف: نشر تحية السلام بين المسلمين. | الدليل: صحيح مسلم (54). | في الجمهرة: EN «Spreading the greeting of peace»، FR «Répandre le salut». | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «Répandre le salut» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/1393/en | FR: https://islamic-content.com/dictionary/word/1393/fr | الدليل: https://dorar.net/h/1Uk987iN",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "islah_dhat_bayn",
+    "ar": "الإصلاح بين الناس",
+    "variants_ar": [
+      "إصلاح ذات البين",
+      "الصلح بين الناس",
+      "فأصلحوا بين أخويكم"
+    ],
+    "en": {
+      "preferred": "reconciliation",
+      "gloss": "making peace between people in dispute",
+      "avoid": [
+        "reform",
+        "repair"
+      ]
+    },
+    "fr": {
+      "preferred": "réconciliation",
+      "gloss": "rétablir la paix entre des personnes en conflit",
+      "avoid": [
+        "réforme",
+        "réparation"
+      ]
+    },
+    "usage_note_ar": "التعريف: إزالة الخصام بين المتنازعين والتوفيق بينهم. — مدخل الجمهرة «إصلاح ذات البين». | الدليل: الحجرات: 10. | في الجمهرة: EN «Reconciliation»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | مدخل الجمهرة: «إِصْلاحُ ذَاتُ البيْنِ» | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 49:10: «Réconciliez».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/1175/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/49/10/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/49/10",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "shura",
+    "ar": "الشورى",
+    "variants_ar": [
+      "شورى",
+      "التشاور",
+      "المشورة"
+    ],
+    "en": {
+      "preferred": "consultation",
+      "gloss": "shura: seeking the opinion of people of knowledge and experience before deciding",
+      "avoid": [
+        "parliamentary democracy",
+        "voting"
+      ]
+    },
+    "fr": {
+      "preferred": "concertation",
+      "gloss": "shûrâ : demander l'avis des gens de savoir et d'expérience avant de décider",
+      "avoid": [
+        "démocratie parlementaire",
+        "vote"
+      ]
+    },
+    "usage_note_ar": "التعريف: استطلاع رأي أهل العلم والخبرة قبل اتخاذ القرار. | الدليل: الشورى: 38. | في الجمهرة: EN «Consultation»، FR «Concertation». | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «Concertation» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/6056/en | FR: https://islamic-content.com/dictionary/word/6056/fr | الدليل: https://api.quranpedia.net/v1/ayah/42/38/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "istidhan",
+    "ar": "الاستئذان",
+    "variants_ar": [
+      "استئذان",
+      "تستأنسوا"
+    ],
+    "en": {
+      "preferred": "seeking permission",
+      "gloss": "isti'dhan: asking permission before entering others' homes or private spaces",
+      "avoid": [
+        "visa",
+        "licence"
+      ]
+    },
+    "fr": {
+      "preferred": "demande de permission",
+      "gloss": "isti'dhân : demander la permission avant d'entrer chez autrui ou dans ses espaces privés",
+      "avoid": [
+        "visa",
+        "licence"
+      ]
+    },
+    "usage_note_ar": "التعريف: طلب الإذن قبل دخول بيوت الآخرين. | الدليل: النور: 27. | في الجمهرة: EN «Seeking permission»، FR «Demander la permission.». | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «Demander la permission.» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/983/en | FR: https://islamic-content.com/dictionary/word/983/fr | الدليل: https://api.quranpedia.net/v1/ayah/24/27/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "ghadab",
+    "ar": "الغضب",
+    "variants_ar": [
+      "غضب",
+      "الغاضب"
+    ],
+    "en": {
+      "preferred": "anger",
+      "gloss": "a surge of the self towards revenge, blameworthy except when for Allah's sake; Allah's anger is an attribute befitting Him",
+      "avoid": [
+        "passion",
+        "rage of God like humans"
+      ]
+    },
+    "fr": {
+      "preferred": "colère",
+      "gloss": "élan de l'âme vers la vengeance, blâmable sauf pour Allah ; la colère d'Allah est un attribut qui Lui sied",
+      "avoid": [
+        "passion",
+        "rage divine humaine"
+      ]
+    },
+    "usage_note_ar": "التعريف: ثوران النفس طلبًا للانتقام، ويُحمد إذا كان لله. — يأتي صفة لله على ما يليق به، فالمعنى بالسياق. | الدليل: صحيح البخاري (6116). | في الجمهرة: EN «Anger»، FR «Colère». | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «Colère» (الرابط في source.ref).",
+    "strategy": "context",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/7298/en | FR: https://islamic-content.com/dictionary/word/7298/fr | الدليل: https://dorar.net/h/YsUk7RDs",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "hiqd",
+    "ar": "الحقد",
+    "variants_ar": [
+      "حقد",
+      "الحاقد",
+      "الضغينة"
+    ],
+    "en": {
+      "preferred": "harbouring a grudge",
+      "gloss": "hiqd: keeping enmity and a desire for revenge in the heart",
+      "avoid": [
+        "anger",
+        "envy"
+      ]
+    },
+    "fr": {
+      "preferred": "rancœur",
+      "gloss": "hiqd : garder dans le cœur l'inimitié et le désir de vengeance",
+      "avoid": [
+        "colère",
+        "envie"
+      ]
+    },
+    "usage_note_ar": "التعريف: إمساك العداوة في القلب والتربص لفرصة الانتقام. | في الجمهرة: EN «Harbouring a Grudge»، FR «Rancœur». | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «Rancœur» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/4402/en | FR: https://islamic-content.com/dictionary/word/4402/fr",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "sukhriyah",
+    "ar": "السخرية",
+    "variants_ar": [
+      "سخرية",
+      "يسخر",
+      "الاستهزاء"
+    ],
+    "en": {
+      "preferred": "derision",
+      "gloss": "sukhriyah: mocking others for a defect or the like in a hurtful way",
+      "avoid": [
+        "humour",
+        "satire"
+      ]
+    },
+    "fr": {
+      "preferred": "raillerie",
+      "gloss": "sukhriya : se moquer d'autrui pour un défaut ou autre de façon blessante",
+      "avoid": [
+        "humour",
+        "satire"
+      ]
+    },
+    "usage_note_ar": "التعريف: الاستهزاء بالآخرين وتحقيرهم بالقول أو الفعل. | الدليل: الحجرات: 11. | في الجمهرة: EN «Derision»، FR «La raillerie». | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «La raillerie» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/5569/en | FR: https://islamic-content.com/dictionary/word/5569/fr | الدليل: https://api.quranpedia.net/v1/ayah/49/11/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "buhtan",
+    "ar": "البهتان",
+    "variants_ar": [
+      "بهتان",
+      "بهتانا"
+    ],
+    "en": {
+      "preferred": "slander",
+      "gloss": "buhtan: falsely attributing to someone what is not in him, worse than backbiting",
+      "avoid": [
+        "gossip",
+        "criticism"
+      ]
+    },
+    "fr": {
+      "preferred": "calomnie",
+      "gloss": "buhtân : attribuer faussement à quelqu'un ce qui n'est pas en lui, pire que la médisance",
+      "avoid": [
+        "commérage",
+        "critique"
+      ]
+    },
+    "usage_note_ar": "التعريف: أن يُقال في الإنسان ما ليس فيه. | الدليل: النور: 16. | في الجمهرة: EN «Total fabrication»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Total fabrication» عام، واختير slander للدلالة على الافتراء على شخص. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 24:16: «calomnie».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/2190/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/24/16/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/24/16",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "qadhf",
+    "ar": "القذف",
+    "variants_ar": [
+      "قذف",
+      "يرمون المحصنات"
+    ],
+    "en": {
+      "preferred": "false accusation of adultery",
+      "gloss": "qadhf: accusing a chaste person of adultery without four witnesses, punishable by law",
+      "avoid": [
+        "throwing",
+        "shelling"
+      ]
+    },
+    "fr": {
+      "preferred": "fausse accusation d'adultère",
+      "gloss": "qadhf : accuser une personne chaste d'adultère sans quatre témoins, ce qui est puni par la loi",
+      "avoid": [
+        "lancer",
+        "bombardement"
+      ]
+    },
+    "usage_note_ar": "التعريف: رمي المحصن بالزنا من غير بينة. | الدليل: النور: 4. | في الجمهرة: EN «False accusation»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «False accusation»، وأضيف «of adultery» لأن القذف خاص بها. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 24:4: «accusations».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/7714/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/24/4/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/24/4",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "shahadat_zur",
+    "ar": "شهادة الزور",
+    "variants_ar": [
+      "الزور",
+      "قول الزور",
+      "يشهدون الزور"
+    ],
+    "en": {
+      "preferred": "perjury",
+      "gloss": "false testimony given deliberately, one of the major sins",
+      "avoid": [
+        "testimony of faith",
+        "witness"
+      ]
+    },
+    "fr": {
+      "preferred": "faux témoignage",
+      "gloss": "témoignage mensonger donné délibérément, l'un des grands péchés",
+      "avoid": [
+        "attestation de foi",
+        "témoin"
+      ]
+    },
+    "usage_note_ar": "التعريف: الشهادة بالكذب عمدًا. | الدليل: الفرقان: 72. | في الجمهرة: EN «Perjury»، FR «Faux témoignage». | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «Faux témoignage» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/6035/en | FR: https://islamic-content.com/dictionary/word/6035/fr | الدليل: https://api.quranpedia.net/v1/ayah/25/72/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "fuhsh",
+    "ar": "الفحش",
+    "variants_ar": [
+      "فحش",
+      "الفاحش",
+      "البذاءة"
+    ],
+    "en": {
+      "preferred": "obscenity",
+      "gloss": "fuhsh: grossly offensive words and deeds",
+      "avoid": [
+        "vulgar art",
+        "excess"
+      ]
+    },
+    "fr": {
+      "preferred": "grossièreté",
+      "gloss": "fuhsh : paroles et actes d'une grossièreté choquante",
+      "avoid": [
+        "art vulgaire",
+        "excès"
+      ]
+    },
+    "usage_note_ar": "التعريف: القبيح من القول والفعل. | الدليل: صحيح الترمذي (1977). | في الجمهرة: EN «Gross»، FR «Grossièreté / Vulgarité.». | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Gross» صفة، واختير obscenity بالمعنى. | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «Grossièreté / Vulgarité.» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/7404/en | FR: https://islamic-content.com/dictionary/word/7404/fr | الدليل: https://dorar.net/h/UTqLe2Te",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "tajassus",
+    "ar": "التجسس",
+    "variants_ar": [
+      "تجسس",
+      "تجسسوا",
+      "الجاسوس"
+    ],
+    "en": {
+      "preferred": "spying",
+      "gloss": "tajassus: searching out people's hidden faults and private affairs",
+      "avoid": [
+        "intelligence service",
+        "investigation"
+      ]
+    },
+    "fr": {
+      "preferred": "espionnage",
+      "gloss": "tajassus : espionner, rechercher les défauts cachés et les affaires privées des gens",
+      "avoid": [
+        "services de renseignement",
+        "enquête"
+      ]
+    },
+    "usage_note_ar": "التعريف: تتبع عورات الناس والبحث عن خفاياهم. | الدليل: الحجرات: 12. | في الجمهرة: EN «Spying»، FR «Espionner». | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «Espionner» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/2442/en | FR: https://islamic-content.com/dictionary/word/2442/fr | الدليل: https://api.quranpedia.net/v1/ayah/49/12/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "mawizah_hasanah",
+    "ar": "الموعظة الحسنة",
+    "variants_ar": [
+      "الموعظة",
+      "موعظة",
+      "الوعظ"
+    ],
+    "en": {
+      "preferred": "goodly exhortation",
+      "gloss": "reminding people with gentle words of encouragement and warning that soften hearts",
+      "avoid": [
+        "sermonising",
+        "lecturing"
+      ]
+    },
+    "fr": {
+      "preferred": "exhortation bienveillante",
+      "gloss": "rappeler les gens par des paroles douces d'encouragement et d'avertissement qui adoucissent les cœurs",
+      "avoid": [
+        "sermon moralisateur",
+        "leçon de morale"
+      ]
+    },
+    "usage_note_ar": "التعريف: التذكير بالخير بأسلوب لين يرقق القلوب. | الدليل: النحل: 125. | في الجمهرة: EN «Goodly exhortation»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 16:125: «exhortations».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/10244/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/16/125/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/16/125",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "qudwah_hasanah",
+    "ar": "القدوة الحسنة",
+    "variants_ar": [
+      "القدوة",
+      "أسوة حسنة",
+      "الأسوة"
+    ],
+    "en": {
+      "preferred": "fine model",
+      "gloss": "a good example whose words and deeds others follow, above all the Prophet",
+      "avoid": [
+        "celebrity",
+        "idol"
+      ]
+    },
+    "fr": {
+      "preferred": "bel exemple",
+      "gloss": "un bon modèle dont on suit les paroles et les actes, avant tout le Prophète",
+      "avoid": [
+        "célébrité",
+        "idole"
+      ]
+    },
+    "usage_note_ar": "التعريف: المثال الصالح الذي يُقتدى به في القول والعمل. | الدليل: الأحزاب: 21. | في الجمهرة: EN «Fine model»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 33:21: «bel exemple».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/7706/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/33/21/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/33/21",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "targhib_tarhib",
+    "ar": "الترغيب والترهيب",
+    "variants_ar": [
+      "الترغيب",
+      "الترهيب"
+    ],
+    "en": {
+      "preferred": "encouragement and warning",
+      "gloss": "motivating people to do good by mentioning its reward, and deterring them from evil by mentioning its consequences",
+      "avoid": [
+        "manipulation",
+        "threats"
+      ]
+    },
+    "fr": {
+      "preferred": "encouragement et avertissement",
+      "gloss": "inciter au bien en évoquant sa récompense et dissuader du mal en évoquant ses conséquences",
+      "avoid": [
+        "manipulation",
+        "menaces"
+      ]
+    },
+    "usage_note_ar": "التعريف: التشويق إلى الخير بذكر ثوابه، والتحذير من الشر بذكر عاقبته. — مدخل الجمهرة «الترغيب» (2730)، والترهيب مدخل مستقل (2757). | في الجمهرة: EN «Incline»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | مدخل الجمهرة: «التَّرْغِيبُ» | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Incline» لمدخل «الترغيب» وحده، والمصطلح يجمع الترغيب والترهيب.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/2730/en | FR: غير متوفر في الجمهرة",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "tadarruj",
+    "ar": "التدرج",
+    "variants_ar": [
+      "التدرج في الدعوة"
+    ],
+    "en": {
+      "preferred": "gradualism in da'wah",
+      "gloss": "leading people step by step towards full practice of Islam, starting with the most important",
+      "avoid": [
+        "compromise",
+        "delay"
+      ]
+    },
+    "fr": {
+      "preferred": "progressivité dans la da'wa",
+      "gloss": "amener les gens pas à pas vers la pratique complète de l'islam, en commençant par le plus important",
+      "avoid": [
+        "compromission",
+        "retard"
+      ]
+    },
+    "usage_note_ar": "التعريف: الانتقال بالمدعو شيئًا فشيئًا حتى يصل إلى المطلوب، بدءًا بالأهم. — مدخل الجمهرة «التدرج الدعوي». | في الجمهرة: EN «Gradual advocacy»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | مدخل الجمهرة: «التَّدَرُّجُ الدَّعْوِيُّ» | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Gradual advocacy» لمدخل «التدرج الدعوي»، واختير مقابل أوضح.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/2620/en | FR: غير متوفر في الجمهرة",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "taysir",
+    "ar": "التيسير",
+    "variants_ar": [
+      "تيسير",
+      "يسروا",
+      "اليسر"
+    ],
+    "en": {
+      "preferred": "making things easy",
+      "gloss": "taysir: choosing ease and removing undue hardship within the bounds of the Shari'ah",
+      "avoid": [
+        "laxity",
+        "dropping obligations"
+      ]
+    },
+    "fr": {
+      "preferred": "facilitation",
+      "gloss": "taysîr : choisir la facilité et écarter la difficulté excessive dans les limites de la Charia",
+      "avoid": [
+        "laxisme",
+        "abandon des obligations"
+      ]
+    },
+    "usage_note_ar": "التعريف: اختيار الأيسر ورفع الحرج في حدود الشرع. | الدليل: صحيح البخاري (69). | في الجمهرة: EN «Making things easy»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/3597/en | FR: غير متوفر في الجمهرة | الدليل: https://dorar.net/h/pUdg3tMv",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "ghuluw",
+    "ar": "الغلو",
+    "variants_ar": [
+      "غلو",
+      "الغلاة",
+      "لا تغلوا"
+    ],
+    "en": {
+      "preferred": "excessiveness",
+      "gloss": "ghuluw: going beyond the limits Allah set in belief, worship or praise",
+      "avoid": [
+        "devotion",
+        "zeal for good"
+      ]
+    },
+    "fr": {
+      "preferred": "excès en religion",
+      "gloss": "ghuluw : dépasser les limites fixées par Allah dans la croyance, l'adoration ou l'éloge",
+      "avoid": [
+        "dévotion",
+        "zèle pour le bien"
+      ]
+    },
+    "usage_note_ar": "التعريف: مجاوزة الحد الذي شرعه الله في الاعتقاد أو العمل أو المدح. | الدليل: النساء: 171. | في الجمهرة: EN «Excessiveness»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 4:171: «excessifs».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/7314/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/4/171/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/4/171",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "rifq",
+    "ar": "الرفق",
+    "variants_ar": [
+      "رفق"
+    ],
+    "en": {
+      "preferred": "gentleness",
+      "gloss": "rifq: gentleness and leniency in word and deed",
+      "avoid": [
+        "weakness",
+        "indulgence of evil"
+      ]
+    },
+    "fr": {
+      "preferred": "douceur",
+      "gloss": "rifq : douceur et indulgence en parole et en acte",
+      "avoid": [
+        "faiblesse",
+        "complaisance envers le mal"
+      ]
+    },
+    "usage_note_ar": "التعريف: لين الجانب بالقول والفعل والأخذ بالأسهل. | الدليل: صحيح البخاري (6927). | في الجمهرة: EN «Gentleness»، FR «Douceur». | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «Douceur» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/5262/en | FR: https://islamic-content.com/dictionary/word/5262/fr | الدليل: https://dorar.net/h/zeW4mElV",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "ukhuwwah",
+    "ar": "الأخوة",
+    "variants_ar": [
+      "الأخوة في الله",
+      "الأخوة الإيمانية"
+    ],
+    "en": {
+      "preferred": "brotherhood",
+      "gloss": "ukhuwwah: the bond of love and mutual support among believers for Allah's sake",
+      "avoid": [
+        "fraternity club",
+        "sibling rivalry"
+      ]
+    },
+    "fr": {
+      "preferred": "fraternité",
+      "gloss": "ukhuwwa : le lien d'amour et de soutien mutuel entre croyants pour l'amour d'Allah",
+      "avoid": [
+        "confrérie",
+        "rivalité fraternelle"
+      ]
+    },
+    "usage_note_ar": "التعريف: رابطة المحبة والتناصر بين المؤمنين في الله. — تأتي جمعًا لأخ (الإخوة)، فالمعنى بالسياق. | الدليل: الحجرات: 10. | في الجمهرة: EN «Brotherhood»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 49:10: «frères».",
+    "strategy": "context",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/540/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/49/10/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/49/10",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "shajaah",
+    "ar": "الشجاعة",
+    "variants_ar": [
+      "شجاعة",
+      "الشجاع"
+    ],
+    "en": {
+      "preferred": "bravery",
+      "gloss": "shaja'ah: courage in facing danger and saying the truth, between cowardice and recklessness",
+      "avoid": [
+        "recklessness",
+        "aggression"
+      ]
+    },
+    "fr": {
+      "preferred": "courage",
+      "gloss": "shajâ'a : bravoure face au danger et pour dire la vérité, entre lâcheté et témérité",
+      "avoid": [
+        "témérité",
+        "agressivité"
+      ]
+    },
+    "usage_note_ar": "التعريف: الإقدام في مواضع الإقدام، وهي وسط بين الجبن والتهور. | في الجمهرة: EN «Bravery»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/5897/en | FR: غير متوفر في الجمهرة",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "tasamuh",
+    "ar": "التسامح",
+    "variants_ar": [
+      "تسامح",
+      "السماحة"
+    ],
+    "en": {
+      "preferred": "tolerance",
+      "gloss": "tasamuh: leniency and good treatment of others while upholding one's principles",
+      "avoid": [
+        "relativism",
+        "approving all beliefs"
+      ]
+    },
+    "fr": {
+      "preferred": "tolérance",
+      "gloss": "tasâmuh : indulgence et bon traitement d'autrui tout en restant fidèle à ses principes",
+      "avoid": [
+        "relativisme",
+        "approbation de toutes les croyances"
+      ]
+    },
+    "usage_note_ar": "التعريف: اللين في المعاملة والعفو مع الثبات على المبادئ. | في الجمهرة: EN «Mutual acceptance»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Mutual acceptance»، واختير tolerance الأشيع مع الشرح.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/2772/en | FR: غير متوفر في الجمهرة",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "muruah",
+    "ar": "المروءة",
+    "variants_ar": [
+      "مروءة"
+    ],
+    "en": {
+      "preferred": "nobility",
+      "gloss": "muru'ah: adopting noble manners and avoiding what is base, according to the good customs of people",
+      "avoid": [
+        "chivalry",
+        "masculinity"
+      ]
+    },
+    "fr": {
+      "preferred": "grandeur d'âme",
+      "gloss": "murû'a : adopter les bonnes mœurs et éviter ce qui est vil, selon les bons usages des gens",
+      "avoid": [
+        "chevalerie",
+        "virilité"
+      ]
+    },
+    "usage_note_ar": "التعريف: التخلق بالأخلاق الحسنة واجتناب ما يُستقبح عرفًا. | في الجمهرة: EN «Nobility»، FR «Esprit chevaleresque / Grandeur d'âme / Savoir-vivre». | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «Esprit chevaleresque / Grandeur d'âme / Savoir-vivre» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/9330/en | FR: https://islamic-content.com/dictionary/word/9330/fr",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "kazm_ghayz",
+    "ar": "كظم الغيظ",
+    "variants_ar": [
+      "الكاظمين الغيظ",
+      "كظم الغضب"
+    ],
+    "en": {
+      "preferred": "restraining anger",
+      "gloss": "holding back one's anger and refraining from acting on it despite being able to",
+      "avoid": [
+        "suppressing emotions",
+        "resentment"
+      ]
+    },
+    "fr": {
+      "preferred": "contenir sa colère",
+      "gloss": "retenir sa colère et ne pas y donner suite alors qu'on en a la capacité",
+      "avoid": [
+        "refoulement",
+        "ressentiment"
+      ]
+    },
+    "usage_note_ar": "التعريف: حبس الغضب وترك الانتقام مع القدرة. | الدليل: آل عمران: 134. | في الجمهرة: EN «Restraining anger»، FR «Contenir sa colère». | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «Contenir sa colère» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/8187/en | FR: https://islamic-content.com/dictionary/word/8187/fr | الدليل: https://api.quranpedia.net/v1/ayah/3/134/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "tathabbut",
+    "ar": "التثبت",
+    "variants_ar": [
+      "تبينوا",
+      "فتبينوا",
+      "التبين"
+    ],
+    "en": {
+      "preferred": "verification",
+      "gloss": "tathabbut: verifying news and reports before believing, spreading or acting on them",
+      "avoid": [
+        "stubbornness",
+        "doubt everything"
+      ]
+    },
+    "fr": {
+      "preferred": "vérification",
+      "gloss": "tathabbut : vérifier les nouvelles et informations avant de les croire, de les diffuser ou d'agir",
+      "avoid": [
+        "entêtement",
+        "doute systématique"
+      ]
+    },
+    "usage_note_ar": "التعريف: التحقق من الأخبار قبل قبولها ونشرها والعمل بها. | الدليل: الحجرات: 6. | في الجمهرة: EN «At-Tathabbut»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «At-Tathabbut» نقل صوتي، واختير verification بالمعنى. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 49:6: «véracité».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/2407/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/49/6/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/49/6",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "hifz_lisan",
+    "ar": "حفظ اللسان",
+    "variants_ar": [
+      "صون اللسان",
+      "فليقل خيرا أو ليصمت"
+    ],
+    "en": {
+      "preferred": "guarding one's tongue",
+      "gloss": "speaking only what is good and refraining from lies, backbiting and obscenity",
+      "avoid": [
+        "censorship",
+        "silence always"
+      ]
+    },
+    "fr": {
+      "preferred": "préservation de la langue",
+      "gloss": "ne dire que le bien et s'abstenir du mensonge, de la médisance et de la grossièreté",
+      "avoid": [
+        "censure",
+        "silence permanent"
+      ]
+    },
+    "usage_note_ar": "التعريف: صون اللسان عن الكذب والغيبة والفحش، وقول الخير. | الدليل: صحيح البخاري (6475). | في الجمهرة: EN «Controlling one's tongue»، FR «La préservation de la langue». | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Controlling one's tongue»، واختير guarding الأشيع بالمعنى نفسه. | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «La préservation de la langue» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/4369/en | FR: https://islamic-content.com/dictionary/word/4369/fr | الدليل: https://dorar.net/h/rpp1S6uX",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "mudahanah",
+    "ar": "المداهنة",
+    "variants_ar": [
+      "مداهنة",
+      "تدهن",
+      "يدهنون"
+    ],
+    "en": {
+      "preferred": "compromising religion",
+      "gloss": "mudahanah: giving up part of the religion or approving wrongdoing to please people",
+      "avoid": [
+        "diplomacy",
+        "politeness"
+      ]
+    },
+    "fr": {
+      "preferred": "obséquiosité",
+      "gloss": "mudâhana : céder une part de la religion ou approuver le mal pour plaire aux gens",
+      "avoid": [
+        "diplomatie",
+        "politesse"
+      ]
+    },
+    "usage_note_ar": "التعريف: ترك شيء من الدين أو إقرار المنكر لإرضاء الناس. | الدليل: القلم: 9. | في الجمهرة: EN «Fawning»، FR «L'obséquiosité». | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Fawning» يفيد التملق، والمداهنة ترك شيء من الدين، فاختير مقابل يبين ذلك. | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «L'obséquiosité» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/9167/en | FR: https://islamic-content.com/dictionary/word/9167/fr | الدليل: https://api.quranpedia.net/v1/ayah/68/9/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "mudarah",
+    "ar": "المداراة",
+    "variants_ar": [
+      "مداراة",
+      "مداراة الناس"
+    ],
+    "en": {
+      "preferred": "courtesy",
+      "gloss": "mudarah: dealing with people gently and kindly without giving up any part of the religion, unlike mudahanah",
+      "avoid": [
+        "flattery",
+        "hypocrisy"
+      ]
+    },
+    "fr": {
+      "preferred": "courtoisie",
+      "gloss": "mudârâ : traiter les gens avec douceur et bienveillance sans rien céder de la religion, contrairement à la mudâhana",
+      "avoid": [
+        "flatterie",
+        "hypocrisie"
+      ]
+    },
+    "usage_note_ar": "التعريف: لين الكلام وحسن المعاملة دون التنازل عن شيء من الدين. — عنوان الجمهرة الفرنسي «Flatterie» يخلطها بالمداهنة. | في الجمهرة: EN «Sociability»، FR «Flatterie». | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Sociability» عام، واختير courtesy مع الشرح.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/9162/en | FR: https://islamic-content.com/dictionary/word/9162/fr",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "asabiyyah",
+    "ar": "العصبية",
+    "variants_ar": [
+      "التعصب"
+    ],
+    "en": {
+      "preferred": "zealous partisanship",
+      "gloss": "'asabiyyah: supporting one's tribe, group or nation right or wrong, which Islam condemns; in general usage also nervousness",
+      "avoid": [
+        "patriotism",
+        "solidarity"
+      ]
+    },
+    "fr": {
+      "preferred": "esprit partisan",
+      "gloss": "'asabiyya : soutenir sa tribu, son groupe ou sa nation à tort ou à raison, ce que l'islam condamne ; dans l'usage courant, aussi nervosité",
+      "avoid": [
+        "patriotisme",
+        "solidarité"
+      ]
+    },
+    "usage_note_ar": "التعريف: نصرة القوم أو الجماعة على الحق والباطل. — تأتي بمعنى سرعة الانفعال، فالمعنى بالسياق. | في الجمهرة: EN «Zealous partisanship»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "context",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/6893/en | FR: غير متوفر في الجمهرة",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "su_khuluq",
+    "ar": "سوء الخلق",
+    "variants_ar": [
+      "سيء الخلق",
+      "الأخلاق السيئة"
+    ],
+    "en": {
+      "preferred": "bad character",
+      "gloss": "harsh and offensive treatment of people in word and deed",
+      "avoid": [
+        "bad luck",
+        "illness"
+      ]
+    },
+    "fr": {
+      "preferred": "mauvais caractère",
+      "gloss": "traitement dur et blessant des gens en parole et en acte",
+      "avoid": [
+        "malchance",
+        "maladie"
+      ]
+    },
+    "usage_note_ar": "التعريف: غلظة الطبع وإساءة المعاملة بالقول والفعل. | في الجمهرة: EN «Bad manners and morality»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Bad manners and morality» طويل، واختير bad character مقابلًا لـ«حسن الخلق».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/5789/en | FR: غير متوفر في الجمهرة",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "quranaa_su",
+    "ar": "قرناء السوء",
+    "variants_ar": [
+      "رفقاء السوء",
+      "جليس السوء",
+      "صحبة السوء"
+    ],
+    "en": {
+      "preferred": "bad company",
+      "gloss": "companions who lead one to evil or turn one away from good",
+      "avoid": [
+        "enemies",
+        "bad neighbours"
+      ]
+    },
+    "fr": {
+      "preferred": "mauvaises fréquentations",
+      "gloss": "compagnons qui entraînent vers le mal ou détournent du bien",
+      "avoid": [
+        "ennemis",
+        "mauvais voisins"
+      ]
+    },
+    "usage_note_ar": "التعريف: الأصحاب الذين يدعون إلى الشر ويصدون عن الخير. | الدليل: صحيح البخاري (5534). | في الجمهرة: EN «Bad company»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/7790/en | FR: غير متوفر في الجمهرة | الدليل: https://dorar.net/h/k5Apq046",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "taziyah",
+    "ar": "التعزية",
+    "variants_ar": [
+      "العزاء",
+      "عزّى",
+      "تعزية"
+    ],
+    "en": {
+      "preferred": "condolence",
+      "gloss": "consoling the bereaved and urging them to patience, with supplication for the deceased",
+      "avoid": [
+        "mourning ceremony",
+        "funeral party"
+      ]
+    },
+    "fr": {
+      "preferred": "condoléances",
+      "gloss": "consoler les endeuillés et les exhorter à la patience, avec une invocation pour le défunt",
+      "avoid": [
+        "cérémonie de deuil",
+        "fête funéraire"
+      ]
+    },
+    "usage_note_ar": "التعريف: تسلية المصاب وحثه على الصبر والدعاء للميت. | في الجمهرة: EN «Condolence»، FR «Condoléances». | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «Condoléances» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/3025/en | FR: https://islamic-content.com/dictionary/word/3025/fr",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "munasahah",
+    "ar": "المناصحة",
+    "variants_ar": [
+      "التناصح",
+      "تناصحوا"
+    ],
+    "en": {
+      "preferred": "mutual advice",
+      "gloss": "munasahah: believers sincerely advising one another for the sake of good",
+      "avoid": [
+        "criticism",
+        "public shaming"
+      ]
+    },
+    "fr": {
+      "preferred": "conseil mutuel",
+      "gloss": "munâsaha : les croyants se conseillent sincèrement les uns les autres en vue du bien",
+      "avoid": [
+        "critique",
+        "humiliation publique"
+      ]
+    },
+    "usage_note_ar": "التعريف: تبادل النصح بين المؤمنين بإخلاص. | الدليل: العصر: 3. | في الجمهرة: EN «Mutual advice»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/10030/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/103/3/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
   }
 ]

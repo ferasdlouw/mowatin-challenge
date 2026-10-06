@@ -548,5 +548,1942 @@
       "name": "ردينة بلال",
       "date": "2026-10-02"
     }
+  },
+  {
+    "id": "khashyah",
+    "ar": "الخشية",
+    "variants_ar": [
+      "خشية",
+      "يخشى",
+      "يخشون",
+      "خشية الله"
+    ],
+    "en": {
+      "preferred": "apprehension",
+      "gloss": "khashyah: reverent fear of Allah grounded in knowledge of His majesty",
+      "avoid": [
+        "anxiety",
+        "phobia"
+      ]
+    },
+    "fr": {
+      "preferred": "crainte",
+      "gloss": "khashya : crainte révérencielle d'Allah fondée sur la connaissance de Sa majesté",
+      "avoid": [
+        "anxiété",
+        "phobie"
+      ]
+    },
+    "usage_note_ar": "التعريف: خوف مقرون بمعرفة الله وتعظيمه، وأخص من الخوف. | الدليل: فاطر: 28. | في الجمهرة: EN «Apprehension»، FR «La crainte». | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «La crainte» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/4639/en | FR: https://islamic-content.com/dictionary/word/4639/fr | الدليل: https://api.quranpedia.net/v1/ayah/35/28/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "raja",
+    "ar": "الرجاء",
+    "variants_ar": [
+      "رجاء"
+    ],
+    "en": {
+      "preferred": "hope",
+      "gloss": "raja': hoping for Allah's mercy and reward while doing the deeds that lead to them",
+      "avoid": [
+        "wishful thinking",
+        "gambling on luck"
+      ]
+    },
+    "fr": {
+      "preferred": "espérance",
+      "gloss": "rajâ' : espérer la miséricorde et la récompense d'Allah en accomplissant les œuvres qui y mènent",
+      "avoid": [
+        "vœu pieux",
+        "pari sur la chance"
+      ]
+    },
+    "usage_note_ar": "التعريف: تعلّق القلب برحمة الله وثوابه مع الأخذ بالأسباب. | الدليل: الكهف: 110. | في الجمهرة: EN «Hope»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 18:110: «espère».",
+    "strategy": "context",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/5142/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/18/110/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/18/110",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "khawf",
+    "ar": "الخوف",
+    "variants_ar": [
+      "خوف",
+      "خافون",
+      "يخافون"
+    ],
+    "en": {
+      "preferred": "fear",
+      "gloss": "in worship: fear of Allah's punishment that keeps one from sin; in general usage: any fear",
+      "avoid": [
+        "terror",
+        "phobia"
+      ]
+    },
+    "fr": {
+      "preferred": "crainte",
+      "gloss": "dans l'adoration : crainte du châtiment d'Allah qui retient du péché ; dans l'usage courant : toute peur",
+      "avoid": [
+        "terreur",
+        "phobie"
+      ]
+    },
+    "usage_note_ar": "التعريف: انفعال النفس لتوقع مكروه، ومنه عبادة الخوف من الله الحاملة على ترك المعاصي. — الخوف من الله عبادة، والخوف الطبيعي غير ذلك، فالمعنى بالسياق. | الدليل: آل عمران: 175. | في الجمهرة: EN «Fear»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 3:175: «craignez».",
+    "strategy": "context",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/4788/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/3/175/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/3/175",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "shukr",
+    "ar": "الشكر",
+    "variants_ar": [
+      "شكر",
+      "الشاكرين",
+      "اشكروا",
+      "شكرتم"
+    ],
+    "en": {
+      "preferred": "thanksgiving",
+      "gloss": "shukr: gratitude to Allah for His favours, by acknowledging them in the heart, praising Him with the tongue and using them in His obedience",
+      "avoid": [
+        "payment",
+        "compliment"
+      ]
+    },
+    "fr": {
+      "preferred": "reconnaissance",
+      "gloss": "shukr : gratitude envers Allah pour Ses bienfaits, en les reconnaissant par le cœur, en Le louant par la langue et en les employant dans Son obéissance",
+      "avoid": [
+        "paiement",
+        "compliment"
+      ]
+    },
+    "usage_note_ar": "التعريف: الاعتراف بنعم الله بالقلب، والثناء عليه باللسان، واستعمالها في طاعته. | الدليل: إبراهيم: 7. | في الجمهرة: EN «Thanksgiving»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 14:7: «reconnaissants».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/6011/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/14/7/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/14/7",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "hamd",
+    "ar": "الحمد",
+    "variants_ar": [
+      "الحمد لله",
+      "يحمد"
+    ],
+    "en": {
+      "preferred": "praise of God",
+      "gloss": "al-hamd: praising Allah for His perfect attributes with love and reverence",
+      "avoid": [
+        "flattery",
+        "applause"
+      ]
+    },
+    "fr": {
+      "preferred": "louange",
+      "gloss": "al-hamd : louer Allah pour Ses attributs parfaits avec amour et vénération",
+      "avoid": [
+        "flatterie",
+        "applaudissements"
+      ]
+    },
+    "usage_note_ar": "التعريف: الثناء على الله بصفات الكمال مع المحبة والتعظيم. | الدليل: الفاتحة: 2. | في الجمهرة: EN «Praise of God»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 1:2: «Louange».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/4500/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/1/2/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/1/2",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "tasbih",
+    "ar": "التسبيح",
+    "variants_ar": [
+      "تسبيح",
+      "سبحوه",
+      "يسبحون"
+    ],
+    "en": {
+      "preferred": "glorification of God",
+      "gloss": "tasbih: declaring Allah free of every imperfection, as in saying «subhan Allah»",
+      "avoid": [
+        "praying beads",
+        "chanting"
+      ]
+    },
+    "fr": {
+      "preferred": "glorification d'Allah",
+      "gloss": "tasbîh : proclamer qu'Allah est exempt de toute imperfection, comme en disant « subhân Allah »",
+      "avoid": [
+        "chapelet",
+        "psalmodie"
+      ]
+    },
+    "usage_note_ar": "التعريف: تنزيه الله عن كل نقص، كقول: سبحان الله. | الدليل: الأحزاب: 42. | في الجمهرة: EN «Glorification of God»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 33:42: «gloire».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/2781/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/33/42/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/33/42",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "tahlil",
+    "ar": "التهليل",
+    "variants_ar": [
+      "تهليل",
+      "هلل"
+    ],
+    "en": {
+      "preferred": "declaring God's oneness",
+      "gloss": "tahlil: saying «la ilaha illa Allah» (there is no god but Allah)",
+      "avoid": [
+        "hallelujah",
+        "cheering"
+      ]
+    },
+    "fr": {
+      "preferred": "évocation de l'unicité",
+      "gloss": "tahlîl : dire « lâ ilâha illa Allah » (nulle divinité en dehors d'Allah)",
+      "avoid": [
+        "alléluia",
+        "acclamation"
+      ]
+    },
+    "usage_note_ar": "التعريف: قول: لا إله إلا الله. | الدليل: الصافات: 35. | في الجمهرة: EN «Declaring God’s oneness»، FR «L'évocation de l'unicité». | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «L'évocation de l'unicité» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/3495/en | FR: https://islamic-content.com/dictionary/word/3495/fr | الدليل: https://api.quranpedia.net/v1/ayah/37/35/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "takbir",
+    "ar": "التكبير",
+    "variants_ar": [
+      "وكبره"
+    ],
+    "en": {
+      "preferred": "takbir",
+      "gloss": "magnifying Allah, especially by saying «Allahu akbar» (Allah is the Greatest)",
+      "avoid": [
+        "shouting",
+        "war cry"
+      ]
+    },
+    "fr": {
+      "preferred": "takbîr",
+      "gloss": "la magnificence d'Allah : proclamer Sa grandeur, notamment en disant « Allahu akbar »",
+      "avoid": [
+        "cri",
+        "cri de guerre"
+      ]
+    },
+    "usage_note_ar": "التعريف: تعظيم الله، ومنه قول: الله أكبر. | الدليل: الإسراء: 111. | في الجمهرة: EN «Takbīr»، FR «La magnificence». | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «La magnificence» (الرابط في source.ref).",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/3303/en | FR: https://islamic-content.com/dictionary/word/3303/fr | الدليل: https://api.quranpedia.net/v1/ayah/17/111/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "tahmid",
+    "ar": "التحميد",
+    "variants_ar": [
+      "تحميد"
+    ],
+    "en": {
+      "preferred": "praising God",
+      "gloss": "tahmid: saying «al-hamdu lillah» (praise be to Allah), and in prayer «rabbana wa lak al-hamd»",
+      "avoid": [
+        "thanking people",
+        "applause"
+      ]
+    },
+    "fr": {
+      "preferred": "louanges",
+      "gloss": "tahmîd : dire « al-hamdu lillâh » (louange à Allah), et dans la prière « rabbanâ wa lak al-hamd »",
+      "avoid": [
+        "remercier les gens",
+        "applaudissements"
+      ]
+    },
+    "usage_note_ar": "التعريف: قول: الحمد لله، ومنه في الصلاة: ربنا ولك الحمد. | الدليل: صحيح البخاري (796). | في الجمهرة: EN «praising God»، FR «Louanges abondantes 2». | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «Louanges abondantes 2» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/2515/en | FR: https://islamic-content.com/dictionary/word/2515/fr | الدليل: https://dorar.net/h/zWRteBNY",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "hawqalah",
+    "ar": "الحوقلة",
+    "variants_ar": [
+      "لا حول ولا قوة إلا بالله"
+    ],
+    "en": {
+      "preferred": "hawqalah",
+      "gloss": "saying «la hawla wa la quwwata illa billah» (there is no power nor strength except through Allah)",
+      "avoid": [
+        "fatalism",
+        "complaint"
+      ]
+    },
+    "fr": {
+      "preferred": "hawqala",
+      "gloss": "dire « lâ hawla wa lâ quwwata illâ billâh » (il n'y a de force ni de puissance qu'en Allah)",
+      "avoid": [
+        "fatalisme",
+        "plainte"
+      ]
+    },
+    "usage_note_ar": "التعريف: قول: لا حول ولا قوة إلا بالله، وهي كلمة استعانة وتفويض. | الدليل: صحيح البخاري (6384). | في الجمهرة: EN «ḥawqalah»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/4548/en | FR: غير متوفر في الجمهرة | الدليل: https://dorar.net/h/vfqk0U79",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "istiadhah",
+    "ar": "الاستعاذة",
+    "variants_ar": [
+      "استعاذة",
+      "أعوذ بالله",
+      "فاستعذ",
+      "التعوذ"
+    ],
+    "en": {
+      "preferred": "seeking refuge with God",
+      "gloss": "isti'adhah: seeking Allah's protection, as in «a'udhu billahi min ash-shaytan ar-rajim»",
+      "avoid": [
+        "superstition",
+        "charm"
+      ]
+    },
+    "fr": {
+      "preferred": "demande de protection",
+      "gloss": "isti'âdha : implorer la protection d'Allah, comme dans « a'ûdhu billâhi mina ash-shaytân ar-rajîm »",
+      "avoid": [
+        "superstition",
+        "porte-bonheur"
+      ]
+    },
+    "usage_note_ar": "التعريف: الالتجاء إلى الله والاعتصام به من الشر، كقول: أعوذ بالله من الشيطان الرجيم. | الدليل: النحل: 98. | في الجمهرة: EN «Seeking refuge with God»، FR «La demande de protection». | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «La demande de protection» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/905/en | FR: https://islamic-content.com/dictionary/word/905/fr | الدليل: https://api.quranpedia.net/v1/ayah/16/98/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "salat_ala_nabi",
+    "ar": "الصلاة على النبي",
+    "variants_ar": [
+      "الصلاة على رسول الله",
+      "صلوا عليه",
+      "الصلاة والسلام على رسول الله"
+    ],
+    "en": {
+      "preferred": "prayer for the Prophet",
+      "gloss": "invoking Allah's blessings and praise upon the Prophet ﷺ, most completely with the Ibrahimi prayer",
+      "avoid": [
+        "praying to the Prophet",
+        "worship of the Prophet"
+      ]
+    },
+    "fr": {
+      "preferred": "prière sur le Prophète",
+      "gloss": "invoquer les bénédictions et l'éloge d'Allah sur le Prophète ﷺ, au plus complet par la prière abrahamique",
+      "avoid": [
+        "prier le Prophète",
+        "adoration du Prophète"
+      ]
+    },
+    "usage_note_ar": "التعريف: طلب الثناء من الله على نبيه ﷺ في الملأ الأعلى، وأكملها الصلاة الإبراهيمية. | الدليل: الأحزاب: 56. | في الجمهرة: EN «Prayer for the prophet»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | مدخل الجمهرة: «الصَّلاَةُ عَلَى النَّبِيِّ صَلَّى اللهُ عَلَيْهِ وَسَلَّم» | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 33:56: «Bénissez».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/6348/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/33/56/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/33/56",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "istirja",
+    "ar": "الاسترجاع",
+    "variants_ar": [
+      "استرجاع",
+      "إنا لله وإنا إليه راجعون"
+    ],
+    "en": {
+      "preferred": "istirja'",
+      "gloss": "saying «inna lillahi wa inna ilayhi raji'un» (we belong to Allah and to Him we return) when afflicted",
+      "avoid": [
+        "giving up",
+        "complaint"
+      ]
+    },
+    "fr": {
+      "preferred": "istirjâ'",
+      "gloss": "dire « innâ lillâhi wa innâ ilayhi râji'ûn » (nous appartenons à Allah et c'est à Lui que nous retournerons) face au malheur",
+      "avoid": [
+        "abandon",
+        "plainte"
+      ]
+    },
+    "usage_note_ar": "التعريف: قول المصاب: إنا لله وإنا إليه راجعون. | الدليل: البقرة: 156. | في الجمهرة: EN «Al-istirjāꜤ»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 2:156: «retournerons».",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/856/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/2/156/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/2/156",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "rida",
+    "ar": "الرضا",
+    "variants_ar": [
+      "الرضا بالقضاء",
+      "رضوا عنه",
+      "الرضى"
+    ],
+    "en": {
+      "preferred": "acceptance",
+      "gloss": "in worship: contentment with Allah and His decree; in dealings: free consent without compulsion",
+      "avoid": [
+        "resignation",
+        "indifference"
+      ]
+    },
+    "fr": {
+      "preferred": "acceptation",
+      "gloss": "dans l'adoration : contentement envers Allah et Son décret ; dans les transactions : consentement libre sans contrainte",
+      "avoid": [
+        "résignation",
+        "indifférence"
+      ]
+    },
+    "usage_note_ar": "التعريف: سكون القلب إلى قضاء الله وطمأنينته به، ويطلق في المعاملات على القبول بلا إكراه. — تعريف الجمهرة للمعنى العام (القبول بلا إكراه)، والمعنى السلوكي الرضا بقضاء الله، فالمعنى بالسياق. | الدليل: البينة: 8. | في الجمهرة: EN «Acceptance»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 98:8: «satisfaits».",
+    "strategy": "context",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/5227/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/98/8/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/98/8",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "yaqin",
+    "ar": "اليقين",
+    "variants_ar": [
+      "يقين",
+      "الموقنين",
+      "يوقنون"
+    ],
+    "en": {
+      "preferred": "certainty",
+      "gloss": "yaqin: firm conviction free of any doubt; in 15:99 it also means death",
+      "avoid": [
+        "optimism",
+        "guess"
+      ]
+    },
+    "fr": {
+      "preferred": "certitude",
+      "gloss": "yaqîn : conviction ferme exempte de tout doute ; en 15:99, le mot désigne aussi la mort",
+      "avoid": [
+        "optimisme",
+        "supposition"
+      ]
+    },
+    "usage_note_ar": "التعريف: العلم الجازم الذي لا يخالطه شك. | الدليل: الحجر: 99. | في الجمهرة: EN «Certainty»، FR «La certitude». | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «La certitude» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/11170/en | FR: https://islamic-content.com/dictionary/word/11170/fr | الدليل: https://api.quranpedia.net/v1/ayah/15/99/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "muraqabah",
+    "ar": "المراقبة",
+    "variants_ar": [
+      "مراقبة الله",
+      "رقيبا"
+    ],
+    "en": {
+      "preferred": "observation",
+      "gloss": "muraqabah: constant awareness that Allah sees one's deeds and thoughts",
+      "avoid": [
+        "surveillance",
+        "spying"
+      ]
+    },
+    "fr": {
+      "preferred": "vigilance spirituelle",
+      "gloss": "murâqaba : conscience constante qu'Allah voit nos actes et nos pensées",
+      "avoid": [
+        "surveillance policière",
+        "espionnage"
+      ]
+    },
+    "usage_note_ar": "التعريف: دوام علم العبد باطلاع الله عليه في ظاهره وباطنه. — عنوان الجمهرة الفرنسي «Surveillance» يُفهم منه الرقابة البشرية، فاختير مقابل فرنسي أدق. | الدليل: النساء: 1. | في الجمهرة: EN «Observation»، FR «Surveillance».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/9254/en | FR: https://islamic-content.com/dictionary/word/9254/fr | الدليل: https://api.quranpedia.net/v1/ayah/4/1/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "muhasabah",
+    "ar": "محاسبة النفس",
+    "variants_ar": [
+      "حاسبوا أنفسكم"
+    ],
+    "en": {
+      "preferred": "self-reckoning",
+      "gloss": "muhasabah: examining one's deeds and intentions to correct shortcomings and increase good",
+      "avoid": [
+        "self-punishment",
+        "audit"
+      ]
+    },
+    "fr": {
+      "preferred": "examen de conscience",
+      "gloss": "muhâsaba : examiner ses actes et ses intentions pour corriger ses manquements et augmenter le bien",
+      "avoid": [
+        "autopunition",
+        "audit"
+      ]
+    },
+    "usage_note_ar": "التعريف: تأمل العبد أعماله ونياته ليصلح التقصير ويزيد في الخير. | الدليل: الحشر: 18. | في الجمهرة: EN «Self reckoning»، FR «L'examen de conscience». | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «L'examen de conscience» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/8954/en | FR: https://islamic-content.com/dictionary/word/8954/fr | الدليل: https://api.quranpedia.net/v1/ayah/59/18/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "inabah",
+    "ar": "الإنابة",
+    "variants_ar": [
+      "إنابة",
+      "أنيبوا",
+      "منيب",
+      "منيبين"
+    ],
+    "en": {
+      "preferred": "turning to Allah",
+      "gloss": "inabah: turning back to Allah with love, devotion and obedience",
+      "avoid": [
+        "redemption",
+        "penance"
+      ]
+    },
+    "fr": {
+      "preferred": "retour à Allah",
+      "gloss": "inâba : revenir à Allah avec amour, dévotion et obéissance",
+      "avoid": [
+        "rédemption",
+        "pénitence"
+      ]
+    },
+    "usage_note_ar": "التعريف: رجوع القلب إلى الله محبةً وخضوعًا وإقبالًا عليه. — عنوان الجمهرة الفرنسي «Rédemption» ذو حمولة مسيحية، فاختير «retour à Allah». | الدليل: الزمر: 54. | في الجمهرة: EN «Repentance»، FR «Rédemption». | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Repentance» يطلقه المسرد على «التوبة»، فاختير مقابل يميز الإنابة. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 39:54: «Revenez».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/1663/en | FR: https://islamic-content.com/dictionary/word/1663/fr | الدليل: https://api.quranpedia.net/v1/ayah/39/54/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/39/54",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "istiqamah",
+    "ar": "الاستقامة",
+    "variants_ar": [
+      "استقامة",
+      "استقاموا",
+      "استقم"
+    ],
+    "en": {
+      "preferred": "rectitude",
+      "gloss": "istiqamah: steadfast obedience to Allah on the straight path without deviation",
+      "avoid": [
+        "rigidity",
+        "stubbornness"
+      ]
+    },
+    "fr": {
+      "preferred": "droiture",
+      "gloss": "istiqâma : obéissance constante à Allah sur le droit chemin sans déviation",
+      "avoid": [
+        "rigidité",
+        "entêtement"
+      ]
+    },
+    "usage_note_ar": "التعريف: لزوم طاعة الله ورسوله على الصراط المستقيم من غير عوج. | الدليل: فصلت: 30. | في الجمهرة: EN «Rectitude»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 41:30: «droit chemin».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/936/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/41/30/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/41/30",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "mujahadat_nafs",
+    "ar": "مجاهدة النفس",
+    "variants_ar": [
+      "جهاد النفس",
+      "مجاهدة"
+    ],
+    "en": {
+      "preferred": "striving against oneself",
+      "gloss": "compelling the self to obey Allah and to resist sin and desire",
+      "avoid": [
+        "self-harm",
+        "asceticism"
+      ]
+    },
+    "fr": {
+      "preferred": "lutte contre son âme",
+      "gloss": "contraindre son âme à obéir à Allah et à résister au péché et aux passions",
+      "avoid": [
+        "automutilation",
+        "ascétisme"
+      ]
+    },
+    "usage_note_ar": "التعريف: حمل النفس على طاعة الله ومخالفة هواها. | الدليل: العنكبوت: 69. | في الجمهرة: EN «Striving against oneself»، FR «Lutter contre sa propre âme». | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «Lutter contre sa propre âme» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/12269/en | FR: https://islamic-content.com/dictionary/word/12269/fr | الدليل: https://api.quranpedia.net/v1/ayah/29/69/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "hawa",
+    "ar": "الهوى",
+    "variants_ar": [
+      "أهواء",
+      "الأهواء",
+      "اتبع هواه"
+    ],
+    "en": {
+      "preferred": "desire",
+      "gloss": "hawa: the soul's inclination to what it craves against the Shari'ah",
+      "avoid": [
+        "love",
+        "air"
+      ]
+    },
+    "fr": {
+      "preferred": "passion",
+      "gloss": "hawâ : penchant de l'âme pour ce qu'elle désire, contrairement à la Charia",
+      "avoid": [
+        "amour",
+        "air"
+      ]
+    },
+    "usage_note_ar": "التعريف: ميل النفس إلى ما تشتهيه بغير هدى من الشرع. | الدليل: النازعات: 40. | في الجمهرة: EN «Desire»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 79:40: «passions».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/10736/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/79/40/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/79/40",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "shahawat",
+    "ar": "الشهوات",
+    "variants_ar": [
+      "الشهوة",
+      "شهوة",
+      "شهوات"
+    ],
+    "en": {
+      "preferred": "desires",
+      "gloss": "shahawat: the soul's cravings for worldly pleasures that may lead away from obedience",
+      "avoid": [
+        "lust only",
+        "appetite"
+      ]
+    },
+    "fr": {
+      "preferred": "désirs",
+      "gloss": "shahawât : envies de l'âme pour les plaisirs d'ici-bas qui peuvent détourner de l'obéissance",
+      "avoid": [
+        "luxure seulement",
+        "appétit"
+      ]
+    },
+    "usage_note_ar": "التعريف: ميل النفس إلى ما تستلذه من متاع الدنيا. | الدليل: آل عمران: 14. | في الجمهرة: EN «Desire»، FR «Désir». | مدخل الجمهرة: «الشَّهْوَةُ» | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Desire» لمدخل المفرد (الشهوة)، والمصطلح هنا بالجمع. | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «Désir» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/6045/en | FR: https://islamic-content.com/dictionary/word/6045/fr | الدليل: https://api.quranpedia.net/v1/ayah/3/14/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "shubuhat",
+    "ar": "الشبهات",
+    "variants_ar": [
+      "الشبهة",
+      "شبهة",
+      "المشتبهات",
+      "مشتبهات"
+    ],
+    "en": {
+      "preferred": "doubtful matters",
+      "gloss": "shubuhat: matters whose lawfulness is unclear; also arguments that cast doubt on the truth",
+      "avoid": [
+        "conspiracy",
+        "rumours"
+      ]
+    },
+    "fr": {
+      "preferred": "choses équivoques",
+      "gloss": "shubuhât : choses dont la licéité est incertaine ; aussi arguments qui jettent le doute sur la vérité",
+      "avoid": [
+        "complot",
+        "rumeurs"
+      ]
+    },
+    "usage_note_ar": "التعريف: ما اشتبه حله وحرمته، ويطلق على ما يثير الشك في الحق. | الدليل: صحيح البخاري (52). | في الجمهرة: EN «Doubtful»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | مدخل الجمهرة: «الشُّبْهَةُ» | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Doubtful» صفة لمدخل المفرد (الشبهة)، فكُتب اسمًا بالجمع.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/5885/en | FR: غير متوفر في الجمهرة | الدليل: https://dorar.net/h/wrjvh9Lg",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "masiyah",
+    "ar": "المعصية",
+    "variants_ar": [
+      "معصية",
+      "المعاصي",
+      "عصى",
+      "يعص"
+    ],
+    "en": {
+      "preferred": "disobedience",
+      "gloss": "ma'siyah: going against Allah's command by leaving an obligation or doing a prohibition",
+      "avoid": [
+        "crime",
+        "rebellion"
+      ]
+    },
+    "fr": {
+      "preferred": "désobéissance",
+      "gloss": "ma'siya : contrevenir à l'ordre d'Allah en délaissant une obligation ou en commettant un interdit",
+      "avoid": [
+        "crime",
+        "rébellion"
+      ]
+    },
+    "usage_note_ar": "التعريف: مخالفة أمر الله بترك واجب أو فعل محرم. | الدليل: الجن: 23. | في الجمهرة: EN «Disobedience»، FR «[Acte de] Désobéissance». | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «[Acte de] Désobéissance» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/9750/en | FR: https://islamic-content.com/dictionary/word/9750/fr | الدليل: https://api.quranpedia.net/v1/ayah/72/23/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "dhanb",
+    "ar": "الذنب",
+    "variants_ar": [
+      "الذنوب",
+      "ذنب",
+      "ذنوبكم"
+    ],
+    "en": {
+      "preferred": "sin",
+      "gloss": "every word or deed that goes against what Allah commanded or forbade",
+      "avoid": [
+        "mistake",
+        "crime"
+      ]
+    },
+    "fr": {
+      "preferred": "péché",
+      "gloss": "toute parole ou tout acte contraire à ce qu'Allah a ordonné ou interdit",
+      "avoid": [
+        "erreur",
+        "crime"
+      ]
+    },
+    "usage_note_ar": "التعريف: كل قول أو فعل يخالف أمر الله ونهيه. | الدليل: الزمر: 53. | في الجمهرة: EN «Sins»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | مدخل الجمهرة: «الذُّنُوبُ» | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Sins» لمدخل الجمع (الذنوب)، والمصطلح هنا بالمفرد. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 39:53: «péchés».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/5047/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/39/53/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/39/53",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "sayyiat",
+    "ar": "السيئات",
+    "variants_ar": [
+      "سيئاتهم"
+    ],
+    "en": {
+      "preferred": "bad deeds",
+      "gloss": "sayyi'at: sinful deeds that bring punishment, which good deeds wipe away",
+      "avoid": [
+        "misfortunes",
+        "bad luck"
+      ]
+    },
+    "fr": {
+      "preferred": "mauvaises actions",
+      "gloss": "sayyi'ât : actes de péché qui entraînent le châtiment et que les bonnes œuvres effacent",
+      "avoid": [
+        "malheurs",
+        "malchance"
+      ]
+    },
+    "usage_note_ar": "التعريف: الأعمال المنهي عنها التي يستحق بها العبد العقاب. | الدليل: هود: 114. | في الجمهرة: EN «Bad deed»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | مدخل الجمهرة: «السَّيِّئَة» | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Bad deed» لمدخل المفرد، والمصطلح هنا بالجمع. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 11:114: «mauvaises».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/5847/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/11/114/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/11/114",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "thawab",
+    "ar": "الثواب",
+    "variants_ar": [
+      "ثواب",
+      "حسن الثواب"
+    ],
+    "en": {
+      "preferred": "reward",
+      "gloss": "thawab: the recompense Allah grants for obedience in this world and the next",
+      "avoid": [
+        "wage",
+        "payment"
+      ]
+    },
+    "fr": {
+      "preferred": "récompense",
+      "gloss": "thawâb : la rétribution qu'Allah accorde pour l'obéissance ici-bas et dans l'au-delà",
+      "avoid": [
+        "salaire",
+        "paiement"
+      ]
+    },
+    "usage_note_ar": "التعريف: ما يجازي الله به عباده على الطاعة في الدنيا والآخرة. | الدليل: آل عمران: 148. | في الجمهرة: EN «Reward»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 3:148: «récompense».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/3707/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/3/148/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/3/148",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "nawafil",
+    "ar": "النوافل",
+    "variants_ar": [
+      "النافلة",
+      "نافلة",
+      "بالنوافل"
+    ],
+    "en": {
+      "preferred": "voluntary worship",
+      "gloss": "nawafil: acts of worship beyond the obligatory ones, rewarded if done and not sinful if left",
+      "avoid": [
+        "optional rituals",
+        "extras"
+      ]
+    },
+    "fr": {
+      "preferred": "actes surérogatoires",
+      "gloss": "nawâfil : actes d'adoration au-delà des obligations, récompensés si on les accomplit, sans péché si on les délaisse",
+      "avoid": [
+        "rituels facultatifs",
+        "suppléments"
+      ]
+    },
+    "usage_note_ar": "التعريف: ما زاد على الفرائض من العبادات، يثاب فاعله ولا يعاقب تاركه. | الدليل: صحيح البخاري (6502). | في الجمهرة: EN «Voluntary worship»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/10639/en | FR: غير متوفر في الجمهرة | الدليل: https://dorar.net/h/wQQEQADi",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "qurbah",
+    "ar": "القربة",
+    "variants_ar": [
+      "القربات",
+      "قربات",
+      "قربة"
+    ],
+    "en": {
+      "preferred": "act of devotion",
+      "gloss": "qurbah: an act done to draw near to Allah that earns reward",
+      "avoid": [
+        "favour",
+        "relationship"
+      ]
+    },
+    "fr": {
+      "preferred": "acte de rapprochement",
+      "gloss": "qurba : acte accompli pour se rapprocher d'Allah et qui vaut récompense",
+      "avoid": [
+        "faveur",
+        "parenté"
+      ]
+    },
+    "usage_note_ar": "التعريف: ما يُتقرب به إلى الله من الطاعات. | الدليل: التوبة: 99. | في الجمهرة: EN «Good deed»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Good deed» أعم من القربة، والقربة عمل بقصد التقرب إلى الله، فاختير مقابل يبين ذلك. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 9:99: «rapprocher».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/7783/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/9/99/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/9/99",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "ibtila",
+    "ar": "الابتلاء",
+    "variants_ar": [
+      "ابتلاء",
+      "البلاء",
+      "ولنبلونكم",
+      "ابتلى"
+    ],
+    "en": {
+      "preferred": "trial",
+      "gloss": "ibtila': Allah testing His servants with good and hardship",
+      "avoid": [
+        "punishment only",
+        "bad luck"
+      ]
+    },
+    "fr": {
+      "preferred": "épreuve",
+      "gloss": "ibtilâ' : Allah éprouve Ses serviteurs par le bien et par l'adversité",
+      "avoid": [
+        "châtiment seulement",
+        "malchance"
+      ]
+    },
+    "usage_note_ar": "التعريف: اختبار الله عباده بالخير والشر. | الدليل: البقرة: 155. | في الجمهرة: EN «Trial»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 2:155: «éprouver».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/24/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/2/155/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/2/155",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "qanaah",
+    "ar": "القناعة",
+    "variants_ar": [
+      "القنوع",
+      "قنعه الله"
+    ],
+    "en": {
+      "preferred": "contentedness",
+      "gloss": "qana'ah: being satisfied with what Allah has given and not coveting what others have",
+      "avoid": [
+        "laziness",
+        "lack of ambition"
+      ]
+    },
+    "fr": {
+      "preferred": "contentement",
+      "gloss": "qanâ'a : se satisfaire de ce qu'Allah a donné sans convoiter ce que possèdent les autres",
+      "avoid": [
+        "paresse",
+        "manque d'ambition"
+      ]
+    },
+    "usage_note_ar": "التعريف: الرضا بما قسم الله وترك التطلع إلى ما في أيدي الناس. | الدليل: صحيح مسلم (1054). | في الجمهرة: EN «Contentedness»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/7905/en | FR: غير متوفر في الجمهرة | الدليل: https://dorar.net/h/ohKwprkF",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "ikhbat",
+    "ar": "الإخبات",
+    "variants_ar": [
+      "المخبتين",
+      "إخبات",
+      "فتخبت"
+    ],
+    "en": {
+      "preferred": "humbling oneself",
+      "gloss": "ikhbat: humble submission and tranquillity of the heart before Allah",
+      "avoid": [
+        "humiliation",
+        "weakness"
+      ]
+    },
+    "fr": {
+      "preferred": "humble soumission",
+      "gloss": "ikhbât : humble soumission et quiétude du cœur devant Allah",
+      "avoid": [
+        "humiliation",
+        "faiblesse"
+      ]
+    },
+    "usage_note_ar": "التعريف: الخضوع لله والطمأنينة إليه. | الدليل: الحج: 34. | في الجمهرة: EN «Humbling oneself»، FR «Docilité / Sujétion.». | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 22:34: «Soumettez».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/404/en | FR: https://islamic-content.com/dictionary/word/404/fr | الدليل: https://api.quranpedia.net/v1/ayah/22/34/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/22/34",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "tafakkur",
+    "ar": "التفكر",
+    "variants_ar": [
+      "تفكر",
+      "يتفكرون",
+      "تتفكرون"
+    ],
+    "en": {
+      "preferred": "reflection",
+      "gloss": "tafakkur (contemplation): reflecting on Allah's signs in creation and revelation to strengthen faith",
+      "avoid": [
+        "meditation",
+        "mysticism"
+      ]
+    },
+    "fr": {
+      "preferred": "réflexion",
+      "gloss": "tafakkur : méditer les signes d'Allah dans la création et la révélation pour affermir la foi",
+      "avoid": [
+        "méditation transcendantale",
+        "mysticisme"
+      ]
+    },
+    "usage_note_ar": "التعريف: إعمال النظر في آيات الله المخلوقة والمتلوة. | الدليل: آل عمران: 191. | في الجمهرة: EN «Contemplation/Reflection»، FR «Réflexion». | مدخل الجمهرة: «تَفَكُّـرٌ» | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Contemplation/Reflection»؛ اختير الجزء الثاني. | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «Réflexion» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/11691/en | FR: https://islamic-content.com/dictionary/word/11691/fr | الدليل: https://api.quranpedia.net/v1/ayah/3/191/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "taah",
+    "ar": "الطاعة",
+    "variants_ar": [
+      "طاعة",
+      "أطيعوا",
+      "أطاع"
+    ],
+    "en": {
+      "preferred": "obedience",
+      "gloss": "ta'ah: doing what Allah and His Messenger command and avoiding what they forbid",
+      "avoid": [
+        "servility",
+        "blind obedience"
+      ]
+    },
+    "fr": {
+      "preferred": "obéissance",
+      "gloss": "tâ'a : faire ce qu'Allah et Son Messager ordonnent et éviter ce qu'ils interdisent",
+      "avoid": [
+        "servilité",
+        "obéissance aveugle"
+      ]
+    },
+    "usage_note_ar": "التعريف: امتثال أمر الله ورسوله واجتناب نهيهما. | الدليل: النساء: 59. | في الجمهرة: EN «Obedience»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 4:59: «Obéissez».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/6495/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/4/59/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/4/59",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "ujb",
+    "ar": "العجب",
+    "variants_ar": [
+      "العجب بالنفس",
+      "معجب بنفسه"
+    ],
+    "en": {
+      "preferred": "vanity",
+      "gloss": "'ujb: self-admiration over one's deeds, forgetting that they are Allah's favour; distinct from «العَجَب», wonder",
+      "avoid": [
+        "pride in one's nation",
+        "confidence"
+      ]
+    },
+    "fr": {
+      "preferred": "vanité",
+      "gloss": "'ujb : admiration de soi pour ses œuvres en oubliant qu'elles sont une grâce d'Allah ; à distinguer de « العَجَب », l'étonnement",
+      "avoid": [
+        "fierté nationale",
+        "confiance en soi"
+      ]
+    },
+    "usage_note_ar": "التعريف: استعظام العبد عمله ونسبته إلى نفسه ونسيان منة الله. — يُفرَّق بين العُجْب والعَجَب (التعجب)، فالمعنى بالسياق. | الدليل: التوبة: 25. | في الجمهرة: EN «Vanity»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 9:25: «fierté».",
+    "strategy": "context",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/6756/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/9/25/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/9/25",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "ghurur",
+    "ar": "الغرور",
+    "variants_ar": [
+      "غرور",
+      "المغرور",
+      "متاع الغرور"
+    ],
+    "en": {
+      "preferred": "delusion",
+      "gloss": "ghurur: being deceived by worldly life or by one's own deeds into neglecting the hereafter",
+      "avoid": [
+        "arrogance",
+        "pride"
+      ]
+    },
+    "fr": {
+      "preferred": "illusion",
+      "gloss": "ghurûr : se laisser tromper par la vie d'ici-bas ou par ses propres œuvres au point de négliger l'au-delà",
+      "avoid": [
+        "arrogance",
+        "orgueil"
+      ]
+    },
+    "usage_note_ar": "التعريف: انخداع النفس بالدنيا أو بالعمل حتى تغفل عن الآخرة. | الدليل: آل عمران: 185. | في الجمهرة: EN «Deception»، FR «L'illusion». | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Deception» يصف فعل الخداع، والغرور حال المخدوع، فاختير delusion الموافق لعنوانها الفرنسي «L'illusion». | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «L'illusion» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/7263/en | FR: https://islamic-content.com/dictionary/word/7263/fr | الدليل: https://api.quranpedia.net/v1/ayah/3/185/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "tul_amal",
+    "ar": "طول الأمل",
+    "variants_ar": [
+      "يلههم الأمل"
+    ],
+    "en": {
+      "preferred": "hope to live long",
+      "gloss": "long hopes for worldly life that make one neglect preparing for the hereafter",
+      "avoid": [
+        "optimism",
+        "ambition"
+      ]
+    },
+    "fr": {
+      "preferred": "désir de vivre longtemps",
+      "gloss": "les longs espoirs de vie d'ici-bas qui font négliger la préparation à l'au-delà",
+      "avoid": [
+        "optimisme",
+        "ambition"
+      ]
+    },
+    "usage_note_ar": "التعريف: استرسال النفس في الأماني الدنيوية والغفلة عن الاستعداد للآخرة. | الدليل: الحجر: 3. | في الجمهرة: EN «The hope to live long»، FR «Le désir de vivre». | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «Le désir de vivre» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/6636/en | FR: https://islamic-content.com/dictionary/word/6636/fr | الدليل: https://api.quranpedia.net/v1/ayah/15/3/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "thabat",
+    "ar": "الثبات",
+    "variants_ar": [
+      "ثبات"
+    ],
+    "en": {
+      "preferred": "steadfastness",
+      "gloss": "thabat: remaining firm on the truth and on obedience without wavering",
+      "avoid": [
+        "stubbornness",
+        "stagnation"
+      ]
+    },
+    "fr": {
+      "preferred": "constance",
+      "gloss": "thabât : rester ferme sur la vérité et l'obéissance sans fléchir",
+      "avoid": [
+        "entêtement",
+        "stagnation"
+      ]
+    },
+    "usage_note_ar": "التعريف: الدوام على الحق والطاعة من غير تزلزل. | الدليل: إبراهيم: 27. | في الجمهرة: EN «Steadfastness»، FR «La constance». | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «La constance» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/3602/en | FR: https://islamic-content.com/dictionary/word/3602/fr | الدليل: https://api.quranpedia.net/v1/ayah/14/27/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "husn_zann_billah",
+    "ar": "حسن الظن بالله",
+    "variants_ar": [
+      "حسن الظن",
+      "ظن عبدي بي"
+    ],
+    "en": {
+      "preferred": "to think well of God",
+      "gloss": "expecting good from Allah, His mercy and forgiveness, while doing good deeds",
+      "avoid": [
+        "false hope",
+        "complacency"
+      ]
+    },
+    "fr": {
+      "preferred": "bonne opinion à l'égard d'Allah",
+      "gloss": "attendre d'Allah le bien, Sa miséricorde et Son pardon, tout en accomplissant de bonnes œuvres",
+      "avoid": [
+        "faux espoir",
+        "complaisance"
+      ]
+    },
+    "usage_note_ar": "التعريف: توقع الخير من الله ورجاء رحمته ومغفرته مع العمل. | الدليل: صحيح البخاري (7405). | في الجمهرة: EN «To think well of God»، FR «La bonne opinion à l'égard d'Allah». | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «La bonne opinion à l'égard d'Allah» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/4321/en | FR: https://islamic-content.com/dictionary/word/4321/fr | الدليل: https://dorar.net/h/npzLW8hL",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "tadarru",
+    "ar": "التضرع",
+    "variants_ar": [
+      "تضرع",
+      "تضرعا",
+      "يتضرعون"
+    ],
+    "en": {
+      "preferred": "imploring",
+      "gloss": "tadarru': humbly beseeching Allah and showing one's need of Him in supplication",
+      "avoid": [
+        "begging people",
+        "flattery"
+      ]
+    },
+    "fr": {
+      "preferred": "imploration",
+      "gloss": "tadarru' : implorer humblement Allah en montrant son besoin de Lui dans l'invocation",
+      "avoid": [
+        "mendicité",
+        "flatterie"
+      ]
+    },
+    "usage_note_ar": "التعريف: التذلل لله وإظهار الافتقار إليه في الدعاء. | الدليل: الأعراف: 55. | في الجمهرة: EN «Implore»، FR «Imploration / Supplication». | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Implore» فعل، فكُتب بصيغة الاسم. | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «Imploration / Supplication» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/2913/en | FR: https://islamic-content.com/dictionary/word/2913/fr | الدليل: https://api.quranpedia.net/v1/ayah/7/55/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "istianah",
+    "ar": "الاستعانة",
+    "variants_ar": [
+      "استعانة",
+      "نستعين",
+      "استعينوا"
+    ],
+    "en": {
+      "preferred": "seeking God's help",
+      "gloss": "isti'anah: asking Allah for help with full reliance on Him",
+      "avoid": [
+        "asking the dead for help",
+        "magic"
+      ]
+    },
+    "fr": {
+      "preferred": "appel à l'aide d'Allah",
+      "gloss": "isti'âna : demander l'aide d'Allah en s'en remettant entièrement à Lui",
+      "avoid": [
+        "demander l'aide des morts",
+        "magie"
+      ]
+    },
+    "usage_note_ar": "التعريف: طلب العون من الله مع الاعتماد عليه. | الدليل: الفاتحة: 5. | في الجمهرة: EN «Seeking God’s help»، FR «L'appel à l'aide». | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «L'appel à l'aide» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/908/en | FR: https://islamic-content.com/dictionary/word/908/fr | الدليل: https://api.quranpedia.net/v1/ayah/1/5/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "falah",
+    "ar": "الفلاح",
+    "variants_ar": [
+      "أفلح",
+      "المفلحون",
+      "المفلحين"
+    ],
+    "en": {
+      "preferred": "success",
+      "gloss": "falah: true success, attaining what one seeks in this world and the next, above all salvation",
+      "avoid": [
+        "agriculture",
+        "wealth"
+      ]
+    },
+    "fr": {
+      "preferred": "réussite",
+      "gloss": "falâh : la vraie réussite, obtenir ce que l'on recherche ici-bas et dans l'au-delà, avant tout le salut",
+      "avoid": [
+        "agriculture",
+        "richesse"
+      ]
+    },
+    "usage_note_ar": "التعريف: الفوز بالمطلوب والنجاة من المرهوب في الدنيا والآخرة. — يُفرَّق بين الفَلاح (الفوز) والفلّاح (المزارع). | الدليل: المؤمنون: 1. | في الجمهرة: EN «Success»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 23:1: «Bienheureux».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/7510/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/23/1/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/23/1",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "barakah",
+    "ar": "البركة",
+    "variants_ar": [
+      "البركات",
+      "بركات"
+    ],
+    "en": {
+      "preferred": "blessing",
+      "gloss": "barakah: abundant and lasting good that Allah places in something",
+      "avoid": [
+        "luck",
+        "magic"
+      ]
+    },
+    "fr": {
+      "preferred": "bénédiction",
+      "gloss": "baraka : bien abondant et durable qu'Allah place dans une chose",
+      "avoid": [
+        "chance",
+        "magie"
+      ]
+    },
+    "usage_note_ar": "التعريف: الخير الكثير الثابت الذي يجعله الله في الشيء. | الدليل: الأعراف: 96. | في الجمهرة: EN «Blessing»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 7:96: «bénédictions».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/2065/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/7/96/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/7/96",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "sakinah",
+    "ar": "السكينة",
+    "variants_ar": [
+      "سكينة",
+      "سكينته"
+    ],
+    "en": {
+      "preferred": "tranquillity",
+      "gloss": "sakinah: the calm and reassurance Allah sends down on believers' hearts",
+      "avoid": [
+        "sedation",
+        "silence"
+      ]
+    },
+    "fr": {
+      "preferred": "sérénité",
+      "gloss": "sakîna : le calme et l'apaisement qu'Allah fait descendre dans le cœur des croyants",
+      "avoid": [
+        "sédation",
+        "silence"
+      ]
+    },
+    "usage_note_ar": "التعريف: الطمأنينة التي ينزلها الله في قلوب المؤمنين. | الدليل: الفتح: 4. | في الجمهرة: EN «Calmness»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Calmness» قريب، واختير tranquillity لأنه المقابل الشائع لـ«السكينة» في الترجمات الإنجليزية. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 48:4: «sérénité».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/5646/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/48/4/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/48/4",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "maghfirah",
+    "ar": "المغفرة",
+    "variants_ar": [
+      "مغفرة",
+      "الغفران",
+      "غفران"
+    ],
+    "en": {
+      "preferred": "forgiveness",
+      "gloss": "maghfirah: Allah's covering of sins and not taking the servant to account for them",
+      "avoid": [
+        "indulgence",
+        "absolution by clergy"
+      ]
+    },
+    "fr": {
+      "preferred": "pardon",
+      "gloss": "maghfira : Allah couvre les péchés et n'en tient pas rigueur à Son serviteur",
+      "avoid": [
+        "indulgence",
+        "absolution"
+      ]
+    },
+    "usage_note_ar": "التعريف: ستر الله الذنوب وتجاوزه عن المؤاخذة بها. | الدليل: آل عمران: 133. | في الجمهرة: EN «Forgiveness»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 3:133: «pardon».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/9794/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/3/133/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/3/133",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "qaswat_qalb",
+    "ar": "قسوة القلب",
+    "variants_ar": [
+      "قست قلوبهم",
+      "قسوة"
+    ],
+    "en": {
+      "preferred": "hard-heartedness",
+      "gloss": "hardness of the heart that no longer responds to reminders, the Qur'an or compassion",
+      "avoid": [
+        "courage",
+        "strength"
+      ]
+    },
+    "fr": {
+      "preferred": "dureté du cœur",
+      "gloss": "dureté du cœur qui ne réagit plus au rappel, au Coran ni à la compassion",
+      "avoid": [
+        "courage",
+        "force"
+      ]
+    },
+    "usage_note_ar": "التعريف: غلظ القلب وبعده عن التأثر بالمواعظ والرحمة. | الدليل: البقرة: 74. | في الجمهرة: EN «Hard-heartedness»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 2:74: «endurcis».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/7814/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/2/74/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/2/74",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "qunut_despair",
+    "ar": "القنوط",
+    "variants_ar": [
+      "قنوط",
+      "تقنطوا",
+      "القانطين"
+    ],
+    "en": {
+      "preferred": "despair",
+      "gloss": "qunūṭ: despairing of Allah's mercy, which is forbidden",
+      "avoid": [
+        "depression",
+        "sadness"
+      ]
+    },
+    "fr": {
+      "preferred": "désespoir",
+      "gloss": "qunût : désespérer de la miséricorde d'Allah, ce qui est interdit",
+      "avoid": [
+        "dépression",
+        "tristesse"
+      ]
+    },
+    "usage_note_ar": "التعريف: اليأس من رحمة الله، وهو محرم. — يُفرَّق بين القُنوط (اليأس) والقُنوت (الدعاء في الصلاة). | الدليل: الزمر: 53. | في الجمهرة: EN «Despairing feeling»، FR «Désespoir». | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Despairing feeling» بالمعنى نفسه، واختُصر إلى despair. | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «Désespoir» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/7907/en | FR: https://islamic-content.com/dictionary/word/7907/fr | الدليل: https://api.quranpedia.net/v1/ayah/39/53/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "mawatin_ijabah",
+    "ar": "مواطن الإجابة",
+    "variants_ar": [
+      "مواطن إجابة الدعاء",
+      "أوقات الإجابة"
+    ],
+    "en": {
+      "preferred": "conditions of answering supplication",
+      "gloss": "the times, places and states in which supplication is most likely to be answered, such as prostration and the last third of the night",
+      "avoid": [
+        "magic formulas",
+        "lucky times"
+      ]
+    },
+    "fr": {
+      "preferred": "moments d'exaucement",
+      "gloss": "les moments, lieux et états où l'invocation a le plus de chances d'être exaucée, comme la prosternation et le dernier tiers de la nuit",
+      "avoid": [
+        "formules magiques",
+        "moments porte-bonheur"
+      ]
+    },
+    "usage_note_ar": "التعريف: الأوقات والأحوال والأماكن التي يُرجى فيها قبول الدعاء، كالسجود وثلث الليل الآخر. | الدليل: صحيح مسلم (482). | في الجمهرة: EN «Conditions of answering supplication»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/10178/en | FR: غير متوفر في الجمهرة | الدليل: https://dorar.net/h/mmuQXB7F",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "mudawamah",
+    "ar": "المداومة",
+    "variants_ar": [
+      "المداومة على العمل",
+      "أدومه"
+    ],
+    "en": {
+      "preferred": "persistence",
+      "gloss": "mudawamah: keeping up good deeds regularly even if they are small",
+      "avoid": [
+        "obsession",
+        "routine without intention"
+      ]
+    },
+    "fr": {
+      "preferred": "persévérance",
+      "gloss": "mudâwama : accomplir régulièrement les bonnes œuvres, même si elles sont modestes",
+      "avoid": [
+        "obsession",
+        "routine sans intention"
+      ]
+    },
+    "usage_note_ar": "التعريف: الاستمرار على العمل الصالح وإن قل. | الدليل: صحيح البخاري (6465). | في الجمهرة: EN «Persistence»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/9168/en | FR: غير متوفر في الجمهرة | الدليل: https://dorar.net/h/FKL236hS",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
   }
 ]

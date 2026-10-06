@@ -787,5 +787,1858 @@
       "name": "ردينة بلال",
       "date": "2026-10-03"
     }
+  },
+  {
+    "id": "nisab",
+    "ar": "النصاب",
+    "variants_ar": [
+      "نصاب الزكاة",
+      "النصاب الشرعي",
+      "بلغ النصاب"
+    ],
+    "en": {
+      "preferred": "zakat threshold",
+      "gloss": "nisab: the minimum amount of wealth set by the Shari'ah on which zakat becomes due; in general usage «النصّاب» also means a swindler",
+      "avoid": [
+        "quota",
+        "swindler"
+      ]
+    },
+    "fr": {
+      "preferred": "seuil de la zakât",
+      "gloss": "nisâb : le montant minimal de richesse fixé par la Charia à partir duquel la zakât est due ; dans l'usage courant, « النصّاب » désigne aussi un escroc",
+      "avoid": [
+        "quota",
+        "escroc"
+      ]
+    },
+    "usage_note_ar": "التعريف: القدر الذي حدده الشرع من المال لوجوب الزكاة فيه. — «النصّاب» بمعنى المحتال لفظ آخر، فالمعنى بالسياق. | في الجمهرة: EN «Threshold of zakat»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | مدخل الجمهرة: «نِصَابُ الزَّكَاةِ» | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Threshold of zakat» لمدخل «نصاب الزكاة»، واختير «zakat threshold» بالمعنى نفسه.",
+    "strategy": "context",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/10453/en | FR: غير متوفر في الجمهرة",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "hawl",
+    "ar": "الحول",
+    "variants_ar": [
+      "حولان الحول",
+      "حال عليه الحول"
+    ],
+    "en": {
+      "preferred": "turn of a year",
+      "gloss": "hawl: the passing of a full lunar year on wealth that has reached the nisab, a condition for zakat",
+      "avoid": [
+        "squint",
+        "around"
+      ]
+    },
+    "fr": {
+      "preferred": "année lunaire révolue",
+      "gloss": "hawl : l'écoulement d'une année lunaire complète sur un bien ayant atteint le nisâb, condition de la zakât",
+      "avoid": [
+        "strabisme",
+        "autour"
+      ]
+    },
+    "usage_note_ar": "التعريف: مرور سنة قمرية كاملة على المال البالغ نصابًا، وهو شرط لوجوب الزكاة. — مدخل الجمهرة «حولان الحول». | في الجمهرة: EN «The turn of a year»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | مدخل الجمهرة: «حَوَلَانُ الْحَوْل»",
+    "strategy": "context",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/4550/en | FR: غير متوفر في الجمهرة",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "masarif_zakah",
+    "ar": "مصارف الزكاة",
+    "variants_ar": [
+      "أهل الزكاة",
+      "مستحقو الزكاة"
+    ],
+    "en": {
+      "preferred": "zakat beneficiaries",
+      "gloss": "the eight categories named in the Qur'an who may receive zakat",
+      "avoid": [
+        "charities in general",
+        "tax offices"
+      ]
+    },
+    "fr": {
+      "preferred": "bénéficiaires de la zakât",
+      "gloss": "les huit catégories nommées dans le Coran qui peuvent recevoir la zakât",
+      "avoid": [
+        "œuvres de charité en général",
+        "bureaux des impôts"
+      ]
+    },
+    "usage_note_ar": "التعريف: الأصناف الثمانية المذكورة في القرآن الذين تُدفع لهم الزكاة. | الدليل: التوبة: 60. | في الجمهرة: EN «Zakat beneficiaries»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/9557/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/9/60/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "faqir",
+    "ar": "الفقير",
+    "variants_ar": [
+      "الفقراء",
+      "فقير",
+      "للفقراء"
+    ],
+    "en": {
+      "preferred": "poor person",
+      "gloss": "faqir: in zakat law, one who has nothing or far less than his needs",
+      "avoid": [
+        "beggar",
+        "Sufi ascetic"
+      ]
+    },
+    "fr": {
+      "preferred": "pauvre",
+      "gloss": "faqîr : en droit de la zakât, celui qui n'a rien ou bien moins que ses besoins",
+      "avoid": [
+        "mendiant",
+        "ascète soufi"
+      ]
+    },
+    "usage_note_ar": "التعريف: من لا يجد شيئًا أو يجد أقل من نصف كفايته. | الدليل: التوبة: 60. | في الجمهرة: EN «Poor person»، FR «Pauvre.». | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «Pauvre.» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/7500/en | FR: https://islamic-content.com/dictionary/word/7500/fr | الدليل: https://api.quranpedia.net/v1/ayah/9/60/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "miskin",
+    "ar": "المسكين",
+    "variants_ar": [
+      "المساكين",
+      "مسكين",
+      "مسكينا"
+    ],
+    "en": {
+      "preferred": "needy person",
+      "gloss": "miskin: in zakat law, one who has part of his needs but not enough",
+      "avoid": [
+        "pitiful",
+        "lowly"
+      ]
+    },
+    "fr": {
+      "preferred": "nécessiteux",
+      "gloss": "miskîn : en droit de la zakât, celui qui a une partie de ses besoins sans en avoir assez",
+      "avoid": [
+        "pitoyable",
+        "misérable"
+      ]
+    },
+    "usage_note_ar": "التعريف: من يجد بعض كفايته ولا يجد تمامها. | الدليل: التوبة: 60. | في الجمهرة: EN «Needy»، FR «Pauvre, indigent, nécessiteux, malheureux, humble.». | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Needy» صفة، فكُتب needy person. | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «Pauvre, indigent, nécessiteux, malheureux, humble.» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/9445/en | FR: https://islamic-content.com/dictionary/word/9445/fr | الدليل: https://api.quranpedia.net/v1/ayah/9/60/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "gharimun",
+    "ar": "الغارمون",
+    "variants_ar": [
+      "الغارم",
+      "الغارمين",
+      "غارم"
+    ],
+    "en": {
+      "preferred": "debtors",
+      "gloss": "gharimun: those burdened with debts they cannot repay, one of the categories of zakat",
+      "avoid": [
+        "bankrupt companies",
+        "fined persons"
+      ]
+    },
+    "fr": {
+      "preferred": "endettés",
+      "gloss": "ghârimûn : ceux qui sont accablés de dettes qu'ils ne peuvent rembourser, l'une des catégories de la zakât",
+      "avoid": [
+        "entreprises en faillite",
+        "personnes condamnées à une amende"
+      ]
+    },
+    "usage_note_ar": "التعريف: المدينون العاجزون عن سداد ديونهم في غير معصية. | الدليل: التوبة: 60. | في الجمهرة: EN «insolvent»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | مدخل الجمهرة: «الْغَارِمُ» | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «insolvent» لمدخل المفرد (الغارم)، واختير الاسم بالجمع. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 9:60: «dettes».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/7230/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/9/60/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/9/60",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "ibn_sabil",
+    "ar": "ابن السبيل",
+    "variants_ar": [
+      "أبناء السبيل",
+      "وابن السبيل"
+    ],
+    "en": {
+      "preferred": "stranded traveller",
+      "gloss": "ibn as-sabil: a traveller cut off from his money, who may receive zakat even if wealthy at home",
+      "avoid": [
+        "homeless",
+        "tourist"
+      ]
+    },
+    "fr": {
+      "preferred": "voyageur démuni",
+      "gloss": "ibn as-sabîl : voyageur coupé de ses biens, qui peut recevoir la zakât même s'il est riche chez lui",
+      "avoid": [
+        "sans-abri",
+        "touriste"
+      ]
+    },
+    "usage_note_ar": "التعريف: المسافر المنقطع عن ماله. | الدليل: التوبة: 60. | في الجمهرة: EN «Stranded traveller»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 9:60: «voyageurs démunis».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/58/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/9/60/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/9/60",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "urud_tijarah",
+    "ar": "عروض التجارة",
+    "variants_ar": [
+      "سلع التجارة"
+    ],
+    "en": {
+      "preferred": "trade goods",
+      "gloss": "'urud at-tijarah: goods held for sale, on which zakat is due according to their value",
+      "avoid": [
+        "stock market shares only",
+        "exhibitions"
+      ]
+    },
+    "fr": {
+      "preferred": "marchandises",
+      "gloss": "'urûd at-tijâra : biens destinés à la vente, sur lesquels la zakât est due selon leur valeur",
+      "avoid": [
+        "actions boursières seulement",
+        "expositions"
+      ]
+    },
+    "usage_note_ar": "التعريف: كل ما أُعدّ للبيع والشراء بقصد الربح. — مدخل الجمهرة «العروض». | في الجمهرة: EN «Goods»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | مدخل الجمهرة: «الْعُرُوضُ» | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Goods» لمدخل «العروض»، وأضيف trade لأن المصطلح عروض التجارة.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/6854/en | FR: غير متوفر في الجمهرة",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "rikaz",
+    "ar": "الركاز",
+    "variants_ar": [
+      "ركاز"
+    ],
+    "en": {
+      "preferred": "buried treasure",
+      "gloss": "rikaz: treasure buried from pre-Islamic times found in the ground, on which one fifth is due",
+      "avoid": [
+        "mine",
+        "oil"
+      ]
+    },
+    "fr": {
+      "preferred": "trésor enfoui",
+      "gloss": "rikâz : trésor enfoui datant d'avant l'islam trouvé dans le sol, sur lequel un cinquième est dû",
+      "avoid": [
+        "mine",
+        "pétrole"
+      ]
+    },
+    "usage_note_ar": "التعريف: دفين الجاهلية الذي يوجد في الأرض، وفيه الخمس. | الدليل: صحيح البخاري (2355). | في الجمهرة: EN «Underground treasures»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Underground treasures»، واختير المفرد buried treasure بالمعنى نفسه.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/5281/en | FR: غير متوفر في الجمهرة | الدليل: https://dorar.net/h/30k8sdAD",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "kaffarah",
+    "ar": "الكفارة",
+    "variants_ar": [
+      "كفارة",
+      "الكفارات"
+    ],
+    "en": {
+      "preferred": "atonement",
+      "gloss": "kaffarah: a penalty set by the Shari'ah, such as freeing a slave, fasting or feeding the poor, that expiates certain violations",
+      "avoid": [
+        "fine",
+        "penance"
+      ]
+    },
+    "fr": {
+      "preferred": "expiation",
+      "gloss": "kaffâra : pénalité fixée par la Charia, comme jeûner ou nourrir des pauvres, qui expie certaines transgressions",
+      "avoid": [
+        "amende",
+        "pénitence"
+      ]
+    },
+    "usage_note_ar": "التعريف: ما حدده الشرع من عتق أو صيام أو إطعام لمحو أثر بعض المخالفات. | الدليل: المائدة: 89. | في الجمهرة: EN «Atonement»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | مدخل الجمهرة: «الْكَفَّارَاتُ» | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 5:89: «expiation».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/8196/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/5/89/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/5/89",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "kaffarat_yamin",
+    "ar": "كفارة اليمين",
+    "variants_ar": [
+      "كفارة الحنث"
+    ],
+    "en": {
+      "preferred": "atonement for breaking an oath",
+      "gloss": "feeding or clothing ten poor people or freeing a slave, and if unable, fasting three days",
+      "avoid": [
+        "oath fee",
+        "fine"
+      ]
+    },
+    "fr": {
+      "preferred": "expiation du serment",
+      "gloss": "nourrir ou vêtir dix pauvres ou affranchir un esclave, et à défaut jeûner trois jours",
+      "avoid": [
+        "frais de serment",
+        "amende"
+      ]
+    },
+    "usage_note_ar": "التعريف: إطعام عشرة مساكين أو كسوتهم أو تحرير رقبة، فمن لم يجد فصيام ثلاثة أيام. | الدليل: المائدة: 89. | في الجمهرة: EN «Atonement for breaking an oath»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 5:89: «expiation».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/8197/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/5/89/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/5/89",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "nadhr",
+    "ar": "النذر",
+    "variants_ar": [
+      "نذر",
+      "بالنذر",
+      "النذور"
+    ],
+    "en": {
+      "preferred": "vow",
+      "gloss": "nadhr: making binding upon oneself an act of worship that was not obligatory",
+      "avoid": [
+        "promise to a saint",
+        "bet"
+      ]
+    },
+    "fr": {
+      "preferred": "vœu",
+      "gloss": "nadhr : s'imposer un acte d'adoration qui n'était pas obligatoire",
+      "avoid": [
+        "promesse à un saint",
+        "pari"
+      ]
+    },
+    "usage_note_ar": "التعريف: إلزام المكلف نفسه عبادةً لم تكن واجبة عليه. | الدليل: الإنسان: 7. | في الجمهرة: EN «Pledge»، FR «Voeu». | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Pledge»، واختير vow لأنه المقابل الشائع للنذر الشرعي. | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «Voeu» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/10380/en | FR: https://islamic-content.com/dictionary/word/10380/fr | الدليل: https://api.quranpedia.net/v1/ayah/76/7/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "laylat_qadr",
+    "ar": "ليلة القدر",
+    "variants_ar": [
+      "ليلة القدر المباركة"
+    ],
+    "en": {
+      "preferred": "Night of Power",
+      "gloss": "the blessed night in the last ten nights of Ramadan in which the Qur'an was sent down, better than a thousand months",
+      "avoid": [
+        "destiny night of luck",
+        "new year"
+      ]
+    },
+    "fr": {
+      "preferred": "Nuit du Destin",
+      "gloss": "la nuit bénie des dix dernières nuits du Ramadan où le Coran fut révélé, meilleure que mille mois",
+      "avoid": [
+        "nuit de chance",
+        "nouvel an"
+      ]
+    },
+    "usage_note_ar": "التعريف: ليلة مباركة في العشر الأواخر من رمضان أُنزل فيها القرآن، خير من ألف شهر. | الدليل: القدر: 1. | في الجمهرة: EN «The Night of Power»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/8591/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/97/1/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "ashr_awakhir",
+    "ar": "العشر الأواخر",
+    "variants_ar": [
+      "العشر الأواخر من رمضان",
+      "عشر رمضان الأواخر"
+    ],
+    "en": {
+      "preferred": "last ten nights of Ramadan",
+      "gloss": "the last ten nights of Ramadan, in which the Night of Power is sought",
+      "avoid": [
+        "final exams",
+        "last days"
+      ]
+    },
+    "fr": {
+      "preferred": "dix dernières nuits du Ramadan",
+      "gloss": "les dix dernières nuits du Ramadan, où l'on recherche la Nuit du Destin",
+      "avoid": [
+        "examens finaux",
+        "derniers jours"
+      ]
+    },
+    "usage_note_ar": "التعريف: الليالي العشر الأخيرة من رمضان، وفيها تُلتمس ليلة القدر. | الدليل: صحيح البخاري (2020). | في الجمهرة: EN «The last ten nights of Ramadan»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | مدخل الجمهرة: «الْعَشْرُ الْأَوَاخِرُ مِنْ شَهْرِ رَمَضَانَ»",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/6882/en | FR: غير متوفر في الجمهرة | الدليل: https://dorar.net/h/b74SlCQI",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "ayyam_bid",
+    "ar": "الأيام البيض",
+    "variants_ar": [
+      "أيام البيض",
+      "صيام الأيام البيض"
+    ],
+    "en": {
+      "preferred": "white days",
+      "gloss": "the 13th, 14th and 15th of each lunar month, on which voluntary fasting is recommended",
+      "avoid": [
+        "holidays",
+        "snow days"
+      ]
+    },
+    "fr": {
+      "preferred": "jours blancs",
+      "gloss": "les 13, 14 et 15 de chaque mois lunaire, où le jeûne surérogatoire est recommandé",
+      "avoid": [
+        "vacances",
+        "jours de neige"
+      ]
+    },
+    "usage_note_ar": "التعريف: الثالث عشر والرابع عشر والخامس عشر من كل شهر قمري، ويُستحب صيامها. | في الجمهرة: EN «The white days»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/1900/en | FR: غير متوفر في الجمهرة",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "tamattu",
+    "ar": "التمتع",
+    "variants_ar": [
+      "حج التمتع",
+      "المتمتع",
+      "تمتع بالعمرة"
+    ],
+    "en": {
+      "preferred": "tamattu'",
+      "gloss": "performing umrah in the months of Hajj, leaving ihram, then entering ihram for Hajj in the same year; in general usage «التمتع» means enjoyment",
+      "avoid": [
+        "tourism",
+        "pleasure"
+      ]
+    },
+    "fr": {
+      "preferred": "tamattu'",
+      "gloss": "accomplir la 'umra pendant les mois du Hajj, quitter l'ihrâm, puis le reprendre pour le Hajj la même année ; dans l'usage courant, « التمتع » signifie la jouissance",
+      "avoid": [
+        "tourisme",
+        "plaisir"
+      ]
+    },
+    "usage_note_ar": "التعريف: الإحرام بالعمرة في أشهر الحج والتحلل منها ثم الإحرام بالحج من عامه. — يأتي بمعنى الاستمتاع، فالمعنى بالسياق. | الدليل: البقرة: 196. | في الجمهرة: EN «TamttuꜤ»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «TamttuꜤ» نقل صوتي؛ صُحّح هجاؤه إلى tamattu'.",
+    "strategy": "context",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/3406/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/2/196/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "tawaf_qudum",
+    "ar": "طواف القدوم",
+    "variants_ar": [
+      "طواف التحية"
+    ],
+    "en": {
+      "preferred": "tawaf of arrival",
+      "gloss": "the circumambulation of the Kaaba on first arriving in Makkah for Hajj",
+      "avoid": [
+        "welcome tour",
+        "sightseeing"
+      ]
+    },
+    "fr": {
+      "preferred": "tawâf d'arrivée",
+      "gloss": "les circuits autour de la Kaaba à la première arrivée à La Mecque pour le Hajj",
+      "avoid": [
+        "visite de bienvenue",
+        "tourisme"
+      ]
+    },
+    "usage_note_ar": "التعريف: الطواف بالبيت أول قدوم مكة للحج. | في الجمهرة: EN «ṭawāf of arrival»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/6629/en | FR: غير متوفر في الجمهرة",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "muzdalifah",
+    "ar": "مزدلفة",
+    "variants_ar": [
+      "المزدلفة",
+      "المشعر الحرام"
+    ],
+    "en": {
+      "preferred": "Muzdalifah",
+      "gloss": "the place between Arafat and Mina where pilgrims spend the night after Arafat",
+      "avoid": [
+        "camp",
+        "festival ground"
+      ]
+    },
+    "fr": {
+      "preferred": "Muzdalifah",
+      "gloss": "le lieu entre Arafat et Mina où les pèlerins passent la nuit après Arafat",
+      "avoid": [
+        "camp",
+        "terrain de fête"
+      ]
+    },
+    "usage_note_ar": "التعريف: موضع بين عرفات ومنى يبيت فيه الحجاج ليلة النحر. | الدليل: البقرة: 198. | في الجمهرة: EN «Muzdalifah»، FR «Muzdalifah». | مدخل الجمهرة: «المُزْدَلِفَةُ» | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «Muzdalifah» (الرابط في source.ref).",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/9347/en | FR: https://islamic-content.com/dictionary/word/9347/fr | الدليل: https://api.quranpedia.net/v1/ayah/2/198/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "ramy_jamarat",
+    "ar": "رمي الجمرات",
+    "variants_ar": [
+      "رمي الجمار",
+      "الجمرات",
+      "الجمار"
+    ],
+    "en": {
+      "preferred": "stoning of the jamarat",
+      "gloss": "throwing pebbles at the three marked pillars in Mina during the days of Hajj",
+      "avoid": [
+        "stoning people",
+        "throwing stones at the devil himself"
+      ]
+    },
+    "fr": {
+      "preferred": "lapidation des stèles",
+      "gloss": "lancer des cailloux sur les trois stèles de Mina pendant les jours du Hajj",
+      "avoid": [
+        "lapidation de personnes",
+        "lapider le diable lui-même"
+      ]
+    },
+    "usage_note_ar": "التعريف: رمي الجمار الثلاث بمنى بالحصى في أيام الحج. | الدليل: صحيح مسلم (1297). | في الجمهرة: EN «Stone-throwing»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | مدخل الجمهرة: «رَمْيُ الجِمَارِ» | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Stone-throwing» عام، واختير مقابل يبين المقصود.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/5299/en | FR: غير متوفر في الجمهرة | الدليل: https://dorar.net/h/IrObs7Xj",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "yawm_tarwiyah",
+    "ar": "يوم التروية",
+    "variants_ar": [
+      "التروية"
+    ],
+    "en": {
+      "preferred": "day of Tarwiyah",
+      "gloss": "the 8th of Dhul-Hijjah, when pilgrims go to Mina",
+      "avoid": [
+        "watering day",
+        "rest day"
+      ]
+    },
+    "fr": {
+      "preferred": "jour de Tarwiya",
+      "gloss": "le 8 Dhoul-Hijja, quand les pèlerins se rendent à Mina",
+      "avoid": [
+        "jour d'arrosage",
+        "jour de repos"
+      ]
+    },
+    "usage_note_ar": "التعريف: اليوم الثامن من ذي الحجة. | في الجمهرة: EN «Al-Tarwiyah day»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Al-Tarwiyah day»؛ أعيدت صياغته بلا أداة تعريف.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/11208/en | FR: غير متوفر في الجمهرة",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "yawm_nahr",
+    "ar": "يوم النحر",
+    "variants_ar": [
+      "يوم الأضحى",
+      "يوم الحج الأكبر"
+    ],
+    "en": {
+      "preferred": "day of sacrifice",
+      "gloss": "the 10th of Dhul-Hijjah, the day of Eid al-Adha",
+      "avoid": [
+        "slaughter festival",
+        "massacre day"
+      ]
+    },
+    "fr": {
+      "preferred": "jour du sacrifice",
+      "gloss": "le 10 Dhoul-Hijja, jour de l'Aïd al-Adhâ",
+      "avoid": [
+        "fête de l'abattage",
+        "jour de massacre"
+      ]
+    },
+    "usage_note_ar": "التعريف: اليوم العاشر من ذي الحجة، يوم عيد الأضحى. | في الجمهرة: EN «The day of sacrifice»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/11210/en | FR: غير متوفر في الجمهرة",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "ayyam_tashriq",
+    "ar": "أيام التشريق",
+    "variants_ar": [
+      "أيام منى",
+      "الأيام المعدودات"
+    ],
+    "en": {
+      "preferred": "days of Tashriq",
+      "gloss": "the 11th, 12th and 13th of Dhul-Hijjah, after the day of sacrifice",
+      "avoid": [
+        "holidays",
+        "drying days"
+      ]
+    },
+    "fr": {
+      "preferred": "jours de Tashrîq",
+      "gloss": "les 11, 12 et 13 Dhoul-Hijja, après le jour du sacrifice",
+      "avoid": [
+        "vacances",
+        "jours de séchage"
+      ]
+    },
+    "usage_note_ar": "التعريف: الأيام الثلاثة بعد يوم النحر. | الدليل: البقرة: 203. | في الجمهرة: EN «The Tashrīq days»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «The Tashrīq days»؛ أعيدت صياغته بلا أداة تعريف.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/1901/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/2/203/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "mahzurat_ihram",
+    "ar": "محظورات الإحرام",
+    "variants_ar": [
+      "محظورات المحرم"
+    ],
+    "en": {
+      "preferred": "restrictions during consecration",
+      "gloss": "what a pilgrim in ihram must avoid, such as hunting, perfume, cutting hair and marital relations",
+      "avoid": [
+        "taboos",
+        "superstitions"
+      ]
+    },
+    "fr": {
+      "preferred": "interdits de l'ihrâm",
+      "gloss": "ce que le pèlerin en ihrâm doit éviter, comme la chasse, le parfum, la coupe des cheveux et les rapports conjugaux",
+      "avoid": [
+        "tabous",
+        "superstitions"
+      ]
+    },
+    "usage_note_ar": "التعريف: ما يحرم على المحرم فعله حتى يتحلل. | الدليل: المائدة: 95. | في الجمهرة: EN «Restrictions during consecration»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 5:95: «état de sacralisation».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/9006/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/5/95/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/5/95",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "ihsar",
+    "ar": "الإحصار",
+    "variants_ar": [
+      "الإحصار في الحج",
+      "أحصرتم",
+      "المحصر"
+    ],
+    "en": {
+      "preferred": "being prevented from completing the rites",
+      "gloss": "ihsar: a pilgrim in ihram being prevented by an enemy, illness or the like from completing Hajj or umrah",
+      "avoid": [
+        "siege",
+        "lockdown"
+      ]
+    },
+    "fr": {
+      "preferred": "empêchement",
+      "gloss": "ihsâr : le pèlerin en ihrâm empêché par un ennemi, une maladie ou autre d'achever le Hajj ou la 'umra",
+      "avoid": [
+        "siège",
+        "confinement"
+      ]
+    },
+    "usage_note_ar": "التعريف: منع المحرم من إتمام نسكه بعدو أو مرض ونحوهما. | الدليل: البقرة: 196. | في الجمهرة: EN «Stranded when in consecration»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | مدخل الجمهرة: «إحْصَارُ المُحْرِمِ» | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Stranded when in consecration» لمدخل «إحصار المحرم»، واختير مقابل أوضح. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 2:196: «empêchés».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/373/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/2/196/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/2/196",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "masjid_haram",
+    "ar": "المسجد الحرام",
+    "variants_ar": [
+      "الحرم المكي"
+    ],
+    "en": {
+      "preferred": "Sacred Mosque",
+      "gloss": "the mosque surrounding the Kaaba in Makkah",
+      "avoid": [
+        "forbidden mosque",
+        "holy church"
+      ]
+    },
+    "fr": {
+      "preferred": "Mosquée sacrée",
+      "gloss": "la mosquée qui entoure la Kaaba à La Mecque",
+      "avoid": [
+        "mosquée interdite",
+        "église sainte"
+      ]
+    },
+    "usage_note_ar": "التعريف: المسجد الذي فيه الكعبة بمكة. | الدليل: الإسراء: 1. | في الجمهرة: EN «The Sacred Mosque»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 17:1: «Mosquée sacrée».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/9431/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/17/1/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/17/1",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "masjid_aqsa",
+    "ar": "المسجد الأقصى",
+    "variants_ar": [],
+    "en": {
+      "preferred": "Aqsa Mosque",
+      "gloss": "the mosque in Jerusalem, the first qiblah and the third holiest mosque in Islam",
+      "avoid": [
+        "Dome of the Rock only",
+        "temple"
+      ]
+    },
+    "fr": {
+      "preferred": "Mosquée al-Aqsâ",
+      "gloss": "la mosquée de Jérusalem, première qibla et troisième mosquée sainte de l'islam",
+      "avoid": [
+        "Dôme du Rocher seulement",
+        "temple"
+      ]
+    },
+    "usage_note_ar": "التعريف: المسجد ببيت المقدس، أولى القبلتين وثالث المساجد التي تُشد إليها الرحال. | الدليل: الإسراء: 1. | في الجمهرة: EN «The Aqsa Mosque»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/9430/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/17/1/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "zamzam",
+    "ar": "زمزم",
+    "variants_ar": [
+      "ماء زمزم",
+      "بئر زمزم"
+    ],
+    "en": {
+      "preferred": "Zamzam",
+      "gloss": "the blessed well in the Sacred Mosque in Makkah near the Kaaba",
+      "avoid": [
+        "holy water",
+        "spring water"
+      ]
+    },
+    "fr": {
+      "preferred": "Zamzam",
+      "gloss": "le puits béni de la Mosquée sacrée à La Mecque, près de la Kaaba",
+      "avoid": [
+        "eau bénite",
+        "eau de source"
+      ]
+    },
+    "usage_note_ar": "التعريف: البئر المباركة في المسجد الحرام قرب الكعبة. | في الجمهرة: EN «Zamzam»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/5424/en | FR: غير متوفر في الجمهرة",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "hajar_aswad",
+    "ar": "الحجر الأسود",
+    "variants_ar": [],
+    "en": {
+      "preferred": "Black Stone",
+      "gloss": "the stone set in the eastern corner of the Kaaba, where the tawaf begins",
+      "avoid": [
+        "idol",
+        "meteorite worship"
+      ]
+    },
+    "fr": {
+      "preferred": "pierre noire",
+      "gloss": "la pierre placée dans l'angle oriental de la Kaaba, où commence le tawâf",
+      "avoid": [
+        "idole",
+        "culte de météorite"
+      ]
+    },
+    "usage_note_ar": "التعريف: الحجر في الركن الشرقي من الكعبة، ومنه يبدأ الطواف. — «الحجر» وحده قد يعني حجر إسماعيل، فيُراعى السياق. | الدليل: قول عمر رضي الله عنه — صحيح البخاري (1597). | في الجمهرة: EN «The black stone»، FR «La pierre noire». | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «La pierre noire» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/4073/en | FR: https://islamic-content.com/dictionary/word/4073/fr | الدليل: https://dorar.net/h/VtKZDGqp",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "maqam_ibrahim",
+    "ar": "مقام إبراهيم",
+    "variants_ar": [
+      "مقام إبراهيم عليه السلام"
+    ],
+    "en": {
+      "preferred": "Station of Abraham",
+      "gloss": "the stone on which Abraham stood while building the Kaaba, behind which pilgrims pray two units",
+      "avoid": [
+        "tomb of Abraham",
+        "shrine"
+      ]
+    },
+    "fr": {
+      "preferred": "station d'Abraham",
+      "gloss": "la pierre sur laquelle se tenait Abraham en bâtissant la Kaaba, derrière laquelle les pèlerins prient deux unités",
+      "avoid": [
+        "tombeau d'Abraham",
+        "mausolée"
+      ]
+    },
+    "usage_note_ar": "التعريف: الحجر الذي قام عليه إبراهيم عليه السلام عند بناء الكعبة. | الدليل: البقرة: 125. | في الجمهرة: EN «Maqām Ibrāhīm»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Maqām Ibrāhīm» نقل صوتي، واختير المقابل المترجم كما في صحيح إنترناشونال. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 2:125: «station d’Abraham».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/9868/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/2/125/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/2/125",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "wisal",
+    "ar": "الوصال",
+    "variants_ar": [
+      "صوم الوصال"
+    ],
+    "en": {
+      "preferred": "continuous fasting",
+      "gloss": "wisal: fasting two or more days without breaking the fast at night, which the Prophet forbade for his community",
+      "avoid": [
+        "connection",
+        "reunion"
+      ]
+    },
+    "fr": {
+      "preferred": "jeûne continu",
+      "gloss": "wisâl : jeûner deux jours ou plus sans rompre le jeûne la nuit, ce que le Prophète a interdit à sa communauté",
+      "avoid": [
+        "connexion",
+        "retrouvailles"
+      ]
+    },
+    "usage_note_ar": "التعريف: مواصلة الصوم يومين فأكثر دون فطر بالليل. — يأتي بمعنى الاتصال، فالمعنى بالسياق. | الدليل: صحيح البخاري (1961). | في الجمهرة: EN «Continuity»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Continuity» للمعنى اللغوي، فأضيف fasting.",
+    "strategy": "context",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/10894/en | FR: غير متوفر في الجمهرة | الدليل: https://dorar.net/h/fHPnPFs1",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "aqiqah",
+    "ar": "العقيقة",
+    "variants_ar": [
+      "عقيقة"
+    ],
+    "en": {
+      "preferred": "aqiqah",
+      "gloss": "the animal sacrificed to thank Allah for the birth of a child, usually on the seventh day",
+      "avoid": [
+        "baptism",
+        "birthday party"
+      ]
+    },
+    "fr": {
+      "preferred": "'aqîqa",
+      "gloss": "sacrifice à l'occasion d'une naissance, offert en remerciement à Allah, habituellement le septième jour",
+      "avoid": [
+        "baptême",
+        "fête d'anniversaire"
+      ]
+    },
+    "usage_note_ar": "التعريف: الذبيحة عن المولود شكرًا لله، وتكون في اليوم السابع غالبًا. | الدليل: صحيح أبي داود (2838). | في الجمهرة: EN «Al-Ꜥaqīqah»، FR «Sacrifice à l'occasion d'une naissance.». | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «Sacrifice à l'occasion d'une naissance.» (الرابط في source.ref).",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/6963/en | FR: https://islamic-content.com/dictionary/word/6963/fr | الدليل: https://dorar.net/h/A940infA",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "infaq",
+    "ar": "الإنفاق",
+    "variants_ar": [
+      "ينفقون",
+      "أنفقوا"
+    ],
+    "en": {
+      "preferred": "spending in the way of Allah",
+      "gloss": "infaq: spending one's wealth on obligatory and voluntary good causes for the sake of Allah",
+      "avoid": [
+        "consumption",
+        "expenditure in general"
+      ]
+    },
+    "fr": {
+      "preferred": "dépense dans la voie d'Allah",
+      "gloss": "infâq : dépenser ses biens dans les causes obligatoires et surérogatoires pour l'amour d'Allah",
+      "avoid": [
+        "consommation",
+        "dépenses en général"
+      ]
+    },
+    "usage_note_ar": "التعريف: بذل المال في الواجبات والمستحبات ابتغاء وجه الله. | الدليل: البقرة: 262. | في الجمهرة: لا يوجد عنوان إنجليزي في الصفحة (عربي فقط)، والمقابل الإنجليزي هنا مقترح من الفريق؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/1746/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/2/262/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "draft",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "hajj_mabrur",
+    "ar": "الحج المبرور",
+    "variants_ar": [
+      "حج مبرور"
+    ],
+    "en": {
+      "preferred": "accepted pilgrimage",
+      "gloss": "Hajj performed as the Prophet did, free of sin and dispute, whose reward is Paradise",
+      "avoid": [
+        "luxury Hajj",
+        "Hajj package"
+      ]
+    },
+    "fr": {
+      "preferred": "pèlerinage agréé",
+      "gloss": "le Hajj accompli comme le Prophète, exempt de péché et de dispute, dont la récompense est le Paradis",
+      "avoid": [
+        "Hajj de luxe",
+        "forfait Hajj"
+      ]
+    },
+    "usage_note_ar": "التعريف: الحج الذي وُفّي أحكامه ولم يخالطه إثم. | الدليل: صحيح البخاري (1773). | في الجمهرة: EN «The perfect pilgrimage»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «The perfect pilgrimage»، واختير accepted لأنه المقابل الشائع لـ«مبرور» في ترجمات الحديث.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/4051/en | FR: غير متوفر في الجمهرة | الدليل: https://dorar.net/h/5SUMMcfk",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "istitaah",
+    "ar": "الاستطاعة",
+    "variants_ar": [
+      "المستطيع"
+    ],
+    "en": {
+      "preferred": "ability",
+      "gloss": "in Hajj: physical and financial ability to reach Makkah; in general usage: the ability to do something",
+      "avoid": [
+        "permission",
+        "wealth only"
+      ]
+    },
+    "fr": {
+      "preferred": "capacité",
+      "gloss": "pour le Hajj : capacité physique et financière de se rendre à La Mecque ; dans l'usage courant : capacité de faire quelque chose",
+      "avoid": [
+        "permission",
+        "richesse seulement"
+      ]
+    },
+    "usage_note_ar": "التعريف: القدرة على الفعل، ومنها في الحج القدرة البدنية والمالية على الوصول إلى مكة. | الدليل: آل عمران: 97. | في الجمهرة: EN «Ability»، FR «Capacité». | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «Capacité» (الرابط في source.ref).",
+    "strategy": "context",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/896/en | FR: https://islamic-content.com/dictionary/word/896/fr | الدليل: https://api.quranpedia.net/v1/ayah/3/97/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "ashhur_hurum",
+    "ar": "الأشهر الحرم",
+    "variants_ar": [
+      "الأشهر الحرام",
+      "أربعة حرم"
+    ],
+    "en": {
+      "preferred": "sacred months",
+      "gloss": "the four months in which fighting is forbidden: Dhul-Qa'dah, Dhul-Hijjah, Muharram and Rajab",
+      "avoid": [
+        "forbidden months",
+        "holidays"
+      ]
+    },
+    "fr": {
+      "preferred": "mois sacrés",
+      "gloss": "les quatre mois où le combat est interdit : Dhoul-Qa'da, Dhoul-Hijja, Mouharram et Rajab",
+      "avoid": [
+        "mois interdits",
+        "vacances"
+      ]
+    },
+    "usage_note_ar": "التعريف: ذو القعدة وذو الحجة والمحرم ورجب. | الدليل: التوبة: 36. | في الجمهرة: EN «The sacred months»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 9:36: «sacrés».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/1127/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/9/36/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/9/36",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "ashhur_hajj",
+    "ar": "أشهر الحج",
+    "variants_ar": [
+      "أشهر معلومات"
+    ],
+    "en": {
+      "preferred": "months of Hajj",
+      "gloss": "Shawwal, Dhul-Qa'dah and the first ten days of Dhul-Hijjah",
+      "avoid": [
+        "Hajj season tours",
+        "summer months"
+      ]
+    },
+    "fr": {
+      "preferred": "mois du Hajj",
+      "gloss": "Chawwâl, Dhoul-Qa'da et les dix premiers jours de Dhoul-Hijja",
+      "avoid": [
+        "voyages organisés",
+        "mois d'été"
+      ]
+    },
+    "usage_note_ar": "التعريف: شوال وذو القعدة والعشر الأول من ذي الحجة. | الدليل: البقرة: 197. | في الجمهرة: EN «The months of hajj»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 2:197: «mois déterminés».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/1126/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/2/197/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/2/197",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "wuquf_arafah",
+    "ar": "الوقوف بعرفة",
+    "variants_ar": [
+      "وقوف عرفة",
+      "الوقوف بعرفات"
+    ],
+    "en": {
+      "preferred": "standing at Arafat",
+      "gloss": "being present at Arafat on the 9th of Dhul-Hijjah, the greatest pillar of Hajj",
+      "avoid": [
+        "sightseeing",
+        "standing still"
+      ]
+    },
+    "fr": {
+      "preferred": "station à Arafat",
+      "gloss": "être présent à Arafat le 9 Dhoul-Hijja, le plus grand pilier du Hajj",
+      "avoid": [
+        "tourisme",
+        "rester immobile"
+      ]
+    },
+    "usage_note_ar": "التعريف: الحضور بعرفة يوم التاسع من ذي الحجة، وهو ركن الحج الأعظم. | الدليل: صحيح النسائي (3016). | في الجمهرة: EN «Attendance at Arafat»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | مدخل الجمهرة: «وُقُوفُ عَرَفةٍ» | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Attendance at Arafat» لمدخل «وقوف عرفة»، واختير standing لأنه المقابل الشائع.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/11002/en | FR: غير متوفر في الجمهرة | الدليل: https://dorar.net/h/cHSOeZgI",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "mabit_muzdalifah",
+    "ar": "المبيت بمزدلفة",
+    "variants_ar": [
+      "المبيت بالمزدلفة"
+    ],
+    "en": {
+      "preferred": "staying the night at Muzdalifah",
+      "gloss": "spending the night of the 10th of Dhul-Hijjah at Muzdalifah after leaving Arafat",
+      "avoid": [
+        "camping",
+        "hotel stay"
+      ]
+    },
+    "fr": {
+      "preferred": "nuit à Muzdalifah",
+      "gloss": "passer la nuit du 10 Dhoul-Hijja à Muzdalifah après avoir quitté Arafat",
+      "avoid": [
+        "camping",
+        "séjour à l'hôtel"
+      ]
+    },
+    "usage_note_ar": "التعريف: البقاء بمزدلفة ليلة النحر بعد الدفع من عرفات. | الدليل: البقرة: 198. | في الجمهرة: EN «Staying the night at Muzdalifah»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | مدخل الجمهرة: «الْمَبِيتُ بِالْمُزْدَلِفَةِ»",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/8718/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/2/198/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "ghanimah",
+    "ar": "الغنيمة",
+    "variants_ar": [
+      "الغنائم",
+      "غنيمة",
+      "غنمتم"
+    ],
+    "en": {
+      "preferred": "spoils of war",
+      "gloss": "ghanimah: property taken from enemy fighters in a lawful battle, distributed by set rules",
+      "avoid": [
+        "looting",
+        "theft"
+      ]
+    },
+    "fr": {
+      "preferred": "butin",
+      "gloss": "ghanîma : biens pris aux combattants ennemis lors d'une bataille légitime, répartis selon des règles fixées",
+      "avoid": [
+        "pillage",
+        "vol"
+      ]
+    },
+    "usage_note_ar": "التعريف: ما أُخذ من الكفار المحاربين بقتال، ويقسم وفق أحكامه. | الدليل: الأنفال: 41. | في الجمهرة: EN «War gains»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «War gains»، واختير spoils of war لأنه المقابل الشائع. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 8:41: «butin».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/7328/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/8/41/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/8/41",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "bayt_mal",
+    "ar": "بيت المال",
+    "variants_ar": [
+      "بيت مال المسلمين"
+    ],
+    "en": {
+      "preferred": "public treasury",
+      "gloss": "the treasury of the Muslim state in which public funds such as zakat are kept and spent",
+      "avoid": [
+        "bank",
+        "private fund"
+      ]
+    },
+    "fr": {
+      "preferred": "trésor public",
+      "gloss": "la caisse de l'État musulman où sont conservés et dépensés les fonds publics comme la zakât",
+      "avoid": [
+        "banque",
+        "fonds privé"
+      ]
+    },
+    "usage_note_ar": "التعريف: الجهة التي تُحفظ فيها أموال المسلمين العامة وتُصرف منها. | في الجمهرة: EN «The treasury»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «The treasury»، وأضيف public للتوضيح.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/2220/en | FR: غير متوفر في الجمهرة",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "hibah",
+    "ar": "الهبة",
+    "variants_ar": [
+      "هبة"
+    ],
+    "en": {
+      "preferred": "gift",
+      "gloss": "hibah: transferring ownership of something to another during one's life without compensation",
+      "avoid": [
+        "bribe",
+        "inheritance"
+      ]
+    },
+    "fr": {
+      "preferred": "donation",
+      "gloss": "hiba : transférer de son vivant la propriété d'un bien à autrui sans contrepartie",
+      "avoid": [
+        "pot-de-vin",
+        "héritage"
+      ]
+    },
+    "usage_note_ar": "التعريف: تمليك المال في الحياة بلا عوض. | في الجمهرة: EN «Gift»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/10670/en | FR: غير متوفر في الجمهرة",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "hilal",
+    "ar": "الهلال",
+    "variants_ar": [
+      "الأهلة",
+      "رؤية الهلال"
+    ],
+    "en": {
+      "preferred": "crescent",
+      "gloss": "the new moon whose sighting marks the beginning of a lunar month, such as Ramadan",
+      "avoid": [
+        "Red Crescent",
+        "symbol of Islam"
+      ]
+    },
+    "fr": {
+      "preferred": "croissant de lune",
+      "gloss": "la nouvelle lune dont l'observation marque le début du mois lunaire, comme le Ramadan",
+      "avoid": [
+        "Croissant-Rouge",
+        "symbole de l'islam"
+      ]
+    },
+    "usage_note_ar": "التعريف: القمر في أول الشهر القمري، وبرؤيته تثبت الشهور كرمضان. | الدليل: البقرة: 189. | في الجمهرة: EN «Crescent»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 2:189: «nouvelle lune».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/10710/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/2/189/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/2/189",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "siqayah",
+    "ar": "السقاية",
+    "variants_ar": [
+      "سقاية الحاج"
+    ],
+    "en": {
+      "preferred": "provision of drinking water",
+      "gloss": "the honoured task of giving water to the pilgrims",
+      "avoid": [
+        "irrigation",
+        "fountain"
+      ]
+    },
+    "fr": {
+      "preferred": "approvisionnement en eau",
+      "gloss": "la charge honorable de donner de l'eau aux pèlerins",
+      "avoid": [
+        "irrigation",
+        "fontaine"
+      ]
+    },
+    "usage_note_ar": "التعريف: سقي الحجاج الماء، وهي من المكارم. | الدليل: التوبة: 19. | في الجمهرة: EN «Provision of drinking water»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 9:19: «approvisionner les pèlerins en eau».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/5618/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/9/19/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/9/19",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "yawm_shakk",
+    "ar": "يوم الشك",
+    "variants_ar": [
+      "صوم يوم الشك"
+    ],
+    "en": {
+      "preferred": "day of doubt",
+      "gloss": "the 30th of Sha'ban when the new moon of Ramadan could not be seen because of clouds",
+      "avoid": [
+        "uncertain day",
+        "crisis day"
+      ]
+    },
+    "fr": {
+      "preferred": "jour du doute",
+      "gloss": "le 30 de Cha'bân lorsque le croissant du Ramadan n'a pu être vu à cause des nuages",
+      "avoid": [
+        "jour incertain",
+        "jour de crise"
+      ]
+    },
+    "usage_note_ar": "التعريف: يوم الثلاثين من شعبان إذا حال دون رؤية الهلال غيم ونحوه. | الدليل: قول عمار رضي الله عنه — صحيح أبي داود (2334). | في الجمهرة: EN «The day of doubt»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/11209/en | FR: غير متوفر في الجمهرة | الدليل: https://dorar.net/h/rK5Fg4lv",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "nisab_dhahab",
+    "ar": "نصاب الذهب",
+    "variants_ar": [
+      "نصاب الذهب في الزكاة"
+    ],
+    "en": {
+      "preferred": "threshold for gold",
+      "gloss": "the minimum amount of gold on which zakat becomes due, twenty mithqals",
+      "avoid": [
+        "gold price",
+        "gold reserve"
+      ]
+    },
+    "fr": {
+      "preferred": "seuil de l'or",
+      "gloss": "la quantité minimale d'or sur laquelle la zakât est due, vingt mithqâl",
+      "avoid": [
+        "prix de l'or",
+        "réserve d'or"
+      ]
+    },
+    "usage_note_ar": "التعريف: القدر الذي تجب فيه الزكاة من الذهب، وهو عشرون مثقالًا. | في الجمهرة: EN «Threshold for gold»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/10452/en | FR: غير متوفر في الجمهرة",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "nisab_fiddah",
+    "ar": "نصاب الفضة",
+    "variants_ar": [
+      "نصاب الفضة في الزكاة"
+    ],
+    "en": {
+      "preferred": "threshold for silver",
+      "gloss": "the minimum amount of silver on which zakat becomes due, two hundred dirhams",
+      "avoid": [
+        "silver price",
+        "silver reserve"
+      ]
+    },
+    "fr": {
+      "preferred": "seuil de l'argent",
+      "gloss": "la quantité minimale d'argent métal sur laquelle la zakât est due, deux cents dirhams",
+      "avoid": [
+        "prix de l'argent",
+        "réserve d'argent"
+      ]
+    },
+    "usage_note_ar": "التعريف: القدر الذي تجب فيه الزكاة من الفضة، وهو مئتا درهم. | في الجمهرة: EN «Zakat threshold for silver»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Zakat threshold for silver»؛ وُحّدت الصيغة مع نصاب الذهب.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/10454/en | FR: غير متوفر في الجمهرة",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "salat_tawaf",
+    "ar": "صلاة الطواف",
+    "variants_ar": [
+      "ركعتا الطواف"
+    ],
+    "en": {
+      "preferred": "prayer of circumambulation",
+      "gloss": "two units prayed after completing tawaf, behind the Station of Abraham if possible",
+      "avoid": [
+        "procession",
+        "tawaf itself"
+      ]
+    },
+    "fr": {
+      "preferred": "prière du tawâf",
+      "gloss": "deux unités accomplies après le tawâf, derrière la station d'Abraham si possible",
+      "avoid": [
+        "procession",
+        "le tawâf lui-même"
+      ]
+    },
+    "usage_note_ar": "التعريف: ركعتان بعد الطواف خلف مقام إبراهيم إن تيسر. | الدليل: البقرة: 125. | في الجمهرة: EN «Prayer of Circumambulation»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/11883/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/2/125/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "huliyy",
+    "ar": "الحلي",
+    "variants_ar": [
+      "حلي المرأة",
+      "زكاة الحلي"
+    ],
+    "en": {
+      "preferred": "jewellery",
+      "gloss": "huliyy: ornaments of gold, silver or gems worn for adornment, with their zakat rulings",
+      "avoid": [
+        "costume jewellery only",
+        "treasure"
+      ]
+    },
+    "fr": {
+      "preferred": "bijoux",
+      "gloss": "huliyy : parures d'or, d'argent ou de pierres précieuses portées pour l'ornement, avec leurs règles de zakât",
+      "avoid": [
+        "bijoux fantaisie seulement",
+        "trésor"
+      ]
+    },
+    "usage_note_ar": "التعريف: ما يُتزين به من ذهب أو فضة أو جواهر. | الدليل: النحل: 14. | في الجمهرة: EN «Jewellery»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/4490/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/16/14/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
   }
 ]

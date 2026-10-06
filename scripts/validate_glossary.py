@@ -43,7 +43,13 @@ DATE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 ID = re.compile(r"^[a-z0-9_]+$")
 
 errors, warnings, entries = [], [], []
-PROPER = ("Allah", "Islam", "Ramadan", "Qur'an", "'Arafat", "Arafat", "Ka'bah", "Coran", "'Arafât", "Ka'ba", "Kaaba")
+PROPER = ("Allah", "Islam", "Ramadan", "Qur'an", "'Arafat", "Arafat", "Ka'bah", "Coran", "'Arafât", "Ka'ba", "Kaaba",
+          # أعلام وأسماء أماكن وكتب وفرق (توسعة 500)
+          "Khawarij", "Khawârij", "Mu'tazila", "Murji'ah", "Dajjal", "Dajjâl", "Gog", "Torah", "Gospel", "Évangile",
+          "Psalms", "Psaumes", "Satan", "Kawthar", "Michael", "Michaël", "Friday", "Eid", "Dhuhr", "Makkan", "Uthmani",
+          "Prophet's", "Ansar", "Ansâr", "Mothers of the Believers", "Mères des croyants", "Israelite", "Ha-Mim",
+          "Night of Power", "Nuit du Destin", "Muzdalifah", "Sacred Mosque", "Mosquée", "Aqsa", "Zamzam", "Black Stone",
+          "Station of Abraham")
 TASH = re.compile(r"[\u064B-\u0652\u0670]")
 def bare(s): return TASH.sub("", s or "")
 DIVINE_NAMES = {"الحكيم", "الحي", "الحيي", "المتكبر", "المؤمن", "المحسن", "الجامع", "الملك", "ملك", "الرحمن", "الرحيم", "العليم",
