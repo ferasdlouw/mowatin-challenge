@@ -23,6 +23,7 @@ from app.pipeline.report import MessageKeyError, assemble, load_messages, render
 from app.pipeline.segmenter import segment_capped
 from app.pipeline.verifier import Draft, find_whole_word, verify
 from app.schemas import (
+    VERIFIED_RETRIEVAL,
     Baseline,
     Flag,
     Level,
@@ -33,6 +34,8 @@ from app.schemas import (
     TargetLang,
     TranslateRequest,
     TranslateResponse,
+    Verification,
+    VerseCandidate,
 )
 from app.security.privacy import fingerprint
 
@@ -141,18 +144,24 @@ class _Handled:
     locked_terms: list = field(default_factory=list)
     marks: list[str] = field(default_factory=list)
     back_translation: str | None = None
+    verification: Verification | None = None
+    candidates: list[VerseCandidate] = field(default_factory=list)
 
 
 def _quran(text: str, lang: TargetLang) -> _Handled:
+    """No LLM runs here, so there is no verifier score (D-076). A verse found in one place with
+    its approved translation read verbatim is a verified retrieval (1.0); its warn flags
+    (part of a verse, other words in the segment) still send it to review. A corrected
+    misquote (D-007), an ambiguous or unmatched quote keeps 0.0 and is reviewed."""
     result = resolve_quran(text, lang)
-    output = result["output"]
-    # A corrected misquote (D-007) has output but needs review: it must not count as certain.
-    certain = output is not None and not result["review"]
+    verification = result.get("verification")
     return _Handled(
-        output=output,
-        confidence=1.0 if certain else 0.0,
+        output=result["output"],
+        confidence=1.0 if verification == VERIFIED_RETRIEVAL else 0.0,
         sources=result["sources"],
         flags=result["flags"],
+        verification=verification,
+        candidates=result.get("candidates", []),
     )
 
 
@@ -394,6 +403,8 @@ async def _build_segment(
         flags=final_flags,
         baseline=baseline,
         back_translation=handled.back_translation,
+        verification=handled.verification,
+        candidates=handled.candidates,
     )
 
 

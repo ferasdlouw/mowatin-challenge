@@ -105,10 +105,12 @@ def test_verse_with_words_around_it_keeps_its_translation_and_is_reviewed(text):
     response, _router = _translate(text)
     segment_ = response.segments[0]
     assert segment_.output == SAHEEH_21_107
-    assert segment_.confidence == 0.0
+    # D-076: the verse itself is a verified retrieval; the other words keep it in review.
+    assert segment_.verification == "verified_retrieval"
+    assert segment_.confidence == 1.0
     assert response.review_queue == [1]
     texts = [(flag.severity, flag.text) for flag in segment_.flags]
-    assert ("warn", load_messages()["low_confidence"]) in texts
+    assert ("warn", load_messages()["quran_extra_text"]) in texts
 
 
 def test_two_verses_in_one_quran_segment_are_reviewed():

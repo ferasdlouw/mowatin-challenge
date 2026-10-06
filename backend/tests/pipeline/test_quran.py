@@ -57,10 +57,18 @@ def test_quran_quotes():
     cases = load_dev_cases("quran_quote")
     assert len(cases) > 0, "No quran_quote cases found in dev.jsonl"
     reviewed = set()
+    ambiguous = set()
     for case in cases:
         text = case["text_ar"]
         res = resolve_quran(text, "en")
+        if res.get("verification") == "ambiguous_verse":
+            # D-076: found in several places, so no place is picked and nothing is inserted.
+            assert res["output"] is None
+            assert res["review"] is True
+            ambiguous.add(case["id"])
+            continue
         assert res["output"] is not None
+        assert res["verification"] == "verified_retrieval"
         assert (
             "O you who have believed" in res["output"]
             or "Indeed" in res["output"]
@@ -88,8 +96,10 @@ def test_quran_quotes():
         assert res["review"] == bool(warned)
         if res["review"]:
             reviewed.add(case["id"])
-    # «إن الله مع الصابرين» (2:153, 8:46), «إن الصلاة تنهى…», «فإذا عزمت…», «ادع إلى سبيل ربك…».
-    assert reviewed == {"T031", "T043", "T120", "T123"}
+    # «إن الصلاة تنهى…», «فإذا عزمت…», «ادع إلى سبيل ربك…» are partial quotes.
+    assert reviewed == {"T043", "T120", "T123"}
+    # «إن الله مع الصابرين» is in 2:153 and 8:46.
+    assert ambiguous == {"T031"}
 
 
 def test_quran_misquotes():
@@ -154,4 +164,6 @@ def test_partial_verse_policy():
     ambig_quote = "﴿فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ﴾"
     res = resolve_quran(ambig_quote, "en")
     assert any(f.key == "quran_ambiguous" for f in res["flags"])
-    assert any(f.key == "quran_translation_pending" for f in res["flags"])
+    assert res["output"] is None
+    # The fixture has no sura 55: each place carries no translation rather than a generated one.
+    assert res["candidates"] and all(c.en is None for c in res["candidates"])

@@ -35,7 +35,7 @@ export const EXAMPLES = [
       },
       {
         source: 'قال الله تعالى: ﴿إِنَّمَا الْمُؤْمِنُونَ إِخْوَةٌ﴾.',
-        type: 'quran', level: 'A', confidence: 1,
+        type: 'quran', level: 'A', confidence: 1, verification: 'verified_retrieval',
         en: { out: '﴿The believers are but brothers, so make settlement between your brothers. And fear Allāh that you may receive mercy.﴾', marks: [],
           generic: 'God Almighty said: Indeed, the believers are brothers.', wrong: ['Indeed, the believers are brothers.'], why: 'ترجمة آلية حرّة للآية دون مرجع ولا ترجمة معتمدة.' },
         fr: { out: '﴿En réalité, les croyants sont des frères. Réconciliez donc vos frères ! Craignez Allah de manière à être touchés par Sa grâce !﴾', marks: [],

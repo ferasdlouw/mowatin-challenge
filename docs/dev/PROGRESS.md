@@ -60,6 +60,7 @@
 | HL | `highlight()` with only blank needles (audit item 21): `frontend/src/app/ui.jsx` returns the text unchanged instead of building the pattern `()`, which split it into single letters | this commit | ✓ local, see Last verification | see Actions |
 | FS | Fatwa signals from the data file (audit item 20, D-075): the four code phrases already in `fatwa_signals.json` removed from `classifier.py`; «هل يحل» kept pending the content owner; a missing file or one with no phrase raises `FatwaSignalsError` and the app does not start (was: silently no file phrases) | this commit | ✓ local, see Last verification | see Actions |
 | NA | npm findings recorded (audit item 22, approved by the session's human): two SUPPRESSIONS.md rows for the 5 moderate findings not yet listed (`postcss-selector-parser`/`postcss-nested` via tailwind 3, build only; `sprintf-js`/`argparse` via mammoth, not in the browser bundle). No dependency changed | this commit | ✓ local | see Actions |
+| HX | Partial-hadith completion suggestion from the draft Bukhari/Muslim corpus (D-077): `scripts/build_hadith_corpus.py`, `data/hadith/corpus_bukhari_muslim.json.gz` (draft), `pipeline/hadith_corpus.py`, flags `hadith_corpus_partial` / `_match` / `_ambiguous` / `hadith_corpus_record`; «ما معنى؟» disclosure next to the average-confidence chip (`TranslateView.jsx`). Branch on PR #80 | this branch (PR) | ✓ local, see Last verification | PR checks |
 
 ## Decisions made
 (one line each; also recorded in `docs/DECISIONS.md`)
@@ -163,6 +164,7 @@ One JSON line per `/v1/translate` request on logger `app.pipeline.orchestrator`,
 ## Waiting on humans
 | Item | Owner | Slot (created in) |
 |---|---|---|
+| Review `data/hadith/corpus_bukhari_muslim.json.gz` (draft, derived from PR #81's file) and the 4 new `hadith_corpus_*` keys in `flags.ar.json`; confirm origin and licence of the reference file (unknown); decide any collection-level wording on authenticity | Rudaina / المراجع الشرعي | HX |
 | ~~`main` red since `2af3aad` (browser edits to `scripts/`)~~ ✓ fixed in QT-2: the stricter `split_testset.py` schema kept (`source.source_type` checked when present, ref ranges, hadith collections, level, blank text); the eval fixture gained `source_type`, the test checks the case id instead of the old English `PROBLEMS` line, one test per new rule; `blind_eval`/`score_eval`/`stability`/`make_charts` edits reviewed, tests green. Missing tag `testset-v1` created on `2c79d9c` (the freeze commit; `test.jsonl` hash unchanged since) | Eval | QT |
 | ~~Bracketed misquote across verses gets no correction~~ ✓ D-054 | Team | BV |
 | Optional (D-056 option B): add Tanzil's official Uthmani text (`quran-uthmani.txt`, same licence, NOTICE line) to `data/quran/tanzil/` so Uthmani quotes match exactly; it would close the final-alef gap («ٱلْأَقْصَا», «أَقْصَا», «تَتْرَا», «كِلْتَا»). tanzil.net is not reachable from the agent's environment | Rudaina | UQ |
@@ -206,6 +208,8 @@ One JSON line per `/v1/translate` request on logger `app.pipeline.orchestrator`,
 | Dependabot #57 (tailwindcss 4: build fails) and #58 (Python group: ruff 0.16: lint clean since D-069; uvicorn 0.34→0.54 in production) left open on purpose: no advisory on the current pins; revisit after 2026-10-22 | Feras | REVIEW |
 
 ## Last verification results
+
+2026-10-06 Phase HX (D-077), local Windows: baseline on the PR #80 branch 973 passed. After: see the PR description for full pytest, ruff, bandit, `tests/security`, `validate_content.py`, frontend lint + build, gitleaks. Corpus load +47.9 MB RSS, 0.69 s. Local uvicorn: partial → `hadith_corpus_partial` (Muslim record 103), ambiguous → `hadith_corpus_ambiguous` (Bukhari records 1, 3735), fabricated → block; `/health` `hadith_entries` stays 57 (it counts the approved list only). No eval run; no accuracy claim.
 
 2026-10-06 Phase FS + NA (audit items 20 and 22, D-075), local Linux: `tests/test_fatwa_signals.py` 10 tests (the old code cannot even import them: no `FatwaSignalsError`). Classification and `is_fatwa_like` on the 110 segments of the 72 dev and demo texts are byte-identical before and after (4 fatwa-like). `npm audit` 10 findings: 5 high already listed, 5 moderate now listed; `grep sprintf\|argparse dist/assets/*.js` finds nothing. Full `pytest` 862 passed, pipeline 99%; ruff (0.11.12 and 0.15), bandit, pip-audit, validators clean.
 2026-10-06 Phase HL (audit item 21), local Linux: reproduced in Node on the function itself (`highlight('Tawhid is', [''])` returned 17 one-letter pieces; now the string unchanged; `['Tawhid', '']` still marks «Tawhid»). The frontend has no test runner and adding one is a new dependency, so no automated test was added. `npm run lint` exit 0 with the same 9 warnings as before; `npm run build` OK.

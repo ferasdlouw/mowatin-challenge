@@ -12,6 +12,7 @@ from functools import lru_cache
 from pathlib import Path
 from typing import Any
 
+from app.pipeline import hadith_corpus
 from app.pipeline.normalize import canonicalize_for_matching, normalize_text
 from app.schemas import Flag, SourceRef
 
@@ -58,19 +59,43 @@ def _find(quote_key: str, name: str) -> dict[str, Any] | None:
     return next((item for item in load_items(name) if _matches(quote_key, item)), None)
 
 
-def _resolve_quote(quote_key: str) -> tuple[SourceRef | None, Flag]:
-    """Fabricated is checked first so a forged saying can never pass as sourced."""
-    fabricated = _find(quote_key, "fabricated")
+def _resolve_quote(quote_key: str) -> tuple[list[SourceRef], Flag]:
+    """Fabricated first (whole quote, or a forged saying inside it) so a forged saying can
+    never pass as sourced, even when it carries a true fragment; then the approved list;
+    then the derived corpus, as a suggestion for review only (D-077)."""
+    fabricated = _find(quote_key, "fabricated") or _find_contained_fabricated(quote_key)
     if fabricated:
-        return None, Flag(
-            type="block", key="hadith_fabricated", detail=fabricated.get("ruling", "")
-        )
+        return [], Flag(type="block", key="hadith_fabricated", detail=fabricated.get("ruling", ""))
     sourced = _find(quote_key, "hadith")
     if sourced:
         ref = f"{sourced.get('collection', '')} {sourced.get('number', '')}".strip()
-        source = SourceRef(kind="hadith", ref=ref, grade=sourced.get("grade"))
-        return source, Flag(type="info", key="hadith_sourced")
-    return None, Flag(type="warn", key="hadith_unsourced")
+        return [SourceRef(kind="hadith", ref=ref, grade=sourced.get("grade"))], Flag(
+            type="info", key="hadith_sourced"
+        )
+    return _corpus_suggestion(quote_key)
+
+
+def _find_contained_fabricated(quote_key: str) -> dict[str, Any] | None:
+    form = fabricated_in(quote_key)
+    return _find(match_key(form), "fabricated") if form else None
+
+
+def _corpus_suggestion(quote_key: str) -> tuple[list[SourceRef], Flag]:
+    """A completion only when every matching record continues the same way; otherwise the
+    candidates are listed and none is chosen. Always a warn flag: a suggestion, never the
+    user's text replaced, ``output`` stays null and the segment goes to review."""
+    found = hadith_corpus.complete(quote_key)
+    if found is None:
+        return [], Flag(type="warn", key="hadith_unsourced")
+    sources = [
+        hadith_corpus.source_ref(r) for r in found.sources[: hadith_corpus.MAX_LISTED_SOURCES]
+    ]
+    refs = hadith_corpus.refs_text(found.sources)
+    if found.text is None:
+        return sources, Flag(type="warn", key="hadith_corpus_ambiguous", detail=refs)
+    if not found.text:
+        return sources, Flag(type="warn", key="hadith_corpus_match", detail=refs)
+    return sources, Flag(type="warn", key="hadith_corpus_partial", detail=f"{refs}|{found.text}")
 
 
 def _canon(phrase: str) -> str:
@@ -148,9 +173,8 @@ def resolve_hadith(text: str) -> tuple[list[SourceRef], list[Flag]]:
     sources: list[SourceRef] = []
     flags: list[Flag] = []
     for key in keys:
-        source, flag = _resolve_quote(key)
-        if source:
-            sources.append(source)
+        found, flag = _resolve_quote(key)
+        sources += [source for source in found if source not in sources]
         if flag not in flags:
             flags.append(flag)
     return sources, flags
