@@ -1,6 +1,8 @@
 import json
 from pathlib import Path
 
+import pytest
+
 from app.pipeline.classifier import classify
 from app.pipeline.segmenter import segment
 
@@ -96,3 +98,21 @@ def test_dev_categories_all_correct():
     for category, results in sorted(per_category.items()):
         print(f"\n[2.1] {category}: {sum(results)}/{len(results)}")
     assert all(all(results) for results in per_category.values()), per_category
+
+
+@pytest.mark.parametrize(
+    "text",
+    [
+        "لا إله إلا الله",
+        "لاإله إلا الله محمد رسول الله",
+        "محمد رسول الله",
+        "أشهد أن لا إله إلا الله وأن محمدًا رسول الله",
+    ],
+)
+def test_devotional_formula_written_alone_is_not_scripture(text):
+    """The shahada is the speaker's own words: not an ambiguous verse, 48:29, or a hadith."""
+    assert classify(text)["category"] not in ("quran", "hadith")
+
+
+def test_formula_in_verse_brackets_is_still_a_verse():
+    assert classify("قال الله تعالى: ﴿فاعلم أنه لا إله إلا الله﴾")["category"] == "quran"
