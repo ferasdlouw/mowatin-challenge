@@ -5,7 +5,7 @@ from pathlib import Path
 
 from app.pipeline import hadith_corpus
 from app.pipeline.glossary import detect as detect_glossary
-from app.pipeline.hadith import fabricated_in, has_attribution, is_approved_text
+from app.pipeline.hadith import fabricated_in, has_attribution, is_approved_text, match_key
 from app.pipeline.normalize import canonicalize_for_matching, strip_marks
 from app.pipeline.quran import QURAN_ATTRIBUTIONS, contains_bare_verse
 
@@ -78,6 +78,33 @@ def _is_unquoted_hadith(text: str) -> bool:
     return has_attribution(text) or fabricated_in(text) is not None or is_approved_text(text)
 
 
+# Devotional formulas said every day. Written alone, with no verse brackets, «قال تعالى» or attribution,
+# they are the speaker's own words, not a quotation: «لا إله إلا الله» is in two verses (an
+# ambiguous verse, no translation), «محمد رسول الله» is part of 48:29 (the whole verse's
+# translation), and the shahada is in many hadiths (D-077: an ambiguous hadith).
+_FORMULAS = frozenset(
+    match_key(formula)
+    for formula in (
+        "لا إله إلا الله",
+        "لا إله إلا الله محمد رسول الله",
+        "محمد رسول الله",
+        "أشهد أن لا إله إلا الله",
+        "أشهد أن محمدا رسول الله",
+        "أشهد أن لا إله إلا الله وأن محمدا رسول الله",
+        "أشهد أن لا إله إلا الله وأشهد أن محمدا رسول الله",
+        "أشهد أن لا إله إلا الله وحده لا شريك له وأشهد أن محمدا عبده ورسوله",
+        "أشهد أن لا إله إلا الله وأشهد أن محمدا عبده ورسوله",
+        "لا حول ولا قوة إلا بالله",
+        "سبحان الله وبحمده",
+        "سبحان الله وبحمده سبحان الله العظيم",
+    )
+)
+
+
+def _is_formula(text: str) -> bool:
+    return match_key(text) in _FORMULAS
+
+
 def _scripture_category(text: str) -> str | None:
     """``quran`` or ``hadith`` when the text quotes or attributes scripture, else ``None``."""
     if "﴿" in text and "﴾" in text:
@@ -89,9 +116,14 @@ def _scripture_category(text: str) -> str | None:
         return "quran"
     if _is_unquoted_hadith(text):
         return "hadith"
+    return None if _is_formula(text) else _bare_scripture(text)
+
+
+def _bare_scripture(text: str) -> str | None:
+    """A bare verse, else a bare hadith with no attribution (D-077); verse first, since
+    hadiths quote verses."""
     if contains_bare_verse(text):
         return "quran"
-    # A bare hadith with no attribution (D-077); after the verse check, since hadiths quote verses.
     return "hadith" if hadith_corpus.contains(text) else None
 
 
