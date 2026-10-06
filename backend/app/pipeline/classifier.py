@@ -8,21 +8,31 @@ from app.pipeline.hadith import fabricated_in, has_attribution, is_approved_text
 from app.pipeline.normalize import canonicalize_for_matching, strip_marks
 from app.pipeline.quran import QURAN_ATTRIBUTIONS, contains_bare_verse
 
+FATWA_SIGNALS_PATH = (
+    Path(__file__).resolve().parent.parent.parent.parent / "data" / "policy" / "fatwa_signals.json"
+)
+# «هل يحل» alone is not in the verified list yet (it has «هل يحل لي»): kept here until the
+# content owner decides (PROGRESS.md, waiting on humans). The other former fallbacks are in the
+# file (D-075).
+_PENDING_SIGNALS = ("هل يحل",)
+
+
+class FatwaSignalsError(RuntimeError):
+    """The fatwa signals file is missing or holds no phrase: ruling questions would reach the
+    LLM as plain text, so the app does not start (fail safe)."""
+
 
 @lru_cache(maxsize=1)
 def load_fatwa_signals():
     """Read once: the segmenter asks per sentence, so a re-read per call cost ~0.5 ms each."""
-    path = (
-        Path(__file__).resolve().parent.parent.parent.parent
-        / "data"
-        / "policy"
-        / "fatwa_signals.json"
-    )
-    if not path.exists():
-        return [], []
-    with open(path, encoding="utf-8") as f:
+    if not FATWA_SIGNALS_PATH.exists():
+        raise FatwaSignalsError(f"{FATWA_SIGNALS_PATH.name} is missing")
+    with open(FATWA_SIGNALS_PATH, encoding="utf-8") as f:
         data = json.load(f)
-    return data.get("phrases", []), data.get("exclusions", [])
+    phrases = data.get("phrases", [])
+    if not any(_usable(phrase.get("text_ar")) for phrase in phrases if isinstance(phrase, dict)):
+        raise FatwaSignalsError(f"{FATWA_SIGNALS_PATH.name} holds no phrase")
+    return phrases, data.get("exclusions", [])
 
 
 def _is_fatwa_like(text: str, phrases: list, exclusions: list) -> bool:
@@ -38,16 +48,16 @@ def _is_fatwa_like(text: str, phrases: list, exclusions: list) -> bool:
     if re.search(r"أنا[^.؟!،؛]*[?؟]", strip_marks(text)):
         return True
 
-    # Fallback to prompt-specified hardcoded signals if not fully updated in JSON
-    hardcoded = ["هل يجوز لي", "ما حكم", "هل يحل", "هل علي", "في حالتي"]
-    return any(_contains(canon, hc) for hc in hardcoded)
+    return any(_contains(canon, pending) for pending in _PENDING_SIGNALS)
+
+
+def _usable(phrase: object) -> bool:
+    return isinstance(phrase, str) and bool(phrase.strip())
 
 
 def _contains(canon_text: str, phrase: object) -> bool:
     """``phrase``, canonicalized, occurs in ``canon_text``; a missing or blank phrase never does."""
-    if not isinstance(phrase, str) or not phrase.strip():
-        return False
-    return canonicalize_for_matching(phrase) in canon_text
+    return _usable(phrase) and canonicalize_for_matching(phrase) in canon_text
 
 
 def is_fatwa_like(text: str) -> bool:

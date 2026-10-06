@@ -15,6 +15,7 @@ from app.errors import TextTooLongError, register_error_handlers
 from app.llm.factory import build_router
 from app.pipeline import orchestrator
 from app.pipeline.budget import DailyBreaker, RequestLimits
+from app.pipeline.classifier import load_fatwa_signals
 from app.pipeline.dorar import DorarLookup
 from app.pipeline.glossary import get_index
 from app.pipeline.hadith import load_items as load_hadith_items
@@ -124,6 +125,7 @@ def create_app(settings: Settings | None = None) -> FastAPI:
     @asynccontextmanager
     async def lifespan(_app: FastAPI) -> AsyncIterator[None]:
         get_index()  # load data/glossary/*.json once, before the first request
+        load_fatwa_signals()  # a missing or empty signals file stops the app (fail safe)
         _log_llm_slots(settings)
         async with httpx.AsyncClient() as http:
             _app.state.llm_router = build_router(settings, http)
