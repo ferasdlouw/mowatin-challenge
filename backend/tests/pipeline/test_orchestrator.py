@@ -193,11 +193,14 @@ def test_quran_pending_translation_goes_to_review(client, monkeypatch, tmp_path)
     monkeypatch.setattr(quran_module, "TRANSLATIONS_DIR", tmp_path)
     quran_module.get_index.cache_clear()
     try:
-        body = _post(client, "﴿إِنَّ اللَّهَ مَعَ الصَّابِرِينَ﴾")
+        # One place only (21:107): «إن الله مع الصابرين» is in two verses, so it is ambiguous.
+        body = _post(client, "﴿وما أرسلناك إلا رحمة للعالمين﴾")
     finally:
         quran_module.get_index.cache_clear()
     seg = body["segments"][0]
     assert seg["output"] is None
+    assert seg["verification"] is None
+    assert seg["confidence"] == 0.0
     pending = load_messages()["quran_translation_pending"]
     assert {"severity": "info", "text": pending} in seg["flags"]
     assert body["review_queue"] == [seg["id"]]

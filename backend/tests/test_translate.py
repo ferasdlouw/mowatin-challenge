@@ -18,6 +18,8 @@ CONTRACT_SEGMENT_KEYS = {
     "flags",
     "baseline",
     "back_translation",
+    "verification",
+    "candidates",
 }
 
 

@@ -105,6 +105,9 @@ Input (AR text + target lang + audience)
 | `flags[]` | `{severity: info\|warn\|block, text}` | `text` بالعربية لعرضه للمستخدم |
 | `baseline` | `{output, wrong[], why}` | فقط في `mode=compare` |
 | `back_translation` | string \| null | الترجمة العكسية إلى العربية التي قارنها المتحقق بالأصل؛ `null` حين لا توجد (D-049) |
+| `verification` | `verified_retrieval \| ambiguous_verse \| null` | للآيات فقط (D-076). `verified_retrieval`: آية في موضع واحد، وترجمة معانيها منقولة كما هي من الترجمة المعتمدة (`confidence` = 1.0، ولا تدخل في متوسط الثقة؛ تنبيه warn مثل `quran_partial` يبقيها في المراجعة). `ambiguous_verse`: النص في أكثر من موضع ولم يُعتمد أيٌّ منها (`output` = `null`، مراجعة) |
+| `candidates[]` | `{ref, ar, en, fr, en_edition, fr_edition}` | مع `ambiguous_verse` فقط: كل موضع بنصه من تنزيل وترجمته المعتمدة بالإنجليزية والفرنسية (`null` حين لا توجد)؛ وإلا `[]` |
+| `summary.avg_confidence` | 0–1 \| null | متوسط `confidence` للمقاطع عدا `verified_retrieval`؛ `null` حين تكون كل المقاطع منها (D-076) |
 
 الأخطاء: `400` مدخل غير صالح · `413` النص أطول من الحد · `429` تجاوز حد الطلبات · `5xx` الخادم.
 

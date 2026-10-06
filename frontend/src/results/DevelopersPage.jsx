@@ -70,6 +70,8 @@ const OUT = [
   ['level', 'A | B | C | D', 'مستوى المحتوى (أ–د) وفق الحزمة العلمية للتحدي.'],
   ['output', 'string | null', 'null يعني أن المقطع أُوقف وأُحيل للمراجعة.'],
   ['confidence', '0 – 1', 'من طبقة التحقق. أقل من 0.75 يُحال تلقائيًا.'],
+  ['verification', 'verified_retrieval | ambiguous_verse | null', 'للآيات: verified_retrieval ترجمة معتمدة مسترجعة من المصدر لموضع واحد (لا تدخل في متوسط الثقة)؛ ambiguous_verse نص في أكثر من موضع، يُحال إلى المراجع الشرعي.'],
+  ['candidates[]', '{ ref, ar, en, fr, en_edition, fr_edition }', 'مواضع النص حين يرد في أكثر من موضع، مع ترجمة معانيها المعتمدة.'],
   ['flags[]', '{ severity: info | warn | block, text }', 'تنبيهات بالعربية جاهزة للعرض.'],
   ['sources[]', '{ kind, ref, edition?, grade? }', 'مصدر كل آية أو حديث أو مصطلح.'],
   ['review_queue', 'number[]', 'معرّفات المقاطع التي لا تُنشر قبل اعتماد المراجع.'],

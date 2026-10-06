@@ -219,15 +219,18 @@ def test_hero_text_through_the_pipeline_needs_no_llm_and_keeps_the_contract():
     seg = resp.segments[0]
     assert seg.type == "quran"
     assert seg.source == HERO
-    # D-055: a partial quote keeps its approved translation and is reviewed.
+    # D-055: a partial quote keeps its approved translation and is reviewed. D-076: the
+    # translation is still a verified retrieval, so its confidence is not 0.
     assert seg.output and seg.output.startswith("﴿")
-    assert seg.confidence == 0.0
+    assert seg.verification == "verified_retrieval"
+    assert seg.confidence == 1.0
     assert resp.review_queue == [1]
     info = [f.text for f in seg.flags if f"﴿{_words('49:10', 0, 3)}﴾ (49:10)" in f.text]
     assert len(info) == 1
     assert set(seg.model_dump()) == {
         "id", "source", "output", "type", "level", "locked_terms", "marks",
         "sources", "confidence", "flags", "baseline", "back_translation",
+        "verification", "candidates",
     }  # fmt: skip
 
 

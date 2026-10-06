@@ -17,15 +17,19 @@ COLLECTIONS = {"bukhari", "muslim", "abudawud", "tirmidhi", "nasai", "ibnmajah",
 KINDS = {"personal_ruling", "personal_context"}
 MESSAGE_KEYS = {
     "quran_from_approved", "quran_mismatch", "quran_not_found", "quran_ambiguous", "quran_translation_pending",
-    "quran_diacritized",
-    "hadith_sourced", "hadith_unsourced", "hadith_fabricated", "fatwa_referral", "low_confidence",
+    "quran_diacritized", "quran_context_resolved", "quran_partial", "quran_extra_text",
+    "hadith_sourced", "hadith_unsourced", "hadith_fabricated", "hadith_corpus_partial", "hadith_corpus_match",
+    "hadith_corpus_ambiguous", "hadith_corpus_record", "fatwa_referral", "low_confidence",
     "term_check_failed", "avoid_word_found", "provider_fallback", "compare_why_term", "compare_why_quran",
     "compare_why_hadith", "glossary_source", "text_too_long", "rate_limited", "validation_error",
     "general_error", "limit_reached", "injection_suspected", "raw_unprotected", "translation_unavailable",
 }
 PLACEHOLDERS = {
-    "quran_mismatch": {"{correct_text}", "{ref}"}, "quran_ambiguous": {"{refs}", "{ref}"},
+    "quran_mismatch": {"{correct_text}", "{ref}"}, "quran_ambiguous": {"{refs}"},
+    "quran_context_resolved": {"{ref}"},
     "quran_diacritized": {"{verse}", "{ref}"},
+    "hadith_corpus_partial": {"{refs}", "{completion}"}, "hadith_corpus_match": {"{refs}"},
+    "hadith_corpus_ambiguous": {"{refs}"}, "hadith_corpus_record": {"{collection}", "{record}"},
     "hadith_fabricated": {"{ruling}"}, "term_check_failed": {"{term}"},
     "avoid_word_found": {"{term}", "{word}"}, "compare_why_term": {"{term}", "{word}"},
     "glossary_source": {"{term}"}, "text_too_long": {"{max_chars}"}, "rate_limited": {"{retry_after}"},

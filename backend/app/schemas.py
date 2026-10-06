@@ -14,6 +14,11 @@ Mode = Literal["localize", "raw", "compare"]
 SegmentType = Literal["quran", "hadith", "term_heavy", "general", "fatwa_like"]
 Level = Literal["A", "B", "C", "D"]
 Severity = Literal["info", "warn", "block"]
+# How a Quran segment was resolved (D-076): one place with its approved translation read
+# verbatim from the source, or a quote found in several places and left for review.
+Verification = Literal["verified_retrieval", "ambiguous_verse"]
+VERIFIED_RETRIEVAL: Verification = "verified_retrieval"
+AMBIGUOUS_VERSE: Verification = "ambiguous_verse"
 
 
 # The text cap of the frozen contract (ARCHITECTURE.md §4, «حتى 4000 حرف»), also shown by the
@@ -76,6 +81,17 @@ class Baseline(BaseModel):
     why: str = ""
 
 
+class VerseCandidate(BaseModel):
+    """One place of a quote found in several verses: Tanzil text and approved translations."""
+
+    ref: str
+    ar: str = ""
+    en: str | None = None
+    en_edition: str | None = None
+    fr: str | None = None
+    fr_edition: str | None = None
+
+
 class Segment(BaseModel):
     """One segment of the pipeline output."""
 
@@ -92,6 +108,9 @@ class Segment(BaseModel):
     baseline: Baseline | None = None
     # The verifier's Arabic back-translation of ``output`` (null when there is none, D-049).
     back_translation: str | None = None
+    # Quran segments only (D-076); null for every other segment.
+    verification: Verification | None = None
+    candidates: list[VerseCandidate] = Field(default_factory=list)
 
 
 class Summary(BaseModel):
@@ -99,7 +118,8 @@ class Summary(BaseModel):
 
     segments: int = 0
     flagged: int = 0
-    avg_confidence: float = 0.0
+    # Mean over segments other than verified retrievals (D-076); null when every segment is one.
+    avg_confidence: float | None = 0.0
 
 
 class TranslateResponse(BaseModel):

@@ -24,7 +24,7 @@ function fromExample(ex, lang) {
     return {
       id: i + 1, source: s.source, output: L.out, type: s.type, level: s.level,
       locked_terms: locked, marks: L.marks, sources: s.sources.map((x) => ({ ...x, edition: x.edition?.[lang] })),
-      confidence: s.confidence, flags: s.flags,
+      confidence: s.confidence, flags: s.flags, verification: s.verification ?? null, candidates: [],
       baseline: { output: L.generic, wrong: L.wrong, why: L.why },
     }
   })
@@ -34,9 +34,13 @@ function fromExample(ex, lang) {
 /** Same rule as the server: low confidence, or any warn/block flag. */
 export const needsReview = (s) => (s.confidence != null && s.confidence < 0.75) || s.flags.some((f) => f.severity !== 'info')
 
+// Same average as the server (D-076): a verse read verbatim from the approved translation has
+// no verifier score, so it is left out; null when nothing else is scored.
+const scoredForAverage = (s) => s.confidence != null && s.verification !== 'verified_retrieval'
+
 function finalize(segments) {
   const review_queue = segments.filter(needsReview).map((s) => s.id)
-  const scored = segments.filter((s) => s.confidence != null)
+  const scored = segments.filter(scoredForAverage)
   return {
     segments,
     review_queue,
@@ -73,6 +77,8 @@ function normalize(data) {
     flags: s.flags ?? [],
     confidence: s.confidence ?? null,
     back_translation: s.back_translation ?? null,
+    verification: s.verification ?? null,
+    candidates: s.candidates ?? [],
   }))
   const base = finalize(segments)
   return {

@@ -32,25 +32,30 @@ def test_a_short_whole_verse_is_still_the_verse(quote, ref):
     assert result["review"] is False
 
 
-def test_ambiguous_quote_whose_places_translate_differently_is_reviewed():
+def test_ambiguous_quote_is_reviewed_and_no_place_is_picked():
+    # D-076 (amends D-055 (1)): the first place is never taken.
     result = resolve_quran("﴿إن الله مع الصابرين﴾", "en")
     assert _keys(result)["quran_ambiguous"] == "warn"
-    assert result["output"] is not None
+    assert result["output"] is None
+    assert result["sources"] == []
     assert result["review"] is True
+    assert [c.ref for c in result["candidates"]] == ["2:153", "8:46"]
 
 
-def test_repeated_verse_with_one_translation_stays_certain():
-    # 31 places, the same translation (some end with « -» where the verse runs on).
+def test_repeated_verse_with_one_translation_is_still_ambiguous():
+    # 31 places with the same translation: the place is still unknown, so no source is claimed.
     result = resolve_quran("﴿فبأي آلاء ربكما تكذبان﴾", "en")
-    assert _keys(result)["quran_ambiguous"] == "info"
-    assert result["review"] is False
+    assert _keys(result)["quran_ambiguous"] == "warn"
+    assert result["verification"] == "ambiguous_verse"
+    assert len(result["candidates"]) == 31
+    assert result["review"] is True
 
 
 def test_basmala_is_not_every_sura_opening():
     result = resolve_quran("﴿بسم الله الرحمن الرحيم﴾", "en")
     ambiguous = next(flag for flag in result["flags"] if flag.key == "quran_ambiguous")
     assert ambiguous.detail == "1:1, 27:30"
-    assert [s.ref for s in result["sources"]] == ["1:1"]
+    assert [c.ref for c in result["candidates"]] == ["1:1", "27:30"]
 
 
 def test_partial_quote_keeps_the_verse_and_is_reviewed():
@@ -59,9 +64,10 @@ def test_partial_quote_keeps_the_verse_and_is_reviewed():
     assert result["output"] is not None
     assert _keys(result)["quran_partial"] == "warn"
     assert result["review"] is True
+    assert result["verification"] == "verified_retrieval"
     partial = next(flag for flag in result["flags"] if flag.key == "quran_partial")
-    # Until flags.ar.json has its own text (content slot).
-    assert render_flag(partial).text == load_messages()["low_confidence"]
+    # Its own text, not «low confidence»: the translation is not a low-confidence one (D-076).
+    assert render_flag(partial).text == load_messages()["quran_partial"]
 
 
 def test_whole_verse_is_not_partial():

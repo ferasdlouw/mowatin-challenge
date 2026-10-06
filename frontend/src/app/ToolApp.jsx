@@ -24,6 +24,8 @@ const REASON = {
   term_heavy: ['ثقة منخفضة في مصطلح', 'Low confidence in a term'],
   general: ['ثقة منخفضة', 'Low confidence'],
 }
+// A quote found in several verses: not a mismatch, the place is unknown (D-076).
+const AMBIGUOUS_REASON = ['نص يرد في أكثر من موضع من القرآن', 'Text found in more than one place in the Quran']
 const TITLE = { quran: ['آية قرآنية', 'Quran verse'], hadith: ['حديث نبوي', 'Hadith'], fatwa_like: ['سؤال شخصي', 'Personal question'], term_heavy: ['مصطلح شرعي', 'Islamic term'], general: ['نص عام', 'General text'] }
 
 // Only translated segments (confidence set) reach the reviewer; detection-only
@@ -31,9 +33,9 @@ const TITLE = { quran: ['آية قرآنية', 'Quran verse'], hadith: ['حدي�
 function toQueueItems(segments, lang, queueIds) {
   const flagged = queueIds ? (s) => queueIds.includes(s.id) : needsReview
   return segments.filter((s) => s.confidence != null && flagged(s)).map((s) => ({
-    id: `${lang}:${s.source}`, type: s.type, lang, source: s.source, proposed: s.output, ref: s.sources[0]?.ref,
+    id: `${lang}:${s.source}`, type: s.type, lang, source: s.source, proposed: s.output, ref: s.sources[0]?.ref ?? s.candidates?.map((c) => c.ref).join('، '),
     flags: s.flags, title: TITLE[s.type] ?? TITLE.general, snippet: s.source.replace(/^(قال الله تعالى|وقال النبي ﷺ|قال النبي ﷺ):?\s*/, '').slice(0, 34),
-    reason: REASON[s.type] ?? REASON.general, status: 'pending', reviewerNote: '',
+    reason: s.verification === 'ambiguous_verse' ? AMBIGUOUS_REASON : REASON[s.type] ?? REASON.general, status: 'pending', reviewerNote: '',
   }))
 }
 

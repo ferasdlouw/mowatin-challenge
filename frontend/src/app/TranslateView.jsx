@@ -1,6 +1,6 @@
 // Copyright (c) 2026 Athar Al-Madinah Team (فريق أثر المدينة). All rights reserved.
 // Mowatin (مُوطِّن) — Proprietary. Source-available for evaluation only. See LICENSE.
-import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
+import { useCallback, useEffect, useId, useMemo, useRef, useState } from 'react'
 import { ArrowLeft, ArrowRight, ArrowDown, Copy, Check, Languages, ScanSearch, ShieldCheck, Sparkles, X, Library, Loader2, RotateCcw, UserCheck, Upload, FileText as FileIcon, Volume2, Square, Mic } from 'lucide-react'
 import { extractText, ACCEPT } from '../lib/extract'
 import { EXAMPLES } from '../data/examples'
@@ -9,7 +9,7 @@ import { findTermSpans } from '../lib/termMatch'
 import { canSpeak, useSpeaker } from '../lib/speech'
 import { canDictate, useDictation } from '../lib/dictation'
 import { useLang } from '../lib/i18n'
-import { TypeChip, Flag, Confidence, LEVEL, LEVEL_HINT, TYPE, highlight, LtrBrackets } from './ui'
+import { TypeChip, Flag, Confidence, VerifiedRetrieval, LEVEL, LEVEL_HINT, TYPE, highlight, LtrBrackets } from './ui'
 
 const AUDIENCES = [
   ['general_non_muslim', 'غير مسلم (عام)', 'Non-Muslim (general)'],
@@ -275,7 +275,7 @@ function Results({ step, lang, status, result, error, onRetry, onPick }) {
         <div className="flex flex-wrap items-center gap-[0.5rem] text-[0.78rem]">
           <span className="rounded-full bg-paper px-[0.7rem] py-[0.25rem]">{segmentsLabel(summary.segments, ui)}</span>
           <span className={`rounded-full px-[0.7rem] py-[0.25rem] ${summary.flagged ? 'bg-danger-bg text-danger-fg' : 'bg-brand-50 text-brand-800'}`}><b className="tabular">{summary.flagged}</b> {tr('للمراجعة', 'for review')}</span>
-          {summary.avg_confidence != null && <span className="rounded-full bg-brand-50 px-[0.7rem] py-[0.25rem] text-brand-800">{tr('متوسط الثقة', 'Average confidence')} <b className="tabular">{Math.round(summary.avg_confidence * 100)}%</b></span>}
+          {summary.avg_confidence != null && <ConfidenceInfo summary={summary} />}
           {fullText && canSpeak && (
             <button type="button" onClick={() => toggle('all', fullText, lang)} aria-pressed={speaking === 'all'}
               className="inline-flex items-center gap-[0.3rem] rounded-full border border-slate-200 px-[0.7rem] py-[0.25rem] font-bold hover:border-brand-600 hover:text-brand-800">
@@ -304,6 +304,33 @@ function Results({ step, lang, status, result, error, onRetry, onPick }) {
         <Sparkles className="h-[0.9rem] w-[0.9rem] text-brand-600" aria-hidden /><span dir="rtl">{disclosure}</span>
       </footer>
     </div>
+  )
+}
+
+// The average is shown as computed (report.average_confidence); this only explains it.
+// Weights and threshold: verifier.py TERM/BT/JUDGE_WEIGHT and report.py REVIEW_THRESHOLD.
+function ConfidenceInfo({ summary }) {
+  const [open, setOpen] = useState(false)
+  const panelId = useId()
+  const { t: tr } = useLang()
+  return (
+    <span className="inline-flex flex-wrap items-center gap-[0.3rem]">
+      <span className="rounded-full bg-paper px-[0.7rem] py-[0.25rem] text-ink-600">{tr('متوسط الثقة', 'Average confidence')} <b className="tabular">{Math.round(summary.avg_confidence * 100)}%</b></span>
+      <button type="button" onClick={() => setOpen((v) => !v)} aria-expanded={open} aria-controls={panelId}
+        className="rounded-full border border-slate-200 px-[0.6rem] py-[0.2rem] font-bold text-ink-600 hover:border-brand-600 hover:text-brand-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-brand-600">
+        {tr('ما معنى؟', 'What does it mean?')}
+      </button>
+      {open && (
+        <span id={panelId} role="region" aria-label={tr('معنى متوسط الثقة', 'What average confidence means')}
+          className="block w-full max-w-[34rem] basis-full space-y-[0.4rem] rounded-[0.8rem] border border-slate-200 bg-white p-[0.8rem] text-start text-[0.82rem] leading-[1.45rem] text-ink-600">
+          <span className="block font-bold"><b className="tabular">{summary.flagged}</b> {tr('من', 'of')} <b className="tabular">{summary.segments}</b> {tr('مقاطع أُحيلت للمراجعة', 'segments sent for review')}</span>
+          <span className="block">{tr('درجة داخلية تعبّر عن اطمئنان المنظومة لكل مقطع، وليست نسبة صحة الترجمة ولا دقتها.', 'An internal score for how settled the system is about each segment. It is not a measure of how correct or accurate the translation is.')}</span>
+          <span className="block">{tr('تجمع فحص المصطلحات (35%) والترجمة العكسية (25%) وحكمًا مستقلًا (40%)، وما دون 75% يُحال تلقائيًا إلى المراجع الشرعي / المختص.', 'It combines the term check (35%), back-translation (25%) and an independent judgement (40%). Anything below 75% goes to the qualified reviewer automatically.')}</span>
+          <span className="block">{tr('قد تنخفض لأن المقطع يحتاج مراجعة بشرية بطبيعته: آية أو حديث غير مطابق تمامًا، أو سؤال فتوى، أو مصطلحات كثيرة. في هذه الحالات تختار مُوطِّن الإحالة بدل التخمين.', 'It can be low because a segment needs human review by nature: a verse or hadith that does not match exactly, a fatwa question, or many terms. In these cases Muwattin refers instead of guessing.')}</span>
+          <span className="block">{tr('يتغير المتوسط بحسب ما تُدخله: النص العام البسيط يرتفع غالبًا، والنص الكثيف بالنصوص الشرعية أو الأسئلة يميل للانخفاض مع بقاء القرار للمراجع.', 'The average depends on what you enter: plain general text usually scores higher, while text dense with scripture or questions tends to score lower, and the decision stays with the reviewer.')}</span>
+        </span>
+      )}
+    </span>
   )
 }
 
@@ -336,7 +363,7 @@ function Segment({ s, i, lang, speaking, onSpeak }) {
           <span className="rounded-full bg-paper px-[0.55rem] py-[0.12rem] text-[0.7rem] font-bold text-ink-600" title={LEVEL_HINT[s.level] && tr(...LEVEL_HINT[s.level])}>{tr(`المستوى (${LEVEL[s.level]})`, `Level ${s.level}`)}</span>
           {needsReview && <span className="inline-flex items-center gap-[0.25rem] rounded-full bg-danger-bg px-[0.55rem] py-[0.12rem] text-[0.7rem] font-bold text-danger-fg"><UserCheck className="h-[0.8rem] w-[0.8rem]" aria-hidden /> {tr('محال للمراجعة', 'Sent for review')}</span>}
         </div>
-        {!needsReview && <Confidence value={s.confidence} />}
+        {s.verification === 'verified_retrieval' ? <VerifiedRetrieval /> : !needsReview && <Confidence value={s.confidence} />}
       </div>
 
       <div dir="ltr" className="grid grid-cols-1 gap-[0.6rem] p-[1rem] md:grid-cols-[1fr_auto_1fr] md:items-start">
@@ -352,6 +379,8 @@ function Segment({ s, i, lang, speaking, onSpeak }) {
                   </button>
                 )}
               </div>
+            : s.verification === 'ambiguous_verse' && s.candidates.length > 0
+            ? <VerseCandidates candidates={s.candidates} lang={lang} />
             : <p dir={dir} className="text-[0.86rem] leading-[1.5rem] text-ink-600">{s.confidence == null ? tr('الترجمة تظهر عند ربط الخادم.', 'The translation appears once the server is connected.') : tr('لم يُترجَم هذا المقطع، وأُحيل إلى المراجع.', 'This segment was not translated and was sent to the reviewer.')}</p>}
         </div>
         <ArrowLeft className="order-2 mx-auto hidden h-[1.1rem] w-[1.1rem] text-brand-600 md:mt-[0.9rem] md:block" aria-hidden />
@@ -385,6 +414,32 @@ function Segment({ s, i, lang, speaking, onSpeak }) {
         </div>
       )}
     </li>
+  )
+}
+
+// A quote found in several verses (server `verification: ambiguous_verse`, D-076): no place
+// was chosen, so every place is listed with its approved translation for the reviewer.
+function VerseCandidates({ candidates, lang }) {
+  const { t: tr, dir } = useLang()
+  return (
+    <div dir={dir} className="space-y-[0.5rem] text-[0.86rem] leading-[1.5rem] text-ink-600">
+      <p className="font-bold text-ink-900">{tr('هذا النص موجود في أكثر من موضع:', 'This text appears in more than one place:')}</p>
+      <ul className="max-h-[18rem] space-y-[0.5rem] overflow-y-auto">
+        {candidates.map((c) => (
+          <li key={c.ref} className="rounded-[0.6rem] bg-[#F6F8FA] p-[0.6rem]">
+            <b className="tabular text-ink-900">{c.ref}</b>
+            <p dir="rtl" className="font-quran text-[1.02rem] leading-[1.9rem] text-ink-900">﴿{c.ar}﴾</p>
+            {c[lang] && (
+              <p dir="ltr" className="latin text-left text-ink-900">
+                <LtrBrackets>{`﴿${c[lang]}﴾`}</LtrBrackets>
+                {c[`${lang}_edition`] && <span className="ms-[0.3rem] text-[0.74rem] text-ink-600">({c[`${lang}_edition`]})</span>}
+              </p>
+            )}
+          </li>
+        ))}
+      </ul>
+      <p>{tr('لم نعتمد أيًّا من هذه المواضع، وأُحيل المقطع إلى المراجع الشرعي لتحديد الموضع.', 'None of these places was chosen; the segment was sent to the Sharia reviewer to pick the right one.')}</p>
+    </div>
   )
 }
 

@@ -1,7 +1,7 @@
 // Copyright (c) 2026 Athar Al-Madinah Team (فريق أثر المدينة). All rights reserved.
 // Mowatin (مُوطِّن) — Proprietary. Source-available for evaluation only. See LICENSE.
 import { useLang } from '../lib/i18n'
-import { BookOpen, ScrollText, Layers, FileText, Scale, TriangleAlert, Info, OctagonAlert } from 'lucide-react'
+import { BookOpen, ScrollText, Layers, FileText, Scale, TriangleAlert, Info, OctagonAlert, Library } from 'lucide-react'
 
 export const TYPE = {
   quran: { label: 'آية قرآنية', en: 'Quran verse', Icon: BookOpen, cls: 'bg-quran-bg text-quran-fg', bar: '#1FA672' },
@@ -45,6 +45,18 @@ export function Flag({ f }) {
       <Icon className="mt-[0.15rem] h-[1rem] w-[1rem] shrink-0" aria-hidden />
       <span>{parts.map((part, k) => (k % 2 ? <span key={k} className="font-quran text-[0.98rem] leading-[1.7rem]">{part}</span> : part))}</span>
     </p>
+  )
+}
+
+// A verse found in one place, its translation of the meanings read verbatim from the approved
+// edition (server `verification: verified_retrieval`, D-076). No LLM translated it, so there is
+// no verifier score to show; the label says where the text came from, not that it is flawless.
+export function VerifiedRetrieval() {
+  const { t } = useLang()
+  return (
+    <span className="inline-flex items-center gap-[0.3rem] rounded-full bg-brand-50 px-[0.6rem] py-[0.15rem] text-[0.74rem] font-bold text-brand-800" title={t('ترجمة معاني الآية منقولة كما هي من ترجمة معتمدة، ولم تُترجم آليًا.', 'The translation of the meanings is taken as written from an approved translation; it was not machine-translated.')}>
+      <Library className="h-[0.8rem] w-[0.8rem]" aria-hidden /> {t('ترجمة معتمدة (مسترجعة من المصدر)', 'Approved translation (retrieved from the source)')}
+    </span>
   )
 }
 
