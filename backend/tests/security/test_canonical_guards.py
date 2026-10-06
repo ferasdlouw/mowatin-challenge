@@ -148,7 +148,9 @@ def test_unbracketed_hadith_is_never_presented_as_authentic(text):
     assert segment_.output is None
     assert segment_.sources == []
     assert router.calls == 0
-    assert any(flag.severity == "warn" for flag in segment_.flags)
+    # «النظافة من الإيمان» is in fabricated.json: since D-068 the saying after the formula is
+    # checked even without «…», so it is blocked, which is stricter than the earlier warn.
+    assert any(flag.severity == "block" for flag in segment_.flags)
     assert response.review_queue == [1]
 
 
@@ -193,12 +195,14 @@ def test_dev_categories_unchanged():
             target = official if case["id"].startswith("O") else counts
             for part in segment(case["text_ar"]):
                 target[classify(part)["category"]] += 1
-    # Measured before Phase SEC on the same 44 dev cases (docs/security/AUDIT.md).
+    # Measured before Phase SEC on the same 44 dev cases (docs/security/AUDIT.md). D-068: T028
+    # «الإحسان أن تعبد الله كأنك تراه» is now the approved hadith bukhari:50 (term_heavy → hadith),
+    # which is what the dev case expects (hadith_refs bukhari:50).
     assert dict(counts) == {
-        "term_heavy": 30,
+        "term_heavy": 29,
         "general": 8,
         "quran": 9,
-        "hadith": 7,
+        "hadith": 8,
         "fatwa_like": 2,
     }
     # O04, O08, O09: none is scripture or a personal ruling question.

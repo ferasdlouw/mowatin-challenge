@@ -15,6 +15,7 @@ from app.errors import TextTooLongError, register_error_handlers
 from app.llm.factory import build_router
 from app.pipeline import orchestrator
 from app.pipeline.budget import DailyBreaker, RequestLimits
+from app.pipeline.dorar import DorarLookup
 from app.pipeline.glossary import get_index
 from app.pipeline.hadith import load_items as load_hadith_items
 from app.pipeline.normalize import normalize_text
@@ -126,6 +127,9 @@ def create_app(settings: Settings | None = None) -> FastAPI:
         _log_llm_slots(settings)
         async with httpx.AsyncClient() as http:
             _app.state.llm_router = build_router(settings, http)
+            # Reviewer references for unsourced hadith (D-067), only when switched on.
+            lookup = DorarLookup(http) if settings.hadith_lookup == "dorar" else None
+            _app.state.llm_router.hadith_lookup = lookup
             yield
 
     app = FastAPI(
@@ -153,7 +157,10 @@ def create_app(settings: Settings | None = None) -> FastAPI:
         entry |= {"target_lang": req.target_lang, "mode": req.mode, "audience": req.audience}
         logger.info(json.dumps(entry))
         return await orchestrator.translate(
-            req, request.app.state.llm_router, request.app.state.limits
+            req,
+            request.app.state.llm_router,
+            request.app.state.limits,
+            use_cache=settings.response_cache,
         )
 
     @app.get("/v1/glossary", response_model=GlossaryResponse)

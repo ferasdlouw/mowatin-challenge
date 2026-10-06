@@ -11,7 +11,9 @@ from __future__ import annotations
 import asyncio
 import json
 import logging
+import re
 import time
+import unicodedata
 from collections.abc import Awaitable, Callable, Sequence
 from dataclasses import dataclass
 
@@ -61,10 +63,13 @@ class LLMRouter:
         providers: Sequence[ProviderClient],
         sleep: Sleep = asyncio.sleep,
         clock: Callable[[], float] = time.perf_counter,
+        judge: LLMRouter | None = None,
     ) -> None:
         self._providers = list(providers)
         self._sleep = sleep
         self._clock = clock
+        # The verifier's JUDGE_* router, built once with the app's settings (D-061).
+        self.judge = judge
 
     async def complete_json(self, prompt: str, schema: type[T]) -> LLMResult[T]:
         tally = _Tally()
@@ -100,6 +105,11 @@ class LLMRouter:
         self, provider: ProviderClient, prompt: str, schema: type[T], tally: _Tally
     ) -> T:
         for attempt in range(1, MAX_ATTEMPTS + 1):
+            # Every HTTP attempt, retries included, counts against the provider's own daily
+            # cap (D-066); once it is spent the provider is skipped and the next one is tried.
+            daily = getattr(provider, "daily", None)
+            if daily is not None and not daily.take():
+                raise ProviderError(ErrorKind.DAILY_QUOTA)
             try:
                 return await self._attempt(provider, prompt, schema, attempt, tally)
             except ProviderError as exc:
@@ -164,9 +174,30 @@ class LLMRouter:
 
 def _parse(text: str, schema: type[T]) -> T:
     try:
-        return schema.model_validate_json(_strip_code_fence(text))
+        parsed = schema.model_validate_json(_strip_code_fence(text))
+        return schema.model_validate(_unescape(parsed.model_dump()))
     except ValidationError:
         raise ProviderError(ErrorKind.INVALID_RESPONSE) from None
+
+
+# Some models escape twice, so «\u00ab» survives JSON decoding as six literal characters.
+_ESCAPE_RE = re.compile(r"\\u([0-9a-fA-F]{4})")
+
+
+def _decode_escape(found: re.Match[str]) -> str:
+    char = chr(int(found.group(1), 16))
+    # Control, format and surrogate code points stay escaped: never smuggle them into output.
+    return found.group(0) if unicodedata.category(char).startswith("C") else char
+
+
+def _unescape(value: object) -> object:
+    if isinstance(value, str):
+        return _ESCAPE_RE.sub(_decode_escape, value)
+    if isinstance(value, list):
+        return [_unescape(item) for item in value]
+    if isinstance(value, dict):
+        return {key: _unescape(item) for key, item in value.items()}
+    return value
 
 
 def _strip_code_fence(text: str) -> str:

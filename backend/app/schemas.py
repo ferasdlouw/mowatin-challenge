@@ -16,10 +16,15 @@ Level = Literal["A", "B", "C", "D"]
 Severity = Literal["info", "warn", "block"]
 
 
+# The text cap of the frozen contract (ARCHITECTURE.md §4, «حتى 4000 حرف»), also shown by the
+# frontend. MAX_TEXT_CHARS may only lower it (D-063).
+TEXT_MAX_CHARS = 4000
+
+
 class TranslateRequest(BaseModel):
     """POST /v1/translate request body (ARCHITECTURE.md §4)."""
 
-    text: str = Field(..., min_length=1, max_length=4000)
+    text: str = Field(..., min_length=1, max_length=TEXT_MAX_CHARS)
     target_lang: TargetLang = "en"
     audience: Audience = "general_non_muslim"
     mode: Mode = "localize"

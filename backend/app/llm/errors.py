@@ -14,6 +14,8 @@ class ErrorKind(StrEnum):
     SERVER = "server"
     CLIENT = "client"
     INVALID_RESPONSE = "invalid_response"
+    # This provider's own daily request cap is spent (D-066): skip it, never retry today.
+    DAILY_QUOTA = "daily_quota"
 
 
 # 4xx other than 429 means bad config or a bad request: retrying the same

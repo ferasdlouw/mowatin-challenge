@@ -4,7 +4,9 @@ from functools import lru_cache
 from pathlib import Path
 
 from app.pipeline.glossary import detect as detect_glossary
+from app.pipeline.hadith import fabricated_in, has_attribution, is_approved_text
 from app.pipeline.normalize import canonicalize_for_matching, strip_marks
+from app.pipeline.quran import QURAN_ATTRIBUTIONS, contains_bare_verse
 
 
 @lru_cache(maxsize=1)
@@ -54,27 +56,15 @@ def is_fatwa_like(text: str) -> bool:
     return _is_fatwa_like(text, phrases, exclusions)
 
 
-# Formulas that attribute the words that follow to God or to the Prophet ﷺ (D-036). Without
-# recognised brackets the quoted span cannot be checked, so the segment goes to the Quran or
-# hadith handler, which finds no checkable quote: no LLM call, ``output: null``, review.
-QURAN_ATTRIBUTIONS = tuple(
-    canonicalize_for_matching(p)
-    for p in ("قال الله", "قال تعالى", "قوله تعالى", "يقول الله", "يقول تعالى")
-)
-_HADITH_ATTRIBUTIONS = tuple(
-    canonicalize_for_matching(p)
-    for p in (
-        "قال رسول الله",
-        "قال النبي",
-        "يقول رسول الله",
-        "يقول النبي",
-        "قال ﷺ",
-        "قال صلى الله عليه وسلم",
-    )
-)
 _QUOTED_HADITH_ATTRIBUTIONS = tuple(
     canonicalize_for_matching(p) for p in ("قال رسول الله", "النبي", "ﷺ")
 )
+
+
+def _is_unquoted_hadith(text: str) -> bool:
+    """Attributed to the Prophet ﷺ, or a fabricated saying anywhere, or an approved one
+    written alone (D-068): all go to the hadith handler, never to the LLM as plain text."""
+    return has_attribution(text) or fabricated_in(text) is not None or is_approved_text(text)
 
 
 def _scripture_category(text: str) -> str | None:
@@ -86,11 +76,8 @@ def _scripture_category(text: str) -> str | None:
         return "hadith"
     if any(attr in canon for attr in QURAN_ATTRIBUTIONS):
         return "quran"
-    if any(attr in canon for attr in _HADITH_ATTRIBUTIONS):
+    if _is_unquoted_hadith(text):
         return "hadith"
-    # Imported here: quran.py imports QURAN_ATTRIBUTIONS from this module.
-    from app.pipeline.quran import contains_bare_verse
-
     if contains_bare_verse(text):
         return "quran"
     return None

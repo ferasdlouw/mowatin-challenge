@@ -24,7 +24,7 @@ Never paste a key anywhere else: not in git, chat, issues or screenshots.
 | `ALLOWED_ORIGINS` | `https://mowatin.pages.dev` (comma-separated exact origins; no `*`, no trailing `/`). Preview URLs `https://<id>.mowatin.pages.dev` are already allowed by code. | yes |
 | `TRUSTED_PROXY_HOPS` | `1` (Render's proxy appends the client IP to `X-Forwarded-For`; see §4) | yes |
 | `RATE_LIMIT_PER_MIN` | `30` | optional (default 30) |
-| `MAX_TEXT_CHARS` | `4000` (the frontend says "4000 حرف"; keep them equal) | optional (default 4000) |
+| `MAX_TEXT_CHARS` | `4000` (the frontend says "4000 حرف"; keep them equal). It can only lower the cap: above 4000 (the contract, ARCHITECTURE.md §4) the API refuses to start, D-063 | optional (default 4000) |
 | `LLM_TIMEOUT_S` | `20` | optional (default 20) |
 | `LLM_PROVIDER` / `LLM_API_KEY` / `LLM_MODEL` | `gemini` / your AI Studio key / `gemini-3.5-flash-lite` (D-028) | yes for real output |
 | `FALLBACK_PROVIDER` / `FALLBACK_API_KEY` / `FALLBACK_MODEL` | `openrouter` / your OpenRouter key / `qwen/qwen3.8-27b:free` (D-029) | recommended |
@@ -41,6 +41,10 @@ Run these from your own machine, with `API=https://muwattin-api.onrender.com`:
 scripts/security_smoke.sh $API https://mowatin.pages.dev
 ```
 It checks health, docs hidden, security headers, CORS allowed/refused, 400 on an extra field, 413 on 4001 chars, a 2000-segment input capped and answered quickly with the rest in review, and 429 + `Retry-After` on `/v1/*` (via `/v1/glossary`, no LLM call). It spends at most `LLM_CALL_BUDGET` LLM calls and uses up your per-minute limit for about a minute. Every line must say `PASS`. The limits it checks come from `MAX_SEGMENTS`, `LLM_CALL_BUDGET`, `REQUEST_DEADLINE_S` and `LLM_DAILY_CALL_BUDGET` (defaults in `backend/app/config.py`, D-034); Render asks for them because `render.yaml` lists them with `sync: false` (leave them empty to keep the defaults). A `limit_hit` line in Logs means a request hit one of them.
+
+Per-provider daily caps (D-066), counted in real HTTP requests (retries included) and reset at 00:00 UTC: `LLM_DAILY_LIMIT` (default 0 = none), `FALLBACK_DAILY_LIMIT` (default 45, for OpenRouter's free 50/day), `JUDGE_DAILY_LIMIT` (default 0). They are not in `render.yaml`, so the defaults apply on Render; add them in the Render dashboard only to change them. A spent provider shows as `llm_failover` with `"reason": "daily_quota"` in Logs.
+
+Hadith references (D-067): `HADITH_LOOKUP=dorar` makes the API look up, in dorar.net, each quoted saying that is in neither hadith list, and attach the matching entries as references for the reviewer (the segment stays untranslated and in review). Default `off`. Switch it on only after the items in PROGRESS.md "Waiting on humans" (Dorar's terms, a content-owner sample check, the neutral grade pill in the frontend). Each lookup logs one `hadith_lookup` line with its outcome and the saying's length and hash, never its text.
 
 The individual checks, if you want to run them by hand:
 

@@ -7,6 +7,7 @@ from fastapi.testclient import TestClient
 
 from app.config import Settings
 from app.main import create_app
+from app.pipeline import cache
 
 
 @pytest.fixture()
@@ -31,7 +32,6 @@ def app(settings: Settings):
 @pytest.fixture()
 def client(app) -> TestClient:
     """Test client."""
-    from app.pipeline import cache
 
     cache.clear()
     with TestClient(app) as c:

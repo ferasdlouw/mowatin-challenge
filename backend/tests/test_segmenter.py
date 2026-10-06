@@ -22,9 +22,10 @@ def test_segmenter_no_punctuation_in_span():
 
 
 def test_segmenter_multiple_spans():
+    # D-051: each verse is its own segment; the Quran handler translates one verse per segment.
     text = "﴿آية ١﴾ و﴿آية ٢﴾."
     segments = segment(text)
-    assert segments == ["﴿آية ١﴾ و﴿آية ٢﴾."]
+    assert segments == ["﴿آية ١﴾", "و﴿آية ٢﴾."]
 
 
 def test_classifier_hadith():

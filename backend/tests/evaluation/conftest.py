@@ -3,16 +3,15 @@
 from __future__ import annotations
 
 import json
-import sys
 from pathlib import Path
 from typing import Any
 
 import httpx
 import pytest
+from eval_metrics import load_approved, load_glossary
 
 REPO = Path(__file__).resolve().parents[3]
 FIXTURES = REPO / "backend" / "tests" / "fixtures" / "eval"
-sys.path.insert(0, str(REPO / "scripts"))
 
 APPROVED_EN = "Fixture approved verse two one five three."
 API_REQUEST = httpx.Request("POST", "http://testserver/v1/translate")
@@ -75,15 +74,11 @@ def cases() -> list[dict[str, Any]]:
 
 @pytest.fixture()
 def glossary():
-    from eval_metrics import load_glossary
-
     return load_glossary(FIXTURES / "glossary")
 
 
 @pytest.fixture()
 def approved():
-    from eval_metrics import load_approved
-
     return load_approved(FIXTURES / "quran" / "translations")
 
 

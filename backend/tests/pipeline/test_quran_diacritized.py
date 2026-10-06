@@ -135,24 +135,37 @@ def test_verse_spelled_differently_in_1_1_shows_the_files_words(text, ref, start
 
 
 @pytest.mark.parametrize(
-    ("text", "ref", "start", "end"),
+    ("text", "ref", "start", "end", "partial"),
     [
-        ("قال تعالى: ﴿ولا تقربوا الزنا إنه كان فاحشة وساء سبيلا﴾", "17:32", 0, 8),
-        ("قال تعالى: ﴿لا تأخذه سنة ولا نوم له ما في السماوات وما في الأرض﴾", "2:255", 7, 19),
+        ("قال تعالى: ﴿ولا تقربوا الزنا إنه كان فاحشة وساء سبيلا﴾", "17:32", 0, 8, False),
+        (
+            "قال تعالى: ﴿لا تأخذه سنة ولا نوم له ما في السماوات وما في الأرض﴾",
+            "2:255",
+            7,
+            19,
+            True,
+        ),
         (
             "قال تعالى: ﴿إنما المؤمنون إخوة فأصلحوا بين أخويكم واتقوا الله لعلكم ترحمون﴾",
             "49:10",
             0,
             10,
+            False,
         ),
     ],
 )
-def test_quote_across_a_pause_mark_is_the_verse_not_a_misquote(text, ref, start, end):
+def test_quote_across_a_pause_mark_is_the_verse_not_a_misquote(text, ref, start, end, partial):
     # D-046: the matching file keeps pause marks as separate tokens, which left a double space
     # in the index, so a correct quote across one was "corrected" as a misquote (block).
+    # D-055: a quote under 40% of its verse (12 words of Ayat al-Kursi) is also reviewed.
     res = resolve_quran(text, "en")
-    assert [f.key for f in res["flags"]] == ["quran_from_approved", "quran_diacritized"]
-    assert res["review"] is False
+    expected = [
+        "quran_from_approved",
+        *(["quran_partial"] if partial else []),
+        "quran_diacritized",
+    ]
+    assert [f.key for f in res["flags"]] == expected
+    assert res["review"] is partial
     assert _diacritized(res).detail == f"{ref}|{_words(ref, start, end)}"
 
 
@@ -182,8 +195,10 @@ def test_translation_path_is_unchanged():
     res = resolve_quran(HERO, "en")
     assert res["output"].startswith("﴿") and res["output"].endswith("﴾")
     assert [s.ref for s in res["sources"]] == ["49:10"]
-    assert res["review"] is False
-    assert [f.key for f in res["flags"]] == ["quran_from_approved", "quran_diacritized"]
+    # D-055: 3 words of 49:10 get the whole verse's translation, so the segment is reviewed.
+    assert res["review"] is True
+    keys = [f.key for f in res["flags"]]
+    assert keys == ["quran_from_approved", "quran_partial", "quran_diacritized"]
 
 
 class _CountingRouter:
@@ -204,8 +219,10 @@ def test_hero_text_through_the_pipeline_needs_no_llm_and_keeps_the_contract():
     seg = resp.segments[0]
     assert seg.type == "quran"
     assert seg.source == HERO
-    assert seg.confidence == 1.0
-    assert resp.review_queue == []
+    # D-055: a partial quote keeps its approved translation and is reviewed.
+    assert seg.output and seg.output.startswith("﴿")
+    assert seg.confidence == 0.0
+    assert resp.review_queue == [1]
     info = [f.text for f in seg.flags if f"﴿{_words('49:10', 0, 3)}﴾ (49:10)" in f.text]
     assert len(info) == 1
     assert set(seg.model_dump()) == {
@@ -218,5 +235,7 @@ def test_bare_three_word_verse_typed_without_hamza_gets_the_files_marks():
     # The screen of 2026-10-04: «انما المؤمنون اخوة», no brackets, no formula, no hamza.
     res = resolve_quran("انما المؤمنون اخوة", "en")
     assert res["sources"][0].ref == "49:10"
-    assert res["review"] is False
+    assert res["output"] is not None
+    # D-055: 3 words of a 10-word verse: the whole verse's translation, reviewed.
+    assert res["review"] is True
     assert _diacritized(res).detail == f"49:10|{_words('49:10', 0, 3)}"

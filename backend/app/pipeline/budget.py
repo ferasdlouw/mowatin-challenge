@@ -77,6 +77,15 @@ class RequestBudget:
         self.reason = self.reason or reason
         return False
 
+    def remaining(self) -> float:
+        """Seconds left before the deadline (D-060: a running call may not outlive it)."""
+        return max(self._ends_at - self._clock(), 0.0)
+
+    def expire(self) -> None:
+        """A call was cut at the deadline: counted as refused, like a call not started."""
+        self.denied += 1
+        self.reason = self.reason or "deadline"
+
     def _refusal(self) -> str | None:
         if self.calls >= self._limits.call_budget:
             return "call_budget"

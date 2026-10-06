@@ -4,8 +4,10 @@ from __future__ import annotations
 
 from typing import Literal
 
-from pydantic import Field, field_validator
+from pydantic import Field, ValidationInfo, field_validator
 from pydantic_settings import BaseSettings
+
+from app.schemas import TEXT_MAX_CHARS
 
 
 class Settings(BaseSettings):
@@ -45,7 +47,9 @@ class Settings(BaseSettings):
     # Security
     allowed_origins: str = ""
     rate_limit_per_min: int = Field(default=30, ge=1)
-    max_text_chars: int = Field(default=4000, ge=1)
+    # At most the contract's cap (D-063): a larger value was silently ignored, because the
+    # request schema already rejects longer text; now it fails at startup instead.
+    max_text_chars: int = Field(default=TEXT_MAX_CHARS, ge=1, le=TEXT_MAX_CHARS)
     # LLM consumption limits (D-034): segments sent through the pipeline per request (the
     # rest is returned as one null segment in review), routed LLM calls per request, seconds
     # after which a request starts no new LLM call, and routed calls per UTC day per process.
@@ -53,6 +57,17 @@ class Settings(BaseSettings):
     llm_call_budget: int = Field(default=28, ge=1, le=1000)
     request_deadline_s: float = Field(default=90.0, gt=0, le=600)
     llm_daily_call_budget: int = Field(default=1000, ge=1)
+    # Each provider's own cap on HTTP requests per UTC day, retries included (D-066); 0 = none.
+    # The fallback default keeps OpenRouter's free tier (50/day) with a margin.
+    llm_daily_limit: int = Field(default=0, ge=0)
+    fallback_daily_limit: int = Field(default=45, ge=0)
+    judge_daily_limit: int = Field(default=0, ge=0)
+    # Response cache (D-039). Off for evaluation runs (D-059): with it on, the 2nd and 3rd run of
+    # the same text were served from memory and the run-to-run spread read as zero.
+    response_cache: bool = True
+    # Hadith references from dorar.net for the reviewer (D-067): "off" or "dorar". Off until
+    # the content owner has checked a sample; never a verdict on authenticity either way.
+    hadith_lookup: Literal["off", "dorar"] = "off"
     # Proxies in front of the app that append to X-Forwarded-For (Render: 1).
     # 0 means use the socket address; forged left-hand entries are always ignored.
     trusted_proxy_hops: int = Field(default=0, ge=0, le=3)
@@ -67,6 +82,14 @@ class Settings(BaseSettings):
     @classmethod
     def _normalize_billing(cls, value: object) -> object:
         return value.strip().lower() if isinstance(value, str) else value
+
+    @field_validator("llm_daily_limit", "fallback_daily_limit", "judge_daily_limit", mode="before")
+    @classmethod
+    def _blank_is_default(cls, value: object, info: ValidationInfo) -> object:
+        """``FALLBACK_DAILY_LIMIT=`` (left blank on Render) keeps the default, not an error."""
+        if isinstance(value, str) and not value.strip():
+            return cls.model_fields[info.field_name].default
+        return value
 
     @field_validator("env")
     @classmethod

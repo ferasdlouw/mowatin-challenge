@@ -2,6 +2,9 @@
 
 from __future__ import annotations
 
+from app.pipeline.report import assemble
+from app.schemas import Segment, SegmentFlag
+
 CONTRACT_SEGMENT_KEYS = {
     "id",
     "source",
@@ -207,8 +210,6 @@ def test_no_stack_trace_in_error(client):
 
 def test_review_queue_lists_low_confidence_and_warned_segments():
     """review_queue holds ids under 0.75 confidence or with a non-info flag, like the client."""
-    from app.pipeline.report import assemble
-    from app.schemas import Segment, SegmentFlag
 
     segments = [
         Segment(id=1, confidence=0.95),

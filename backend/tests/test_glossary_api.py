@@ -81,7 +81,7 @@ def test_nothing_is_read_from_en_or_fr_json(settings, monkeypatch):
         return real_open(file, *args, **kwargs)
 
     monkeypatch.setattr(builtins, "open", spy_open)
-    monkeypatch.setattr(glossary_module, "_index", None)
+    glossary_module.get_index.cache_clear()
     with TestClient(create_app(settings=settings)) as client:
         client.get("/health")
         client.get("/v1/glossary", params={"q": "التوحيد"})

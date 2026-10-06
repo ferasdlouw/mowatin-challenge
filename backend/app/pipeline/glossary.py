@@ -1,4 +1,5 @@
 import json
+from functools import lru_cache
 from pathlib import Path
 from typing import Any
 
@@ -43,14 +44,6 @@ class GlossaryIndex:
                 if i + phrase_len > len(tokens):
                     continue
 
-                # Explicit documented exclusion
-                if term_id == "islam" and phrase_tokens in [
-                    ("المسلم",),
-                    ("المسلمين",),
-                    ("المسلمون",),
-                ]:
-                    continue
-
                 match_found = True
                 for j in range(phrase_len):
                     text_token = tokens[i + j]
@@ -79,15 +72,10 @@ class GlossaryIndex:
         return matches
 
 
-# Singleton instance
-_index = None
-
-
-def get_index():
-    global _index  # noqa: PLW0603
-    if _index is None:
-        _index = GlossaryIndex()
-    return _index
+@lru_cache(maxsize=1)
+def get_index() -> GlossaryIndex:
+    """The glossary, loaded once per process."""
+    return GlossaryIndex()
 
 
 def detect(text: str) -> list[dict[str, Any]]:

@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import asyncio
 import json
 import logging
 import re
@@ -14,13 +15,13 @@ from app.pipeline import cache, fatwa_guard
 from app.pipeline.budget import LIMIT_ERROR, RequestBudget, RequestLimits
 from app.pipeline.classifier import classify
 from app.pipeline.glossary import detect, get_index
-from app.pipeline.hadith import resolve_hadith
+from app.pipeline.hadith import resolve_hadith, unsourced_quotes
 from app.pipeline.injection import looks_steered
 from app.pipeline.localizer import localize_segment, raw_translate
 from app.pipeline.quran import resolve_quran
 from app.pipeline.report import MessageKeyError, assemble, load_messages, render_flag
 from app.pipeline.segmenter import segment_capped
-from app.pipeline.verifier import find_whole_word, verify
+from app.pipeline.verifier import Draft, find_whole_word, verify
 from app.schemas import (
     Baseline,
     Flag,
@@ -45,6 +46,7 @@ _RAW_LEVEL: Level = "B"
 _PLACEHOLDER_RE = re.compile(r"\{[a-z_]+\}")
 _VERSE_BRACKETS = "﴿﴾ "
 RAW_FLAG = "raw_unprotected"
+MAX_LOOKUP_QUOTES = 2
 
 
 @dataclass
@@ -73,7 +75,8 @@ class _CostMeter:
 
 class _MeteredRouter:
     """Passes calls to the request's router within the request budget (D-034), and records
-    each result's usage and cost. A refused call is not sent and returns ``data=None``.
+    each result's usage and cost. A refused call is not sent and returns ``data=None``; a call
+    still running at the deadline is cancelled and returns ``data=None`` too (D-060).
     """
 
     def __init__(
@@ -89,13 +92,22 @@ class _MeteredRouter:
         self._record = record
 
     @property
-    def _providers(self) -> list[Any]:
-        # The verifier builds the judge on the same HTTP client as the localizer's providers.
-        return list(getattr(self._inner, "_providers", []))
+    def hadith_lookup(self) -> Any:
+        """The app's Dorar lookup (D-067), or ``None`` when switched off."""
+        return getattr(self._inner, "hadith_lookup", None)
+
+    @property
+    def judge(self) -> JsonCompleter | None:
+        """The app's judge router (D-061); the verifier puts it under this request's budget."""
+        return getattr(self._inner, "judge", None)
 
     @property
     def budget(self) -> RequestBudget:
         return self._budget
+
+    def record(self, result: LLMResult[Any]) -> None:
+        """Adds a result sent through another router (the judge) to this request's cost."""
+        self._meter.record(result)
 
     def share_budget(self, inner: JsonCompleter) -> _MeteredRouter:
         """The same budget for another router (the verifier's judge), which records its own usage."""
@@ -104,7 +116,15 @@ class _MeteredRouter:
     async def complete_json(self, prompt: str, schema: type[T]) -> LLMResult[T]:
         if not self._budget.allow():
             return LLMResult(data=None, error=LIMIT_ERROR)
-        result = await self._inner.complete_json(prompt, schema)
+        try:
+            # A started call may not outlive the deadline either (D-060): with retries and
+            # failover one call could run ~80 s past it, after the browser had given up.
+            result = await asyncio.wait_for(
+                self._inner.complete_json(prompt, schema), timeout=self._budget.remaining()
+            )
+        except TimeoutError:
+            self._budget.expire()
+            return LLMResult(data=None, error=LIMIT_ERROR)
         if self._record:
             self._meter.record(result)
         return result
@@ -143,13 +163,8 @@ def _steering_flags(text: str, output: str | None) -> list[Flag]:
     return []
 
 
-async def _localize(  # noqa: PLR0913
-    text: str,
-    lang: TargetLang,
-    audience: str,
-    term_ids: list[str],
-    router: _MeteredRouter,
-    meter: _CostMeter,
+async def _localize(
+    text: str, lang: TargetLang, audience: str, term_ids: list[str], router: _MeteredRouter
 ) -> _Handled:
     """Localizer (term lock on ``term_ids``) then verifier; glossary sources for the terms."""
     denied_before = router.budget.denied
@@ -158,13 +173,9 @@ async def _localize(  # noqa: PLR0913
     )
     back: list[str] = []
     confidence, marks, verifier_flags = await verify(
-        text,
-        output,
-        lang,
-        audience,
-        locked_terms,
-        router,
-        on_usage=meter.record,
+        Draft(text, output, lang, locked_terms, term_ids),
+        llm_router=router,
+        on_usage=router.record,
         on_back=back.append,
     )
     return _Handled(
@@ -189,9 +200,7 @@ def _unavailable(output: str | None, router: _MeteredRouter, denied_before: int)
     return []
 
 
-async def _hadith(
-    text: str, lang: TargetLang, audience: str, router: _MeteredRouter, meter: _CostMeter
-) -> _Handled:
+async def _hadith(text: str, lang: TargetLang, audience: str, router: _MeteredRouter) -> _Handled:
     """A sourced saying gets a meaning translation, as the ``hadith_sourced`` flag promises.
 
     The LLM runs only when every quote matched ``hadith.json`` (info flags only): a segment
@@ -200,17 +209,29 @@ async def _hadith(
     """
     sources, flags = resolve_hadith(text)
     if not sources or any(flag.type != "info" for flag in flags):
-        return _Handled(sources=sources, flags=flags)
-    handled = await _localize(text, lang, audience, _glossary_detected_ids(text), router, meter)
+        references = await _dorar_references(text, router)
+        return _Handled(sources=sources + references, flags=flags)
+    handled = await _localize(text, lang, audience, _glossary_detected_ids(text), router)
     handled.sources = sources + handled.sources
     # "A translation of the meaning follows" is only true when one does (D-049).
     handled.flags = (flags if handled.output else []) + handled.flags
     return handled
 
 
-async def _fatwa(
-    text: str, lang: TargetLang, audience: str, router: _MeteredRouter, meter: _CostMeter
-) -> _Handled:
+async def _dorar_references(text: str, router: _MeteredRouter) -> list[SourceRef]:
+    """Dorar entries for each quote not in the approved or fabricated lists (D-067): for the
+    reviewer, next to the unsourced flag that keeps the segment untranslated and in review.
+    Bounded by the request deadline; at most ``MAX_LOOKUP_QUOTES`` quotes per segment."""
+    lookup = router.hadith_lookup
+    if lookup is None:
+        return []
+    references: list[SourceRef] = []
+    for quote in unsourced_quotes(text)[:MAX_LOOKUP_QUOTES]:
+        references += await lookup.references(quote, router.budget.remaining())
+    return references
+
+
+async def _fatwa(text: str, lang: TargetLang, router: _MeteredRouter) -> _Handled:
     """Level D: the question translated literally (never answered), then the referral.
 
     The verifier sees the question alone, so a ruling the LLM added is judged as an added
@@ -223,7 +244,10 @@ async def _fatwa(
         return _Handled(flags=flags + llm_flags + _unavailable(question, router, denied_before))
     back: list[str] = []
     confidence, _marks, verifier_flags = await verify(
-        text, question, lang, audience, [], router, on_usage=meter.record, on_back=back.append
+        Draft(text, question, lang),
+        llm_router=router,
+        on_usage=router.record,
+        on_back=back.append,
     )
     referral = fatwa_guard.referral_text(lang)
     return _Handled(
@@ -257,16 +281,11 @@ def _glossary_sources(ids: list[str]) -> list[SourceRef]:
     ]
 
 
-async def _handle(  # noqa: PLR0913
-    category: str,
-    text: str,
-    lang: TargetLang,
-    audience: str,
-    mode: str,
-    router: _MeteredRouter,
-    meter: _CostMeter,
+async def _handle(
+    category: str, text: str, req: TranslateRequest, router: _MeteredRouter
 ) -> _Handled:
-    if mode == "raw":
+    lang, audience = req.target_lang, req.audience
+    if req.mode == "raw":
         # Unprotected by design (comparison only, D-038): never certain, always in review.
         output, llm_flags = await raw_translate(text, lang, router)
         return _Handled(
@@ -276,12 +295,12 @@ async def _handle(  # noqa: PLR0913
     if category == "quran":
         return _quran(text, lang)
     if category == "hadith":
-        return await _hadith(text, lang, audience, router, meter)
+        return await _hadith(text, lang, audience, router)
     if category == "fatwa_like":
-        return await _fatwa(text, lang, audience, router, meter)
+        return await _fatwa(text, lang, router)
     if category in ("term_heavy", "general"):
         term_ids = _glossary_detected_ids(text) if category == "term_heavy" else []
-        return await _localize(text, lang, audience, term_ids, router, meter)
+        return await _localize(text, lang, audience, term_ids, router)
     return _Handled()
 
 
@@ -342,7 +361,7 @@ async def _baseline(
 
 
 async def _build_segment(
-    seg_id: int, text: str, req: TranslateRequest, router: _MeteredRouter, meter: _CostMeter
+    seg_id: int, text: str, req: TranslateRequest, router: _MeteredRouter
 ) -> Segment:
     denied_before = router.budget.denied
     if req.mode == "raw":
@@ -352,7 +371,7 @@ async def _build_segment(
         seg_type, level = classified["category"], classified["level"]
         if seg_type == "fatwa_like":
             level = fatwa_guard.LEVEL
-    handled = await _handle(seg_type, text, req.target_lang, req.audience, req.mode, router, meter)
+    handled = await _handle(seg_type, text, req, router)
     baseline = None
     if req.mode == "compare":
         baseline = await _baseline(seg_type, text, req.target_lang, router)
@@ -429,17 +448,21 @@ def _log_cost(req: TranslateRequest, meter: _CostMeter, segments: int, cache_hit
 
 
 async def translate(
-    req: TranslateRequest, router: LLMRouter, limits: RequestLimits | None = None
+    req: TranslateRequest,
+    router: LLMRouter,
+    limits: RequestLimits | None = None,
+    use_cache: bool = True,
 ) -> TranslateResponse:
     """Run the pipeline over the request text within ``limits`` and log the request's LLM cost.
 
     ``limits`` comes from the app (one daily breaker per process); without it each call gets
-    the default limits and its own breaker.
+    the default limits and its own breaker. ``use_cache=False`` (``RESPONSE_CACHE=false``,
+    evaluation runs, D-059) neither reads nor stores the response cache.
     """
     limits = limits or RequestLimits()
     meter = _CostMeter()
     cache_key = cache.get_cache_key(req.text, req.target_lang, req.audience, req.mode)
-    cached_resp = cache.get(cache_key)
+    cached_resp = cache.get(cache_key) if use_cache else None
     if cached_resp:
         _log_cost(req, meter, len(cached_resp.segments), cache_hit=True)
         return cached_resp
@@ -449,7 +472,7 @@ async def translate(
     parts, rest = segment_capped(req.text, limits.max_segments)
     segments = []
     for i, text in enumerate(parts, start=1):
-        seg = await _build_segment(i, text, req, metered, meter)
+        seg = await _build_segment(i, text, req, metered)
         segments.append(seg)
     if rest:
         segments.append(_remainder_segment(len(segments) + 1, rest))
@@ -458,7 +481,7 @@ async def translate(
         _log_limit(req, reason, len(parts) + (1 if rest else 0), budget)
 
     response = assemble(segments)
-    if meter.llm_failed == 0 and budget.denied == 0 and not rest:
+    if use_cache and meter.llm_failed == 0 and budget.denied == 0 and not rest:
         # A degraded answer (failed or refused call, cut text) is not kept (D-039): once the
         # quota is back, the same text must be translated again, not served "in review".
         cache.set(cache_key, response)

@@ -29,6 +29,9 @@ _FALLBACK_KEYS = {
     "translation_unavailable": "general_error",
     "injection_suspected": "low_confidence",
     "raw_unprotected": "low_confidence",
+    # D-051: until flags.ar.json has its own text (content slot, Eng. Rudaina).
+    "quran_extra_text": "low_confidence",
+    "quran_partial": "low_confidence",
 }
 
 

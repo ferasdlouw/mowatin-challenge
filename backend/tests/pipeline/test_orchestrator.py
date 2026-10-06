@@ -266,8 +266,8 @@ def fatwa_llm(monkeypatch, tmp_path):
     async def fake_raw(text, lang, router):
         return f"Question ({lang})?", []
 
-    async def fake_verify(text, output, *_rest, **_kw):
-        seen["verified"] = output
+    async def fake_verify(draft, **_kw):
+        seen["verified"] = draft.output
         return 0.9, [], []
 
     path = tmp_path / "referral.json"

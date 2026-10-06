@@ -18,7 +18,7 @@ from pydantic import BaseModel
 
 import app.pipeline.verifier as verifier_module
 from app.llm.base import LLMResult
-from app.pipeline import cache, orchestrator
+from app.pipeline import cache, localizer, orchestrator, verifier
 from app.pipeline.budget import DailyBreaker, RequestLimits
 from app.schemas import TranslateRequest
 
@@ -92,8 +92,6 @@ def test_untrusted_prompt_fields_pass_the_tag_neutraliser():
 
 
 def _live_prompt_files() -> set[str]:
-    from app.pipeline import localizer, verifier
-
     return {
         localizer.LOCALIZE_PROMPT,
         localizer.RAW_PROMPT,

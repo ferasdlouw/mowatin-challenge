@@ -2,6 +2,9 @@
 
 from __future__ import annotations
 
+import json
+import logging
+
 import httpx
 
 from app.config import Settings
@@ -10,6 +13,7 @@ from app.llm.gemini import GeminiClient
 from app.llm.openai_compat import OpenAICompatClient, base_url_problem, is_local
 from app.llm.openrouter import OpenRouterClient
 from app.llm.router import LLMRouter
+from app.pipeline.budget import DailyBreaker
 
 PROVIDERS: dict[str, type[GeminiClient] | type[OpenRouterClient]] = {
     "gemini": GeminiClient,
@@ -17,6 +21,9 @@ PROVIDERS: dict[str, type[GeminiClient] | type[OpenRouterClient]] = {
 }
 # Built separately: it is the only provider that needs ``<SLOT>_BASE_URL`` (D-026).
 OPENAI_COMPAT = "openai_compat"
+
+
+logger = logging.getLogger("app.llm")
 
 
 class LLMConfigError(ValueError):
@@ -38,19 +45,28 @@ def build_provider(
         return None
     name = name.strip().lower()
     if name == OPENAI_COMPAT:
-        return _tag_billing(_build_openai_compat(prefix, settings, http), settings)
+        provider = _tag_billing(_build_openai_compat(prefix, settings, http), settings)
+        return _tag_daily(provider, prefix, settings)
     provider_cls = PROVIDERS.get(name)
     if provider_cls is None:
         names = ", ".join(sorted([*PROVIDERS, OPENAI_COMPAT]))
         raise LLMConfigError(f"{prefix}_PROVIDER must be one of: {names}")
     if not api_key or not model:
         raise LLMConfigError(f"{prefix}_API_KEY and {prefix}_MODEL are required")
-    return _tag_billing(provider_cls(http, api_key, model, settings.llm_timeout_s), settings)
+    provider = _tag_billing(provider_cls(http, api_key, model, settings.llm_timeout_s), settings)
+    return _tag_daily(provider, prefix, settings)
 
 
 def _tag_billing(provider: ProviderClient, settings: Settings) -> ProviderClient:
     """The router reads ``free_tier`` to log actual cost 0 next to the list cost (D-031)."""
     provider.free_tier = settings.llm_billing == "free"  # type: ignore[attr-defined]
+    return provider
+
+
+def _tag_daily(provider: ProviderClient, prefix: str, settings: Settings) -> ProviderClient:
+    """The router counts every HTTP attempt against ``daily`` (D-066); 0 = no cap."""
+    limit: int = getattr(settings, f"{prefix.lower()}_daily_limit")
+    provider.daily = DailyBreaker(limit) if limit else None  # type: ignore[attr-defined]
     return provider
 
 
@@ -79,5 +95,20 @@ def configured_providers(settings: Settings, http: httpx.AsyncClient) -> list[Pr
 
 
 def build_router(settings: Settings, http: httpx.AsyncClient) -> LLMRouter:
-    """Router over the configured chain; an empty chain fails safe on every call."""
-    return LLMRouter(configured_providers(settings, http))
+    """Router over the configured chain, carrying the judge router; an empty chain fails safe
+    on every call."""
+    return LLMRouter(configured_providers(settings, http), judge=build_judge(settings, http))
+
+
+def build_judge(settings: Settings, http: httpx.AsyncClient) -> LLMRouter | None:
+    """The ``JUDGE_*`` router, once per app (D-061); ``None`` when the slot is unset.
+
+    An invalid judge slot does not stop the app (the judge then scores 0, so every LLM segment
+    is reviewed, D-021), but it is logged once with the reason, never the values.
+    """
+    try:
+        provider = build_provider("JUDGE", settings, http)
+    except LLMConfigError as exc:
+        logger.warning(json.dumps({"event": "judge_config_invalid", "reason": str(exc)}))
+        return None
+    return LLMRouter([provider]) if provider else None
