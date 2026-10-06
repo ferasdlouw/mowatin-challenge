@@ -799,5 +799,2147 @@
       "name": "ردينة بلال",
       "date": "2026-10-03"
     }
+  },
+  {
+    "id": "quran",
+    "ar": "القرآن",
+    "variants_ar": [
+      "القرآن الكريم",
+      "القرآن العظيم"
+    ],
+    "en": {
+      "preferred": "Qur'an",
+      "gloss": "the speech of Allah revealed to the Prophet Muhammad, recited in worship and preserved in the Mushaf",
+      "avoid": [
+        "Muhammad's book",
+        "Bible of the Muslims"
+      ]
+    },
+    "fr": {
+      "preferred": "Coran",
+      "gloss": "la Parole d'Allah révélée au Prophète Muhammad, récitée dans l'adoration et préservée dans le Mus-haf",
+      "avoid": [
+        "livre de Muhammad",
+        "Bible des musulmans"
+      ]
+    },
+    "usage_note_ar": "التعريف: كلام الله المنزل على نبيه محمد ﷺ، المتعبد بتلاوته، المحفوظ في المصاحف. | الدليل: البقرة: 185. | في الجمهرة: EN «The Qur'an»، FR «Le noble Coran». | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «Le noble Coran» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/7771/en | FR: https://islamic-content.com/dictionary/word/7771/fr | الدليل: https://api.quranpedia.net/v1/ayah/2/185/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "qiraat",
+    "ar": "القراءات",
+    "variants_ar": [
+      "القراءات القرآنية",
+      "القراءات العشر",
+      "القراءات السبع"
+    ],
+    "en": {
+      "preferred": "variant recitations",
+      "gloss": "the authentically transmitted ways of reciting the words of the Qur'an",
+      "avoid": [
+        "versions of the Qur'an",
+        "different Qur'ans"
+      ]
+    },
+    "fr": {
+      "preferred": "lectures coraniques",
+      "gloss": "les manières authentiquement transmises de réciter les mots du Coran",
+      "avoid": [
+        "versions du Coran",
+        "Corans différents"
+      ]
+    },
+    "usage_note_ar": "التعريف: وجوه النطق بكلمات القرآن المنقولة بالسند الصحيح. | الدليل: صحيح البخاري (2419). | في الجمهرة: EN «The variant recitations»، FR «Lectures / Récitations». | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «Lectures / Récitations» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/7721/en | FR: https://islamic-content.com/dictionary/word/7721/fr | الدليل: https://dorar.net/h/FG0javhx",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "tartil",
+    "ar": "الترتيل",
+    "variants_ar": [
+      "ترتيل",
+      "ورتل القرآن"
+    ],
+    "en": {
+      "preferred": "tartil",
+      "gloss": "reciting the Qur'an slowly and clearly with correct pronunciation and pauses",
+      "avoid": [
+        "singing",
+        "chanting"
+      ]
+    },
+    "fr": {
+      "preferred": "tartîl",
+      "gloss": "réciter le Coran posément et clairement avec une prononciation et des pauses correctes",
+      "avoid": [
+        "chant",
+        "psalmodie"
+      ]
+    },
+    "usage_note_ar": "التعريف: قراءة القرآن بتمهل وتبيين للحروف ومراعاة للوقوف. | الدليل: المزمل: 4. | في الجمهرة: EN «Tartīl»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 73:4: «posément».",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/2700/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/73/4/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/73/4",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "tilawah",
+    "ar": "التلاوة",
+    "variants_ar": [
+      "تلاوة",
+      "تلاوة القرآن",
+      "يتلون"
+    ],
+    "en": {
+      "preferred": "Qur'anic recitation",
+      "gloss": "reading the Qur'an aloud as an act of worship, following its rules",
+      "avoid": [
+        "reading aloud any text",
+        "singing"
+      ]
+    },
+    "fr": {
+      "preferred": "récitation du Coran",
+      "gloss": "lire le Coran à voix haute comme acte d'adoration, selon ses règles",
+      "avoid": [
+        "lecture de tout texte",
+        "chant"
+      ]
+    },
+    "usage_note_ar": "التعريف: قراءة القرآن تعبدًا مع مراعاة أحكامه. | الدليل: فاطر: 29. | في الجمهرة: EN «Qur'anic recitation»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 35:29: «récitent».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/3357/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/35/29/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/35/29",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "muhkam",
+    "ar": "المحكم",
+    "variants_ar": [
+      "المحكمات",
+      "آيات محكمات"
+    ],
+    "en": {
+      "preferred": "clear verses",
+      "gloss": "muhkam: verses whose meaning is clear and not open to more than one interpretation; in general usage, precise or firm",
+      "avoid": [
+        "court",
+        "ruled"
+      ]
+    },
+    "fr": {
+      "preferred": "versets clairs",
+      "gloss": "muhkam : versets au sens clair qui n'admettent pas plusieurs interprétations ; dans l'usage courant, précis ou solide",
+      "avoid": [
+        "tribunal",
+        "jugé"
+      ]
+    },
+    "usage_note_ar": "التعريف: ما اتضح معناه ولم يحتمل إلا وجهًا واحدًا. | الدليل: آل عمران: 7. | في الجمهرة: EN «Precise»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): تعريف الجمهرة للمحكم «ما لم يُنسخ»، وهو أحد أقوال العلماء؛ والمعتمد هنا الواضح المعنى المقابل للمتشابه (آل عمران 7). | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 3:7: «parfaitement clairs».",
+    "strategy": "context",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/9008/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/3/7/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/3/7",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "mutashabih",
+    "ar": "المتشابه",
+    "variants_ar": [
+      "المتشابهات",
+      "آيات متشابهات"
+    ],
+    "en": {
+      "preferred": "ambiguous verses",
+      "gloss": "mutashabih: verses whose meaning is not clear on its own and is understood by referring to the clear verses; in general usage, similar",
+      "avoid": [
+        "contradictory verses",
+        "copies"
+      ]
+    },
+    "fr": {
+      "preferred": "versets équivoques",
+      "gloss": "mutashâbih : versets dont le sens n'est pas clair par lui-même et se comprend en revenant aux versets clairs ; dans l'usage courant, semblable",
+      "avoid": [
+        "versets contradictoires",
+        "copies"
+      ]
+    },
+    "usage_note_ar": "التعريف: ما خفي معناه أو احتمل أكثر من وجه، ويُرد إلى المحكم. | الدليل: آل عمران: 7. | في الجمهرة: EN «Similarities»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | مسودة: لا يوجد مدخل مطابق للمعنى القرآني في الجمهرة؛ الدليل آل عمران 7 | سبب الاختلاف عن الجمهرة (EN): مدخل الجمهرة (8759) «Similarities» للمتشابه في أسماء الرواة (علم الحديث)، لا للآيات المتشابهات. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 3:7: «équivoques».",
+    "strategy": "context",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/8759/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/3/7/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/3/7",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "draft",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "makki_madani",
+    "ar": "المكي والمدني",
+    "variants_ar": [
+      "السور المكية",
+      "السور المدنية",
+      "القرآن المكي"
+    ],
+    "en": {
+      "preferred": "Makkan and Madinan",
+      "gloss": "the classification of Qur'anic surahs and verses by whether they were revealed before or after the Hijrah",
+      "avoid": [
+        "geographical names only",
+        "urban and rural"
+      ]
+    },
+    "fr": {
+      "preferred": "mecquois et médinois",
+      "gloss": "la classification des sourates et versets selon qu'ils ont été révélés avant ou après l'Hégire",
+      "avoid": [
+        "noms géographiques seulement",
+        "urbain et rural"
+      ]
+    },
+    "usage_note_ar": "التعريف: تقسيم سور القرآن وآياته بحسب نزولها قبل الهجرة أو بعدها. — مدخل الجمهرة «المكي» وحده. | في الجمهرة: EN «Makkan»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | مدخل الجمهرة: «المَكِّي» | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Makkan» لمدخل المكي وحده، وأضيف المدني لأن المصطلح يجمعهما.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/9943/en | FR: غير متوفر في الجمهرة",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "ijaz_quran",
+    "ar": "إعجاز القرآن",
+    "variants_ar": [
+      "الإعجاز",
+      "معجزة القرآن",
+      "الإعجاز القرآني"
+    ],
+    "en": {
+      "preferred": "inimitability of the Qur'an",
+      "gloss": "the Qur'an's challenge to all people to produce anything like it, and their inability to do so",
+      "avoid": [
+        "scientific miracles only",
+        "magic"
+      ]
+    },
+    "fr": {
+      "preferred": "inimitabilité du Coran",
+      "gloss": "le défi lancé par le Coran à tous de produire quelque chose de semblable, et leur incapacité à le faire",
+      "avoid": [
+        "miracles scientifiques seulement",
+        "magie"
+      ]
+    },
+    "usage_note_ar": "التعريف: عجز الخلق عن الإتيان بمثل القرآن مع تحديه لهم. | الدليل: الإسراء: 88. | في الجمهرة: EN «IꜤjāz al-Qur'an»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «IꜤjāz al-Qur'an» نقل صوتي، واختير المقابل المترجم الشائع. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 17:88: «identique au Coran».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/1292/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/17/88/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/17/88",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "tadabbur",
+    "ar": "التدبر",
+    "variants_ar": [
+      "تدبر",
+      "تدبر القرآن",
+      "يتدبرون",
+      "ليدبروا"
+    ],
+    "en": {
+      "preferred": "reflection on the Qur'an",
+      "gloss": "tadabbur: pondering the meanings of the Qur'an to understand it and act on it",
+      "avoid": [
+        "meditation",
+        "consideration of consequences"
+      ]
+    },
+    "fr": {
+      "preferred": "méditation du Coran",
+      "gloss": "tadabbur : réfléchir aux sens du Coran pour le comprendre et le mettre en pratique",
+      "avoid": [
+        "méditation transcendantale",
+        "prévoyance"
+      ]
+    },
+    "usage_note_ar": "التعريف: التأمل في معاني القرآن لفهمها والعمل بها. | الدليل: ص: 29. | في الجمهرة: EN «Careful consideration»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Careful consideration» للمعنى اللغوي، والتعريف العربي فيها لتدبر القرآن. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 38:29: «méditent».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/2612/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/38/29/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/38/29",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "ulum_quran",
+    "ar": "علوم القرآن",
+    "variants_ar": [
+      "علم القرآن"
+    ],
+    "en": {
+      "preferred": "Qur'anic disciplines",
+      "gloss": "the sciences related to the Qur'an, such as revelation, compilation, readings, abrogation and exegesis",
+      "avoid": [
+        "Qur'an and science",
+        "natural sciences"
+      ]
+    },
+    "fr": {
+      "preferred": "sciences du Coran",
+      "gloss": "les sciences liées au Coran, comme la révélation, la compilation, les lectures, l'abrogation et l'exégèse",
+      "avoid": [
+        "Coran et science",
+        "sciences naturelles"
+      ]
+    },
+    "usage_note_ar": "التعريف: المباحث المتعلقة بالقرآن من نزوله وجمعه وقراءاته وناسخه وتفسيره. | في الجمهرة: EN «Qur'anic disciplines»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/7112/en | FR: غير متوفر في الجمهرة",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "rasm_uthmani",
+    "ar": "الرسم العثماني",
+    "variants_ar": [
+      "الرسم القرآني",
+      "رسم المصحف"
+    ],
+    "en": {
+      "preferred": "Uthmani script",
+      "gloss": "the way the words of the Qur'an were written in the copies compiled in the time of the caliph Uthman",
+      "avoid": [
+        "calligraphy style",
+        "font"
+      ]
+    },
+    "fr": {
+      "preferred": "graphie othmanienne",
+      "gloss": "la manière dont les mots du Coran furent écrits dans les copies compilées à l'époque du calife 'Uthmân",
+      "avoid": [
+        "style calligraphique",
+        "police d'écriture"
+      ]
+    },
+    "usage_note_ar": "التعريف: طريقة كتابة كلمات القرآن في المصاحف التي جُمعت في عهد عثمان رضي الله عنه. | في الجمهرة: EN «ꜤUthmānī script»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/5210/en | FR: غير متوفر في الجمهرة",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "jam_quran",
+    "ar": "جمع القرآن",
+    "variants_ar": [
+      "جمع المصحف",
+      "تدوين القرآن"
+    ],
+    "en": {
+      "preferred": "compilation of the Qur'an",
+      "gloss": "gathering the Qur'an in memory and in writing, completed in the copies of Abu Bakr and Uthman",
+      "avoid": [
+        "editing the Qur'an",
+        "authoring"
+      ]
+    },
+    "fr": {
+      "preferred": "compilation du Coran",
+      "gloss": "rassembler le Coran par la mémoire et par l'écrit, achevée dans les copies d'Abû Bakr et de 'Uthmân",
+      "avoid": [
+        "édition du Coran",
+        "rédaction"
+      ]
+    },
+    "usage_note_ar": "التعريف: حفظ القرآن في الصدور وكتابته في السطور، وتم في عهدي أبي بكر وعثمان. | الدليل: القيامة: 17. | في الجمهرة: EN «Collation of the Qur'an»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Collation of the Qur'an»، واختير compilation لأنه الأشيع.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/3883/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/75/17/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "khatm_quran",
+    "ar": "ختم القرآن",
+    "variants_ar": [
+      "ختمة",
+      "الختمة",
+      "ختم المصحف"
+    ],
+    "en": {
+      "preferred": "completing the Qur'an",
+      "gloss": "reciting the whole Qur'an from beginning to end",
+      "avoid": [
+        "sealing",
+        "graduation"
+      ]
+    },
+    "fr": {
+      "preferred": "lecture intégrale du Coran",
+      "gloss": "réciter le Coran entier du début à la fin",
+      "avoid": [
+        "scellement",
+        "remise de diplôme"
+      ]
+    },
+    "usage_note_ar": "التعريف: قراءة القرآن كاملًا من أوله إلى آخره. | في الجمهرة: EN «Recital of the entire Quran»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Recital of the entire Quran» طويل، واختير completing the Qur'an بالمعنى نفسه.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/4605/en | FR: غير متوفر في الجمهرة",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "matn",
+    "ar": "المتن",
+    "variants_ar": [
+      "متن الحديث",
+      "المتون"
+    ],
+    "en": {
+      "preferred": "text of the hadith",
+      "gloss": "matn: the wording of the hadith that comes after the chain of narrators",
+      "avoid": [
+        "body text",
+        "summary"
+      ]
+    },
+    "fr": {
+      "preferred": "texte du hadith",
+      "gloss": "matn : la teneur du hadith qui vient après la chaîne des transmetteurs",
+      "avoid": [
+        "corps de texte",
+        "résumé"
+      ]
+    },
+    "usage_note_ar": "التعريف: ما ينتهي إليه السند من الكلام. | في الجمهرة: EN «Text»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Text» عام، فأضيف «of the hadith».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/8816/en | FR: غير متوفر في الجمهرة",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "rawi",
+    "ar": "الراوي",
+    "variants_ar": [
+      "الرواة",
+      "راوي الحديث",
+      "الراوية"
+    ],
+    "en": {
+      "preferred": "narrator",
+      "gloss": "rawi: one who transmits a hadith or report with its chain",
+      "avoid": [
+        "storyteller",
+        "novelist"
+      ]
+    },
+    "fr": {
+      "preferred": "transmetteur",
+      "gloss": "râwî : celui qui transmet un hadith ou un récit avec sa chaîne",
+      "avoid": [
+        "conteur",
+        "romancier"
+      ]
+    },
+    "usage_note_ar": "التعريف: ناقل الحديث بالإسناد. | في الجمهرة: EN «Narrator»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/5102/en | FR: غير متوفر في الجمهرة",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "hadith_qudsi",
+    "ar": "الحديث القدسي",
+    "variants_ar": [
+      "حديث قدسي",
+      "الأحاديث القدسية"
+    ],
+    "en": {
+      "preferred": "sacred hadith",
+      "gloss": "a hadith in which the Prophet reports words from Allah that are not part of the Qur'an",
+      "avoid": [
+        "Qur'an verse",
+        "apocrypha"
+      ]
+    },
+    "fr": {
+      "preferred": "hadith qudsî",
+      "gloss": "hadith où le Prophète rapporte des paroles d'Allah qui ne font pas partie du Coran",
+      "avoid": [
+        "verset coranique",
+        "apocryphe"
+      ]
+    },
+    "usage_note_ar": "التعريف: ما أضافه النبي ﷺ إلى ربه من غير القرآن. | الدليل: صحيح مسلم (2577). | في الجمهرة: EN «Sacred hadith»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/4144/en | FR: غير متوفر في الجمهرة | الدليل: https://dorar.net/h/kUubJmRB",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "hadith_hasan",
+    "ar": "الحديث الحسن",
+    "variants_ar": [
+      "حديث حسن",
+      "الحسن لذاته"
+    ],
+    "en": {
+      "preferred": "good hadith",
+      "gloss": "hasan: an acceptable hadith whose narrators are reliable but slightly less precise than those of a sahih",
+      "avoid": [
+        "nice story",
+        "weak hadith"
+      ]
+    },
+    "fr": {
+      "preferred": "hadith bon",
+      "gloss": "hasan : hadith acceptable dont les transmetteurs sont fiables mais un peu moins précis que ceux du sahîh",
+      "avoid": [
+        "belle histoire",
+        "hadith faible"
+      ]
+    },
+    "usage_note_ar": "التعريف: ما اتصل سنده بنقل العدل الذي خف ضبطه من غير شذوذ ولا علة. — مدخل الجمهرة «الحسن». | في الجمهرة: EN «Good»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | مدخل الجمهرة: «الحَسَن» | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Good» لمدخل «الحسن» وحده، فأضيف hadith.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/4308/en | FR: غير متوفر في الجمهرة",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "hadith_mursal",
+    "ar": "الحديث المرسل",
+    "variants_ar": [
+      "حديث مرسل"
+    ],
+    "en": {
+      "preferred": "mursal hadith",
+      "gloss": "a hadith in which a Successor attributes words directly to the Prophet without naming the Companion",
+      "avoid": [
+        "sent message",
+        "missionary"
+      ]
+    },
+    "fr": {
+      "preferred": "hadith mursal",
+      "gloss": "hadith où un Successeur attribue directement des paroles au Prophète sans nommer le Compagnon",
+      "avoid": [
+        "message envoyé",
+        "missionnaire"
+      ]
+    },
+    "usage_note_ar": "التعريف: ما رفعه التابعي إلى النبي ﷺ دون ذكر الصحابي. | في الجمهرة: EN «Attributed»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | مدخل الجمهرة: «الْمُرْسَل» | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Attributed» غير دقيق، فأُبقي اللفظ العربي.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/9289/en | FR: غير متوفر في الجمهرة",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "hadith_marfu",
+    "ar": "الحديث المرفوع",
+    "variants_ar": [
+      "حديث مرفوع"
+    ],
+    "en": {
+      "preferred": "hadith ascribed to the Prophet",
+      "gloss": "marfu': a statement, act, approval or description attributed to the Prophet",
+      "avoid": [
+        "raised",
+        "lifted"
+      ]
+    },
+    "fr": {
+      "preferred": "hadith attribué au Prophète",
+      "gloss": "marfû' : parole, acte, approbation ou description attribués au Prophète",
+      "avoid": [
+        "élevé",
+        "levé"
+      ]
+    },
+    "usage_note_ar": "التعريف: ما أضيف إلى النبي ﷺ من قول أو فعل أو تقرير أو صفة. | في الجمهرة: EN «Ascribed to the prophet»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | مدخل الجمهرة: «الْمَرْفُوْع» | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Ascribed to the prophet»، وأضيف hadith للتوضيح.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/9311/en | FR: غير متوفر في الجمهرة",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "hadith_mawquf",
+    "ar": "الحديث الموقوف",
+    "variants_ar": [
+      "حديث موقوف"
+    ],
+    "en": {
+      "preferred": "hadith stopping at a Companion",
+      "gloss": "mawquf: a statement or act attributed to a Companion, not to the Prophet",
+      "avoid": [
+        "suspended",
+        "endowed"
+      ]
+    },
+    "fr": {
+      "preferred": "hadith mawqûf",
+      "gloss": "mawqûf : parole ou acte attribué à un Compagnon et non au Prophète",
+      "avoid": [
+        "suspendu",
+        "constitué en waqf"
+      ]
+    },
+    "usage_note_ar": "التعريف: ما أضيف إلى الصحابي من قول أو فعل. — «الموقوف» في الفقه بمعنى مال الوقف. | في الجمهرة: EN «Mawqūf, stopped»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | مدخل الجمهرة: «الْمَوْقُوْف» | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Mawqūf, stopped» نقل صوتي وحرفي، فاختير مقابل يبين المعنى.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/10248/en | FR: غير متوفر في الجمهرة",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "khabar_ahad",
+    "ar": "خبر الآحاد",
+    "variants_ar": [
+      "خبر الواحد",
+      "حديث الآحاد"
+    ],
+    "en": {
+      "preferred": "singly-narrated hadith",
+      "gloss": "a hadith whose chains do not reach the number of mutawatir",
+      "avoid": [
+        "single witness",
+        "rumour"
+      ]
+    },
+    "fr": {
+      "preferred": "hadith âhâd",
+      "gloss": "hadith dont les chaînes n'atteignent pas le nombre requis pour le mutawâtir",
+      "avoid": [
+        "témoin unique",
+        "rumeur"
+      ]
+    },
+    "usage_note_ar": "التعريف: ما لم يجمع شروط المتواتر. — مدخل الجمهرة «خبر الواحد». | في الجمهرة: EN «Singly-narrated hadith»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | مدخل الجمهرة: «خَبَر الوَاحِد»",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/4592/en | FR: غير متوفر في الجمهرة",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "jarh_tadil",
+    "ar": "الجرح والتعديل",
+    "variants_ar": [
+      "علم الجرح والتعديل"
+    ],
+    "en": {
+      "preferred": "criticism and acceptability",
+      "gloss": "the science of assessing narrators as reliable or unreliable",
+      "avoid": [
+        "injuring and amending",
+        "gossip"
+      ]
+    },
+    "fr": {
+      "preferred": "critique et validation des transmetteurs",
+      "gloss": "la science de l'évaluation des transmetteurs comme fiables ou non",
+      "avoid": [
+        "blessure et modification",
+        "médisance"
+      ]
+    },
+    "usage_note_ar": "التعريف: علم يبحث في أحوال الرواة من حيث قبول روايتهم أو ردها. | الدليل: الحجرات: 6. | في الجمهرة: EN «Criticism and acceptability»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/3808/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/49/6/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "mustalah_hadith",
+    "ar": "مصطلح الحديث",
+    "variants_ar": [
+      "علم مصطلح الحديث",
+      "علوم الحديث"
+    ],
+    "en": {
+      "preferred": "hadith terminology",
+      "gloss": "the science of the rules by which the chain and text of a hadith are judged accepted or rejected",
+      "avoid": [
+        "hadith dictionary",
+        "jargon"
+      ]
+    },
+    "fr": {
+      "preferred": "terminologie du hadith",
+      "gloss": "la science des règles permettant de juger la chaîne et le texte d'un hadith acceptés ou rejetés",
+      "avoid": [
+        "dictionnaire du hadith",
+        "jargon"
+      ]
+    },
+    "usage_note_ar": "التعريف: علم بقواعد يُعرف بها حال السند والمتن من حيث القبول والرد. | في الجمهرة: EN «Hadith terminology»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/9590/en | FR: غير متوفر في الجمهرة",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "sahihayn",
+    "ar": "الصحيحان",
+    "variants_ar": [
+      "الصحيحين",
+      "صحيحا البخاري ومسلم"
+    ],
+    "en": {
+      "preferred": "two Sahihs",
+      "gloss": "the two most authentic hadith collections: Sahih al-Bukhari and Sahih Muslim",
+      "avoid": [
+        "two correct answers",
+        "two healthy people"
+      ]
+    },
+    "fr": {
+      "preferred": "deux Sahîh",
+      "gloss": "les deux recueils de hadiths les plus authentiques : le Sahîh d'al-Bukhârî et le Sahîh de Muslim",
+      "avoid": [
+        "deux bonnes réponses",
+        "deux bien-portants"
+      ]
+    },
+    "usage_note_ar": "التعريف: صحيح البخاري وصحيح مسلم. | في الجمهرة: EN «The two Ṣaḥīḥ»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «The two Ṣaḥīḥ»؛ كُتب بلا علامات النقل مع الجمع.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/6185/en | FR: غير متوفر في الجمهرة",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "kutub_sittah",
+    "ar": "الكتب الستة",
+    "variants_ar": [
+      "الأمهات الست",
+      "الصحاح الستة"
+    ],
+    "en": {
+      "preferred": "six books",
+      "gloss": "the six main hadith collections: the two Sahihs and the Sunan of Abu Dawud, at-Tirmidhi, an-Nasa'i and Ibn Majah",
+      "avoid": [
+        "six holy books",
+        "six volumes"
+      ]
+    },
+    "fr": {
+      "preferred": "six livres",
+      "gloss": "les six principaux recueils de hadiths : les deux Sahîh et les Sunan d'Abû Dâwûd, at-Tirmidhî, an-Nasâ'î et Ibn Mâjah",
+      "avoid": [
+        "six livres saints",
+        "six volumes"
+      ]
+    },
+    "usage_note_ar": "التعريف: الصحيحان والسنن الأربع لأبي داود والترمذي والنسائي وابن ماجه. | في الجمهرة: EN «The six books»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/8083/en | FR: غير متوفر في الجمهرة",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "takhrij",
+    "ar": "التخريج",
+    "variants_ar": [
+      "تخريج الحديث",
+      "خرّجه"
+    ],
+    "en": {
+      "preferred": "hadith referencing",
+      "gloss": "takhrij: tracing a hadith to its sources with its chains and stating its grade; in general usage, graduation",
+      "avoid": [
+        "graduation",
+        "application"
+      ]
+    },
+    "fr": {
+      "preferred": "référencement du hadith",
+      "gloss": "takhrîj : remonter un hadith à ses sources avec ses chaînes et en indiquer le degré ; dans l'usage courant, remise de diplôme",
+      "avoid": [
+        "remise de diplôme",
+        "application"
+      ]
+    },
+    "usage_note_ar": "التعريف: عزو الحديث إلى مصادره بأسانيده وبيان درجته. — يأتي بمعنى التخرج من الدراسة، فالمعنى بالسياق. | في الجمهرة: EN «Application»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | مسودة: لا يوجد مدخل مطابق للتخريج الحديثي في الجمهرة | سبب الاختلاف عن الجمهرة (EN): مدخل الجمهرة (2538) «Application» للتخريج الأصولي (تخريج الفروع على الأصول)، لا للتخريج الحديثي.",
+    "strategy": "context",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/2538/en | FR: غير متوفر في الجمهرة",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "draft",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "sirah",
+    "ar": "السيرة النبوية",
+    "variants_ar": [
+      "سيرة النبي",
+      "سيرة الرسول"
+    ],
+    "en": {
+      "preferred": "Prophet's biography",
+      "gloss": "the life of the Prophet Muhammad, his campaigns and his character",
+      "avoid": [
+        "legend",
+        "myth"
+      ]
+    },
+    "fr": {
+      "preferred": "biographie du Prophète",
+      "gloss": "la vie du Prophète Muhammad, ses expéditions et son caractère",
+      "avoid": [
+        "légende",
+        "mythe"
+      ]
+    },
+    "usage_note_ar": "التعريف: أخبار حياة النبي ﷺ وغزواته وشمائله. | الدليل: الأحزاب: 21. | في الجمهرة: EN «The Prophet's biography»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/5840/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/33/21/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "ghazwah",
+    "ar": "الغزوة",
+    "variants_ar": [
+      "غزوة",
+      "الغزوات",
+      "المغازي"
+    ],
+    "en": {
+      "preferred": "military expedition",
+      "gloss": "an expedition in which the Prophet took part himself",
+      "avoid": [
+        "invasion",
+        "raid for plunder"
+      ]
+    },
+    "fr": {
+      "preferred": "expédition militaire",
+      "gloss": "une expédition à laquelle le Prophète a lui-même pris part",
+      "avoid": [
+        "invasion",
+        "razzia"
+      ]
+    },
+    "usage_note_ar": "التعريف: ما خرج فيه النبي ﷺ بنفسه من المعارك. | في الجمهرة: EN «Expedition»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Expedition»، وأضيف military للتوضيح.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/7291/en | FR: غير متوفر في الجمهرة",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "khulafa_rashidun",
+    "ar": "الخلفاء الراشدون",
+    "variants_ar": [
+      "الخلفاء الأربعة",
+      "الخلافة الراشدة"
+    ],
+    "en": {
+      "preferred": "rightly guided caliphs",
+      "gloss": "Abu Bakr, Umar, Uthman and Ali, who led the Muslims after the Prophet",
+      "avoid": [
+        "kings",
+        "popes"
+      ]
+    },
+    "fr": {
+      "preferred": "califes bien guidés",
+      "gloss": "Abû Bakr, 'Umar, 'Uthmân et 'Alî, qui dirigèrent les musulmans après le Prophète",
+      "avoid": [
+        "rois",
+        "papes"
+      ]
+    },
+    "usage_note_ar": "التعريف: أبو بكر وعمر وعثمان وعلي رضي الله عنهم. | الدليل: صحيح أبي داود (4607). | في الجمهرة: EN «The rightly guided Caliphs»، FR «Les califes bien guidés». | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «Les califes bien guidés» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/4751/en | FR: https://islamic-content.com/dictionary/word/4751/fr | الدليل: https://dorar.net/h/H61Xt94W",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "ansar",
+    "ar": "الأنصار",
+    "variants_ar": [
+      "أنصاري",
+      "الأنصاري"
+    ],
+    "en": {
+      "preferred": "Ansar",
+      "gloss": "the people of Madinah from the Aws and Khazraj who welcomed and supported the Prophet; in general usage, supporters",
+      "avoid": [
+        "partisans",
+        "militia"
+      ]
+    },
+    "fr": {
+      "preferred": "Ansâr",
+      "gloss": "les habitants de Médine, des Aws et des Khazraj, qui accueillirent et soutinrent le Prophète ; dans l'usage courant, partisans",
+      "avoid": [
+        "partisans",
+        "milice"
+      ]
+    },
+    "usage_note_ar": "التعريف: أهل المدينة من الأوس والخزرج الذين نصروا النبي ﷺ. — تأتي بمعنى الأتباع والمؤيدين، فالمعنى بالسياق. | الدليل: التوبة: 100. | في الجمهرة: EN «The Anṣār»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 9:100: «soutien».",
+    "strategy": "context",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/1735/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/9/100/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/9/100",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "ummahat_muminin",
+    "ar": "أمهات المؤمنين",
+    "variants_ar": [
+      "أم المؤمنين",
+      "زوجات النبي",
+      "أزواج النبي"
+    ],
+    "en": {
+      "preferred": "Mothers of the Believers",
+      "gloss": "the wives of the Prophet, honoured as mothers of the believers",
+      "avoid": [
+        "nuns",
+        "biological mothers"
+      ]
+    },
+    "fr": {
+      "preferred": "Mères des croyants",
+      "gloss": "les épouses du Prophète, honorées comme mères des croyants",
+      "avoid": [
+        "religieuses",
+        "mères biologiques"
+      ]
+    },
+    "usage_note_ar": "التعريف: زوجات النبي ﷺ. | الدليل: الأحزاب: 6. | في الجمهرة: EN «Mothers of the Believers»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 33:6: «comme leurs mères».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/1642/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/33/6/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/33/6",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "miraj",
+    "ar": "المعراج",
+    "variants_ar": [
+      "العروج",
+      "ليلة المعراج"
+    ],
+    "en": {
+      "preferred": "ascension",
+      "gloss": "mi'raj: the Prophet's ascension through the heavens on the night of al-Isra'",
+      "avoid": [
+        "ladder",
+        "dream journey"
+      ]
+    },
+    "fr": {
+      "preferred": "ascension",
+      "gloss": "mi'râj : l'ascension du Prophète à travers les cieux la nuit d'al-Isrâ'",
+      "avoid": [
+        "échelle",
+        "voyage en rêve"
+      ]
+    },
+    "usage_note_ar": "التعريف: صعود النبي ﷺ إلى السماوات ليلة الإسراء. | الدليل: النجم: 14. | في الجمهرة: EN «Tool of ascension»، FR «L'ascension». | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Tool of ascension» للمعنى اللغوي (آلة العروج)، والمقصود حادثة المعراج. | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «L'ascension» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/9740/en | FR: https://islamic-content.com/dictionary/word/9740/fr | الدليل: https://api.quranpedia.net/v1/ayah/53/14/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "idgham",
+    "ar": "الإدغام",
+    "variants_ar": [
+      "إدغام",
+      "الإدغام بغنة"
+    ],
+    "en": {
+      "preferred": "idgham",
+      "gloss": "in recitation: merging a letter into the following one so that they are pronounced as one doubled letter",
+      "avoid": [
+        "deletion",
+        "abbreviation"
+      ]
+    },
+    "fr": {
+      "preferred": "idghâm",
+      "gloss": "en récitation : fusionner une lettre dans la suivante pour les prononcer comme une seule lettre redoublée",
+      "avoid": [
+        "suppression",
+        "abréviation"
+      ]
+    },
+    "usage_note_ar": "التعريف: إدخال حرف ساكن في حرف متحرك فيصيران حرفًا واحدًا مشددًا. | في الجمهرة: EN «Assimilation»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Assimilation» صحيح، وأُبقي اللفظ العربي لأنه اصطلاح تجويدي يُذكر بلفظه.",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/637/en | FR: غير متوفر في الجمهرة",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "ghunnah",
+    "ar": "الغنة",
+    "variants_ar": [
+      "غنة",
+      "بغنة"
+    ],
+    "en": {
+      "preferred": "ghunnah",
+      "gloss": "in recitation: the nasal sound accompanying the letters nun and mim",
+      "avoid": [
+        "humming",
+        "music"
+      ]
+    },
+    "fr": {
+      "preferred": "ghunna",
+      "gloss": "en récitation : le son nasal qui accompagne les lettres nûn et mîm",
+      "avoid": [
+        "fredonnement",
+        "musique"
+      ]
+    },
+    "usage_note_ar": "التعريف: صوت يخرج من الخيشوم يصاحب النون والميم. | في الجمهرة: EN «Nasalisation»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Nasalisation» صحيح، وأُبقي اللفظ العربي لأنه اصطلاح تجويدي.",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/7322/en | FR: غير متوفر في الجمهرة",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "tafsir_mathur",
+    "ar": "التفسير بالمأثور",
+    "variants_ar": [
+      "التفسير بالرواية",
+      "التفسير بالأثر"
+    ],
+    "en": {
+      "preferred": "interpretation by reported texts",
+      "gloss": "explaining the Qur'an by the Qur'an, the Sunnah and the reports of the Companions and their Followers",
+      "avoid": [
+        "personal opinion",
+        "allegory"
+      ]
+    },
+    "fr": {
+      "preferred": "exégèse par la tradition",
+      "gloss": "expliquer le Coran par le Coran, la Sunna et les récits des Compagnons et de leurs successeurs",
+      "avoid": [
+        "opinion personnelle",
+        "allégorie"
+      ]
+    },
+    "usage_note_ar": "التعريف: تفسير القرآن بالقرآن وبالسنة وبأقوال الصحابة والتابعين. | في الجمهرة: EN «Interpretation by the reported texts»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/3187/en | FR: غير متوفر في الجمهرة",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "israiliyyat",
+    "ar": "الإسرائيليات",
+    "variants_ar": [
+      "الروايات الإسرائيلية"
+    ],
+    "en": {
+      "preferred": "Israelite tales",
+      "gloss": "reports from Jewish and Christian sources found in some exegesis and history books, neither affirmed nor denied unless they contradict the Shari'ah",
+      "avoid": [
+        "Israeli news",
+        "Jewish scripture"
+      ]
+    },
+    "fr": {
+      "preferred": "récits israélites",
+      "gloss": "récits d'origine juive ou chrétienne présents dans certains livres d'exégèse et d'histoire, ni confirmés ni démentis sauf s'ils contredisent la Charia",
+      "avoid": [
+        "actualités israéliennes",
+        "écritures juives"
+      ]
+    },
+    "usage_note_ar": "التعريف: الأخبار المنقولة عن أهل الكتاب في كتب التفسير والتاريخ. | الدليل: صحيح البخاري (3461). | في الجمهرة: EN «Israelite tales»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/1001/en | FR: غير متوفر في الجمهرة | الدليل: https://dorar.net/h/I31nZp4n",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "ayat_kursi",
+    "ar": "آية الكرسي",
+    "variants_ar": [],
+    "en": {
+      "preferred": "verse of the Throne",
+      "gloss": "verse 255 of al-Baqarah, the greatest verse of the Qur'an",
+      "avoid": [
+        "chair verse",
+        "throne room"
+      ]
+    },
+    "fr": {
+      "preferred": "verset du Trône",
+      "gloss": "le verset 255 de la sourate al-Baqara, le plus grand verset du Coran",
+      "avoid": [
+        "verset de la chaise",
+        "salle du trône"
+      ]
+    },
+    "usage_note_ar": "التعريف: الآية 255 من سورة البقرة، وهي أعظم آية في القرآن. | الدليل: البقرة: 255. | في الجمهرة: EN «The verse of the throne»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/1914/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/2/255/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "muawwidhatan",
+    "ar": "المعوذتان",
+    "variants_ar": [
+      "المعوذات",
+      "المعوذتين"
+    ],
+    "en": {
+      "preferred": "mu'awwidhatan",
+      "gloss": "the last two surahs of the Qur'an, al-Falaq and an-Nas, recited to seek Allah's protection",
+      "avoid": [
+        "charms",
+        "spells"
+      ]
+    },
+    "fr": {
+      "preferred": "mu'awwidhatân",
+      "gloss": "les deux dernières sourates du Coran, al-Falaq et an-Nâs, récitées pour demander la protection d'Allah",
+      "avoid": [
+        "porte-bonheur",
+        "sortilèges"
+      ]
+    },
+    "usage_note_ar": "التعريف: سورتا الفلق والناس. | الدليل: الفلق: 1. | في الجمهرة: EN «Al-MuꜤawwidhatān»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/9779/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/113/1/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "mufassal",
+    "ar": "المفصل",
+    "variants_ar": [
+      "سور المفصل"
+    ],
+    "en": {
+      "preferred": "mufassal",
+      "gloss": "the last part of the Qur'an, from surah Qaf or al-Hujurat to the end, named for its many separations",
+      "avoid": [
+        "detailed",
+        "chapter"
+      ]
+    },
+    "fr": {
+      "preferred": "mufassal",
+      "gloss": "la dernière partie du Coran, de la sourate Qâf ou al-Hujurât jusqu'à la fin, nommée ainsi pour ses nombreuses séparations",
+      "avoid": [
+        "détaillé",
+        "chapitre"
+      ]
+    },
+    "usage_note_ar": "التعريف: من سورة ق أو الحجرات إلى آخر القرآن. | في الجمهرة: EN «Al-mufaṣṣal»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "context",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/9826/en | FR: غير متوفر في الجمهرة",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "qiraah_shadhdhah",
+    "ar": "القراءة الشاذة",
+    "variants_ar": [
+      "القراءات الشاذة",
+      "قراءة شاذة"
+    ],
+    "en": {
+      "preferred": "odd recitation",
+      "gloss": "a reading of the Qur'an that lacks one of the conditions of accepted readings, not recited as Qur'an",
+      "avoid": [
+        "wrong Qur'an",
+        "heresy"
+      ]
+    },
+    "fr": {
+      "preferred": "lecture irrégulière",
+      "gloss": "lecture du Coran à laquelle manque l'une des conditions des lectures acceptées, non récitée comme Coran",
+      "avoid": [
+        "faux Coran",
+        "hérésie"
+      ]
+    },
+    "usage_note_ar": "التعريف: ما فقد شرطًا من شروط القراءة المقبولة، ولا يُقرأ به على أنه قرآن. — مدخل الجمهرة «القراءات الشاذة». | في الجمهرة: EN «The odd recitations»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | مدخل الجمهرة: «القِرَاءَاتُ الشَّاذَّة» | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «The odd recitations» لمدخل الجمع، والمصطلح هنا بالمفرد.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/7730/en | FR: غير متوفر في الجمهرة",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "tahrif",
+    "ar": "التحريف",
+    "variants_ar": [
+      "تحريف",
+      "يحرفون",
+      "المحرف"
+    ],
+    "en": {
+      "preferred": "distortion",
+      "gloss": "tahrif: altering words from their true form or meaning, as done to earlier scriptures",
+      "avoid": [
+        "translation",
+        "editing"
+      ]
+    },
+    "fr": {
+      "preferred": "altération",
+      "gloss": "tahrîf : modifier les mots dans leur forme ou leur sens, comme cela fut fait aux Écritures antérieures",
+      "avoid": [
+        "traduction",
+        "révision"
+      ]
+    },
+    "usage_note_ar": "التعريف: تغيير الكلام عن حقيقته لفظًا أو معنى. | الدليل: النساء: 46. | في الجمهرة: لا يوجد عنوان إنجليزي في الصفحة (عربي فقط)، والمقابل الإنجليزي هنا مقترح من الفريق؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 4:46: «détournent les mots».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/2475/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/4/46/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/4/46",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "draft",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "tarjamat_maani",
+    "ar": "ترجمة معاني القرآن",
+    "variants_ar": [
+      "ترجمة القرآن",
+      "ترجمة المعاني"
+    ],
+    "en": {
+      "preferred": "translation of the meanings of the Qur'an",
+      "gloss": "rendering the meanings of the Qur'an in another language; it is not itself the Qur'an",
+      "avoid": [
+        "the Qur'an in English",
+        "the French Qur'an"
+      ]
+    },
+    "fr": {
+      "preferred": "traduction des sens du Coran",
+      "gloss": "rendre les sens du Coran dans une autre langue ; elle n'est pas elle-même le Coran",
+      "avoid": [
+        "le Coran en anglais",
+        "le Coran français"
+      ]
+    },
+    "usage_note_ar": "التعريف: التعبير عن معاني القرآن بلغة أخرى، وليست قرآنًا. — مدخل الجمهرة «ترجمة القرآن». | في الجمهرة: EN «Translation of the Qur'an»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | مدخل الجمهرة: «تَرْجَمَة الْقُرْآن» | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Translation of the Qur'an» لمدخل «ترجمة القرآن»، والمصطلح المعتمد «ترجمة معاني القرآن».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/2707/en | FR: غير متوفر في الجمهرة",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "hadith_muallal",
+    "ar": "الحديث المعلل",
+    "variants_ar": [
+      "حديث معلل",
+      "المعلول",
+      "الحديث المعلول"
+    ],
+    "en": {
+      "preferred": "defective hadith",
+      "gloss": "mu'allal: a hadith that appears sound but has a hidden defect that harms its authenticity",
+      "avoid": [
+        "sick hadith",
+        "justified"
+      ]
+    },
+    "fr": {
+      "preferred": "hadith défectueux",
+      "gloss": "mu'allal : hadith en apparence sain mais atteint d'un défaut caché qui nuit à son authenticité",
+      "avoid": [
+        "hadith malade",
+        "justifié"
+      ]
+    },
+    "usage_note_ar": "التعريف: الحديث الذي اطُّلع فيه على علة خفية تقدح في صحته مع أن ظاهره السلامة. | في الجمهرة: لا يوجد عنوان إنجليزي في الصفحة (عربي فقط)، والمقابل الإنجليزي هنا مقترح من الفريق؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | مدخل الجمهرة: «الْمُعَلَّل»",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/9765/en | FR: غير متوفر في الجمهرة",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "draft",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "hadith_munkar",
+    "ar": "الحديث المنكر",
+    "variants_ar": [
+      "حديث منكر"
+    ],
+    "en": {
+      "preferred": "denounced hadith",
+      "gloss": "munkar: a weak hadith narrated by a weak narrator contradicting reliable narrators",
+      "avoid": [
+        "evil",
+        "forbidden act"
+      ]
+    },
+    "fr": {
+      "preferred": "hadith rejeté",
+      "gloss": "munkar : hadith faible rapporté par un transmetteur faible en contradiction avec des transmetteurs fiables",
+      "avoid": [
+        "mal",
+        "acte blâmable"
+      ]
+    },
+    "usage_note_ar": "التعريف: ما رواه الضعيف مخالفًا للثقة. | في الجمهرة: EN «Evil, wrong»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | مدخل الجمهرة: «الْمُنْكَر» | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Evil, wrong» لمعنى «المنكر» العام، والمقصود في علم الحديث الحديث المنكر.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/10109/en | FR: غير متوفر في الجمهرة",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "hadith_munqati",
+    "ar": "الحديث المنقطع",
+    "variants_ar": [
+      "حديث منقطع"
+    ],
+    "en": {
+      "preferred": "disconnected hadith",
+      "gloss": "munqati': a hadith whose chain is missing one or more narrators in non-consecutive places",
+      "avoid": [
+        "broken",
+        "interrupted transmission"
+      ]
+    },
+    "fr": {
+      "preferred": "hadith interrompu",
+      "gloss": "munqati' : hadith dont la chaîne omet un ou plusieurs transmetteurs à des endroits non successifs",
+      "avoid": [
+        "cassé",
+        "transmission coupée"
+      ]
+    },
+    "usage_note_ar": "التعريف: ما سقط من إسناده راوٍ أو أكثر لا على التوالي. | في الجمهرة: EN «Disrupted»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | مدخل الجمهرة: «الْمُنْقَطِع» | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Disrupted»، وأضيف hadith واختير disconnected للدقة.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/10103/en | FR: غير متوفر في الجمهرة",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "hadith_mudal",
+    "ar": "الحديث المعضل",
+    "variants_ar": [
+      "حديث معضل"
+    ],
+    "en": {
+      "preferred": "mu'dal hadith",
+      "gloss": "a hadith whose chain is missing two or more consecutive narrators",
+      "avoid": [
+        "problem",
+        "dilemma"
+      ]
+    },
+    "fr": {
+      "preferred": "hadith mu'dal",
+      "gloss": "hadith dont la chaîne omet deux transmetteurs successifs ou plus",
+      "avoid": [
+        "problème",
+        "dilemme"
+      ]
+    },
+    "usage_note_ar": "التعريف: ما سقط من إسناده اثنان فأكثر على التوالي. | في الجمهرة: EN «MuꜤḍal, discontinued»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | مدخل الجمهرة: «الْمُعْضَل» | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «MuꜤḍal, discontinued»؛ أُبقي النقل الصوتي وأضيف hadith.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/9751/en | FR: غير متوفر في الجمهرة",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "hadith_muttasil",
+    "ar": "الحديث المتصل",
+    "variants_ar": [
+      "حديث متصل",
+      "متصل الإسناد"
+    ],
+    "en": {
+      "preferred": "connected hadith",
+      "gloss": "muttasil: a hadith whose chain is unbroken, each narrator having heard from the one above him",
+      "avoid": [
+        "connected device",
+        "continuous"
+      ]
+    },
+    "fr": {
+      "preferred": "hadith à chaîne continue",
+      "gloss": "muttasil : hadith dont la chaîne est ininterrompue, chaque transmetteur l'ayant entendu de celui qui le précède",
+      "avoid": [
+        "appareil connecté",
+        "continu"
+      ]
+    },
+    "usage_note_ar": "التعريف: ما اتصل إسناده بسماع كل راوٍ ممن فوقه. | في الجمهرة: لا يوجد عنوان إنجليزي في الصفحة (عربي فقط)، والمقابل الإنجليزي هنا مقترح من الفريق؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | مدخل الجمهرة: «الْمُتَّصِل»",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/8770/en | FR: غير متوفر في الجمهرة",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "draft",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "hasan_lighayrih",
+    "ar": "الحسن لغيره",
+    "variants_ar": [
+      "الحسن لغيره من الحديث"
+    ],
+    "en": {
+      "preferred": "good by support",
+      "gloss": "hasan li-ghayrih: a slightly weak hadith raised to the grade of good by supporting chains",
+      "avoid": [
+        "good for others",
+        "charity"
+      ]
+    },
+    "fr": {
+      "preferred": "bon par soutien",
+      "gloss": "hasan li-ghayrihi : hadith légèrement faible élevé au rang de bon par d'autres chaînes qui le soutiennent",
+      "avoid": [
+        "bon pour autrui",
+        "charité"
+      ]
+    },
+    "usage_note_ar": "التعريف: الضعيف الذي تعددت طرقه فارتقى إلى الحسن. | في الجمهرة: EN «Good with others»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Good with others» حرفي، فاختير مقابل يبين المعنى.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/4335/en | FR: غير متوفر في الجمهرة",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "shamail",
+    "ar": "الشمائل",
+    "variants_ar": [
+      "الشمائل المحمدية",
+      "شمائل النبي"
+    ],
+    "en": {
+      "preferred": "Prophet's fine qualities",
+      "gloss": "the physical and moral description of the Prophet Muhammad",
+      "avoid": [
+        "northern regions",
+        "charms"
+      ]
+    },
+    "fr": {
+      "preferred": "qualités du Prophète",
+      "gloss": "la description physique et morale du Prophète Muhammad",
+      "avoid": [
+        "régions du nord",
+        "charmes"
+      ]
+    },
+    "usage_note_ar": "التعريف: صفات النبي ﷺ الخَلقية والخُلقية. | في الجمهرة: EN «Fine qualities»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Fine qualities»، وأضيف Prophet's لأن المصطلح خاص به.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/6022/en | FR: غير متوفر في الجمهرة",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "qalqalah",
+    "ar": "القلقلة",
+    "variants_ar": [
+      "قلقلة",
+      "حروف القلقلة"
+    ],
+    "en": {
+      "preferred": "qalqalah",
+      "gloss": "in recitation: the echoing sound on the letters qaf, ta, ba, jim and dal when they have no vowel",
+      "avoid": [
+        "anxiety",
+        "shaking"
+      ]
+    },
+    "fr": {
+      "preferred": "qalqala",
+      "gloss": "en récitation : le son rebondissant des lettres qâf, tâ, bâ, jîm et dâl lorsqu'elles n'ont pas de voyelle",
+      "avoid": [
+        "anxiété",
+        "secousse"
+      ]
+    },
+    "usage_note_ar": "التعريف: اضطراب الصوت عند النطق بحروف «قطب جد» الساكنة. | في الجمهرة: EN «Emphatic plosion»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Emphatic plosion»، وأُبقي اللفظ العربي لأنه اصطلاح تجويدي.",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/7891/en | FR: غير متوفر في الجمهرة",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "mubahalah",
+    "ar": "المباهلة",
+    "variants_ar": [
+      "مباهلة",
+      "نبتهل"
+    ],
+    "en": {
+      "preferred": "mubahalah",
+      "gloss": "mutual invocation of Allah's curse on whichever party is lying, as proposed to the Christians of Najran",
+      "avoid": [
+        "debate",
+        "duel"
+      ]
+    },
+    "fr": {
+      "preferred": "mubâhala",
+      "gloss": "invocation mutuelle de la malédiction d'Allah sur la partie qui ment, comme proposé aux chrétiens de Najrân",
+      "avoid": [
+        "débat",
+        "duel"
+      ]
+    },
+    "usage_note_ar": "التعريف: أن يدعو المتخاصمان بأن تنزل لعنة الله على الكاذب منهما. | الدليل: آل عمران: 61. | في الجمهرة: EN «Al-Mubahalah»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 3:61: «malédiction».",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/8700/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/3/61/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/3/61",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "ahl_hadith",
+    "ar": "أهل الحديث",
+    "variants_ar": [
+      "أصحاب الحديث",
+      "المحدثون"
+    ],
+    "en": {
+      "preferred": "scholars of hadith",
+      "gloss": "the scholars who specialise in narrating, studying and judging hadiths, and those who follow their method",
+      "avoid": [
+        "sect",
+        "storytellers"
+      ]
+    },
+    "fr": {
+      "preferred": "savants du hadith",
+      "gloss": "les savants spécialisés dans la transmission, l'étude et l'évaluation des hadiths, et ceux qui suivent leur méthode",
+      "avoid": [
+        "secte",
+        "conteurs"
+      ]
+    },
+    "usage_note_ar": "التعريف: العلماء المشتغلون برواية الحديث ودرايته، ومن سلك منهجهم. | في الجمهرة: EN «Scholars of hadith»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/1797/en | FR: غير متوفر في الجمهرة",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "riwayat_hadith",
+    "ar": "رواية الحديث",
+    "variants_ar": [
+      "علم الرواية"
+    ],
+    "en": {
+      "preferred": "hadith narration",
+      "gloss": "transmitting a hadith with its chain from one narrator to another",
+      "avoid": [
+        "novel",
+        "storytelling"
+      ]
+    },
+    "fr": {
+      "preferred": "transmission du hadith",
+      "gloss": "transmettre un hadith avec sa chaîne d'un transmetteur à un autre",
+      "avoid": [
+        "roman",
+        "récit d'histoires"
+      ]
+    },
+    "usage_note_ar": "التعريف: نقل الحديث وإسناده إلى من عُزي إليه. | الدليل: صحيح أبي داود (3660). | في الجمهرة: EN «Hadith narration»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/5340/en | FR: غير متوفر في الجمهرة | الدليل: https://dorar.net/h/6dd6EdyD",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "hawamim",
+    "ar": "الحواميم",
+    "variants_ar": [
+      "آل حم",
+      "سور الحواميم"
+    ],
+    "en": {
+      "preferred": "Ha-Mim surahs",
+      "gloss": "the seven surahs that begin with «Ha Mim», from Ghafir to al-Ahqaf",
+      "avoid": [
+        "mystic letters cult",
+        "chapters of power"
+      ]
+    },
+    "fr": {
+      "preferred": "sourates Hâ-Mîm",
+      "gloss": "les sept sourates qui commencent par « Hâ Mîm », de Ghâfir à al-Ahqâf",
+      "avoid": [
+        "culte des lettres mystiques",
+        "chapitres de puissance"
+      ]
+    },
+    "usage_note_ar": "التعريف: السور السبع المفتتحة بـ«حم» من غافر إلى الأحقاف. | الدليل: غافر: 1. | في الجمهرة: EN «The Ḥā.Mīm. surahs»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/4541/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/40/1/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "shajarat_ridwan",
+    "ar": "شجرة الرضوان",
+    "variants_ar": [
+      "بيعة الرضوان",
+      "بيعة الشجرة"
+    ],
+    "en": {
+      "preferred": "tree of Ridwan",
+      "gloss": "the tree under which the Companions pledged allegiance to the Prophet at al-Hudaybiyah",
+      "avoid": [
+        "sacred tree",
+        "tree of life"
+      ]
+    },
+    "fr": {
+      "preferred": "arbre de Ridwân",
+      "gloss": "l'arbre sous lequel les Compagnons prêtèrent serment d'allégeance au Prophète à al-Hudaybiya",
+      "avoid": [
+        "arbre sacré",
+        "arbre de vie"
+      ]
+    },
+    "usage_note_ar": "التعريف: الشجرة التي بايع الصحابة تحتها النبي ﷺ بيعة الرضوان في الحديبية. | الدليل: الفتح: 18. | في الجمهرة: EN «The Riḍwān tree»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «The Riḍwān tree»؛ كُتب بلا علامات النقل.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/5899/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/48/18/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
   }
 ]

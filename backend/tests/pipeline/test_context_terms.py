@@ -42,8 +42,66 @@ class OutputRouter:
         return LLMResult(data=schema(score=1.0))
 
 
-def test_the_seven_context_terms():
-    assert CONTEXT_TERMS == ["ayah", "dhikr", "fitnah", "hikmah", "ihsan", "islam", "jannah"]
+# The original 7 plus the 46 added by the glossary expansion to 500 terms (2026-10-06).
+EXPECTED_CONTEXT_TERMS = [
+    "ansar",
+    "asabah",
+    "asabiyyah",
+    "ayah",
+    "azimah",
+    "daman",
+    "darurah",
+    "dhikr",
+    "fitnah",
+    "ghadab",
+    "hawl",
+    "hijab",
+    "hikmah",
+    "hudud",
+    "ihsan",
+    "iqamah",
+    "islam",
+    "ismah",
+    "istitaah",
+    "jannah",
+    "kafaah",
+    "kafalah",
+    "karamah",
+    "khawf",
+    "mudarabah",
+    "mufassal",
+    "muhkam",
+    "mutashabih",
+    "nisab",
+    "qada_hajah",
+    "qarin",
+    "raja",
+    "rida",
+    "rukhsah",
+    "satr",
+    "sihr",
+    "sulh",
+    "takfir",
+    "takhrij",
+    "taklif",
+    "tamattu",
+    "taqlid",
+    "tatil",
+    "tumaninah",
+    "ubudiyyah",
+    "ujb",
+    "ukhuwwah",
+    "urf",
+    "wakalah",
+    "wala",
+    "wasiyyah",
+    "wilayah",
+    "wisal",
+]
+
+
+def test_the_context_terms():
+    assert CONTEXT_TERMS == EXPECTED_CONTEXT_TERMS
 
 
 @pytest.mark.parametrize("term_id", CONTEXT_TERMS)

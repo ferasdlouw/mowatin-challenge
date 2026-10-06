@@ -697,5 +697,1783 @@
       "name": "ردينة بلال",
       "date": "2026-10-03"
     }
+  },
+  {
+    "id": "najasah",
+    "ar": "النجاسة",
+    "variants_ar": [
+      "نجاسة",
+      "النجاسات",
+      "نجس",
+      "النجس"
+    ],
+    "en": {
+      "preferred": "impurity",
+      "gloss": "najasah: a filthy substance such as urine, faeces or blood that must be removed for prayer to be valid",
+      "avoid": [
+        "dirt",
+        "sin",
+        "untouchability"
+      ]
+    },
+    "fr": {
+      "preferred": "impureté",
+      "gloss": "najâsa : substance impure comme l'urine, les excréments ou le sang, qu'il faut ôter pour que la prière soit valide",
+      "avoid": [
+        "saleté",
+        "péché",
+        "intouchabilité"
+      ]
+    },
+    "usage_note_ar": "التعريف: كل عين مستقذرة شرعًا كالبول والغائط والدم يجب إزالتها لصحة الصلاة. | الدليل: المدثر: 4. | في الجمهرة: EN «Impurity»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/10351/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/74/4/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "istinja",
+    "ar": "الاستنجاء",
+    "variants_ar": [
+      "استنجاء",
+      "استنجى",
+      "يستنجي"
+    ],
+    "en": {
+      "preferred": "cleansing after using the toilet",
+      "gloss": "istinja': removing what comes out of the private parts with water or, if absent, with stones or tissue",
+      "avoid": [
+        "shower",
+        "bath"
+      ]
+    },
+    "fr": {
+      "preferred": "purification après les besoins naturels",
+      "gloss": "istinjâ' : ôter ce qui sort des voies naturelles avec de l'eau, ou à défaut avec des pierres ou du papier",
+      "avoid": [
+        "douche",
+        "bain"
+      ]
+    },
+    "usage_note_ar": "التعريف: إزالة الخارج من السبيلين بالماء، أو بالحجارة ونحوها. | الدليل: صحيح البخاري (150). | في الجمهرة: EN «Cleansing after using the toilet»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/962/en | FR: غير متوفر في الجمهرة | الدليل: https://dorar.net/h/ZvU3YawL",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "istijmar",
+    "ar": "الاستجمار",
+    "variants_ar": [
+      "استجمار",
+      "استجمر"
+    ],
+    "en": {
+      "preferred": "cleansing with stones",
+      "gloss": "istijmar: removing traces of urine or faeces with stones or similar pure dry things",
+      "avoid": [
+        "incense",
+        "fumigation"
+      ]
+    },
+    "fr": {
+      "preferred": "purification à l'aide de pierres",
+      "gloss": "istijmâr : ôter les traces d'urine ou d'excréments avec des pierres ou des choses pures et sèches",
+      "avoid": [
+        "encens",
+        "fumigation"
+      ]
+    },
+    "usage_note_ar": "التعريف: إزالة الخارج من السبيلين بالحجارة ونحوها من الأشياء الطاهرة. — يأتي أيضًا بمعنى التبخر بالبخور، فالمعنى بالسياق. | الدليل: صحيح البخاري (161). | في الجمهرة: EN «Cleansing with stones»، FR «Purification à l'aide de pierres.». | مدخل الجمهرة: «استجمار» | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «Purification à l'aide de pierres.» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/11459/en | FR: https://islamic-content.com/dictionary/word/11459/fr | الدليل: https://dorar.net/h/NjH6KmWu",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "mash_khuffayn",
+    "ar": "المسح على الخفين",
+    "variants_ar": [
+      "مسح الخفين",
+      "المسح على الجوربين",
+      "المسح على الخف"
+    ],
+    "en": {
+      "preferred": "wiping the khuffs",
+      "gloss": "passing wet hands over leather socks in ablution instead of washing the feet, within a set period",
+      "avoid": [
+        "washing socks",
+        "shoe cleaning"
+      ]
+    },
+    "fr": {
+      "preferred": "essuyage des chaussettes de cuir",
+      "gloss": "passer les mains mouillées sur les chaussettes de cuir lors des ablutions au lieu de laver les pieds, pendant une durée fixée",
+      "avoid": [
+        "laver les chaussettes",
+        "cirage"
+      ]
+    },
+    "usage_note_ar": "التعريف: إمرار اليد المبلولة على الخفين في الوضوء بدل غسل الرجلين في مدة محددة. | الدليل: صحيح البخاري (206). | في الجمهرة: EN «Wiping the khuffs»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/9435/en | FR: غير متوفر في الجمهرة | الدليل: https://dorar.net/h/JPz1agZS",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "janabah",
+    "ar": "الجنابة",
+    "variants_ar": [
+      "جنابة",
+      "الجنب"
+    ],
+    "en": {
+      "preferred": "major ritual impurity",
+      "gloss": "janabah: the state after sexual intercourse or ejaculation, removed by a full bath (ghusl)",
+      "avoid": [
+        "sin",
+        "uncleanliness"
+      ]
+    },
+    "fr": {
+      "preferred": "impureté majeure",
+      "gloss": "janâba : état après un rapport sexuel ou une éjaculation, levé par le bain rituel (ghusl)",
+      "avoid": [
+        "péché",
+        "malpropreté"
+      ]
+    },
+    "usage_note_ar": "التعريف: حال من أنزل أو جامع حتى يغتسل. | الدليل: المائدة: 6. | في الجمهرة: EN «Ceremonial Impurity»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Ceremonial Impurity» يطلقه المسرد على «الحدث»، فخُص الجنابة بـ«major ritual impurity» للتمييز. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 5:6: «impureté majeure».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/3905/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/5/6/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/5/6",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "hayd",
+    "ar": "الحيض",
+    "variants_ar": [
+      "حيض",
+      "المحيض",
+      "الحائض"
+    ],
+    "en": {
+      "preferred": "menses",
+      "gloss": "hayd: the natural blood a woman discharges at regular intervals, during which prayer and fasting are suspended",
+      "avoid": [
+        "illness",
+        "impurity of women"
+      ]
+    },
+    "fr": {
+      "preferred": "menstrues",
+      "gloss": "hayd : le sang naturel que la femme perd à intervalles réguliers, pendant lequel la prière et le jeûne sont suspendus",
+      "avoid": [
+        "maladie",
+        "impureté des femmes"
+      ]
+    },
+    "usage_note_ar": "التعريف: دم طبيعي يخرج من المرأة في أوقات معلومة، تُترك معه الصلاة والصوم. | الدليل: البقرة: 222. | في الجمهرة: EN «Menses»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 2:222: «menstrues».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/4560/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/2/222/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/2/222",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "nifas",
+    "ar": "النفاس",
+    "variants_ar": [
+      "نفاس",
+      "النفساء"
+    ],
+    "en": {
+      "preferred": "postnatal bleeding",
+      "gloss": "nifas: the bleeding that follows childbirth, with the rulings of menses",
+      "avoid": [
+        "childbirth",
+        "illness"
+      ]
+    },
+    "fr": {
+      "preferred": "lochies",
+      "gloss": "nifâs : le sang qui suit l'accouchement, soumis aux règles des menstrues",
+      "avoid": [
+        "accouchement",
+        "maladie"
+      ]
+    },
+    "usage_note_ar": "التعريف: الدم الخارج بسبب الولادة، وأحكامه كأحكام الحيض. | في الجمهرة: EN «Postnatal discharge»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Postnatal discharge»، واختير bleeding لأنه أدق في الدلالة على الدم.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/10510/en | FR: غير متوفر في الجمهرة",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "istihadah",
+    "ar": "الاستحاضة",
+    "variants_ar": [
+      "استحاضة",
+      "المستحاضة"
+    ],
+    "en": {
+      "preferred": "prolonged blood discharge",
+      "gloss": "istihadah: bleeding outside the normal menses due to illness, during which prayer is not suspended",
+      "avoid": [
+        "menses",
+        "postnatal bleeding"
+      ]
+    },
+    "fr": {
+      "preferred": "métrorragie",
+      "gloss": "istihâdha : saignement hors des menstrues dû à une maladie, pendant lequel la prière n'est pas suspendue",
+      "avoid": [
+        "menstrues",
+        "lochies"
+      ]
+    },
+    "usage_note_ar": "التعريف: دم يخرج في غير وقت الحيض والنفاس لعلة، ولا تُترك معه الصلاة. | الدليل: صحيح البخاري (306). | في الجمهرة: EN «Prolonged Blood Discharge»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/811/en | FR: غير متوفر في الجمهرة | الدليل: https://dorar.net/h/3PSsEy0U",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "siwak",
+    "ar": "السواك",
+    "variants_ar": [
+      "سواك",
+      "المسواك",
+      "تسوك"
+    ],
+    "en": {
+      "preferred": "siwak",
+      "gloss": "a tooth stick, usually from the arak tree, used to clean the teeth and mouth, a recommended Sunnah",
+      "avoid": [
+        "toothbrush only",
+        "chewing gum"
+      ]
+    },
+    "fr": {
+      "preferred": "siwâk",
+      "gloss": "petit bâton d'arak utilisé pour nettoyer les dents et la bouche, sunna recommandée",
+      "avoid": [
+        "brosse à dents seulement",
+        "chewing-gum"
+      ]
+    },
+    "usage_note_ar": "التعريف: عود من شجر الأراك ونحوه تُنظف به الأسنان والفم، وهو سنة. | الدليل: صحيح البخاري (7240). | في الجمهرة: EN «Tooth stick»، FR «Siwâk [i.e.: Petit bâton d'Arak].». | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Tooth stick» يوافق الشرح، وأُبقي اللفظ العربي كما في عنوانها الفرنسي «Siwâk». | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «Siwâk [i.e.: Petit bâton d'Arak].» (الرابط في source.ref).",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/5796/en | FR: https://islamic-content.com/dictionary/word/5796/fr | الدليل: https://dorar.net/h/lCGGFaR7",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "iqamah",
+    "ar": "الإقامة",
+    "variants_ar": [],
+    "en": {
+      "preferred": "iqamah",
+      "gloss": "the second call announcing that the congregational prayer is starting; in other contexts «الإقامة» means residence",
+      "avoid": [
+        "residency permit",
+        "hotel stay"
+      ]
+    },
+    "fr": {
+      "preferred": "iqâma",
+      "gloss": "le second appel annonçant le début de la prière en commun ; ailleurs, « الإقامة » signifie la résidence",
+      "avoid": [
+        "permis de séjour",
+        "séjour à l'hôtel"
+      ]
+    },
+    "usage_note_ar": "التعريف: الإعلام بالقيام إلى الصلاة بألفاظ مخصوصة، وتأتي بمعنى السكنى. — تأتي بمعنى السكنى والإقامة في البلد، فالمعنى بالسياق. | الدليل: صحيح البخاري (636). | في الجمهرة: EN «Residency»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Residency» للمعنى الآخر، والمدخل نفسه يذكر المعنيين، فأُبقي اللفظ العربي مع الشرح.",
+    "strategy": "context",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/1408/en | FR: غير متوفر في الجمهرة | الدليل: https://dorar.net/h/mgtVcJ0u",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "takbirat_ihram",
+    "ar": "تكبيرة الإحرام",
+    "variants_ar": [
+      "تكبيرة الافتتاح"
+    ],
+    "en": {
+      "preferred": "consecration takbir",
+      "gloss": "saying «Allahu akbar» to begin the prayer, after which ordinary speech and acts become forbidden",
+      "avoid": [
+        "opening prayer",
+        "pilgrim's ihram"
+      ]
+    },
+    "fr": {
+      "preferred": "takbîr d'ouverture",
+      "gloss": "dire « Allahu akbar » pour commencer la prière, après quoi les paroles et actes ordinaires deviennent interdits",
+      "avoid": [
+        "prière d'ouverture",
+        "ihrâm du pèlerin"
+      ]
+    },
+    "usage_note_ar": "التعريف: قول: الله أكبر في أول الصلاة، فتحرم بها الأقوال والأفعال الخارجة عنها. | في الجمهرة: EN «The consecration takbīr»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/3307/en | FR: غير متوفر في الجمهرة",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "sujud",
+    "ar": "السجود",
+    "variants_ar": [
+      "سجود",
+      "السجدة",
+      "اسجدوا",
+      "ساجدين"
+    ],
+    "en": {
+      "preferred": "prostration",
+      "gloss": "sujud: placing the forehead, nose, hands, knees and toes on the ground in prayer in humility to Allah",
+      "avoid": [
+        "bowing",
+        "kneeling"
+      ]
+    },
+    "fr": {
+      "preferred": "prosternation",
+      "gloss": "sujûd : poser le front, le nez, les mains, les genoux et les orteils au sol dans la prière par humilité envers Allah",
+      "avoid": [
+        "inclinaison",
+        "agenouillement"
+      ]
+    },
+    "usage_note_ar": "التعريف: وضع الجبهة والأنف واليدين والركبتين وأطراف القدمين على الأرض تعبدًا لله. | الدليل: الحج: 77. | في الجمهرة: EN «Prostration»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 22:77: «prosternez».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/5557/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/22/77/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/22/77",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "tashahhud",
+    "ar": "التشهد",
+    "variants_ar": [
+      "تشهد",
+      "التحيات"
+    ],
+    "en": {
+      "preferred": "tashahhud",
+      "gloss": "the sitting in prayer in which the worshipper recites «at-tahiyyatu lillah» and the two testimonies of faith",
+      "avoid": [
+        "testimony in court",
+        "shahadah only"
+      ]
+    },
+    "fr": {
+      "preferred": "tashahhud",
+      "gloss": "la position assise dans la prière où l'on récite « at-tahiyyâtu lillâh » et les deux attestations de foi",
+      "avoid": [
+        "témoignage au tribunal",
+        "shahâda seulement"
+      ]
+    },
+    "usage_note_ar": "التعريف: الجلوس في الصلاة لقراءة التحيات والشهادتين. | الدليل: صحيح البخاري (1202). | في الجمهرة: EN «Tashahhud in prayer»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | مدخل الجمهرة: «التَّشَهُّدُ فِي الصَّلاَةِ» | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Tashahhud in prayer»؛ حُذفت «in prayer» لأنها في الشرح.",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/2855/en | FR: غير متوفر في الجمهرة | الدليل: https://dorar.net/h/YQ0lcP17",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "salat_jamaah",
+    "ar": "صلاة الجماعة",
+    "variants_ar": [
+      "الجماعة في الصلاة",
+      "صلاة الجماعات"
+    ],
+    "en": {
+      "preferred": "congregational prayer",
+      "gloss": "performing the obligatory prayer behind an imam together with others",
+      "avoid": [
+        "group meeting",
+        "rally"
+      ]
+    },
+    "fr": {
+      "preferred": "prière en commun",
+      "gloss": "accomplir la prière obligatoire derrière un imam avec d'autres fidèles",
+      "avoid": [
+        "réunion de groupe",
+        "rassemblement politique"
+      ]
+    },
+    "usage_note_ar": "التعريف: أداء الصلاة المكتوبة جماعةً خلف إمام. | الدليل: صحيح البخاري (645). | في الجمهرة: EN «Congregational prayer»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/6330/en | FR: غير متوفر في الجمهرة | الدليل: https://dorar.net/h/I3Ssw9es",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "salat_jumuah",
+    "ar": "صلاة الجمعة",
+    "variants_ar": [],
+    "en": {
+      "preferred": "Friday prayer",
+      "gloss": "two units of prayer at midday on Friday, preceded by a sermon, replacing the Dhuhr prayer",
+      "avoid": [
+        "Sabbath",
+        "weekend prayer"
+      ]
+    },
+    "fr": {
+      "preferred": "prière du vendredi",
+      "gloss": "deux unités de prière à midi le vendredi, précédées d'un sermon, qui remplacent la prière du Dhuhr",
+      "avoid": [
+        "sabbat",
+        "prière du week-end"
+      ]
+    },
+    "usage_note_ar": "التعريف: ركعتان بعد الزوال يوم الجمعة تسبقهما خطبتان، وتُغني عن الظهر. | الدليل: الجمعة: 9. | في الجمهرة: EN «Friday Prayer»، FR «Prière du vendredi». | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «Prière du vendredi» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/6331/en | FR: https://islamic-content.com/dictionary/word/6331/fr | الدليل: https://api.quranpedia.net/v1/ayah/62/9/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "khutbat_jumuah",
+    "ar": "خطبة الجمعة",
+    "variants_ar": [
+      "خطبتا الجمعة"
+    ],
+    "en": {
+      "preferred": "Friday sermon",
+      "gloss": "the two sermons of admonition delivered before the Friday prayer",
+      "avoid": [
+        "lecture",
+        "speech"
+      ]
+    },
+    "fr": {
+      "preferred": "sermon du vendredi",
+      "gloss": "les deux sermons d'exhortation prononcés avant la prière du vendredi",
+      "avoid": [
+        "conférence",
+        "discours politique"
+      ]
+    },
+    "usage_note_ar": "التعريف: خطبتان يلقيهما الإمام قبل صلاة الجمعة يعظ فيهما الناس. | الدليل: الجمعة: 9. | في الجمهرة: EN «Friday Speech»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Friday Speech»، واختير sermon لأنه أدق في الخطاب الديني.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/4701/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/62/9/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "qasr_salah",
+    "ar": "قصر الصلاة",
+    "variants_ar": [
+      "تقصروا",
+      "يقصر الصلاة"
+    ],
+    "en": {
+      "preferred": "shortening the prayer",
+      "gloss": "qasr: praying the four-unit prayers as two units while travelling",
+      "avoid": [
+        "skipping prayer",
+        "hurrying prayer"
+      ]
+    },
+    "fr": {
+      "preferred": "raccourcissement de la prière",
+      "gloss": "qasr : accomplir les prières de quatre unités en deux unités pendant le voyage",
+      "avoid": [
+        "sauter la prière",
+        "prier à la hâte"
+      ]
+    },
+    "usage_note_ar": "التعريف: صلاة الرباعية ركعتين في السفر. | الدليل: النساء: 101. | في الجمهرة: EN «Shortening the prayer»، FR «Raccourcissement de la prière». | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «Raccourcissement de la prière» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/7823/en | FR: https://islamic-content.com/dictionary/word/7823/fr | الدليل: https://api.quranpedia.net/v1/ayah/4/101/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "jam_salatayn",
+    "ar": "الجمع بين الصلاتين",
+    "variants_ar": [
+      "جمع الصلاتين",
+      "الجمع بين الظهر والعصر",
+      "الجمع بين المغرب والعشاء"
+    ],
+    "en": {
+      "preferred": "combination of two prayers",
+      "gloss": "praying Dhuhr with Asr, or Maghrib with Isha, in the time of one of them for a valid excuse",
+      "avoid": [
+        "skipping a prayer",
+        "merging all prayers"
+      ]
+    },
+    "fr": {
+      "preferred": "regroupement de deux prières",
+      "gloss": "accomplir le Dhuhr avec le 'Asr, ou le Maghrib avec le 'Ishâ', dans le temps de l'une d'elles pour une excuse valable",
+      "avoid": [
+        "sauter une prière",
+        "fusion de toutes les prières"
+      ]
+    },
+    "usage_note_ar": "التعريف: أداء الظهر مع العصر أو المغرب مع العشاء في وقت إحداهما لعذر. | الدليل: صحيح مسلم (705). | في الجمهرة: EN «Combination of two prayers»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/3892/en | FR: غير متوفر في الجمهرة | الدليل: https://dorar.net/h/wveG9FQq",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "salat_khawf",
+    "ar": "صلاة الخوف",
+    "variants_ar": [
+      "صلاة الخائف"
+    ],
+    "en": {
+      "preferred": "prayer in a situation of fear",
+      "gloss": "the prayer performed in a special manner when facing an enemy or danger",
+      "avoid": [
+        "prayer of anxiety",
+        "panic prayer"
+      ]
+    },
+    "fr": {
+      "preferred": "prière de la peur",
+      "gloss": "la prière accomplie d'une manière particulière face à l'ennemi ou au danger",
+      "avoid": [
+        "prière d'anxiété",
+        "prière de panique"
+      ]
+    },
+    "usage_note_ar": "التعريف: صلاة تؤدى على صفة مخصوصة عند ملاقاة العدو ونحوه. | الدليل: النساء: 102. | في الجمهرة: EN «Prayer in a situation of fear»، FR «Prière de la peur». | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «Prière de la peur» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/6335/en | FR: https://islamic-content.com/dictionary/word/6335/fr | الدليل: https://api.quranpedia.net/v1/ayah/4/102/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "salat_kusuf",
+    "ar": "صلاة الكسوف",
+    "variants_ar": [
+      "صلاة الخسوف",
+      "صلاة الكسوف والخسوف"
+    ],
+    "en": {
+      "preferred": "eclipse prayer",
+      "gloss": "a two-unit prayer with long standing, recitation and bowing, offered during a solar or lunar eclipse",
+      "avoid": [
+        "sun worship",
+        "astrology ritual"
+      ]
+    },
+    "fr": {
+      "preferred": "prière de l'éclipse",
+      "gloss": "prière de deux unités avec une station debout, une récitation et une inclinaison prolongées, accomplie lors d'une éclipse",
+      "avoid": [
+        "culte du soleil",
+        "rituel astrologique"
+      ]
+    },
+    "usage_note_ar": "التعريف: ركعتان بقيام وقراءة وركوع طويل عند كسوف الشمس أو خسوف القمر. | الدليل: صحيح البخاري (1057). | في الجمهرة: EN «Solar eclipse prayer»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Solar eclipse prayer» خاص بالشمس، والمصطلح يشمل خسوف القمر، فاختير «eclipse prayer».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/6341/en | FR: غير متوفر في الجمهرة | الدليل: https://dorar.net/h/C9HHuXVo",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "salat_istisqa",
+    "ar": "صلاة الاستسقاء",
+    "variants_ar": [
+      "الاستسقاء",
+      "استسقى"
+    ],
+    "en": {
+      "preferred": "prayer for rain",
+      "gloss": "a prayer followed by supplication asking Allah to send rain in times of drought",
+      "avoid": [
+        "rain dance",
+        "weather magic"
+      ]
+    },
+    "fr": {
+      "preferred": "prière de la pluie",
+      "gloss": "prière suivie d'invocations pour demander à Allah la pluie en temps de sécheresse",
+      "avoid": [
+        "danse de la pluie",
+        "magie météo"
+      ]
+    },
+    "usage_note_ar": "التعريف: صلاة ودعاء لطلب السقيا من الله عند الجدب. | الدليل: صحيح البخاري (1024). | في الجمهرة: EN «Prayer for rain»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/6328/en | FR: غير متوفر في الجمهرة | الدليل: https://dorar.net/h/kmOtswGU",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "salat_janazah",
+    "ar": "صلاة الجنازة",
+    "variants_ar": [
+      "الصلاة على الميت",
+      "صلاة الميت"
+    ],
+    "en": {
+      "preferred": "funeral prayer",
+      "gloss": "the prayer for a deceased Muslim before burial, with four takbirs and no bowing or prostration",
+      "avoid": [
+        "memorial service",
+        "mass"
+      ]
+    },
+    "fr": {
+      "preferred": "prière funéraire",
+      "gloss": "la prière pour un musulman défunt avant l'enterrement, avec quatre takbîr, sans inclinaison ni prosternation",
+      "avoid": [
+        "service commémoratif",
+        "messe"
+      ]
+    },
+    "usage_note_ar": "التعريف: صلاة على الميت المسلم قبل دفنه بأربع تكبيرات بلا ركوع ولا سجود. | الدليل: التوبة: 84. | في الجمهرة: EN «Funeral Prayer»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/6332/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/9/84/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "salat_duha",
+    "ar": "صلاة الضحى",
+    "variants_ar": [
+      "الضحى",
+      "ركعتا الضحى"
+    ],
+    "en": {
+      "preferred": "mid-morning prayer",
+      "gloss": "a voluntary prayer of at least two units between sunrise and just before noon",
+      "avoid": [
+        "morning exercise",
+        "sunrise worship"
+      ]
+    },
+    "fr": {
+      "preferred": "prière du duhâ",
+      "gloss": "salât ad-duhâ : prière surérogatoire d'au moins deux unités entre le lever du soleil et peu avant midi",
+      "avoid": [
+        "exercice matinal",
+        "culte du lever du soleil"
+      ]
+    },
+    "usage_note_ar": "التعريف: صلاة تطوع أقلها ركعتان من ارتفاع الشمس إلى قبيل الزوال. | الدليل: صحيح البخاري (1981). | في الجمهرة: EN «Mid-morning Prayer»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/6338/en | FR: غير متوفر في الجمهرة | الدليل: https://dorar.net/h/Ct62BcsJ",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "qiyam_layl",
+    "ar": "قيام الليل",
+    "variants_ar": [
+      "صلاة الليل",
+      "قيام رمضان",
+      "قم الليل"
+    ],
+    "en": {
+      "preferred": "night prayer",
+      "gloss": "voluntary prayer offered at night, between Isha and Fajr",
+      "avoid": [
+        "vigil",
+        "night shift"
+      ]
+    },
+    "fr": {
+      "preferred": "prière de la nuit",
+      "gloss": "prière surérogatoire accomplie la nuit, entre le 'Ishâ' et le Fajr",
+      "avoid": [
+        "veillée",
+        "travail de nuit"
+      ]
+    },
+    "usage_note_ar": "التعريف: صلاة التطوع في الليل بين العشاء والفجر. — مدخل الجمهرة «صلاة الليل»، وهي قيام الليل. | الدليل: المزمل: 2. | في الجمهرة: EN «Night prayer»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | مدخل الجمهرة: «صَلاَةُ اللَّيْل»",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/6342/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/73/2/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "sunan_rawatib",
+    "ar": "السنن الرواتب",
+    "variants_ar": [
+      "السنن الراتبة",
+      "الراتبة"
+    ],
+    "en": {
+      "preferred": "regular Sunnah prayers",
+      "gloss": "the twelve voluntary units the Prophet regularly prayed before or after the obligatory prayers",
+      "avoid": [
+        "optional rituals",
+        "routine"
+      ]
+    },
+    "fr": {
+      "preferred": "prières surérogatoires régulières",
+      "gloss": "les douze unités surérogatoires que le Prophète accomplissait régulièrement avant ou après les prières obligatoires",
+      "avoid": [
+        "rituels facultatifs",
+        "routine"
+      ]
+    },
+    "usage_note_ar": "التعريف: النوافل التابعة للفرائض قبلها أو بعدها، وهي اثنتا عشرة ركعة. | الدليل: صحيح مسلم (728). | في الجمهرة: EN «The Regular Sunnah»، FR «Les prières surérogatoires [spécifiées]». | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «The Regular Sunnah»؛ أضيفت prayers للتوضيح. | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «Les prières surérogatoires [spécifiées]» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/5777/en | FR: https://islamic-content.com/dictionary/word/5777/fr | الدليل: https://dorar.net/h/USL4fBoD",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "salat_eid",
+    "ar": "صلاة العيد",
+    "variants_ar": [
+      "صلاة العيدين",
+      "صلاة عيد الفطر",
+      "صلاة عيد الأضحى"
+    ],
+    "en": {
+      "preferred": "Eid prayer",
+      "gloss": "the two-unit prayer offered on the morning of Eid al-Fitr and Eid al-Adha",
+      "avoid": [
+        "festival party",
+        "Christmas mass"
+      ]
+    },
+    "fr": {
+      "preferred": "prière de l'Aïd",
+      "gloss": "la prière de deux unités accomplie le matin de l'Aïd al-Fitr et de l'Aïd al-Adhâ",
+      "avoid": [
+        "fête",
+        "messe de Noël"
+      ]
+    },
+    "usage_note_ar": "التعريف: ركعتان صباح يوم الفطر ويوم الأضحى. | الدليل: الكوثر: 2. | في الجمهرة: EN «Eid Prayer»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/6340/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/108/2/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "tahajjud",
+    "ar": "التهجد",
+    "variants_ar": [
+      "تهجد",
+      "فتهجد",
+      "المتهجد"
+    ],
+    "en": {
+      "preferred": "tahajjud",
+      "gloss": "night prayer offered after having slept",
+      "avoid": [
+        "insomnia",
+        "vigil"
+      ]
+    },
+    "fr": {
+      "preferred": "tahajjud",
+      "gloss": "prière de la nuit accomplie après avoir dormi",
+      "avoid": [
+        "insomnie",
+        "veillée"
+      ]
+    },
+    "usage_note_ar": "التعريف: صلاة التطوع في الليل بعد النوم. | الدليل: الإسراء: 79. | في الجمهرة: EN «Night prayer»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Night prayer» يطلقه المسرد على «قيام الليل»، فأُبقي لفظ tahajjud للتمييز مع الشرح. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 17:79: «Interromps ton sommeil».",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/3488/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/17/79/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/17/79",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "salat_dhuhr",
+    "ar": "صلاة الظهر",
+    "variants_ar": [],
+    "en": {
+      "preferred": "Dhuhr prayer",
+      "gloss": "the obligatory midday prayer of four units, from the sun's decline until an object's shadow equals its length",
+      "avoid": [
+        "lunch break",
+        "noon"
+      ]
+    },
+    "fr": {
+      "preferred": "prière du Dhuhr",
+      "gloss": "la prière obligatoire de midi, de quatre unités, du déclin du soleil jusqu'à ce que l'ombre égale l'objet",
+      "avoid": [
+        "pause déjeuner",
+        "midi"
+      ]
+    },
+    "usage_note_ar": "التعريف: الصلاة المكتوبة أربع ركعات من زوال الشمس إلى مصير ظل الشيء مثله. | الدليل: الإسراء: 78. | في الجمهرة: EN «Ẓuhr prayer»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Ẓuhr prayer»؛ كُتب بالنقل الصوتي الشائع Dhuhr.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/6339/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/17/78/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "masbuq",
+    "ar": "المسبوق",
+    "variants_ar": [],
+    "en": {
+      "preferred": "latecomer",
+      "gloss": "masbuq: a worshipper who joins the congregational prayer after it has begun and completes what he missed",
+      "avoid": [
+        "absentee",
+        "loser"
+      ]
+    },
+    "fr": {
+      "preferred": "retardataire",
+      "gloss": "masbûq : fidèle qui rejoint la prière en commun après son début et complète ce qu'il a manqué",
+      "avoid": [
+        "absent",
+        "perdant"
+      ]
+    },
+    "usage_note_ar": "التعريف: من فاته شيء من الصلاة مع الإمام فيقضيه بعد سلامه. | الدليل: صحيح البخاري (636). | في الجمهرة: EN «Latecomer»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/9384/en | FR: غير متوفر في الجمهرة | الدليل: https://dorar.net/h/mgtVcJ0u",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "sutrah",
+    "ar": "سترة المصلي",
+    "variants_ar": [],
+    "en": {
+      "preferred": "praying person's barrier",
+      "gloss": "sutrah: an object a worshipper places in front of him so that no one passes between him and it",
+      "avoid": [
+        "curtain",
+        "veil"
+      ]
+    },
+    "fr": {
+      "preferred": "barrière du prieur",
+      "gloss": "sutra : objet que le fidèle place devant lui pour que personne ne passe entre lui et cet objet",
+      "avoid": [
+        "rideau",
+        "voile"
+      ]
+    },
+    "usage_note_ar": "التعريف: ما يجعله المصلي أمامه ليمنع المرور بين يديه. | الدليل: صحيح أبي داود (698). | في الجمهرة: EN «A Praying Person's Cover»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «A Praying Person's Cover» قد يفهم منه ستر العورة، فاختير barrier لبيان المقصود.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/5550/en | FR: غير متوفر في الجمهرة | الدليل: https://dorar.net/h/2CPIjAJ4",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "mihrab",
+    "ar": "المحراب",
+    "variants_ar": [
+      "محراب"
+    ],
+    "en": {
+      "preferred": "mihrab",
+      "gloss": "the niche in the qiblah wall of a mosque where the imam stands to lead the prayer",
+      "avoid": [
+        "altar",
+        "sanctuary"
+      ]
+    },
+    "fr": {
+      "preferred": "mihrâb",
+      "gloss": "« niche » dans le mur de la qibla de la mosquée où se tient l'imam pour diriger la prière",
+      "avoid": [
+        "autel",
+        "sanctuaire"
+      ]
+    },
+    "usage_note_ar": "التعريف: الموضع المجوَّف في جدار القبلة يقف فيه الإمام. | في الجمهرة: EN «Miḥrāb»، FR «Miḥrâb [i.e : « Niche » à l'intérieur de la mosquée].». | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «Miḥrâb [i.e : « Niche » à l'intérieur de la mosquée].» (الرابط في source.ref).",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/8989/en | FR: https://islamic-content.com/dictionary/word/8989/fr",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "minbar",
+    "ar": "المنبر",
+    "variants_ar": [
+      "على المنبر"
+    ],
+    "en": {
+      "preferred": "minbar",
+      "gloss": "the raised steps in a mosque from which the imam delivers the sermon",
+      "avoid": [
+        "pulpit",
+        "stage"
+      ]
+    },
+    "fr": {
+      "preferred": "minbar",
+      "gloss": "les marches surélevées de la mosquée d'où l'imam prononce le sermon",
+      "avoid": [
+        "chaire",
+        "estrade"
+      ]
+    },
+    "usage_note_ar": "التعريف: درجات يرتقيها الخطيب ليراه الناس ويسمعوه. | في الجمهرة: EN «Minbar, platform»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Minbar, platform»؛ اختير الجزء الأول.",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/10054/en | FR: غير متوفر في الجمهرة",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "tumaninah",
+    "ar": "الطمأنينة",
+    "variants_ar": [
+      "طمأنينة",
+      "الاطمئنان"
+    ],
+    "en": {
+      "preferred": "composure in prayer",
+      "gloss": "in prayer: stillness of the body in each posture until the limbs settle; in general usage: peace of mind",
+      "avoid": [
+        "meditation",
+        "relaxation"
+      ]
+    },
+    "fr": {
+      "preferred": "calme dans la prière",
+      "gloss": "dans la prière : immobilité du corps dans chaque position jusqu'à ce que les membres se posent ; dans l'usage courant : paix intérieure",
+      "avoid": [
+        "méditation",
+        "relaxation"
+      ]
+    },
+    "usage_note_ar": "التعريف: سكون الأعضاء في كل ركن من أركان الصلاة، وتأتي بمعنى سكون القلب. — تأتي بمعنى سكون القلب، فالمعنى بالسياق. | الدليل: صحيح البخاري (793). | في الجمهرة: EN «Reassurance»، FR «Calme, tranquillité.». | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Reassurance» للمعنى العام، والمدخل في الفقه عن سكون الأعضاء في الصلاة. | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «Calme, tranquillité.» (الرابط في source.ref).",
+    "strategy": "context",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/6615/en | FR: https://islamic-content.com/dictionary/word/6615/fr | الدليل: https://dorar.net/h/tn7CvZtD",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "jabirah",
+    "ar": "الجبيرة",
+    "variants_ar": [
+      "جبيرة",
+      "المسح على الجبيرة"
+    ],
+    "en": {
+      "preferred": "splint",
+      "gloss": "a splint or bandage over a broken or wounded limb, over which one wipes in ablution",
+      "avoid": [
+        "cast removal",
+        "medicine"
+      ]
+    },
+    "fr": {
+      "preferred": "attelle",
+      "gloss": "attelle ou bandage sur un membre cassé ou blessé, sur lequel on passe la main mouillée lors des ablutions",
+      "avoid": [
+        "retrait de plâtre",
+        "médicament"
+      ]
+    },
+    "usage_note_ar": "التعريف: ما يُشد على العضو المكسور أو الجريح، ويُمسح عليه في الطهارة. | في الجمهرة: EN «Splint»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/3765/en | FR: غير متوفر في الجمهرة",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "awqat_nahy",
+    "ar": "أوقات النهي",
+    "variants_ar": [
+      "أوقات الكراهة",
+      "الأوقات المنهي عنها"
+    ],
+    "en": {
+      "preferred": "disliked prayer times",
+      "gloss": "times in which voluntary prayer is prohibited, such as after Fajr until sunrise and after Asr until sunset",
+      "avoid": [
+        "holidays",
+        "curfew"
+      ]
+    },
+    "fr": {
+      "preferred": "moments où la prière est déconseillée",
+      "gloss": "moments où la prière surérogatoire est interdite, comme après le Fajr jusqu'au lever du soleil et après le 'Asr jusqu'au coucher",
+      "avoid": [
+        "jours fériés",
+        "couvre-feu"
+      ]
+    },
+    "usage_note_ar": "التعريف: أوقات نُهي عن صلاة التطوع فيها، كبعد الفجر حتى ترتفع الشمس وبعد العصر حتى تغرب. — مدخل الجمهرة «أوقات الكراهة». | الدليل: صحيح البخاري (586). | في الجمهرة: EN «Disliked Prayer Times»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | مدخل الجمهرة: «أَوْقاتُ الكَراهَةِ»",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/11331/en | FR: غير متوفر في الجمهرة | الدليل: https://dorar.net/h/FkBG88Nd",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "sujud_shukr",
+    "ar": "سجود الشكر",
+    "variants_ar": [
+      "سجدة الشكر"
+    ],
+    "en": {
+      "preferred": "prostration of thanks",
+      "gloss": "a single prostration made to thank Allah on receiving a blessing or being spared a harm",
+      "avoid": [
+        "bowing to people",
+        "celebration"
+      ]
+    },
+    "fr": {
+      "preferred": "prosternation de remerciement",
+      "gloss": "une prosternation unique pour remercier Allah d'un bienfait reçu ou d'un mal écarté",
+      "avoid": [
+        "s'incliner devant les gens",
+        "célébration"
+      ]
+    },
+    "usage_note_ar": "التعريف: سجدة واحدة شكرًا لله عند تجدد نعمة أو اندفاع نقمة. | الدليل: صحيح أبي داود (2774). | في الجمهرة: EN «Prostration of thanks»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/5560/en | FR: غير متوفر في الجمهرة | الدليل: https://dorar.net/h/kMGgpBiG",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "salat_marid",
+    "ar": "صلاة المريض",
+    "variants_ar": [
+      "صلاة العاجز"
+    ],
+    "en": {
+      "preferred": "a sick person's prayer",
+      "gloss": "how a sick person prays according to his ability: standing, sitting or lying on his side",
+      "avoid": [
+        "skipping prayer",
+        "medical leave"
+      ]
+    },
+    "fr": {
+      "preferred": "prière du malade",
+      "gloss": "la manière dont le malade prie selon sa capacité : debout, assis ou allongé sur le côté",
+      "avoid": [
+        "sauter la prière",
+        "congé maladie"
+      ]
+    },
+    "usage_note_ar": "التعريف: صلاة من عجز عن القيام أو القعود بحسب استطاعته. | الدليل: صحيح البخاري (1117). | في الجمهرة: EN «A sick person's prayer»، FR «La prière du malade.». | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «La prière du malade.» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/6343/en | FR: https://islamic-content.com/dictionary/word/6343/fr | الدليل: https://dorar.net/h/2SQljpbA",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "madhy",
+    "ar": "المذي",
+    "variants_ar": [
+      "مذي"
+    ],
+    "en": {
+      "preferred": "pre-seminal fluid",
+      "gloss": "madhy: a thin fluid released on arousal, which breaks ablution and requires washing",
+      "avoid": [
+        "semen",
+        "sweat"
+      ]
+    },
+    "fr": {
+      "preferred": "liquide pré-séminal",
+      "gloss": "madhy : liquide fin libéré lors de l'excitation, qui annule les ablutions et doit être lavé",
+      "avoid": [
+        "sperme",
+        "sueur"
+      ]
+    },
+    "usage_note_ar": "التعريف: ماء رقيق يخرج عند الشهوة، ينقض الوضوء ويجب غسله. | الدليل: صحيح البخاري (269). | في الجمهرة: EN «Madhī, arousal genital fluid»، FR «Liquide pré-séminal.». | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Madhī, arousal genital fluid» طويل، واختير المقابل الوصفي الموافق لعنوانها الفرنسي. | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «Liquide pré-séminal.» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/9218/en | FR: https://islamic-content.com/dictionary/word/9218/fr | الدليل: https://dorar.net/h/tpkL7TXL",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "maa_mutlaq",
+    "ar": "الماء المطلق",
+    "variants_ar": [
+      "ماء مطلق",
+      "الماء الطهور",
+      "ماء طهورا"
+    ],
+    "en": {
+      "preferred": "pure water",
+      "gloss": "water that keeps its natural description, pure in itself and purifying, used for ablution and ghusl",
+      "avoid": [
+        "bottled water",
+        "holy water"
+      ]
+    },
+    "fr": {
+      "preferred": "eau pure",
+      "gloss": "eau qui garde sa nature, pure en elle-même et purifiante, utilisée pour les ablutions et le bain rituel",
+      "avoid": [
+        "eau en bouteille",
+        "eau bénite"
+      ]
+    },
+    "usage_note_ar": "التعريف: الماء الباقي على خلقته، طاهر في نفسه مطهر لغيره. | الدليل: الفرقان: 48. | في الجمهرة: EN «Water in general»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Water in general» ترجمة حرفية لكلمة «مطلق»، والمقصود الماء الطهور، فاختير pure water.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/8638/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/25/48/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "tathwib",
+    "ar": "التثويب",
+    "variants_ar": [
+      "الصلاة خير من النوم"
+    ],
+    "en": {
+      "preferred": "tathwib",
+      "gloss": "the muezzin saying «as-salatu khayrun min an-nawm» (prayer is better than sleep) in the Fajr call",
+      "avoid": [
+        "clothing",
+        "reward"
+      ]
+    },
+    "fr": {
+      "preferred": "tathwîb",
+      "gloss": "le muezzin dit « as-salâtu khayrun mina an-nawm » (la prière est meilleure que le sommeil) dans l'appel du Fajr",
+      "avoid": [
+        "habillement",
+        "récompense"
+      ]
+    },
+    "usage_note_ar": "التعريف: قول المؤذن في أذان الفجر: الصلاة خير من النوم. | الدليل: تخريج المسند لشعيب (15378). | في الجمهرة: EN «Tathwīb»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/2416/en | FR: غير متوفر في الجمهرة | الدليل: https://dorar.net/h/MDHy6XWU",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "tawarruk",
+    "ar": "التورك",
+    "variants_ar": [
+      "تورك"
+    ],
+    "en": {
+      "preferred": "sitting on the buttock",
+      "gloss": "tawarruk: sitting in the last tashahhud on the left buttock with the right foot upright",
+      "avoid": [
+        "leaning",
+        "squatting"
+      ]
+    },
+    "fr": {
+      "preferred": "position du tawarruk",
+      "gloss": "tawarruk : s'asseoir lors du dernier tashahhud sur la fesse gauche, le pied droit dressé",
+      "avoid": [
+        "s'adosser",
+        "accroupissement"
+      ]
+    },
+    "usage_note_ar": "التعريف: الجلوس في التشهد الأخير على الورك الأيسر ونصب القدم اليمنى. — عنوان الجمهرة الفرنسي «S'adosser à quelque chose» لا يطابق المعنى الفقهي. | في الجمهرة: EN «Sitting on the buttock»، FR «S'adosser à quelque chose.».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/3552/en | FR: https://islamic-content.com/dictionary/word/3552/fr",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "iftirash",
+    "ar": "الافتراش",
+    "variants_ar": [
+      "افتراش"
+    ],
+    "en": {
+      "preferred": "sitting on the left foot",
+      "gloss": "iftirash: sitting in prayer on the left foot laid flat with the right foot upright",
+      "avoid": [
+        "lying down",
+        "spreading a carpet"
+      ]
+    },
+    "fr": {
+      "preferred": "position de l'iftirâsh",
+      "gloss": "iftirâsh : s'asseoir dans la prière sur le pied gauche posé à plat, le pied droit dressé",
+      "avoid": [
+        "s'allonger",
+        "étendre un tapis"
+      ]
+    },
+    "usage_note_ar": "التعريف: الجلوس في الصلاة على القدم اليسرى مفروشة ونصب اليمنى. — عنوان الجمهرة الفرنسي «Etendre» لا يطابق المعنى الفقهي. | في الجمهرة: EN «Al-iftirāsh»، FR «Etendre.». | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Al-iftirāsh» نقل صوتي، فاختير مقابل وصفي.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/1368/en | FR: https://islamic-content.com/dictionary/word/1368/fr",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "salat_musafir",
+    "ar": "صلاة المسافر",
+    "variants_ar": [
+      "صلاة السفر"
+    ],
+    "en": {
+      "preferred": "a traveller's prayer",
+      "gloss": "the rulings of prayer for a traveller, such as shortening and combining",
+      "avoid": [
+        "skipping prayer",
+        "airport chapel"
+      ]
+    },
+    "fr": {
+      "preferred": "prière du voyageur",
+      "gloss": "les règles de la prière du voyageur, comme le raccourcissement et le regroupement",
+      "avoid": [
+        "sauter la prière",
+        "chapelle d'aéroport"
+      ]
+    },
+    "usage_note_ar": "التعريف: أحكام صلاة المسافر من القصر والجمع. | الدليل: النساء: 101. | في الجمهرة: EN «A traveller's prayer»، FR «Prière du voyageur». | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «Prière du voyageur» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/6344/en | FR: https://islamic-content.com/dictionary/word/6344/fr | الدليل: https://api.quranpedia.net/v1/ayah/4/101/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "ghusl_mayyit",
+    "ar": "غسل الميت",
+    "variants_ar": [
+      "تغسيل الميت",
+      "غسل الجنازة"
+    ],
+    "en": {
+      "preferred": "washing the deceased's body",
+      "gloss": "the ritual washing of a deceased Muslim before shrouding and burial",
+      "avoid": [
+        "embalming",
+        "cremation"
+      ]
+    },
+    "fr": {
+      "preferred": "toilette mortuaire",
+      "gloss": "le lavage rituel d'un musulman défunt avant son linceul et son enterrement",
+      "avoid": [
+        "embaumement",
+        "crémation"
+      ]
+    },
+    "usage_note_ar": "التعريف: تعميم بدن الميت بالماء على صفة مخصوصة قبل تكفينه ودفنه. | الدليل: صحيح البخاري (1253). | في الجمهرة: EN «Washing the deceased's body»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/7293/en | FR: غير متوفر في الجمهرة | الدليل: https://dorar.net/h/7sHq6vx4",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "qada_hajah",
+    "ar": "قضاء الحاجة",
+    "variants_ar": [
+      "آداب قضاء الحاجة"
+    ],
+    "en": {
+      "preferred": "relieving oneself",
+      "gloss": "answering the call of nature, with its manners in Islam; «قضاء الحوائج» elsewhere means fulfilling people's needs",
+      "avoid": [
+        "paying debts",
+        "doing a favour"
+      ]
+    },
+    "fr": {
+      "preferred": "faire ses besoins",
+      "gloss": "satisfaire un besoin naturel, avec ses règles de bienséance en islam ; « قضاء الحوائج » signifie ailleurs rendre service",
+      "avoid": [
+        "payer ses dettes",
+        "rendre service"
+      ]
+    },
+    "usage_note_ar": "التعريف: التبول أو التغوط، وله آداب شرعية. — «قضاء حوائج الناس» معنى آخر، فالمعنى بالسياق. | الدليل: صحيح البخاري (394). | في الجمهرة: EN «Relieving oneself»، FR «Faire ses besoins , aller à la selle». | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «Faire ses besoins , aller à la selle» (الرابط في source.ref).",
+    "strategy": "context",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/7830/en | FR: https://islamic-content.com/dictionary/word/7830/fr | الدليل: https://dorar.net/h/VSh4A2nQ",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "salat_ishraq",
+    "ar": "صلاة الإشراق",
+    "variants_ar": [],
+    "en": {
+      "preferred": "sunrise prayer",
+      "gloss": "a voluntary prayer offered shortly after sunrise, at the beginning of the time of the duha prayer",
+      "avoid": [
+        "sun worship",
+        "dawn prayer"
+      ]
+    },
+    "fr": {
+      "preferred": "prière du lever du soleil",
+      "gloss": "prière surérogatoire accomplie peu après le lever du soleil, au début du temps de la prière du duhâ",
+      "avoid": [
+        "culte du soleil",
+        "prière de l'aube"
+      ]
+    },
+    "usage_note_ar": "التعريف: صلاة تطوع بعد ارتفاع الشمس، وهي أول صلاة الضحى. | في الجمهرة: EN «Sunrise prayer»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/6329/en | FR: غير متوفر في الجمهرة",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
   }
 ]

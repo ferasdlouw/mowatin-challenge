@@ -1592,5 +1592,1954 @@
       "name": "ردينة بلال",
       "date": "2026-10-03"
     }
+  },
+  {
+    "id": "ilhad",
+    "ar": "الإلحاد",
+    "variants_ar": [
+      "إلحاد",
+      "الملحد",
+      "الملحدون",
+      "الملحدين"
+    ],
+    "en": {
+      "preferred": "atheism",
+      "gloss": "denying the existence of Allah; also deviating from the truth about His names and signs",
+      "avoid": [
+        "secularism",
+        "agnosticism"
+      ]
+    },
+    "fr": {
+      "preferred": "athéisme",
+      "gloss": "ilhâd : nier l'existence d'Allah, ou dévier de la vérité au sujet de Ses noms et de Ses signes",
+      "avoid": [
+        "laïcité",
+        "agnosticisme"
+      ]
+    },
+    "usage_note_ar": "التعريف: الميل عن الحق، ويطلق على إنكار وجود الله، وعلى الميل في أسمائه وآياته. | الدليل: الأعراف: 180. | في الجمهرة: EN «Atheism»، FR «Apostasie / Athéisme / Hérésie». | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «Apostasie / Athéisme / Hérésie» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/1503/en | FR: https://islamic-content.com/dictionary/word/1503/fr | الدليل: https://api.quranpedia.net/v1/ayah/7/180/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "riddah",
+    "ar": "الردة",
+    "variants_ar": [
+      "المرتد",
+      "المرتدين",
+      "ارتد"
+    ],
+    "en": {
+      "preferred": "apostasy",
+      "gloss": "riddah: a Muslim's leaving Islam by belief, word or deed",
+      "avoid": [
+        "reverberation",
+        "conversion"
+      ]
+    },
+    "fr": {
+      "preferred": "apostasie",
+      "gloss": "ridda : le fait pour un musulman de quitter l'islam par la croyance, la parole ou l'acte",
+      "avoid": [
+        "conversion",
+        "reniement politique"
+      ]
+    },
+    "usage_note_ar": "التعريف: كفر المسلم بعد إسلامه بقول أو فعل أو اعتقاد. | الدليل: البقرة: 217. | في الجمهرة: EN «Reverberation»، FR «Apostasie». | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة EN «Reverberation» ترجمة للمعنى اللغوي (الرجوع)، والمعنى الاصطلاحي apostasy كما في عنوانها الفرنسي «Apostasie». | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «Apostasie» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/5191/en | FR: https://islamic-content.com/dictionary/word/5191/fr | الدليل: https://api.quranpedia.net/v1/ayah/2/217/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "shirk_asghar",
+    "ar": "الشرك الأصغر",
+    "variants_ar": [],
+    "en": {
+      "preferred": "minor shirk",
+      "gloss": "minor polytheism: what the texts call shirk without taking one out of Islam, such as showing off in worship",
+      "avoid": [
+        "small sin",
+        "idolatry"
+      ]
+    },
+    "fr": {
+      "preferred": "shirk mineur",
+      "gloss": "polythéisme mineur : ce que les textes appellent shirk sans faire sortir de l'islam, comme l'ostentation dans l'adoration",
+      "avoid": [
+        "petit péché",
+        "idolâtrie"
+      ]
+    },
+    "usage_note_ar": "التعريف: كل ما سماه الشرع شركًا ولم يبلغ حد الشرك الأكبر، كالرياء اليسير والحلف بغير الله، ولا يخرج من الملة. | الدليل: تخريج المسند لشعيب (23630). | في الجمهرة: EN «Minor polytheism»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): أُبقي لفظ shirk اتساقًا مع مدخل «الشرك» في المسرد، ومعنى عنوان الجمهرة «Minor polytheism» في الشرح.",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/5955/en | FR: غير متوفر في الجمهرة | الدليل: https://dorar.net/h/xpBDLTem",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "takfir",
+    "ar": "التكفير",
+    "variants_ar": [],
+    "en": {
+      "preferred": "takfir",
+      "gloss": "declaring a Muslim an unbeliever, a judgement reserved for qualified scholars under strict conditions; in other contexts «تكفير الذنوب» means expiation of sins",
+      "avoid": [
+        "excommunication",
+        "anathema"
+      ]
+    },
+    "fr": {
+      "preferred": "takfîr",
+      "gloss": "déclarer un musulman mécréant, jugement réservé aux savants qualifiés selon des conditions strictes ; ailleurs, « تكفير الذنوب » signifie l'expiation des péchés",
+      "avoid": [
+        "excommunication",
+        "exclusion"
+      ]
+    },
+    "usage_note_ar": "التعريف: الحكم على مسلم بالكفر، ولا يكون إلا من أهل العلم بشروطه وانتفاء موانعه. — يأتي أيضًا بمعنى تكفير الذنوب (محوها)، فالمعنى بالسياق. | الدليل: صحيح البخاري (6103). | في الجمهرة: EN «To brand as unbeliever»، FR «Anathème». | سبب الاختلاف عن الجمهرة (EN): أُبقي اللفظ العربي لشيوعه بلفظه في الإنجليزية، ومعنى عنوان الجمهرة «To brand as unbeliever» في الشرح.",
+    "strategy": "context",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/3322/en | FR: https://islamic-content.com/dictionary/word/3322/fr | الدليل: https://dorar.net/h/ioanQjSS",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "khawarij",
+    "ar": "الخوارج",
+    "variants_ar": [
+      "خوارج"
+    ],
+    "en": {
+      "preferred": "Khawarij",
+      "gloss": "a sect that rebelled against the Muslim ruler and declared Muslims unbelievers for major sins",
+      "avoid": [
+        "freedom fighters",
+        "reformers"
+      ]
+    },
+    "fr": {
+      "preferred": "Khawârij",
+      "gloss": "Al-khawârij : secte qui s'est rebellée contre le dirigeant musulman et a déclaré mécréants les musulmans coupables de grands péchés",
+      "avoid": [
+        "résistants",
+        "réformateurs"
+      ]
+    },
+    "usage_note_ar": "التعريف: فرقة خرجت على إمام المسلمين وكفّرت مرتكب الكبيرة واستحلت دماء المسلمين. | الدليل: صحيح البخاري (7562). | في الجمهرة: EN «Al-Khawārij, Kharijites»، FR «Al-khawârij». | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Al-Khawārij, Kharijites»؛ حُذفت أداة التعريف وفق قاعدة المسرد وأُبقي النقل الصوتي. | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «Al-khawârij» (الرابط في source.ref).",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/4781/en | FR: https://islamic-content.com/dictionary/word/4781/fr | الدليل: https://dorar.net/h/gQjqSDj0",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "mutazilah",
+    "ar": "المعتزلة",
+    "variants_ar": [
+      "المعتزلي",
+      "معتزلة"
+    ],
+    "en": {
+      "preferred": "Mu'tazilah",
+      "gloss": "a theological sect that put reason before revelation, denied the divine attributes and held that the grave sinner is between faith and disbelief",
+      "avoid": [
+        "rationalists",
+        "free thinkers"
+      ]
+    },
+    "fr": {
+      "preferred": "Mu'tazila",
+      "gloss": "secte théologique qui fit primer la raison sur la révélation, nia les attributs divins et plaça l'auteur d'un grand péché entre foi et mécréance",
+      "avoid": [
+        "rationalistes",
+        "libres penseurs"
+      ]
+    },
+    "usage_note_ar": "التعريف: فرقة كلامية قدّمت العقل على النقل، ونفت الصفات، وقالت بالمنزلة بين المنزلتين لمرتكب الكبيرة. | في الجمهرة: EN «The MuꜤtazilah»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/9718/en | FR: غير متوفر في الجمهرة",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "murjiah",
+    "ar": "المرجئة",
+    "variants_ar": [
+      "المرجئ",
+      "الإرجاء"
+    ],
+    "en": {
+      "preferred": "Murji'ah",
+      "gloss": "a sect that excluded deeds from faith and held that sins do not harm faith",
+      "avoid": [
+        "optimists",
+        "liberals"
+      ]
+    },
+    "fr": {
+      "preferred": "Murji'ah",
+      "gloss": "Al-murji'ah : secte qui excluait les œuvres de la foi et prétendait que les péchés ne nuisent pas à la foi",
+      "avoid": [
+        "optimistes",
+        "libéraux"
+      ]
+    },
+    "usage_note_ar": "التعريف: فرقة أخرجت العمل من مسمى الإيمان، وقالت لا يضر مع الإيمان ذنب. | في الجمهرة: EN «The Murjiʾah, Murjites»، FR «Al-murji'ah». | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «The Murjiʾah, Murjites»؛ أُبقي النقل الصوتي بلا أداة تعريف. | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «Al-murji'ah» (الرابط في source.ref).",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/9273/en | FR: https://islamic-content.com/dictionary/word/9273/fr",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "ashrat_saah",
+    "ar": "أشراط الساعة",
+    "variants_ar": [
+      "علامات الساعة",
+      "أمارات الساعة",
+      "علامات القيامة"
+    ],
+    "en": {
+      "preferred": "portents of the Hour",
+      "gloss": "the signs that precede the Day of Resurrection and show that it is near",
+      "avoid": [
+        "omens",
+        "superstitions"
+      ]
+    },
+    "fr": {
+      "preferred": "signes de l'Heure",
+      "gloss": "les signes annonciateurs qui précèdent le Jour de la Résurrection",
+      "avoid": [
+        "présages",
+        "superstitions"
+      ]
+    },
+    "usage_note_ar": "التعريف: العلامات التي تسبق قيام الساعة وتدل على قربها. | الدليل: محمد: 18. | في الجمهرة: EN «Portents of the Last Hour»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | مدخل الجمهرة: «أَمَارَاتُ السَّاعَةِ» | سبب الاختلاف عن الجمهرة (EN): حُذفت «Last» من عنوان الجمهرة «Portents of the Last Hour» لأن «الساعة» في المصطلح علَم على يوم القيامة، فكُتبت Hour بحرف كبير. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 47:18: «signes avant-coureurs».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/1559/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/47/18/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/47/18",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "dajjal",
+    "ar": "المسيح الدجال",
+    "variants_ar": [
+      "الدجال",
+      "المسيخ الدجال"
+    ],
+    "en": {
+      "preferred": "Dajjal",
+      "gloss": "the false messiah: the great impostor who will appear before the Hour",
+      "avoid": [
+        "devil",
+        "satan"
+      ]
+    },
+    "fr": {
+      "preferred": "Dajjâl",
+      "gloss": "le faux-Messie, l'Imposteur qui apparaîtra avant l'Heure",
+      "avoid": [
+        "diable",
+        "satan"
+      ]
+    },
+    "usage_note_ar": "التعريف: رجل كذّاب يخرج آخر الزمان يدّعي الربوبية، وفتنته أعظم الفتن، وهو من أشراط الساعة الكبرى. | الدليل: صحيح مسلم (2933). | في الجمهرة: EN «The Impostor»، FR «L'Antéchrist, faux-Messie, Imposteur». | مدخل الجمهرة: «دَجَّال» | سبب الاختلاف عن الجمهرة (EN): أُبقي اللفظ العربي كما يرد في الإنجليزية، ومعنى عنوان الجمهرة «The Impostor» في الشرح. | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «L'Antéchrist, faux-Messie, Imposteur» (الرابط في source.ref).",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/4855/en | FR: https://islamic-content.com/dictionary/word/4855/fr | الدليل: https://dorar.net/h/11OMNaI3",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "yajuj_majuj",
+    "ar": "يأجوج ومأجوج",
+    "variants_ar": [
+      "يأجوج",
+      "مأجوج"
+    ],
+    "en": {
+      "preferred": "Gog and Magog",
+      "gloss": "two great nations of the descendants of Adam whose emergence is one of the major signs of the Hour",
+      "avoid": [
+        "giants",
+        "monsters"
+      ]
+    },
+    "fr": {
+      "preferred": "Gog et Magog",
+      "gloss": "deux grands peuples de la descendance d'Adam dont la sortie est l'un des grands signes de l'Heure",
+      "avoid": [
+        "géants",
+        "monstres"
+      ]
+    },
+    "usage_note_ar": "التعريف: أمتان من ذرية آدم يخرجون آخر الزمان، وخروجهم من أشراط الساعة الكبرى. | الدليل: الكهف: 94. | في الجمهرة: EN «Gog and Magog»، FR «Gog et Magog». | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «Gog et Magog» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/11050/en | FR: https://islamic-content.com/dictionary/word/11050/fr | الدليل: https://api.quranpedia.net/v1/ayah/18/94/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "adhab_qabr",
+    "ar": "عذاب القبر",
+    "variants_ar": [
+      "عذاب في القبر",
+      "نعيم القبر وعذابه"
+    ],
+    "en": {
+      "preferred": "torment in the grave",
+      "gloss": "the punishment of disbelievers and some sinners in the grave before the Resurrection",
+      "avoid": [
+        "purgatory",
+        "reincarnation"
+      ]
+    },
+    "fr": {
+      "preferred": "châtiment de la tombe",
+      "gloss": "le châtiment des mécréants et de certains pécheurs dans la tombe avant la Résurrection",
+      "avoid": [
+        "purgatoire",
+        "réincarnation"
+      ]
+    },
+    "usage_note_ar": "التعريف: ما يقع على الكفار وبعض العصاة في القبر من العذاب قبل البعث. | الدليل: غافر: 46. | في الجمهرة: EN «Torment in the grave»، FR «Le châtiment de la tombe». | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «Le châtiment de la tombe» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/6796/en | FR: https://islamic-content.com/dictionary/word/6796/fr | الدليل: https://api.quranpedia.net/v1/ayah/40/46/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "hashr",
+    "ar": "الحشر",
+    "variants_ar": [
+      "المحشر",
+      "يحشرون",
+      "حشرناهم"
+    ],
+    "en": {
+      "preferred": "gathering",
+      "gloss": "the gathering of all creatures on the Day of Resurrection for judgement",
+      "avoid": [
+        "crowd",
+        "migration"
+      ]
+    },
+    "fr": {
+      "preferred": "rassemblement",
+      "gloss": "le rassemblement de toutes les créatures le Jour de la Résurrection pour le jugement",
+      "avoid": [
+        "foule",
+        "migration"
+      ]
+    },
+    "usage_note_ar": "التعريف: جمع الخلائق يوم القيامة للحساب والجزاء. | الدليل: ق: 44. | في الجمهرة: EN «The gathering»، FR «Rassemblement.». | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «Rassemblement.» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/4339/en | FR: https://islamic-content.com/dictionary/word/4339/fr | الدليل: https://api.quranpedia.net/v1/ayah/50/44/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "arsh",
+    "ar": "العرش",
+    "variants_ar": [
+      "عرش الرحمن",
+      "العرش العظيم"
+    ],
+    "en": {
+      "preferred": "throne",
+      "gloss": "the Throne of Allah, the greatest of His creations",
+      "avoid": [
+        "royal seat",
+        "kingdom"
+      ]
+    },
+    "fr": {
+      "preferred": "trône",
+      "gloss": "le Trône d'Allah, la plus grande de Ses créatures",
+      "avoid": [
+        "siège royal",
+        "royaume"
+      ]
+    },
+    "usage_note_ar": "التعريف: سرير ذو قوائم تحمله الملائكة، وهو أعظم المخلوقات وسقفها، استوى الله عليه استواءً يليق بجلاله. | الدليل: طه: 5. | في الجمهرة: EN «The throne»، FR «Trône». | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «Trône» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/6817/en | FR: https://islamic-content.com/dictionary/word/6817/fr | الدليل: https://api.quranpedia.net/v1/ayah/20/5/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "lawh_mahfuz",
+    "ar": "اللوح المحفوظ",
+    "variants_ar": [
+      "لوح محفوظ",
+      "أم الكتاب في اللوح"
+    ],
+    "en": {
+      "preferred": "preserved tablet",
+      "gloss": "the record in which Allah decreed everything that will happen until the Day of Resurrection",
+      "avoid": [
+        "notebook",
+        "archive"
+      ]
+    },
+    "fr": {
+      "preferred": "table gardée",
+      "gloss": "le registre où Allah a consigné tout ce qui adviendra jusqu'au Jour de la Résurrection",
+      "avoid": [
+        "carnet",
+        "archive"
+      ]
+    },
+    "usage_note_ar": "التعريف: الكتاب الذي كتب الله فيه مقادير الخلائق إلى قيام الساعة. | الدليل: البروج: 22. | في الجمهرة: EN «The Imperishable Tablet»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): «preserved tablet» المقابل الشائع لـ«لوح محفوظ» (البروج 22)، ومعنى عنوان الجمهرة «The Imperishable Tablet» واحد. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 85:22: «table soigneusement gardée».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/8511/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/85/22/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/85/22",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "kutub_samawiyyah",
+    "ar": "الكتب السماوية",
+    "variants_ar": [
+      "الكتب المنزلة",
+      "الكتب الإلهية"
+    ],
+    "en": {
+      "preferred": "divine books",
+      "gloss": "the scriptures Allah revealed to His messengers, such as the Torah, the Gospel, the Psalms and the Qur'an",
+      "avoid": [
+        "mythology",
+        "religious literature"
+      ]
+    },
+    "fr": {
+      "preferred": "livres révélés",
+      "gloss": "les Écritures qu'Allah a révélées à Ses messagers, comme la Torah, l'Évangile, les Psaumes et le Coran",
+      "avoid": [
+        "mythologie",
+        "littérature religieuse"
+      ]
+    },
+    "usage_note_ar": "التعريف: الكتب التي أنزلها الله على رسله، كالتوراة والإنجيل والزبور والقرآن. | الدليل: النساء: 136. | في الجمهرة: EN «The divine books»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/8084/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/4/136/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "tawrah",
+    "ar": "التوراة",
+    "variants_ar": [
+      "توراة"
+    ],
+    "en": {
+      "preferred": "Torah",
+      "gloss": "the scripture Allah revealed to Moses",
+      "avoid": [
+        "Old Testament",
+        "Bible"
+      ]
+    },
+    "fr": {
+      "preferred": "Torah",
+      "gloss": "l'Écriture qu'Allah a révélée à Moïse",
+      "avoid": [
+        "Ancien Testament",
+        "Bible"
+      ]
+    },
+    "usage_note_ar": "التعريف: الكتاب الذي أنزله الله على موسى عليه السلام. | الدليل: آل عمران: 3. | في الجمهرة: EN «The Torah»، FR «La Torah». | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «La Torah» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/3548/en | FR: https://islamic-content.com/dictionary/word/3548/fr | الدليل: https://api.quranpedia.net/v1/ayah/3/3/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "injil",
+    "ar": "الإنجيل",
+    "variants_ar": [
+      "إنجيل"
+    ],
+    "en": {
+      "preferred": "Gospel",
+      "gloss": "the scripture Allah revealed to Jesus",
+      "avoid": [
+        "New Testament",
+        "Bible"
+      ]
+    },
+    "fr": {
+      "preferred": "Évangile",
+      "gloss": "l'Écriture qu'Allah a révélée à Jésus",
+      "avoid": [
+        "Nouveau Testament",
+        "Bible"
+      ]
+    },
+    "usage_note_ar": "التعريف: الكتاب الذي أنزله الله على عيسى عليه السلام. | الدليل: المائدة: 46. | في الجمهرة: EN «The Gospel»، FR «L'Evangile». | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «L'Evangile» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/1706/en | FR: https://islamic-content.com/dictionary/word/1706/fr | الدليل: https://api.quranpedia.net/v1/ayah/5/46/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "zabur",
+    "ar": "الزبور",
+    "variants_ar": [
+      "زبور",
+      "زبورا"
+    ],
+    "en": {
+      "preferred": "Psalms",
+      "gloss": "the scripture Allah gave to David",
+      "avoid": [
+        "hymns",
+        "songs"
+      ]
+    },
+    "fr": {
+      "preferred": "Psaumes",
+      "gloss": "l'Écriture qu'Allah a donnée à David",
+      "avoid": [
+        "hymnes",
+        "chansons"
+      ]
+    },
+    "usage_note_ar": "التعريف: الكتاب الذي آتاه الله داود عليه السلام. | الدليل: النساء: 163. | في الجمهرة: EN «The Psalms»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 4:163: «Psaumes».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/5405/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/4/163/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/4/163",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "ulul_azm",
+    "ar": "أولو العزم",
+    "variants_ar": [
+      "أولي العزم",
+      "أولو العزم من الرسل",
+      "أولي العزم من الرسل"
+    ],
+    "en": {
+      "preferred": "messengers with firm resolution",
+      "gloss": "the five greatest messengers: Noah, Abraham, Moses, Jesus and Muhammad",
+      "avoid": [
+        "strong prophets",
+        "warrior prophets"
+      ]
+    },
+    "fr": {
+      "preferred": "messagers doués de résolution",
+      "gloss": "les cinq plus grands messagers : Noé, Abraham, Moïse, Jésus et Muhammad",
+      "avoid": [
+        "prophètes guerriers",
+        "prophètes forts"
+      ]
+    },
+    "usage_note_ar": "التعريف: أفضل الرسل وأصبرهم، وهم: نوح وإبراهيم وموسى وعيسى ومحمد عليهم الصلاة والسلام. | الدليل: الأحقاف: 35. | في الجمهرة: EN «Messengers with firm resolution»، FR «Les Messagers doués de résolution.». | مدخل الجمهرة: «أولو العزم من الرسل» | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «Les Messagers doués de résolution.» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/11260/en | FR: https://islamic-content.com/dictionary/word/11260/fr | الدليل: https://api.quranpedia.net/v1/ayah/46/35/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "ismah",
+    "ar": "العصمة",
+    "variants_ar": [
+      "عصمة الأنبياء",
+      "معصوم"
+    ],
+    "en": {
+      "preferred": "infallibility",
+      "gloss": "the protection of prophets from error in conveying the message and from major sins; in family law «العصمة» also means the marriage bond",
+      "avoid": [
+        "perfection",
+        "divinity"
+      ]
+    },
+    "fr": {
+      "preferred": "infaillibilité",
+      "gloss": "la protection des prophètes contre l'erreur dans la transmission du message et contre les grands péchés ; en droit de la famille, « العصمة » désigne aussi le lien conjugal",
+      "avoid": [
+        "perfection",
+        "divinité"
+      ]
+    },
+    "usage_note_ar": "التعريف: حفظ الله أنبياءه من الخطأ في التبليغ ومن الكبائر. — تأتي في الفقه بمعنى عقدة النكاح، فالمعنى بالسياق. | الدليل: المائدة: 67. | في الجمهرة: EN «Infallibility»، FR «Infaillibilité». | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «Infaillibilité» (الرابط في source.ref).",
+    "strategy": "context",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/6899/en | FR: https://islamic-content.com/dictionary/word/6899/fr | الدليل: https://api.quranpedia.net/v1/ayah/5/67/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "karamah",
+    "ar": "الكرامة",
+    "variants_ar": [
+      "كرامات",
+      "كرامات الأولياء"
+    ],
+    "en": {
+      "preferred": "karamah",
+      "gloss": "an extraordinary event Allah grants a righteous believer, not a sign of prophethood; in general usage «الكرامة» also means human dignity",
+      "avoid": [
+        "magic",
+        "superpower"
+      ]
+    },
+    "fr": {
+      "preferred": "karâma",
+      "gloss": "prodige qu'Allah accorde à un croyant pieux, sans être un signe de prophétie ; dans l'usage courant, « الكرامة » signifie aussi la dignité humaine",
+      "avoid": [
+        "magie",
+        "superpouvoir"
+      ]
+    },
+    "usage_note_ar": "التعريف: أمر خارق للعادة يُجريه الله على يد عبد صالح غير مقرون بدعوى النبوة. — تأتي بمعنى العزة والشرف (كرامة الإنسان)، فالمعنى بالسياق. | الدليل: آل عمران: 37. | في الجمهرة: EN «Act of honour»، FR «Miracle / Prodige». | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Act of honour» للمعنى اللغوي؛ أُبقي اللفظ العربي مع الشرح، والفرنسي يوافق عنوانها «Miracle / Prodige». | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «Miracle / Prodige» (الرابط في source.ref).",
+    "strategy": "context",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/8152/en | FR: https://islamic-content.com/dictionary/word/8152/fr | الدليل: https://api.quranpedia.net/v1/ayah/3/37/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "sihr",
+    "ar": "السحر",
+    "variants_ar": [
+      "الساحر",
+      "السحرة",
+      "ساحر"
+    ],
+    "en": {
+      "preferred": "magic, sorcery",
+      "gloss": "sihr: harming or deceiving people through spells and the help of devils, forbidden in Islam; distinct from «السَّحَر», the time before dawn",
+      "avoid": [
+        "illusionism",
+        "stage magic"
+      ]
+    },
+    "fr": {
+      "preferred": "sorcellerie",
+      "gloss": "sihr : nuire aux gens ou les tromper par des sortilèges et l'aide des démons, interdit en islam ; à distinguer de « السَّحَر », le moment avant l'aube",
+      "avoid": [
+        "illusionnisme",
+        "magie de spectacle"
+      ]
+    },
+    "usage_note_ar": "التعريف: عُقَد ورقى وأعمال يُستعان فيها بالشياطين تؤثر في البدن أو العقل، وهو محرّم. — يُفرَّق بينه وبين «السَّحَر» (آخر الليل)، فالمعنى بالسياق. | الدليل: البقرة: 102. | في الجمهرة: EN «Magic, sorcery»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 2:102: «sorcellerie».",
+    "strategy": "context",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/5565/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/2/102/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/2/102",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "kahanah",
+    "ar": "الكهانة",
+    "variants_ar": [
+      "الكهان"
+    ],
+    "en": {
+      "preferred": "fortunetelling",
+      "gloss": "claiming knowledge of the unseen, often through the help of jinn",
+      "avoid": [
+        "prophecy",
+        "clairvoyance"
+      ]
+    },
+    "fr": {
+      "preferred": "voyance",
+      "gloss": "kahâna : divination qui prétend connaître l'invisible, souvent par l'aide des djinns",
+      "avoid": [
+        "prophétie",
+        "clairvoyance"
+      ]
+    },
+    "usage_note_ar": "التعريف: ادعاء علم الغيب بالاستعانة بالجن غالبًا. | الدليل: الطور: 29. | في الجمهرة: EN «Fortunetelling»، FR «La divination». | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «La divination» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/8268/en | FR: https://islamic-content.com/dictionary/word/8268/fr | الدليل: https://api.quranpedia.net/v1/ayah/52/29/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "irafah",
+    "ar": "العرافة",
+    "variants_ar": [
+      "العراف",
+      "عراف",
+      "العرافين"
+    ],
+    "en": {
+      "preferred": "divination",
+      "gloss": "claiming to know hidden matters such as lost things or the future by signs and premises",
+      "avoid": [
+        "astronomy",
+        "science"
+      ]
+    },
+    "fr": {
+      "preferred": "divination",
+      "gloss": "prétendre connaître les choses cachées, comme les objets perdus ou l'avenir, par des indices",
+      "avoid": [
+        "astronomie",
+        "science"
+      ]
+    },
+    "usage_note_ar": "التعريف: ادعاء معرفة الأمور الغائبة كالمسروق ومكان الضالة بمقدمات يستدل بها. | الدليل: صحيح مسلم (2230). | في الجمهرة: EN «Divination»، FR «Divination». | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «Divination» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/6808/en | FR: https://islamic-content.com/dictionary/word/6808/fr | الدليل: https://dorar.net/h/EwXtEhAs",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "tanjim",
+    "ar": "التنجيم",
+    "variants_ar": [
+      "المنجم",
+      "المنجمين",
+      "علم النجوم"
+    ],
+    "en": {
+      "preferred": "astrology",
+      "gloss": "deducing earthly events from the positions and movements of the stars, which Islam forbids",
+      "avoid": [
+        "astronomy",
+        "horoscope science"
+      ]
+    },
+    "fr": {
+      "preferred": "astrologie",
+      "gloss": "déduire les événements terrestres de la position des astres, ce que l'islam interdit",
+      "avoid": [
+        "astronomie",
+        "science des horoscopes"
+      ]
+    },
+    "usage_note_ar": "التعريف: الاستدلال بالأحوال الفلكية على الحوادث الأرضية، وهو محرّم. | الدليل: تخريج سنن أبي داود (3905). | في الجمهرة: EN «Astrology»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/3446/en | FR: غير متوفر في الجمهرة | الدليل: https://dorar.net/h/1G1YFKW7",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "tamaim",
+    "ar": "التمائم",
+    "variants_ar": [
+      "التميمة",
+      "تميمة",
+      "تمائم"
+    ],
+    "en": {
+      "preferred": "amulets",
+      "gloss": "objects hung on people or animals to ward off harm, forbidden as a form of shirk",
+      "avoid": [
+        "jewellery",
+        "decorations"
+      ]
+    },
+    "fr": {
+      "preferred": "amulettes",
+      "gloss": "objets suspendus aux personnes ou aux animaux pour écarter le mal, interdits comme forme de shirk",
+      "avoid": [
+        "bijoux",
+        "décorations"
+      ]
+    },
+    "usage_note_ar": "التعريف: ما يُعلَّق على الإنسان أو الدابة لدفع الضر أو العين، وهي من الشرك. | الدليل: صحيح ابن ماجه (2861). | في الجمهرة: EN «Amulets»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/3405/en | FR: غير متوفر في الجمهرة | الدليل: https://dorar.net/h/GeDtjQKq",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "ruqyah",
+    "ar": "الرقية",
+    "variants_ar": [
+      "الرقية الشرعية",
+      "رقية"
+    ],
+    "en": {
+      "preferred": "ruqyah",
+      "gloss": "healing recitation of the Qur'an and authentic supplications over the sick",
+      "avoid": [
+        "spell",
+        "incantation",
+        "exorcism"
+      ]
+    },
+    "fr": {
+      "preferred": "roqya",
+      "gloss": "récitation curative du Coran et d'invocations authentiques sur le malade",
+      "avoid": [
+        "sortilège",
+        "incantation",
+        "exorcisme"
+      ]
+    },
+    "usage_note_ar": "التعريف: قراءة القرآن والأدعية الثابتة على المريض طلبًا للشفاء، بشرط خلوها من الشرك. | الدليل: صحيح مسلم (2200). | في الجمهرة: EN «Invocation»، FR «Conjuration». | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Invocation» عام يشمل كل دعاء، والرقية دعاء وقراءة مخصوصان للاستشفاء، فأُبقي اللفظ العربي.",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/5280/en | FR: https://islamic-content.com/dictionary/word/5280/fr | الدليل: https://dorar.net/h/03Vvfh7h",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "tabarruk",
+    "ar": "التبرك",
+    "variants_ar": [
+      "تبرك",
+      "التبرك بالصالحين"
+    ],
+    "en": {
+      "preferred": "seeking blessings",
+      "gloss": "seeking blessing from Allah through what the texts made a means of blessing, such as Zamzam or the Qur'an",
+      "avoid": [
+        "worshipping relics",
+        "luck"
+      ]
+    },
+    "fr": {
+      "preferred": "recherche de la bénédiction",
+      "gloss": "rechercher la bénédiction d'Allah par ce que les textes en ont fait un moyen, comme Zamzam ou le Coran",
+      "avoid": [
+        "culte des reliques",
+        "chance"
+      ]
+    },
+    "usage_note_ar": "التعريف: طلب البركة من الله بما جعله الشرع سببًا لها، والممنوع منه ما لم يدل عليه دليل. | في الجمهرة: EN «Seeking blessings»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/2372/en | FR: غير متوفر في الجمهرة",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "istighathah",
+    "ar": "الاستغاثة",
+    "variants_ar": [
+      "استغاثة",
+      "يستغيث",
+      "تستغيثون"
+    ],
+    "en": {
+      "preferred": "appeal for help",
+      "gloss": "calling on Allah for rescue in hardship; asking anyone other than Allah for what only Allah can do is shirk",
+      "avoid": [
+        "prayer to saints",
+        "invocation of saints"
+      ]
+    },
+    "fr": {
+      "preferred": "appel au secours",
+      "gloss": "implorer le secours d'Allah dans la détresse ; demander à un autre qu'Allah ce que seul Allah peut accomplir est du shirk",
+      "avoid": [
+        "prière aux saints",
+        "invocation des saints"
+      ]
+    },
+    "usage_note_ar": "التعريف: طلب الغوث وإزالة الشدة، وطلبها من غير الله فيما لا يقدر عليه إلا الله شرك. | الدليل: الأنفال: 9. | في الجمهرة: EN «Appeal for help»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 8:9: «secours».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/924/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/8/9/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/8/9",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "tatayyur",
+    "ar": "التطير",
+    "variants_ar": [
+      "الطيرة",
+      "تطير",
+      "التشاؤم"
+    ],
+    "en": {
+      "preferred": "bad omen",
+      "gloss": "tatayyur: superstitiously drawing bad omens from birds, names, days or sights, forbidden in Islam",
+      "avoid": [
+        "prediction",
+        "intuition"
+      ]
+    },
+    "fr": {
+      "preferred": "superstition",
+      "gloss": "tatayyur : tirer de mauvais présages des oiseaux, des noms, des jours ou des choses vues, interdit en islam",
+      "avoid": [
+        "prédiction",
+        "intuition"
+      ]
+    },
+    "usage_note_ar": "التعريف: التشاؤم بالطيور أو الأسماء أو الأيام أو المرئيات، وهو منهي عنه. | الدليل: الأعراف: 131. | في الجمهرة: EN «Bad omen»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/2942/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/7/131/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "shaytan",
+    "ar": "الشيطان",
+    "variants_ar": [
+      "الشياطين",
+      "شيطان",
+      "إبليس"
+    ],
+    "en": {
+      "preferred": "Satan",
+      "gloss": "the devil: Iblis and every rebellious one among jinn and men who leads people astray",
+      "avoid": [
+        "fallen angel",
+        "dark lord"
+      ]
+    },
+    "fr": {
+      "preferred": "Satan",
+      "gloss": "le diable : Iblis et tout être rebelle, parmi les djinns et les hommes, qui égare les gens",
+      "avoid": [
+        "ange déchu",
+        "seigneur des ténèbres"
+      ]
+    },
+    "usage_note_ar": "التعريف: إبليس، وكل متمرد من الجن والإنس يضل الناس. — إبليس من الجن لا من الملائكة، فلا يقال fallen angel. | الدليل: فاطر: 6. | في الجمهرة: EN «Satan»، FR «Satan». | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «Satan» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/6083/en | FR: https://islamic-content.com/dictionary/word/6083/fr | الدليل: https://api.quranpedia.net/v1/ayah/35/6/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "ubudiyyah",
+    "ar": "العبودية",
+    "variants_ar": [
+      "عبودية",
+      "العبودية لله"
+    ],
+    "en": {
+      "preferred": "servitude to Allah",
+      "gloss": "being a servant of Allah in love, humility and obedience; in history it also means slavery",
+      "avoid": [
+        "slavery",
+        "subjugation"
+      ]
+    },
+    "fr": {
+      "preferred": "servitude envers Allah",
+      "gloss": "être serviteur d'Allah par l'amour, l'humilité et l'obéissance ; en histoire, le mot désigne aussi l'esclavage",
+      "avoid": [
+        "esclavage",
+        "asservissement"
+      ]
+    },
+    "usage_note_ar": "التعريف: التذلل لله محبةً وخضوعًا وطاعة، وهي أشرف مقامات العبد. — تأتي بمعنى الرق، فالمعنى بالسياق. | الدليل: الذاريات: 56. | في الجمهرة: EN «Submission»، FR «Servitude». | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Submission» يلتبس بمعنى «الإسلام» في المسرد، فاختير مقابل يميز العبودية لله. | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «Servitude» (الرابط في source.ref).",
+    "strategy": "context",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/6743/en | FR: https://islamic-content.com/dictionary/word/6743/fr | الدليل: https://api.quranpedia.net/v1/ayah/51/56/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "maad",
+    "ar": "المعاد",
+    "variants_ar": [
+      "يوم المعاد",
+      "المعاد الأخروي"
+    ],
+    "en": {
+      "preferred": "return",
+      "gloss": "the return of creatures to Allah after death for resurrection, judgement and recompense",
+      "avoid": [
+        "reincarnation",
+        "afterlife myth"
+      ]
+    },
+    "fr": {
+      "preferred": "retour",
+      "gloss": "le retour des créatures vers Allah après la mort pour la résurrection, le jugement et la rétribution",
+      "avoid": [
+        "réincarnation",
+        "mythe de l'au-delà"
+      ]
+    },
+    "usage_note_ar": "التعريف: رجوع الخلق إلى الله بعد الموت للبعث والحساب والجزاء. | الدليل: القصص: 85. | في الجمهرة: EN «The Return»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/9661/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/28/85/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "asnam",
+    "ar": "الأصنام",
+    "variants_ar": [
+      "الصنم",
+      "صنم",
+      "أصنام"
+    ],
+    "en": {
+      "preferred": "idols",
+      "gloss": "statues and images worshipped besides Allah",
+      "avoid": [
+        "statues of art",
+        "icons of saints"
+      ]
+    },
+    "fr": {
+      "preferred": "idoles",
+      "gloss": "statues et images adorées en dehors d'Allah",
+      "avoid": [
+        "statues d'art",
+        "icônes"
+      ]
+    },
+    "usage_note_ar": "التعريف: ما عُبد من دون الله من تمثال أو صورة. | الدليل: إبراهيم: 35. | في الجمهرة: EN «Idols»، FR «Les idoles». | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «Les idoles» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/1184/en | FR: https://islamic-content.com/dictionary/word/1184/fr | الدليل: https://api.quranpedia.net/v1/ayah/14/35/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "tanzih",
+    "ar": "التنزيه",
+    "variants_ar": [
+      "تنزيه الله",
+      "منزه"
+    ],
+    "en": {
+      "preferred": "declaring Allah free of imperfection",
+      "gloss": "affirming that Allah is free of every defect and of any likeness to His creatures",
+      "avoid": [
+        "abstraction",
+        "denial of attributes"
+      ]
+    },
+    "fr": {
+      "preferred": "exempter Allah de toute imperfection",
+      "gloss": "affirmer qu'Allah est exempt de tout défaut et de toute ressemblance avec Ses créatures",
+      "avoid": [
+        "abstraction",
+        "négation des attributs"
+      ]
+    },
+    "usage_note_ar": "التعريف: إثبات خلو الله عن كل نقص وعيب وعن مشابهة المخلوقين. | الدليل: الشورى: 11. | في الجمهرة: EN «Exaltation»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Exaltation» يلتبس بالتعظيم والتكبير، والتنزيه نفي النقص، فاختير مقابل يبين المعنى.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/3454/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/42/11/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "tatil",
+    "ar": "التعطيل",
+    "variants_ar": [],
+    "en": {
+      "preferred": "negation of God's attributes",
+      "gloss": "denying the names and attributes Allah affirmed for Himself",
+      "avoid": [
+        "suspension",
+        "holiday"
+      ]
+    },
+    "fr": {
+      "preferred": "négation des attributs divins",
+      "gloss": "nier les noms et attributs qu'Allah S'est attribués",
+      "avoid": [
+        "suspension",
+        "congé"
+      ]
+    },
+    "usage_note_ar": "التعريف: نفي ما أثبته الله لنفسه من الأسماء والصفات أو بعضها. | الدليل: الأعراف: 180. | في الجمهرة: EN «Negation of God's attributes»، FR «Annulation».",
+    "strategy": "context",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/3036/en | FR: https://islamic-content.com/dictionary/word/3036/fr | الدليل: https://api.quranpedia.net/v1/ayah/7/180/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "tashbih",
+    "ar": "التشبيه",
+    "variants_ar": [
+      "المشبهة"
+    ],
+    "en": {
+      "preferred": "likening",
+      "gloss": "tashbih (anthropomorphism): likening Allah's attributes to those of His creatures",
+      "avoid": [
+        "simile",
+        "metaphor"
+      ]
+    },
+    "fr": {
+      "preferred": "assimilation",
+      "gloss": "tashbîh : assimiler les attributs d'Allah à ceux de Ses créatures",
+      "avoid": [
+        "comparaison",
+        "métaphore"
+      ]
+    },
+    "usage_note_ar": "التعريف: تشبيه صفات الله بصفات المخلوقين. | الدليل: الشورى: 11. | في الجمهرة: EN «Likening»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/2836/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/42/11/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "ilham",
+    "ar": "الإلهام",
+    "variants_ar": [
+      "ألهمها"
+    ],
+    "en": {
+      "preferred": "inspiration",
+      "gloss": "what Allah casts into the heart of a person; unlike revelation, it is not a source of law",
+      "avoid": [
+        "revelation",
+        "prophecy"
+      ]
+    },
+    "fr": {
+      "preferred": "inspiration",
+      "gloss": "ce qu'Allah met dans le cœur d'une personne ; contrairement à la révélation, ce n'est pas une source de législation",
+      "avoid": [
+        "révélation",
+        "prophétie"
+      ]
+    },
+    "usage_note_ar": "التعريف: ما يلقيه الله في قلب العبد، وليس حجة في الأحكام بخلاف الوحي. | الدليل: الشمس: 8. | في الجمهرة: EN «Inspiration»، FR «Inspiration». | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «Inspiration» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/1543/en | FR: https://islamic-content.com/dictionary/word/1543/fr | الدليل: https://api.quranpedia.net/v1/ayah/91/8/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "taghut",
+    "ar": "الطاغوت",
+    "variants_ar": [
+      "طاغوت",
+      "الطواغيت",
+      "بالطاغوت"
+    ],
+    "en": {
+      "preferred": "taghut",
+      "gloss": "false deities: everything worshipped, followed or obeyed besides Allah beyond the bounds He set",
+      "avoid": [
+        "tyrant only",
+        "demon"
+      ]
+    },
+    "fr": {
+      "preferred": "tâghût",
+      "gloss": "les fausses divinités : tout ce qui est adoré, suivi ou obéi en dehors d'Allah au-delà des limites qu'Il a fixées",
+      "avoid": [
+        "tyran seulement",
+        "démon"
+      ]
+    },
+    "usage_note_ar": "التعريف: كل ما تجاوز به العبد حده من معبود أو متبوع أو مطاع من دون الله. | الدليل: البقرة: 256. | في الجمهرة: EN «ṭāghūt i.e. false deities»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): أُبقي اللفظ العربي، ومعنى عنوان الجمهرة «ṭāghūt i.e. false deities» في الشرح.",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/6499/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/2/256/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "tawassul",
+    "ar": "التوسل",
+    "variants_ar": [
+      "توسل"
+    ],
+    "en": {
+      "preferred": "seeking a means of nearness",
+      "gloss": "tawassul: drawing near to Allah through a means He legislated, such as His names, good deeds or a living person's supplication; scholars detail which other forms are forbidden",
+      "avoid": [
+        "intercession of saints",
+        "pleading with the dead"
+      ]
+    },
+    "fr": {
+      "preferred": "recherche d'un moyen de rapprochement",
+      "gloss": "tawassul : se rapprocher d'Allah par un moyen qu'Il a légiféré, comme Ses noms, les bonnes œuvres ou l'invocation d'un vivant ; les savants détaillent les formes interdites",
+      "avoid": [
+        "intercession des saints",
+        "supplier les morts"
+      ]
+    },
+    "usage_note_ar": "التعريف: التقرب إلى الله بوسيلة مشروعة كأسمائه وصفاته والعمل الصالح ودعاء الحي الحاضر، ومنه ممنوع فصّل العلماء صوره. | الدليل: المائدة: 35. | في الجمهرة: EN «Pleading»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Pleading» عام؛ والمقصود التوسل بوسيلة، فاختير مقابل يبين المعنى. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 5:35: «rapprocher».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/3558/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/5/35/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/5/35",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "asma_husna",
+    "ar": "الأسماء الحسنى",
+    "variants_ar": [
+      "أسماء الله الحسنى",
+      "أسماء الله"
+    ],
+    "en": {
+      "preferred": "most beautiful names",
+      "gloss": "the names by which Allah named Himself in His Book or on the tongue of His Messenger",
+      "avoid": [
+        "titles of God",
+        "attributes of saints"
+      ]
+    },
+    "fr": {
+      "preferred": "plus beaux noms",
+      "gloss": "les noms par lesquels Allah S'est nommé dans Son Livre ou par la bouche de Son Messager",
+      "avoid": [
+        "titres divins",
+        "attributs des saints"
+      ]
+    },
+    "usage_note_ar": "التعريف: الأسماء التي سمى الله بها نفسه في كتابه أو على لسان رسوله، وكلها حسنى بالغة الكمال. | الدليل: الأعراف: 180. | في الجمهرة: EN «God's Fine Names»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | مدخل الجمهرة: «أَسْمَاْءُ اللهِ الْحُسْنَى» | سبب الاختلاف عن الجمهرة (EN): «most beautiful names» هو مقابل «الأسماء الحسنى» في ترجمة صحيح إنترناشونال (الأعراف 180)، ومدخل الجمهرة «أسماء الله الحسنى» بعنوان «God's Fine Names». | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 7:180: «noms».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/1048/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/7/180/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/7/180",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "nawaqid_islam",
+    "ar": "نواقض الإسلام",
+    "variants_ar": [
+      "نواقض الإيمان",
+      "ناقض من نواقض الإسلام"
+    ],
+    "en": {
+      "preferred": "invalidators of Islam",
+      "gloss": "beliefs, words, acts or omissions that take a person out of Islam, judged only by qualified scholars",
+      "avoid": [
+        "minor sins",
+        "sins in general"
+      ]
+    },
+    "fr": {
+      "preferred": "annulatifs de l'islam",
+      "gloss": "croyances, paroles, actes ou omissions qui font sortir de l'islam, dont le jugement revient aux savants qualifiés",
+      "avoid": [
+        "péchés mineurs",
+        "péchés en général"
+      ]
+    },
+    "usage_note_ar": "التعريف: الاعتقادات والأقوال والأفعال والتروك التي يخرج بها المسلم من الإسلام، والحكم بها لأهل العلم. | في الجمهرة: EN «Invalidators of Islam»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/10640/en | FR: غير متوفر في الجمهرة",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "jahiliyyah",
+    "ar": "الجاهلية",
+    "variants_ar": [
+      "جاهلية",
+      "أهل الجاهلية",
+      "حمية الجاهلية"
+    ],
+    "en": {
+      "preferred": "pre-Islamic days",
+      "gloss": "jahiliyyah: the state of ignorance of Allah and His law before the Prophet's mission, and any trait of it",
+      "avoid": [
+        "dark ages",
+        "illiteracy"
+      ]
+    },
+    "fr": {
+      "preferred": "période préislamique",
+      "gloss": "jâhiliyya : l'état d'ignorance d'Allah et de Sa loi avant la mission du Prophète, et tout trait qui en relève",
+      "avoid": [
+        "âge sombre",
+        "analphabétisme"
+      ]
+    },
+    "usage_note_ar": "التعريف: ما كان عليه الناس قبل البعثة من الجهل بالله وشرعه، ويطلق على كل خصلة من خصالها. | الدليل: الأحزاب: 33. | في الجمهرة: EN «Pre-Islamic days»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 33:33: «préislamique».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/3741/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/33/33/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/33/33",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "kawthar",
+    "ar": "الكوثر",
+    "variants_ar": [
+      "نهر الكوثر"
+    ],
+    "en": {
+      "preferred": "Kawthar",
+      "gloss": "a river in Paradise given to the Prophet, which flows into his Pond",
+      "avoid": [
+        "abundance only",
+        "fountain of youth"
+      ]
+    },
+    "fr": {
+      "preferred": "Kawthar",
+      "gloss": "un fleuve du Paradis accordé au Prophète, qui se déverse dans son Bassin",
+      "avoid": [
+        "abondance seulement",
+        "fontaine de jouvence"
+      ]
+    },
+    "usage_note_ar": "التعريف: نهر في الجنة أعطاه الله نبيه ﷺ، ويصب في حوضه. | الدليل: الكوثر: 1. | في الجمهرة: EN «Al-Kawthar»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/8272/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/108/1/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "qarin",
+    "ar": "القرين",
+    "variants_ar": [
+      "قرينه"
+    ],
+    "en": {
+      "preferred": "devil-companion",
+      "gloss": "qarin: the devil assigned to every person, who whispers evil to him; in general usage «القرين» also means a companion or spouse",
+      "avoid": [
+        "guardian angel",
+        "soulmate"
+      ]
+    },
+    "fr": {
+      "preferred": "compagnon démon",
+      "gloss": "qarîn : le démon attaché à chaque personne, qui lui souffle le mal ; dans l'usage courant, « القرين » désigne aussi un compagnon ou un conjoint",
+      "avoid": [
+        "ange gardien",
+        "âme sœur"
+      ]
+    },
+    "usage_note_ar": "التعريف: الشيطان الملازم للإنسان الذي يوسوس له بالشر، ويطلق لغة على الصاحب. — يأتي بمعنى الصاحب والزوج، فالمعنى بالسياق. | الدليل: ق: 27. | في الجمهرة: EN «Friend»، FR «Conjointe, compagnon inséparable, union, démon, acolyte». | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Friend» للمعنى اللغوي، والتعريف فيها للشيطان الملازم، فاختير مقابل يبين المعنى الاصطلاحي. | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «Conjointe, compagnon inséparable, union, démon, acolyte» (الرابط في source.ref).",
+    "strategy": "context",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/7800/en | FR: https://islamic-content.com/dictionary/word/7800/fr | الدليل: https://api.quranpedia.net/v1/ayah/50/27/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "urwah_wuthqa",
+    "ar": "العروة الوثقى",
+    "variants_ar": [
+      "بالعروة الوثقى"
+    ],
+    "en": {
+      "preferred": "firmest handhold",
+      "gloss": "the firm bond of faith: tawhid and holding fast to Islam",
+      "avoid": [
+        "lucky rope",
+        "secret society"
+      ]
+    },
+    "fr": {
+      "preferred": "anse la plus solide",
+      "gloss": "le lien solide de la foi : le tawhîd et l'attachement à l'islam",
+      "avoid": [
+        "corde porte-bonheur",
+        "société secrète"
+      ]
+    },
+    "usage_note_ar": "التعريف: كلمة التوحيد والاستمساك بالإسلام، شُبّهت بالعروة المحكمة. | الدليل: البقرة: 256. | في الجمهرة: EN «The firmest support»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): «most trustworthy handhold» مقابل صحيح إنترناشونال في البقرة 256، واختصر إلى firmest handhold؛ وعنوان الجمهرة «The firmest support» بالمعنى نفسه.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/6852/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/2/256/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "maqam_mahmud",
+    "ar": "المقام المحمود",
+    "variants_ar": [
+      "مقاما محمودا"
+    ],
+    "en": {
+      "preferred": "praised station",
+      "gloss": "the station of the Prophet's great intercession on the Day of Resurrection",
+      "avoid": [
+        "shrine",
+        "tomb"
+      ]
+    },
+    "fr": {
+      "preferred": "station louable",
+      "gloss": "la station de la grande intercession du Prophète le Jour de la Résurrection",
+      "avoid": [
+        "sanctuaire",
+        "tombeau"
+      ]
+    },
+    "usage_note_ar": "التعريف: مقام الشفاعة العظمى الذي يقومه النبي ﷺ يوم القيامة فيحمده عليه الأولون والآخرون. | الدليل: الإسراء: 79. | في الجمهرة: EN «The honourable station»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): «praised station» أقرب للفظ «محمود» من عنوان الجمهرة «The honourable station»، وهو مقابل صحيح إنترناشونال في الإسراء 79.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/9869/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/17/79/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "wathan",
+    "ar": "الوثن",
+    "variants_ar": [
+      "الأوثان",
+      "وثن",
+      "أوثانا"
+    ],
+    "en": {
+      "preferred": "idol",
+      "gloss": "anything worshipped besides Allah, whether an image, a stone or a tomb",
+      "avoid": [
+        "statue of art",
+        "monument"
+      ]
+    },
+    "fr": {
+      "preferred": "idole",
+      "gloss": "tout ce qui est adoré en dehors d'Allah, image, pierre ou tombe",
+      "avoid": [
+        "statue d'art",
+        "monument"
+      ]
+    },
+    "usage_note_ar": "التعريف: كل ما عُبد من دون الله من صورة أو حجر أو قبر. | الدليل: العنكبوت: 17. | في الجمهرة: EN «Idol»، FR «L'idole». | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «L'idole» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/10810/en | FR: https://islamic-content.com/dictionary/word/10810/fr | الدليل: https://api.quranpedia.net/v1/ayah/29/17/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "wala",
+    "ar": "الولاء",
+    "variants_ar": [
+      "الولاء والبراء",
+      "الموالاة"
+    ],
+    "en": {
+      "preferred": "allegiance",
+      "gloss": "al-wala': loyalty and love for Allah, His Messenger and the believers; in inheritance law it also means the bond with a freed slave",
+      "avoid": [
+        "nationalism",
+        "tribal loyalty"
+      ]
+    },
+    "fr": {
+      "preferred": "allégeance",
+      "gloss": "al-walâ' : la loyauté et l'amour envers Allah, Son Messager et les croyants ; en droit successoral, il désigne aussi le lien avec l'affranchi",
+      "avoid": [
+        "nationalisme",
+        "loyauté tribale"
+      ]
+    },
+    "usage_note_ar": "التعريف: محبة الله ورسوله والمؤمنين ونصرتهم، ويأتي في الفقه بمعنى الولاء للمعتِق. — يأتي في الميراث بمعنى ولاء العتق، فالمعنى بالسياق. | الدليل: المائدة: 55. | في الجمهرة: EN «Allegiance»، FR «Alliance». | مسودة: مدخل الجمهرة (11010) لولاء العتق فقط، والمعنى العقدي هنا بلا مدخل مطابق في الجمهرة؛ الدليل المائدة 55",
+    "strategy": "context",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/11010/en | FR: https://islamic-content.com/dictionary/word/11010/fr | الدليل: https://api.quranpedia.net/v1/ayah/5/55/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "draft",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "mikail",
+    "ar": "ميكائيل",
+    "variants_ar": [
+      "ميكال",
+      "ميكائيل عليه السلام"
+    ],
+    "en": {
+      "preferred": "Michael",
+      "gloss": "one of the greatest angels, entrusted with rain and provision",
+      "avoid": [
+        "archangel of war",
+        "saint Michael"
+      ]
+    },
+    "fr": {
+      "preferred": "Michaël",
+      "gloss": "l'un des plus grands anges, chargé de la pluie et de la subsistance",
+      "avoid": [
+        "archange de la guerre",
+        "saint Michel"
+      ]
+    },
+    "usage_note_ar": "التعريف: أحد الملائكة العظام، موكّل بالقطر والنبات. | الدليل: البقرة: 98. | في الجمهرة: EN «Michael»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/10280/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/2/98/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
   }
 ]

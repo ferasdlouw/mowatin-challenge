@@ -1015,5 +1015,2071 @@
       "name": "ردينة بلال",
       "date": "2026-10-03"
     }
+  },
+  {
+    "id": "hukm_shari",
+    "ar": "الحكم الشرعي",
+    "variants_ar": [
+      "الأحكام الشرعية",
+      "حكم شرعي",
+      "الحكم التكليفي"
+    ],
+    "en": {
+      "preferred": "religious ruling",
+      "gloss": "the Shari'ah ruling on human acts: obligatory, recommended, permissible, disliked or forbidden",
+      "avoid": [
+        "court verdict",
+        "fatwa"
+      ]
+    },
+    "fr": {
+      "preferred": "statut légal",
+      "gloss": "le statut des actes humains selon la Charia : obligatoire, recommandé, permis, déconseillé ou interdit",
+      "avoid": [
+        "verdict judiciaire",
+        "fatwa"
+      ]
+    },
+    "usage_note_ar": "التعريف: خطاب الله المتعلق بأفعال المكلفين اقتضاءً أو تخييرًا أو وضعًا. | في الجمهرة: EN «Religious ruling»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/4445/en | FR: غير متوفر في الجمهرة",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "rukhsah",
+    "ar": "الرخصة",
+    "variants_ar": [
+      "الرخص",
+      "رخصه"
+    ],
+    "en": {
+      "preferred": "concession",
+      "gloss": "rukhsah: an easing of a ruling granted because of an excuse, such as shortening prayer while travelling",
+      "avoid": [
+        "licence",
+        "loophole"
+      ]
+    },
+    "fr": {
+      "preferred": "dispense",
+      "gloss": "rukhsa : allègement d'une règle accordé pour une excuse, comme raccourcir la prière en voyage",
+      "avoid": [
+        "licence",
+        "échappatoire"
+      ]
+    },
+    "usage_note_ar": "التعريف: ما ثبت على خلاف دليل شرعي لمعارض راجح، كقصر الصلاة في السفر. | الدليل: تخريج المسند لشعيب (5866). | في الجمهرة: EN «Concession»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "context",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/5175/en | FR: غير متوفر في الجمهرة | الدليل: https://dorar.net/h/fBJfhKKv",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "azimah",
+    "ar": "العزيمة",
+    "variants_ar": [
+      "عزيمة",
+      "العزائم"
+    ],
+    "en": {
+      "preferred": "strict ruling",
+      "gloss": "'azimah: the original ruling established by evidence, as opposed to a concession; in general usage it means resolve",
+      "avoid": [
+        "incantation",
+        "stubbornness"
+      ]
+    },
+    "fr": {
+      "preferred": "règle stricte",
+      "gloss": "'azîma : la règle originelle établie par la preuve, par opposition à la dispense ; dans l'usage courant, résolution",
+      "avoid": [
+        "incantation",
+        "entêtement"
+      ]
+    },
+    "usage_note_ar": "التعريف: الحكم الأصلي الثابت بدليل شرعي خالٍ عن معارض راجح، ويقابل الرخصة. — تأتي بمعنى العزم والإرادة، فالمعنى بالسياق. | في الجمهرة: EN «Firm Intention»، FR «Résolution». | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Firm Intention» للمعنى اللغوي، والتعريف فيها للحكم الأصلي المقابل للرخصة. | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «Résolution» (الرابط في source.ref).",
+    "strategy": "context",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/6874/en | FR: https://islamic-content.com/dictionary/word/6874/fr",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "maqasid_shariah",
+    "ar": "مقاصد الشريعة",
+    "variants_ar": [
+      "المقاصد الشرعية",
+      "مقاصد الشرع",
+      "الضروريات الخمس"
+    ],
+    "en": {
+      "preferred": "objectives of Sharia",
+      "gloss": "the aims of the Shari'ah: preserving religion, life, intellect, lineage and property",
+      "avoid": [
+        "political goals",
+        "intentions"
+      ]
+    },
+    "fr": {
+      "preferred": "finalités de la Charia",
+      "gloss": "les objectifs de la Charia : préserver la religion, la vie, la raison, la descendance et les biens",
+      "avoid": [
+        "objectifs politiques",
+        "intentions"
+      ]
+    },
+    "usage_note_ar": "التعريف: الغايات التي وضعت الشريعة لتحقيقها، وأصولها حفظ الدين والنفس والعقل والنسل والمال. | في الجمهرة: EN «Objectives of Sharia»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/9857/en | FR: غير متوفر في الجمهرة",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "darurah",
+    "ar": "الضرورة",
+    "variants_ar": [
+      "المضطر",
+      "الضرورات"
+    ],
+    "en": {
+      "preferred": "absolute necessity",
+      "gloss": "darurah: a state of grave need in which a forbidden thing becomes permitted to the extent needed",
+      "avoid": [
+        "convenience",
+        "preference"
+      ]
+    },
+    "fr": {
+      "preferred": "nécessité absolue",
+      "gloss": "darûra : état de besoin grave où un interdit devient permis dans la mesure nécessaire",
+      "avoid": [
+        "commodité",
+        "préférence"
+      ]
+    },
+    "usage_note_ar": "التعريف: حالة خطر تُلجئ إلى ارتكاب المحظور بقدر ما يدفع الضرر. — تأتي بمعنى الحاجة العامة، والمعنى الفقهي أخص، فالمعنى بالسياق. | الدليل: البقرة: 173. | في الجمهرة: EN «Absolute Necessity»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 2:173: «contraint».",
+    "strategy": "context",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/6454/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/2/173/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/2/173",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "maslahah_mursalah",
+    "ar": "المصلحة المرسلة",
+    "variants_ar": [
+      "المصالح المرسلة",
+      "الاستصلاح"
+    ],
+    "en": {
+      "preferred": "unrestricted public interest",
+      "gloss": "maslahah mursalah: a benefit that no specific text affirms or rejects, considered within the objectives of the Shari'ah",
+      "avoid": [
+        "self-interest",
+        "expediency"
+      ]
+    },
+    "fr": {
+      "preferred": "intérêt général non spécifié",
+      "gloss": "maslaha mursala : un bien qu'aucun texte précis n'affirme ni ne rejette, pris en compte dans le cadre des finalités de la Charia",
+      "avoid": [
+        "intérêt personnel",
+        "opportunisme"
+      ]
+    },
+    "usage_note_ar": "التعريف: المصلحة التي لم يشهد لها نص معين بالاعتبار ولا بالإلغاء، وتلائم مقاصد الشريعة. | في الجمهرة: EN «Undefined Interest»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Undefined Interest» غير واضح، فاختير مقابل يبين المعنى.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/9596/en | FR: غير متوفر في الجمهرة",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "urf",
+    "ar": "العرف",
+    "variants_ar": [],
+    "en": {
+      "preferred": "custom",
+      "gloss": "'urf: what people habitually say or do, considered in rulings when it does not conflict with a text",
+      "avoid": [
+        "tradition in religion",
+        "folklore"
+      ]
+    },
+    "fr": {
+      "preferred": "coutume",
+      "gloss": "'urf : ce que les gens ont l'habitude de dire ou de faire, pris en compte dans les règles s'il ne contredit pas un texte",
+      "avoid": [
+        "tradition religieuse",
+        "folklore"
+      ]
+    },
+    "usage_note_ar": "التعريف: ما اعتاده الناس من قول أو فعل، ويُعتبر في الأحكام ما لم يخالف نصًا. — يُفرَّق بين العُرف وعَرَف وعِرف، فالمعنى بالسياق. | الدليل: الأعراف: 199. | في الجمهرة: EN «Tradition»، FR «Mœurs». | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Tradition» يلتبس بمعنى السنة في المسرد، فاختير custom.",
+    "strategy": "context",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/6835/en | FR: https://islamic-content.com/dictionary/word/6835/fr | الدليل: https://api.quranpedia.net/v1/ayah/7/199/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "istihsan",
+    "ar": "الاستحسان",
+    "variants_ar": [
+      "استحسان"
+    ],
+    "en": {
+      "preferred": "juristic discretion",
+      "gloss": "istihsan: departing from the general ruling in a case for a stronger specific evidence",
+      "avoid": [
+        "personal taste",
+        "approval"
+      ]
+    },
+    "fr": {
+      "preferred": "préférence juridique",
+      "gloss": "istihsân : s'écarter de la règle générale dans un cas pour une preuve particulière plus forte",
+      "avoid": [
+        "goût personnel",
+        "approbation"
+      ]
+    },
+    "usage_note_ar": "التعريف: العدول بالمسألة عن حكم نظائرها لدليل أقوى يقتضي ذلك. | في الجمهرة: EN «Juristic Discretion»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/815/en | FR: غير متوفر في الجمهرة",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "sadd_dharai",
+    "ar": "سد الذرائع",
+    "variants_ar": [
+      "سد الذريعة"
+    ],
+    "en": {
+      "preferred": "blocking the means",
+      "gloss": "preventing a permissible act that leads, certainly or most probably, to something forbidden",
+      "avoid": [
+        "censorship",
+        "banning everything"
+      ]
+    },
+    "fr": {
+      "preferred": "blocage des moyens",
+      "gloss": "interdire un acte permis qui mène, de façon certaine ou probable, à un interdit",
+      "avoid": [
+        "censure",
+        "tout interdire"
+      ]
+    },
+    "usage_note_ar": "التعريف: منع الفعل المباح الذي يؤدي قطعًا أو غالبًا إلى محرم. | الدليل: الأنعام: 108. | في الجمهرة: EN «Blocking the means»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/5574/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/6/108/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "istishab",
+    "ar": "الاستصحاب",
+    "variants_ar": [
+      "استصحاب",
+      "استصحاب الحال"
+    ],
+    "en": {
+      "preferred": "presumption of continuity",
+      "gloss": "istishab: judging that a previous state continues until evidence of change appears",
+      "avoid": [
+        "accompanying someone",
+        "habit"
+      ]
+    },
+    "fr": {
+      "preferred": "présomption de continuité",
+      "gloss": "istis-hâb : considérer qu'un état antérieur se maintient jusqu'à preuve du changement",
+      "avoid": [
+        "accompagner quelqu'un",
+        "habitude"
+      ]
+    },
+    "usage_note_ar": "التعريف: الحكم ببقاء ما كان على ما كان حتى يقوم دليل على تغيره. | في الجمهرة: EN «Presumption of Continuity»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/881/en | FR: غير متوفر في الجمهرة",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "usul_fiqh",
+    "ar": "أصول الفقه",
+    "variants_ar": [
+      "علم أصول الفقه",
+      "الأصولي",
+      "الأصوليون"
+    ],
+    "en": {
+      "preferred": "principles of jurisprudence",
+      "gloss": "the science of the general evidences of fiqh and how rulings are derived from them",
+      "avoid": [
+        "basics of fiqh",
+        "fundamentalism"
+      ]
+    },
+    "fr": {
+      "preferred": "fondements du droit musulman",
+      "gloss": "la science des preuves générales du fiqh et de la manière d'en déduire les règles",
+      "avoid": [
+        "bases du fiqh",
+        "fondamentalisme"
+      ]
+    },
+    "usage_note_ar": "التعريف: علم يبحث في أدلة الفقه الإجمالية وكيفية الاستفادة منها وحال المستفيد. | في الجمهرة: EN «Principles of Jurisprudence»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/1200/en | FR: غير متوفر في الجمهرة",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "qawaid_fiqhiyyah",
+    "ar": "القواعد الفقهية",
+    "variants_ar": [
+      "القاعدة الفقهية",
+      "قاعدة فقهية"
+    ],
+    "en": {
+      "preferred": "legal maxims",
+      "gloss": "general juristic principles that cover rulings in many areas of fiqh, such as «hardship brings ease»",
+      "avoid": [
+        "bylaws",
+        "regulations"
+      ]
+    },
+    "fr": {
+      "preferred": "maximes juridiques",
+      "gloss": "principes juridiques généraux couvrant les règles de nombreux domaines du fiqh, comme « la difficulté appelle la facilité »",
+      "avoid": [
+        "règlements",
+        "statuts"
+      ]
+    },
+    "usage_note_ar": "التعريف: قضايا كلية فقهية تنطبق على جزئيات كثيرة من أبواب متعددة. | في الجمهرة: EN «Fiqh Rule»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | مدخل الجمهرة: «القاعدة الفقهية» | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Fiqh Rule» لمدخل المفرد، واختير legal maxims لأنه المقابل الشائع للقواعد الفقهية.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/7636/en | FR: غير متوفر في الجمهرة",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "taqlid",
+    "ar": "التقليد",
+    "variants_ar": [
+      "تقليد",
+      "المقلد"
+    ],
+    "en": {
+      "preferred": "imitation",
+      "gloss": "taqlid: following a scholar's opinion without knowing its evidence, permitted for those unable to study the evidence; in general usage «التقليد» means imitation or tradition",
+      "avoid": [
+        "copying",
+        "blind faith"
+      ]
+    },
+    "fr": {
+      "preferred": "imitation",
+      "gloss": "taqlîd : suivre l'avis d'un savant sans connaître sa preuve, permis à qui ne peut étudier les preuves ; dans l'usage courant, imitation ou tradition",
+      "avoid": [
+        "copie",
+        "foi aveugle"
+      ]
+    },
+    "usage_note_ar": "التعريف: قبول قول المجتهد من غير معرفة دليله. — يأتي بمعنى المحاكاة والعادات، فالمعنى بالسياق. | الدليل: النحل: 43. | في الجمهرة: EN «Imitation»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "context",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/3256/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/16/43/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "bay",
+    "ar": "البيع",
+    "variants_ar": [
+      "بيع",
+      "البيوع",
+      "تبايعتم"
+    ],
+    "en": {
+      "preferred": "sale",
+      "gloss": "bay': exchanging property for property with mutual consent, transferring ownership",
+      "avoid": [
+        "allegiance",
+        "auction only"
+      ]
+    },
+    "fr": {
+      "preferred": "vente",
+      "gloss": "bay' : échange de biens contre des biens avec consentement mutuel, transférant la propriété",
+      "avoid": [
+        "allégeance",
+        "enchère seulement"
+      ]
+    },
+    "usage_note_ar": "التعريف: مبادلة مال بمال تمليكًا وتملكًا. | الدليل: البقرة: 275. | في الجمهرة: EN «Sale»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 2:275: «commerce».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/2226/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/2/275/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/2/275",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "ijarah",
+    "ar": "الإجارة",
+    "variants_ar": [
+      "إجارة",
+      "الأجير",
+      "استأجره"
+    ],
+    "en": {
+      "preferred": "lease",
+      "gloss": "ijarah: a contract on a known benefit for a known period in return for a known payment, including hiring",
+      "avoid": [
+        "usury",
+        "sale"
+      ]
+    },
+    "fr": {
+      "preferred": "louage",
+      "gloss": "ijâra : contrat sur un usage connu pour une durée connue contre une rémunération connue, y compris l'emploi",
+      "avoid": [
+        "usure",
+        "vente"
+      ]
+    },
+    "usage_note_ar": "التعريف: عقد على منفعة معلومة مدة معلومة بعوض معلوم. | الدليل: القصص: 26. | في الجمهرة: EN «Lease»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 28:26: «Loue».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/160/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/28/26/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/28/26",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "rahn",
+    "ar": "الرهن",
+    "variants_ar": [
+      "رهان",
+      "المرهون"
+    ],
+    "en": {
+      "preferred": "pawn",
+      "gloss": "rahn: property held as security for a debt, sold to repay it if the debtor defaults",
+      "avoid": [
+        "hostage",
+        "bet"
+      ]
+    },
+    "fr": {
+      "preferred": "gage",
+      "gloss": "rahn : bien retenu en garantie d'une dette, vendu pour la rembourser si le débiteur fait défaut",
+      "avoid": [
+        "otage",
+        "pari"
+      ]
+    },
+    "usage_note_ar": "التعريف: توثقة دين بعين يمكن استيفاؤه منها. | الدليل: البقرة: 283. | في الجمهرة: EN «Pawn»، FR «Gage». | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «Gage» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/5308/en | FR: https://islamic-content.com/dictionary/word/5308/fr | الدليل: https://api.quranpedia.net/v1/ayah/2/283/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "mudarabah",
+    "ar": "المضاربة",
+    "variants_ar": [
+      "مضاربة",
+      "القراض"
+    ],
+    "en": {
+      "preferred": "mudarabah partnership",
+      "gloss": "a partnership in which one party provides capital and the other labour, sharing profit as agreed",
+      "avoid": [
+        "speculation",
+        "stock trading"
+      ]
+    },
+    "fr": {
+      "preferred": "mudâraba",
+      "gloss": "société où l'un apporte le capital et l'autre le travail, le bénéfice étant partagé selon l'accord",
+      "avoid": [
+        "spéculation",
+        "boursicotage"
+      ]
+    },
+    "usage_note_ar": "التعريف: عقد شركة بمال من جانب وعمل من جانب، والربح بينهما حسب الشرط. — تُستعمل اليوم بمعنى المضاربة في الأسواق، فالمعنى بالسياق. | في الجمهرة: EN «Sleeping Partnership»، FR «Type de société». | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Sleeping Partnership» غير شائع، فأُبقي اللفظ العربي مع الشرح. | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «Type de société» (الرابط في source.ref).",
+    "strategy": "context",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/9607/en | FR: https://islamic-content.com/dictionary/word/9607/fr",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "murabahah",
+    "ar": "المرابحة",
+    "variants_ar": [
+      "مرابحة",
+      "بيع المرابحة"
+    ],
+    "en": {
+      "preferred": "resale with gain",
+      "gloss": "murabahah: selling an item at its cost plus a disclosed agreed profit",
+      "avoid": [
+        "interest loan",
+        "usury"
+      ]
+    },
+    "fr": {
+      "preferred": "vente avec marge",
+      "gloss": "murâbaha : vendre un bien à son coût majoré d'un bénéfice convenu et déclaré",
+      "avoid": [
+        "prêt à intérêt",
+        "usure"
+      ]
+    },
+    "usage_note_ar": "التعريف: بيع السلعة بثمنها الأول مع ربح معلوم. | في الجمهرة: EN «Resale with gain»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/9220/en | FR: غير متوفر في الجمهرة",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "istisna",
+    "ar": "الاستصناع",
+    "variants_ar": [
+      "استصناع",
+      "عقد الاستصناع"
+    ],
+    "en": {
+      "preferred": "manufacturing contract",
+      "gloss": "istisna': ordering a maker to produce a specified item for an agreed price",
+      "avoid": [
+        "industrialisation",
+        "factory"
+      ]
+    },
+    "fr": {
+      "preferred": "contrat de fabrication",
+      "gloss": "istisnâ' : demander la fabrication d'un objet déterminé à un prix convenu",
+      "avoid": [
+        "industrialisation",
+        "usine"
+      ]
+    },
+    "usage_note_ar": "التعريف: عقد على صنع شيء موصوف في الذمة بثمن معلوم. | في الجمهرة: EN «Order to Make Something»، FR «Demander la fabrication d'un objet». | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Order to Make Something» طويل، واختير manufacturing contract بالمعنى نفسه. | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «Demander la fabrication d'un objet» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/893/en | FR: https://islamic-content.com/dictionary/word/893/fr",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "hawalah",
+    "ar": "الحوالة",
+    "variants_ar": [
+      "حوالة",
+      "أُتبع على مليء"
+    ],
+    "en": {
+      "preferred": "debt transfer",
+      "gloss": "hawalah: moving a debt from one debtor's liability to another's",
+      "avoid": [
+        "money transfer service",
+        "postal order"
+      ]
+    },
+    "fr": {
+      "preferred": "transfert de dette",
+      "gloss": "hawâla : transférer une dette de la responsabilité d'un débiteur à celle d'un autre",
+      "avoid": [
+        "mandat postal",
+        "virement"
+      ]
+    },
+    "usage_note_ar": "التعريف: نقل الدين من ذمة المحيل إلى ذمة المحال عليه. | الدليل: صحيح البخاري (2287). | في الجمهرة: EN «Debt transfer»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/4538/en | FR: غير متوفر في الجمهرة | الدليل: https://dorar.net/h/cMKuE1gB",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "kafalah",
+    "ar": "الكفالة",
+    "variants_ar": [
+      "كفالة",
+      "الكفيل"
+    ],
+    "en": {
+      "preferred": "surety",
+      "gloss": "kafalah: joining another's liability for a debt or for producing a person; in other usage it means sponsorship or caring for an orphan",
+      "avoid": [
+        "sponsorship visa",
+        "bail"
+      ]
+    },
+    "fr": {
+      "preferred": "cautionnement",
+      "gloss": "kafâla : s'adjoindre à la responsabilité d'autrui pour une dette ou la présentation d'une personne ; ailleurs, parrainage ou prise en charge d'un orphelin",
+      "avoid": [
+        "visa de parrainage",
+        "caution pénale"
+      ]
+    },
+    "usage_note_ar": "التعريف: ضم ذمة الكفيل إلى ذمة المكفول في المطالبة. — تأتي بمعنى كفالة اليتيم والكفالة الإدارية، فالمعنى بالسياق. | الدليل: يوسف: 72. | في الجمهرة: EN «Surety»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 12:72: «garant».",
+    "strategy": "context",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/8200/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/12/72/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/12/72",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "wakalah",
+    "ar": "الوكالة",
+    "variants_ar": [
+      "الوكيل في البيع",
+      "التوكيل"
+    ],
+    "en": {
+      "preferred": "power of attorney",
+      "gloss": "wakalah: appointing someone to act on one's behalf in matters that can be delegated",
+      "avoid": [
+        "news agency",
+        "trust in Allah"
+      ]
+    },
+    "fr": {
+      "preferred": "procuration",
+      "gloss": "wakâla : désigner quelqu'un pour agir en son nom dans ce qui peut être délégué",
+      "avoid": [
+        "agence de presse",
+        "confiance en Allah"
+      ]
+    },
+    "usage_note_ar": "التعريف: إقامة الإنسان غيره مقام نفسه فيما تدخله النيابة. — تأتي بمعنى المؤسسة (وكالة أنباء)، فالمعنى بالسياق. | الدليل: الكهف: 19. | في الجمهرة: EN «Power of Attorney»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "context",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/11003/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/18/19/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "sulh",
+    "ar": "الصلح",
+    "variants_ar": [
+      "صلح",
+      "المصالحة"
+    ],
+    "en": {
+      "preferred": "settlement of disputes",
+      "gloss": "sulh: a contract that ends a dispute between parties by mutual agreement; in history also a peace treaty",
+      "avoid": [
+        "surrender",
+        "compromise of principles"
+      ]
+    },
+    "fr": {
+      "preferred": "règlement à l'amiable",
+      "gloss": "sulh : contrat qui met fin à un différend entre des parties par accord mutuel ; en histoire, aussi traité de paix",
+      "avoid": [
+        "capitulation",
+        "compromission"
+      ]
+    },
+    "usage_note_ar": "التعريف: عقد يرتفع به النزاع بين المتخاصمين. — يأتي بمعنى معاهدة الصلح، فالمعنى بالسياق. | الدليل: النساء: 128. | في الجمهرة: EN «Settling disputes»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Settling disputes» فعل، فكُتب بصيغة الاسم. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 4:128: «arrangement».",
+    "strategy": "context",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/6360/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/4/128/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/4/128",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "ghasb",
+    "ar": "الغصب",
+    "variants_ar": [
+      "غصب",
+      "غصبا",
+      "المغصوب"
+    ],
+    "en": {
+      "preferred": "forcible seizure",
+      "gloss": "ghasb: taking another's property openly by force and without right",
+      "avoid": [
+        "theft by stealth",
+        "rape"
+      ]
+    },
+    "fr": {
+      "preferred": "usurpation",
+      "gloss": "ghasb : s'emparer ouvertement et par la force du bien d'autrui sans droit",
+      "avoid": [
+        "vol furtif",
+        "viol"
+      ]
+    },
+    "usage_note_ar": "التعريف: الاستيلاء على مال الغير قهرًا بغير حق. | الدليل: الكهف: 79. | في الجمهرة: EN «Forcible Seizure»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 18:79: «s’emparait de force».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/7295/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/18/79/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/18/79",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "shufah",
+    "ar": "الشفعة",
+    "variants_ar": [
+      "شفعة",
+      "الشفيع في البيع"
+    ],
+    "en": {
+      "preferred": "pre-emption",
+      "gloss": "shuf'ah: a partner's right to take his co-owner's sold share from the buyer at the same price",
+      "avoid": [
+        "intercession",
+        "priority boarding"
+      ]
+    },
+    "fr": {
+      "preferred": "préemption",
+      "gloss": "shuf'a : droit de l'associé de reprendre à l'acheteur, au même prix, la part vendue par son copropriétaire",
+      "avoid": [
+        "intercession",
+        "embarquement prioritaire"
+      ]
+    },
+    "usage_note_ar": "التعريف: استحقاق الشريك انتزاع حصة شريكه ممن انتقلت إليه بعوض. | الدليل: صحيح البخاري (2496). | في الجمهرة: EN «Pre-emption»، FR «Préemption». | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «Préemption» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/6001/en | FR: https://islamic-content.com/dictionary/word/6001/fr | الدليل: https://dorar.net/h/E2cq1rtm",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "maysir",
+    "ar": "الميسر",
+    "variants_ar": [
+      "القمار"
+    ],
+    "en": {
+      "preferred": "gambling",
+      "gloss": "maysir: every game or transaction of chance in which one party gains at the other's loss, forbidden in Islam",
+      "avoid": [
+        "lottery for charity",
+        "easy money"
+      ]
+    },
+    "fr": {
+      "preferred": "jeux de hasard",
+      "gloss": "maysir : tout jeu ou toute transaction de hasard où l'un gagne aux dépens de l'autre, interdit en islam",
+      "avoid": [
+        "loterie caritative",
+        "argent facile"
+      ]
+    },
+    "usage_note_ar": "التعريف: كل مغالبة فيها عوض من الطرفين يغنم فيها أحدهما ويغرم الآخر. | الدليل: المائدة: 90. | في الجمهرة: EN «Gambling»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 5:90: «jeux de hasard».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/10279/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/5/90/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/5/90",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "ihtikar",
+    "ar": "الاحتكار",
+    "variants_ar": [
+      "احتكار",
+      "المحتكر"
+    ],
+    "en": {
+      "preferred": "monopoly",
+      "gloss": "ihtikar: hoarding goods people need in order to raise their price",
+      "avoid": [
+        "patent",
+        "trademark"
+      ]
+    },
+    "fr": {
+      "preferred": "accaparement",
+      "gloss": "ihtikâr : stocker des biens dont les gens ont besoin pour en faire monter le prix",
+      "avoid": [
+        "brevet",
+        "marque déposée"
+      ]
+    },
+    "usage_note_ar": "التعريف: حبس ما يحتاجه الناس انتظارًا لغلاء سعره. | الدليل: صحيح مسلم (1605). | في الجمهرة: EN «Monopoly»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/323/en | FR: غير متوفر في الجمهرة | الدليل: https://dorar.net/h/itUMOfwS",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "ghish",
+    "ar": "الغش",
+    "variants_ar": [
+      "غش",
+      "الغشاش",
+      "من غش"
+    ],
+    "en": {
+      "preferred": "cheating",
+      "gloss": "ghish: misrepresenting goods by hiding a defect or mixing in inferior goods",
+      "avoid": [
+        "exam cheating only",
+        "trickery in games"
+      ]
+    },
+    "fr": {
+      "preferred": "tromperie",
+      "gloss": "ghish : présenter faussement une marchandise en cachant un défaut ou en y mêlant du moins bon",
+      "avoid": [
+        "triche aux examens seulement",
+        "ruse au jeu"
+      ]
+    },
+    "usage_note_ar": "التعريف: إظهار السلعة على خلاف حقيقتها بإخفاء عيبها أو خلطها بالرديء. — عنوان الجمهرة الفرنسي «Escroquerie» أوسع من المعنى. | الدليل: صحيح مسلم (102). | في الجمهرة: EN «Cheating»، FR «Escroquerie».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/7294/en | FR: https://islamic-content.com/dictionary/word/7294/fr | الدليل: https://dorar.net/h/mnIM7GSX",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "rishwah",
+    "ar": "الرشوة",
+    "variants_ar": [
+      "رشوة",
+      "الراشي",
+      "المرتشي"
+    ],
+    "en": {
+      "preferred": "bribe",
+      "gloss": "rishwah: giving something to a judge or official to obtain a falsehood or deny a right",
+      "avoid": [
+        "tip",
+        "gift"
+      ]
+    },
+    "fr": {
+      "preferred": "corruption",
+      "gloss": "rishwa : donner quelque chose à un juge ou à un responsable pour obtenir un faux droit ou refuser un droit",
+      "avoid": [
+        "pourboire",
+        "cadeau"
+      ]
+    },
+    "usage_note_ar": "التعريف: ما يُعطى لإبطال حق أو إحقاق باطل. | الدليل: سنن الترمذي (1337). | في الجمهرة: EN «Bribe»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/5221/en | FR: غير متوفر في الجمهرة | الدليل: https://dorar.net/h/TZY7oAvD",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "khul",
+    "ar": "الخلع",
+    "variants_ar": [
+      "المختلعة",
+      "افتدت به"
+    ],
+    "en": {
+      "preferred": "khul'",
+      "gloss": "the dissolution of marriage at the wife's request in return for compensation she gives the husband",
+      "avoid": [
+        "divorce by husband",
+        "annulment"
+      ]
+    },
+    "fr": {
+      "preferred": "khul'",
+      "gloss": "dissolution du mariage à la demande de l'épouse moyennant une compensation qu'elle verse à l'époux",
+      "avoid": [
+        "répudiation par l'époux",
+        "annulation"
+      ]
+    },
+    "usage_note_ar": "التعريف: فراق الزوجة بعوض تبذله لزوجها. | الدليل: البقرة: 229. | في الجمهرة: EN «KhulꜤ»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/4747/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/2/229/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "rajah",
+    "ar": "الرجعة",
+    "variants_ar": [
+      "الطلاق الرجعي",
+      "ردهن"
+    ],
+    "en": {
+      "preferred": "taking back a divorced wife",
+      "gloss": "raj'ah: the husband's taking back his wife during her waiting period after a revocable divorce",
+      "avoid": [
+        "remarriage",
+        "reincarnation"
+      ]
+    },
+    "fr": {
+      "preferred": "reprise de l'épouse",
+      "gloss": "raj'a : l'époux reprend sa femme pendant son délai de viduité après une répudiation révocable",
+      "avoid": [
+        "remariage",
+        "réincarnation"
+      ]
+    },
+    "usage_note_ar": "التعريف: إعادة المطلقة طلاقًا غير بائن إلى عصمة زوجها في العدة. | الدليل: البقرة: 228. | في الجمهرة: لا يوجد عنوان إنجليزي في الصفحة (عربي فقط)، والمقابل الإنجليزي هنا مقترح من الفريق؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/5157/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/2/228/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "draft",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "zihar",
+    "ar": "الظهار",
+    "variants_ar": [
+      "ظهار",
+      "يظاهرون"
+    ],
+    "en": {
+      "preferred": "zihar",
+      "gloss": "a husband likening his wife to a woman forbidden to him, such as his mother, which requires expiation",
+      "avoid": [
+        "divorce",
+        "insult"
+      ]
+    },
+    "fr": {
+      "preferred": "zihâr",
+      "gloss": "serment de zihâr par lequel l'époux compare sa femme à une femme qui lui est interdite, comme sa mère, et qui exige une expiation",
+      "avoid": [
+        "divorce",
+        "insulte"
+      ]
+    },
+    "usage_note_ar": "التعريف: تشبيه الزوج زوجته بمحرمة عليه كأمه، وفيه الكفارة. | الدليل: المجادلة: 2. | في الجمهرة: EN «ẓihār»، FR «Parole de répudiation.».",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/6679/en | FR: https://islamic-content.com/dictionary/word/6679/fr | الدليل: https://api.quranpedia.net/v1/ayah/58/2/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "hadanah",
+    "ar": "الحضانة",
+    "variants_ar": [
+      "حضانة",
+      "الحاضنة"
+    ],
+    "en": {
+      "preferred": "custody",
+      "gloss": "hadanah: caring for and raising a child who cannot look after himself, in his best interest",
+      "avoid": [
+        "nursery school",
+        "adoption"
+      ]
+    },
+    "fr": {
+      "preferred": "garde de l'enfant",
+      "gloss": "hadâna : prendre soin d'un enfant incapable de s'occuper de lui-même et l'élever dans son intérêt",
+      "avoid": [
+        "crèche",
+        "adoption"
+      ]
+    },
+    "usage_note_ar": "التعريف: حفظ الطفل ورعايته وتربيته بما يصلحه. — عنوان الجمهرة الفرنسي «Crèche» لا يطابق المعنى الفقهي. | الدليل: صحيح أبي داود (2276). | في الجمهرة: EN «Custody»، FR «Crèche.».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/4350/en | FR: https://islamic-content.com/dictionary/word/4350/fr | الدليل: https://dorar.net/h/kNJo2hxB",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "nafaqah",
+    "ar": "النفقة",
+    "variants_ar": [
+      "نفقة",
+      "لينفق"
+    ],
+    "en": {
+      "preferred": "maintenance",
+      "gloss": "nafaqah: what one must provide for oneself and one's dependants of food, clothing and housing",
+      "avoid": [
+        "expenses in general",
+        "alimony only"
+      ]
+    },
+    "fr": {
+      "preferred": "obligation d'entretien",
+      "gloss": "nafaqa : ce que l'on doit fournir à soi-même et à ceux à sa charge en nourriture, vêtement et logement",
+      "avoid": [
+        "dépenses en général",
+        "pension alimentaire après divorce"
+      ]
+    },
+    "usage_note_ar": "التعريف: ما يجب بذله من طعام وكسوة وسكنى للنفس ومن تلزمه نفقته. | الدليل: الطلاق: 7. | في الجمهرة: EN «Expenses»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Expenses» عام، واختير maintenance لأنه المقابل القانوني للنفقة الواجبة. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 65:7: «pension».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/10530/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/65/7/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/65/7",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "rada",
+    "ar": "الرضاع",
+    "variants_ar": [
+      "رضاع",
+      "الرضاعة",
+      "يرضعن"
+    ],
+    "en": {
+      "preferred": "breastfeeding",
+      "gloss": "rada': a woman's milk reaching a child's stomach, which creates kinship ties that forbid marriage",
+      "avoid": [
+        "bottle feeding",
+        "nursing home"
+      ]
+    },
+    "fr": {
+      "preferred": "allaitement",
+      "gloss": "radâ' : le lait d'une femme parvenant à l'estomac d'un enfant, ce qui crée une parenté interdisant le mariage",
+      "avoid": [
+        "biberon",
+        "maison de retraite"
+      ]
+    },
+    "usage_note_ar": "التعريف: وصول لبن امرأة إلى جوف طفل، ويحرم به ما يحرم من النسب. | الدليل: البقرة: 233. | في الجمهرة: EN «Breastfeeding»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 2:233: «allaitement».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/5230/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/2/233/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/2/233",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "wasiyyah",
+    "ar": "الوصية",
+    "variants_ar": [
+      "وصية",
+      "الموصي"
+    ],
+    "en": {
+      "preferred": "bequest",
+      "gloss": "wasiyyah: a disposal of property effective after death, limited to one third and not to an heir; in general usage, advice",
+      "avoid": [
+        "inheritance share",
+        "will of the state"
+      ]
+    },
+    "fr": {
+      "preferred": "legs",
+      "gloss": "wasiyya : disposition de biens effective après la mort, limitée au tiers et non au profit d'un héritier ; dans l'usage courant, conseil",
+      "avoid": [
+        "part d'héritage",
+        "volonté de l'État"
+      ]
+    },
+    "usage_note_ar": "التعريف: تمليك مضاف إلى ما بعد الموت، في حدود الثلث ولغير وارث. — تأتي بمعنى النصيحة والعهد، فالمعنى بالسياق. | الدليل: البقرة: 180. | في الجمهرة: EN «Bequest»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 2:180: «testament».",
+    "strategy": "context",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/10906/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/2/180/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/2/180",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "tarikah",
+    "ar": "التركة",
+    "variants_ar": [
+      "مما ترك"
+    ],
+    "en": {
+      "preferred": "estate of the deceased",
+      "gloss": "tarikah: everything a deceased person leaves of property and rights",
+      "avoid": [
+        "abandonment",
+        "legacy of ideas"
+      ]
+    },
+    "fr": {
+      "preferred": "succession",
+      "gloss": "tarika : tout ce que laisse le défunt en biens et en droits",
+      "avoid": [
+        "abandon",
+        "héritage intellectuel"
+      ]
+    },
+    "usage_note_ar": "التعريف: ما يتركه الميت من الأموال والحقوق. | الدليل: النساء: 7. | في الجمهرة: EN «The estate»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «The estate»؛ أُبقيت أداة التعريف لأن estate وحدها تعني العقار. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 4:7: «laissés en héritage».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/2747/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/4/7/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/4/7",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "asabah",
+    "ar": "العصبة",
+    "variants_ar": [
+      "العصبات"
+    ],
+    "en": {
+      "preferred": "residuary heirs",
+      "gloss": "'asabah: male relatives who inherit what remains after the fixed shares, or everything if there are none",
+      "avoid": [
+        "gang",
+        "nerves"
+      ]
+    },
+    "fr": {
+      "preferred": "héritiers agnatiques",
+      "gloss": "'asaba : parents mâles qui héritent du reste après les parts fixes, ou de tout en leur absence",
+      "avoid": [
+        "bande",
+        "nerfs"
+      ]
+    },
+    "usage_note_ar": "التعريف: من يرث بلا تقدير، فيأخذ ما أبقت الفروض أو كل المال إن انفرد. — تأتي بمعنى الجماعة (عُصبة)، فالمعنى بالسياق. | الدليل: صحيح البخاري (6737). | في الجمهرة: EN «Heirs with no assigned shares»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Heirs with no assigned shares» طويل، واختير المصطلح القانوني residuary heirs.",
+    "strategy": "context",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/6892/en | FR: غير متوفر في الجمهرة | الدليل: https://dorar.net/h/olbqknMs",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "hudud",
+    "ar": "الحدود",
+    "variants_ar": [
+      "حدود الله",
+      "إقامة الحدود"
+    ],
+    "en": {
+      "preferred": "mandatory punishments",
+      "gloss": "hudud: punishments fixed by the Shari'ah as a right of Allah, applied by the state with strict conditions; «حدود الله» also means Allah's limits",
+      "avoid": [
+        "borders",
+        "vigilante justice"
+      ]
+    },
+    "fr": {
+      "preferred": "peines légales",
+      "gloss": "hudûd : peines fixées par la Charia comme droit d'Allah, appliquées par l'autorité selon des conditions strictes ; « حدود الله » signifie aussi les limites d'Allah",
+      "avoid": [
+        "frontières",
+        "justice privée"
+      ]
+    },
+    "usage_note_ar": "التعريف: عقوبات مقدرة شرعًا وجبت حقًا لله، يقيمها ولي الأمر بشروطها. — تأتي بمعنى الحدود الجغرافية وحدود الله (أحكامه)، فالمعنى بالسياق. | الدليل: البقرة: 229. | في الجمهرة: EN «Mandatory punishments»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "context",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/4135/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/2/229/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "qisas",
+    "ar": "القصاص",
+    "variants_ar": [
+      "قصاص",
+      "القود"
+    ],
+    "en": {
+      "preferred": "retaliatory punishment",
+      "gloss": "qisas: legal retribution in kind for intentional killing or injury, decided by a court, which the victim's family may waive",
+      "avoid": [
+        "revenge",
+        "vendetta"
+      ]
+    },
+    "fr": {
+      "preferred": "talion",
+      "gloss": "qisâs : la loi du talion pour le meurtre ou les blessures intentionnels, décidée par un tribunal, à laquelle la famille de la victime peut renoncer",
+      "avoid": [
+        "vengeance",
+        "vendetta"
+      ]
+    },
+    "usage_note_ar": "التعريف: معاقبة الجاني بمثل ما جنى، بحكم القضاء، ولأولياء الدم العفو. | الدليل: البقرة: 178. | في الجمهرة: EN «Retaliatory punishment»، FR «La [loi] du talion». | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «La [loi] du talion» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/7818/en | FR: https://islamic-content.com/dictionary/word/7818/fr | الدليل: https://api.quranpedia.net/v1/ayah/2/178/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "diyah",
+    "ar": "الدية",
+    "variants_ar": [
+      "دية",
+      "الديات"
+    ],
+    "en": {
+      "preferred": "blood money",
+      "gloss": "diyah: financial compensation paid to the victim's heirs for killing or injury",
+      "avoid": [
+        "bribe",
+        "ransom"
+      ]
+    },
+    "fr": {
+      "preferred": "prix du sang",
+      "gloss": "diya : compensation financière versée aux héritiers de la victime pour un meurtre ou une blessure",
+      "avoid": [
+        "pot-de-vin",
+        "rançon"
+      ]
+    },
+    "usage_note_ar": "التعريف: المال الواجب بالجناية على النفس أو ما دونها. | الدليل: النساء: 92. | في الجمهرة: EN «Blood money»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 4:92: «prix du sang».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/4968/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/4/92/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/4/92",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "tazir",
+    "ar": "التعزير",
+    "variants_ar": [
+      "تعزير",
+      "العقوبة التعزيرية"
+    ],
+    "en": {
+      "preferred": "discretionary punishment",
+      "gloss": "ta'zir: a punishment not fixed by the Shari'ah, left to the judge's discretion",
+      "avoid": [
+        "condolence",
+        "torture"
+      ]
+    },
+    "fr": {
+      "preferred": "peine discrétionnaire",
+      "gloss": "ta'zîr : peine non fixée par la Charia, laissée à l'appréciation du juge",
+      "avoid": [
+        "condoléances",
+        "torture"
+      ]
+    },
+    "usage_note_ar": "التعريف: عقوبة غير مقدرة شرعًا يقدرها القاضي. | في الجمهرة: EN «Condolence»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة الإنجليزي «Condolence» خطأ منقول من مدخل «التعزية» المجاور، والتعريف في الصفحة للعقوبة التعزيرية.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/3026/en | FR: غير متوفر في الجمهرة",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "khamr",
+    "ar": "الخمر",
+    "variants_ar": [
+      "خمر",
+      "الخمور",
+      "المسكر"
+    ],
+    "en": {
+      "preferred": "intoxicants",
+      "gloss": "khamr: every drink or substance that intoxicates the mind, forbidden in Islam",
+      "avoid": [
+        "wine only",
+        "spirits"
+      ]
+    },
+    "fr": {
+      "preferred": "boissons alcoolisées",
+      "gloss": "khamr : toute boisson ou substance qui enivre l'esprit, interdite en islam",
+      "avoid": [
+        "vin seulement",
+        "spiritueux"
+      ]
+    },
+    "usage_note_ar": "التعريف: كل ما خامر العقل وغطاه من شراب وغيره. | الدليل: المائدة: 90. | في الجمهرة: EN «Wine»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Wine» أضيق من المعنى الشرعي الذي يشمل كل مسكر. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 5:90: «boissons alcoolisées».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/4769/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/5/90/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/5/90",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "luqatah",
+    "ar": "اللقطة",
+    "variants_ar": [
+      "الملتقط"
+    ],
+    "en": {
+      "preferred": "lost property",
+      "gloss": "luqatah: property found whose owner is unknown, which must be announced for a year",
+      "avoid": [
+        "pickup",
+        "snapshot"
+      ]
+    },
+    "fr": {
+      "preferred": "objet trouvé",
+      "gloss": "luqata : bien trouvé dont le propriétaire est inconnu, qu'il faut annoncer pendant un an",
+      "avoid": [
+        "ramassage",
+        "instantané"
+      ]
+    },
+    "usage_note_ar": "التعريف: المال الضائع من ربه يلتقطه غيره، ويُعرَّف سنة. | الدليل: صحيح البخاري (2429). | في الجمهرة: EN «Pickup»، FR «Trouvaille». | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Pickup» حرفي، واختير lost property بالمعنى الفقهي.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/8459/en | FR: https://islamic-content.com/dictionary/word/8459/fr | الدليل: https://dorar.net/h/kVdU6eE5",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "daman",
+    "ar": "الضمان",
+    "variants_ar": [
+      "الضامن"
+    ],
+    "en": {
+      "preferred": "liability",
+      "gloss": "daman: the obligation to compensate for damaged or lost property with its like or its value",
+      "avoid": [
+        "insurance",
+        "product warranty"
+      ]
+    },
+    "fr": {
+      "preferred": "garantie",
+      "gloss": "damân : l'obligation de compenser un bien endommagé ou perdu par son équivalent ou sa valeur",
+      "avoid": [
+        "assurance",
+        "garantie commerciale"
+      ]
+    },
+    "usage_note_ar": "التعريف: التزام تعويض التالف بمثله أو قيمته. — يأتي بمعنى الكفالة والضمان الاجتماعي، فالمعنى بالسياق. | في الجمهرة: EN «Warranty»، FR «Garantie». | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Warranty» يفهم منه ضمان المنتج، والتعريف في الصفحة لضمان المتلفات. | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «Garantie» (الرابط في source.ref).",
+    "strategy": "context",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/6488/en | FR: https://islamic-content.com/dictionary/word/6488/fr",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "ikrah",
+    "ar": "الإكراه",
+    "variants_ar": [
+      "إكراه",
+      "مكره"
+    ],
+    "en": {
+      "preferred": "compulsion",
+      "gloss": "ikrah: forcing someone to do what he would not do of his own will, which removes or reduces responsibility",
+      "avoid": [
+        "persuasion",
+        "dislike"
+      ]
+    },
+    "fr": {
+      "preferred": "contrainte",
+      "gloss": "ikrâh : forcer quelqu'un à faire ce qu'il ne ferait pas de son plein gré, ce qui supprime ou réduit sa responsabilité",
+      "avoid": [
+        "persuasion",
+        "aversion"
+      ]
+    },
+    "usage_note_ar": "التعريف: حمل الغير على ما لا يرضاه ولا يختاره لو خُلّي ونفسه. | الدليل: النحل: 106. | في الجمهرة: EN «Compulsion»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 16:106: «contrainte».",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/1467/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/16/106/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/16/106",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "bulugh",
+    "ar": "البلوغ",
+    "variants_ar": [
+      "بلوغ",
+      "بلغ الحلم"
+    ],
+    "en": {
+      "preferred": "puberty",
+      "gloss": "bulugh: reaching legal maturity by a sign of puberty or by age, after which religious duties apply",
+      "avoid": [
+        "adulthood at 21",
+        "graduation"
+      ]
+    },
+    "fr": {
+      "preferred": "puberté",
+      "gloss": "bulûgh : atteindre la maturité légale par un signe de puberté ou par l'âge, à partir de quoi les obligations s'appliquent",
+      "avoid": [
+        "majorité à 21 ans",
+        "diplôme"
+      ]
+    },
+    "usage_note_ar": "التعريف: انتهاء الصغر بعلامة من علاماته أو بالسن، وبه يكون التكليف. | الدليل: النور: 59. | في الجمهرة: EN «Puberty»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/2161/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/24/59/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "taklif",
+    "ar": "التكليف",
+    "variants_ar": [
+      "المكلف",
+      "التكاليف الشرعية"
+    ],
+    "en": {
+      "preferred": "legal responsibility",
+      "gloss": "taklif: being bound by religious duties, which requires sanity and maturity",
+      "avoid": [
+        "assignment",
+        "homework"
+      ]
+    },
+    "fr": {
+      "preferred": "responsabilité légale",
+      "gloss": "taklîf : être soumis aux obligations religieuses, ce qui suppose la raison et la maturité",
+      "avoid": [
+        "mission",
+        "devoir scolaire"
+      ]
+    },
+    "usage_note_ar": "التعريف: إلزام المكلف ما فيه كلفة من أمر ونهي، وشرطه العقل والبلوغ. — يأتي بمعنى المهمة الإدارية، فالمعنى بالسياق. | الدليل: البقرة: 286. | في الجمهرة: EN «Legal capacity»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Legal capacity» يقابل «الأهلية»، والتكليف الإلزام بالأحكام.",
+    "strategy": "context",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/3331/en | FR: غير متوفر في الجمهرة | الدليل: https://api.quranpedia.net/v1/ayah/2/286/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "sayd",
+    "ar": "الصيد",
+    "variants_ar": [
+      "صيد",
+      "الصائد"
+    ],
+    "en": {
+      "preferred": "hunting",
+      "gloss": "sayd: catching a wild animal that is lawful to eat, with its rulings in Islam",
+      "avoid": [
+        "fishing only",
+        "trophy hunting"
+      ]
+    },
+    "fr": {
+      "preferred": "chasse",
+      "gloss": "sayd : capturer un animal sauvage licite à la consommation, selon les règles de l'islam",
+      "avoid": [
+        "pêche seulement",
+        "chasse aux trophées"
+      ]
+    },
+    "usage_note_ar": "التعريف: اقتناص حيوان حلال متوحش طبعًا غير مملوك. | الدليل: المائدة: 96. | في الجمهرة: EN «Hunting»، FR «Chasse». | تحقق الفرنسية (2026-10-05): مقابل الجمهرة الفرنسي «Chasse» (الرابط في source.ref).",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/6402/en | FR: https://islamic-content.com/dictionary/word/6402/fr | الدليل: https://api.quranpedia.net/v1/ayah/5/96/options",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "muflis",
+    "ar": "المفلس",
+    "variants_ar": [
+      "مفلس",
+      "الإفلاس",
+      "أفلس"
+    ],
+    "en": {
+      "preferred": "bankrupt",
+      "gloss": "muflis: one whose debts exceed his wealth; in a hadith, one who comes on the Day of Judgement with deeds but has wronged others",
+      "avoid": [
+        "poor person",
+        "beggar"
+      ]
+    },
+    "fr": {
+      "preferred": "failli",
+      "gloss": "muflis : celui dont les dettes dépassent les biens ; dans un hadith, celui qui vient au Jour du Jugement avec des œuvres mais a lésé autrui",
+      "avoid": [
+        "pauvre",
+        "mendiant"
+      ]
+    },
+    "usage_note_ar": "التعريف: من زادت ديونه على ماله. | الدليل: صحيح البخاري (2402). | في الجمهرة: EN «Bankrupt»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق.",
+    "strategy": "translate",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/9832/en | FR: غير متوفر في الجمهرة | الدليل: https://dorar.net/h/Tt0OibET",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "kafaah",
+    "ar": "الكفاءة",
+    "variants_ar": [
+      "الكفاءة في النكاح"
+    ],
+    "en": {
+      "preferred": "compatibility in marriage",
+      "gloss": "kafa'ah: suitability between spouses in religion and character considered in marriage; in general usage, competence",
+      "avoid": [
+        "social class",
+        "racial match"
+      ]
+    },
+    "fr": {
+      "preferred": "compatibilité matrimoniale",
+      "gloss": "kafâ'a : convenance entre époux, en religion et en caractère, prise en compte dans le mariage ; dans l'usage courant, compétence",
+      "avoid": [
+        "classe sociale",
+        "appariement racial"
+      ]
+    },
+    "usage_note_ar": "التعريف: المساواة بين الزوجين في أمور مخصوصة، أهمها الدين والخلق. — تأتي بمعنى المهارة والجدارة، فالمعنى بالسياق. | في الجمهرة: EN «Competence»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Competence» للمعنى العام، والمدخل في الفقه عن الكفاءة في النكاح.",
+    "strategy": "context",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/8194/en | FR: غير متوفر في الجمهرة",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "qur",
+    "ar": "القرء",
+    "variants_ar": [
+      "القروء",
+      "ثلاثة قروء"
+    ],
+    "en": {
+      "preferred": "qur'",
+      "gloss": "a menstrual period or the purity between two periods, by which the waiting period of a divorced woman is counted",
+      "avoid": [
+        "reading",
+        "village"
+      ]
+    },
+    "fr": {
+      "preferred": "qur'",
+      "gloss": "une période de menstrues ou de pureté entre deux menstrues, par laquelle se compte le délai de viduité de la femme répudiée",
+      "avoid": [
+        "lecture",
+        "village"
+      ]
+    },
+    "usage_note_ar": "التعريف: الحيض أو الطهر بين الحيضتين، وتعتد به المطلقة. | الدليل: البقرة: 228. | في الجمهرة: EN «Qurʾ»، FR «Cycles». | تحقق الفرنسية (2026-10-05): ترجمة رشيد معاش المعتمدة (QuranEnc) للآية 2:228: «menstruations».",
+    "strategy": "keep_and_gloss",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/7715/en | FR: https://islamic-content.com/dictionary/word/7715/fr | الدليل: https://api.quranpedia.net/v1/ayah/2/228/options | FR تحقق (رشيد معاش): https://quranenc.com/en/browse/french_rashid/2/228",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "verified"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
+  },
+  {
+    "id": "wilayah",
+    "ar": "الولاية",
+    "variants_ar": [
+      "الولي في النكاح"
+    ],
+    "en": {
+      "preferred": "guardianship",
+      "gloss": "wilayah: legal authority over a person or property, such as a guardian in marriage or a ruler; in creed «الولاية» also means closeness to Allah",
+      "avoid": [
+        "sainthood cult",
+        "dictatorship"
+      ]
+    },
+    "fr": {
+      "preferred": "tutelle",
+      "gloss": "wilâya : autorité légale sur une personne ou des biens, comme le tuteur matrimonial ou le gouvernant ; en croyance, « الولاية » signifie aussi la proximité d'Allah",
+      "avoid": [
+        "culte des saints",
+        "dictature"
+      ]
+    },
+    "usage_note_ar": "التعريف: سلطة شرعية على النفس أو المال، كولاية النكاح والحكم. — تأتي بمعنى الولاية لله (القرب منه)، فالمعنى بالسياق. | الدليل: صحيح أبي داود (2085). | في الجمهرة: EN «Guardianship/Authority»؛ لا يوجد مقابل فرنسي في الجمهرة، والمقابل الفرنسي هنا مقترح من الفريق. | سبب الاختلاف عن الجمهرة (EN): عنوان الجمهرة «Guardianship/Authority»؛ اختير الجزء الأول.",
+    "strategy": "context",
+    "source": {
+      "name": "موسوعة الجمهرة — معجم المصطلحات الشرعية (islamic-content.com)",
+      "ref": "EN: https://islamic-content.com/dictionary/word/11014/en | FR: غير متوفر في الجمهرة | الدليل: https://dorar.net/h/Rkj0171z",
+      "retrieved": "2026-10-05"
+    },
+    "status": {
+      "en": "verified",
+      "fr": "draft"
+    },
+    "reviewed_by": {
+      "name": "ردينة بلال",
+      "date": "2026-10-05"
+    }
   }
 ]
