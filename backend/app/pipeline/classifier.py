@@ -3,6 +3,7 @@ import re
 from functools import lru_cache
 from pathlib import Path
 
+from app.pipeline import hadith_corpus
 from app.pipeline.glossary import detect as detect_glossary
 from app.pipeline.hadith import fabricated_in, has_attribution, is_approved_text
 from app.pipeline.normalize import canonicalize_for_matching, strip_marks
@@ -90,7 +91,8 @@ def _scripture_category(text: str) -> str | None:
         return "hadith"
     if contains_bare_verse(text):
         return "quran"
-    return None
+    # A bare hadith with no attribution (D-077); after the verse check, since hadiths quote verses.
+    return "hadith" if hadith_corpus.contains(text) else None
 
 
 _SCRIPTURE_LEVELS = {"quran": "A", "hadith": "C"}

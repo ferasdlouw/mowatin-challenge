@@ -334,8 +334,43 @@ function ConfidenceInfo({ summary }) {
   )
 }
 
+// Explains one segment's score from what the response already carries (no extra API field).
+// Weights, cap and threshold mirror verifier.py (TERM/BT/JUDGE_WEIGHT, TERM_FAILURE_CAP) and
+// report.py (REVIEW_THRESHOLD).
+function ConfidenceWhy({ s, id, needsReview }) {
+  const { t: tr } = useLang()
+  const pct = s.confidence == null ? null : Math.round(s.confidence * 100)
+  const reasons = s.flags.filter((f) => f.severity !== 'info')
+  const lines = []
+  if (s.verification === 'verified_retrieval') {
+    lines.push(tr('100% لأن ترجمة معاني الآية منقولة حرفيًا من الترجمة المعتمدة، دون ترجمة آلية؛ ولهذا لا تدخل في متوسط الثقة.', '100% because the verse meaning is copied verbatim from the approved translation, with no machine translation; so it is left out of the average confidence.'))
+  } else if (!s.output) {
+    lines.push(tr('لا درجة لهذا المقطع لأنه لم يُترجم آليًا عمدًا: النظام يُحيل بدل أن يخمّن.', 'This segment has no score because it was deliberately not machine-translated: the system refers instead of guessing.'))
+  } else if (!s.confidence && reasons.length) {
+    lines.push(tr('لم تُقيَّم هذه الترجمة بمعادلة الثقة: أوقفها فحص أمان (مثل آية لا تطابق المصحف)، فأُحيلت إلى المراجع الشرعي / المختص مع التنبيه المذكور أسفل المقطع.', 'This translation was not scored by the confidence formula: a safety check stopped it (for example, a verse that does not match the Mushaf), so it went to the qualified reviewer with the notice listed below.'))
+  } else {
+    lines.push(tr(`الدرجة ${pct}% = فحص المصطلحات (35%) + الترجمة العكسية (25%) + حكم نموذج مستقل (40%). وهي درجة اطمئنان داخلية، لا نسبة صحة.`, `The score ${pct}% = term check (35%) + back-translation (25%) + an independent model's judgement (40%). It is an internal confidence score, not a measure of correctness.`))
+    lines.push(s.locked_terms.length
+      ? tr(`مصطلحات مقفلة من المسرد في هذا المقطع: ${s.locked_terms.map((x) => x.ar).join('، ')}. إن غاب مقابلها المعتمد عن الترجمة تُحدّ الدرجة دون 75%.`, `Glossary terms locked in this segment: ${s.locked_terms.map((x) => x.out).join(', ')}. If an approved rendering is missing from the translation, the score is capped below 75%.`)
+      : tr('لا مصطلحات مقفلة في هذا المقطع، فجزء المصطلحات لا ينقص الدرجة.', 'No locked glossary terms in this segment, so the term part does not lower the score.'))
+    if (s.back_translation) lines.push(tr('الترجمة العكسية المعروضة أدناه هي ما قورن بالأصل: كلما ابتعدت عنه انخفضت الدرجة.', 'The back-translation shown below is what was compared with the source: the further it drifts, the lower the score.'))
+    lines.push(pct >= 75
+      ? tr(`${pct}% تبلغ حد 75%، فلم تُحِل الدرجة وحدها المقطع للمراجعة.`, `${pct}% meets the 75% threshold, so the score alone did not send this segment for review.`)
+      : tr(`${pct}% أقل من حد 75%، فأُحيل المقطع تلقائيًا إلى المراجع الشرعي / المختص.`, `${pct}% is below the 75% threshold, so the segment went to the qualified reviewer automatically.`))
+  }
+  if (needsReview && reasons.length) lines.push(tr(`أسباب الإحالة: ${reasons.length} تنبيه مذكور أسفل المقطع.`, `Review reasons: ${reasons.length} notice(s) listed below this segment.`))
+  return (
+    <div id={id} role="region" aria-label={tr('سبب الدرجة', 'Why this score')} dir="auto"
+      className="mx-[1rem] mt-[0.6rem] space-y-[0.35rem] rounded-[0.8rem] border border-slate-200 bg-paper p-[0.8rem] text-start text-[0.8rem] leading-[1.45rem] text-ink-600">
+      {lines.map((line, k) => <p key={k}>{line}</p>)}
+    </div>
+  )
+}
+
 function Segment({ s, i, lang, speaking, onSpeak }) {
   const [open, setOpen] = useState(null)
+  const [why, setWhy] = useState(false)
+  const whyId = useId()
   const { t: tr, dir } = useLang()
   const ty = TYPE[s.type] ?? TYPE.general
   const needsReview = segNeedsReview(s)
@@ -363,8 +398,15 @@ function Segment({ s, i, lang, speaking, onSpeak }) {
           <span className="rounded-full bg-paper px-[0.55rem] py-[0.12rem] text-[0.7rem] font-bold text-ink-600" title={LEVEL_HINT[s.level] && tr(...LEVEL_HINT[s.level])}>{tr(`المستوى (${LEVEL[s.level]})`, `Level ${s.level}`)}</span>
           {needsReview && <span className="inline-flex items-center gap-[0.25rem] rounded-full bg-danger-bg px-[0.55rem] py-[0.12rem] text-[0.7rem] font-bold text-danger-fg"><UserCheck className="h-[0.8rem] w-[0.8rem]" aria-hidden /> {tr('محال للمراجعة', 'Sent for review')}</span>}
         </div>
-        {s.verification === 'verified_retrieval' ? <VerifiedRetrieval /> : !needsReview && <Confidence value={s.confidence} />}
+        <div className="flex flex-wrap items-center gap-[0.5rem]">
+          {s.verification === 'verified_retrieval' ? <VerifiedRetrieval /> : !needsReview && <Confidence value={s.confidence} />}
+          <button type="button" onClick={() => setWhy((v) => !v)} aria-expanded={why} aria-controls={whyId}
+            className="rounded-full border border-slate-200 px-[0.55rem] py-[0.1rem] text-[0.72rem] font-bold text-ink-600 hover:border-brand-600 hover:text-brand-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-brand-600">
+            {tr('لماذا هذه الدرجة؟', 'Why this score?')}
+          </button>
+        </div>
       </div>
+      {why && <ConfidenceWhy s={s} id={whyId} needsReview={needsReview} />}
 
       <div dir="ltr" className="grid grid-cols-1 gap-[0.6rem] p-[1rem] md:grid-cols-[1fr_auto_1fr] md:items-start">
         {/* output (left) */}

@@ -156,8 +156,9 @@ async def _judge_score(
     target_lang: TargetLang,
     judge: JsonCompleter | None,
     on_usage: UsageHook,
-) -> float:
-    """(c) Meaning preserved, no added claims, scored 0..1 by another model; unset or failed = 0."""
+) -> float | None:
+    """(c) Meaning preserved, no added claims, scored 0..1 by another model; unset = 0.
+    ``None`` when the configured judge gave no score (failed, refused or out of budget)."""
     if judge is None:
         return 0.0
     prompt = _prompt(
@@ -169,7 +170,7 @@ async def _judge_score(
     result = await judge.complete_json(prompt, JudgeOutput)
     on_usage(result)
     if result.data is None:
-        return 0.0
+        return None
     return min(max(result.data.score, 0.0), 1.0)
 
 
@@ -218,4 +219,9 @@ async def verify(
     judge_score = await _judge_score(
         text, output, target_lang, judge, on_usage or (lambda _result: None)
     )
+    if judge_score is None:
+        # Still 0 (fail safe, D-021), but said: otherwise a good translation shows a low score
+        # with no reason the user can see.
+        flags = [*flags, Flag(type="info", key="judge_unavailable")]
+        judge_score = 0.0
     return combine(term_score, bt_score, judge_score), marks, flags

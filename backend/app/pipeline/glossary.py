@@ -3,7 +3,7 @@ from functools import lru_cache
 from pathlib import Path
 from typing import Any
 
-from app.pipeline.normalize import normalize_text, tokenize
+from app.pipeline.normalize import fold_persian, normalize_text, tokenize
 
 
 class GlossaryIndex:
@@ -33,7 +33,8 @@ class GlossaryIndex:
         self.glossary_terms.sort(key=lambda x: len(x[0]), reverse=True)
 
     def detect(self, text: str) -> list[dict[str, Any]]:
-        tokens = tokenize(text)
+        # Spans stay valid: the fold replaces one character with one.
+        tokens = tokenize(fold_persian(text))
         matches = []
 
         i = 0

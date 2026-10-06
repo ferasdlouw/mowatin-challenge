@@ -7,7 +7,7 @@ import re
 from functools import lru_cache
 from pathlib import Path
 
-from app.schemas import VERIFIED_RETRIEVAL, Flag, Segment, SegmentFlag, Summary, TranslateResponse
+from app.schemas import Flag, Segment, SegmentFlag, Summary, TranslateResponse
 
 MESSAGES_PATH = Path(__file__).resolve().parents[3] / "data" / "messages" / "flags.ar.json"
 
@@ -100,15 +100,17 @@ def needs_review(segment: Segment) -> bool:
 
 
 def average_confidence(segments: list[Segment]) -> float | None:
-    """Mean confidence of the segments that have a verifier-style score (D-076).
+    """Mean confidence of the segments that have a verifier score (D-076, D-078).
 
-    A verified retrieval (a verse read verbatim from the approved translation) has no LLM
-    output to score, so it is left out instead of counted: it can neither pull the mean
-    down nor lift it. ``None`` when every segment is one; 0.0 when there are no segments.
+    Left out, because nothing scored them: a verse (read from the approved translation, or a
+    corrected misquote, never translated by a model) and a segment with no output (refused,
+    blocked, referred or failed; its review flag already counts it in ``flagged``). Counting
+    them as 0 made one fabricated saying show an average of 0%. ``None`` when nothing is
+    scored; 0.0 when there are no segments.
     """
     if not segments:
         return 0.0
-    scored = [s.confidence for s in segments if s.verification != VERIFIED_RETRIEVAL]
+    scored = [s.confidence for s in segments if s.output is not None and s.type != "quran"]
     return round(sum(scored) / len(scored), 2) if scored else None
 
 

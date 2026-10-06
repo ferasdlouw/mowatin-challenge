@@ -9,7 +9,7 @@ from dataclasses import dataclass
 from functools import lru_cache
 from pathlib import Path
 
-from app.pipeline.normalize import canonicalize_for_matching, normalize_text
+from app.pipeline.normalize import canonicalize_for_matching, fold_persian, normalize_text
 from app.schemas import AMBIGUOUS_VERSE, VERIFIED_RETRIEVAL, Flag, SourceRef, VerseCandidate
 
 logger = logging.getLogger(__name__)
@@ -836,9 +836,11 @@ def uthmani_to_simple(text: str) -> str:
 def skeleton(word: str) -> str:
     """A word without the alefs after its first letter (hamza + alef counts as alef): Uthmani
     writes the small alef where Simple writes an alef («العٰلمين») and where it writes none
-    («ذٰلك»)."""
+    («ذٰلك»). Hamza seats are optional too: Uthmani «مستهزءون», «يوده», «أفرءيتم» are Simple
+    «مستهزئون», «يئوده», «أفرأيتم»."""
     word = word.replace("ءا", "ا")
-    return word[:1] + word[1:].replace("ا", "")
+    rest = word[1:].replace("ا", "").replace("ء", "").replace("ئ", "").replace("ؤ", "و")
+    return word[:1] + rest
 
 
 # Words allowed between the attribution formula and an undelimited quote.
@@ -922,6 +924,8 @@ def _unbracketed_candidates(text: str) -> list[tuple[list[str], QuoteContext]]:
         )
         for m in _PLAIN_QUOTES.finditer(text)
     ]
+    # A bracket holding only a reference («(٣٧:٣٥)») is not a quote; it narrows the places.
+    quoted = [(words, ctx) for words, ctx in quoted if words]
     candidates = quoted
     canon = canonicalize_for_matching(text)
     present = [a for a in QURAN_ATTRIBUTIONS if a in canon]
@@ -932,7 +936,8 @@ def _unbracketed_candidates(text: str) -> list[tuple[list[str], QuoteContext]]:
         candidates = [(rest, QuoteContext(canon[: min(canon.find(a) for a in present)]))]
     elif not quoted:
         # No formula, no brackets (D-043): only the whole segment can be the verse.
-        candidates = [(_match_words(text), QuoteContext())]
+        refs = " ".join(m.group() for m in VERSE_REF_RE.finditer(text))
+        candidates = [(_match_words(VERSE_REF_RE.sub(" ", text)), QuoteContext(after=refs))]
     return [(words, ctx) for words, ctx in candidates if len(words) >= UNBRACKETED_MIN_WORDS]
 
 
@@ -988,14 +993,10 @@ def _misquote(
     return {"output": output, "sources": sources, "flags": flags + found_flags, "review": True}
 
 
-# Persian and Urdu letters a keyboard types for Arabic kaf, ya and ha.
-_PERSIAN_FOLD = str.maketrans("کیہھ", "كيهه")
-
-
 def input_form(text: str) -> str:
     """The text the Quran matcher reads: NFKC (the ligature «ﷲ», presentation forms) and
     Persian letters folded. Matching only; the output is the approved translation."""
-    return unicodedata.normalize("NFKC", text).translate(_PERSIAN_FOLD)
+    return fold_persian(unicodedata.normalize("NFKC", text))
 
 
 def resolve_quran(text: str, target_lang: str) -> dict:

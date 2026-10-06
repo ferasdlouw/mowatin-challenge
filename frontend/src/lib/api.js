@@ -34,9 +34,9 @@ function fromExample(ex, lang) {
 /** Same rule as the server: low confidence, or any warn/block flag. */
 export const needsReview = (s) => (s.confidence != null && s.confidence < 0.75) || s.flags.some((f) => f.severity !== 'info')
 
-// Same average as the server (D-076): a verse read verbatim from the approved translation has
-// no verifier score, so it is left out; null when nothing else is scored.
-const scoredForAverage = (s) => s.confidence != null && s.verification !== 'verified_retrieval'
+// Same average as the server (D-076, D-078): a verse and a segment with no output have no
+// verifier score, so they are left out; null when nothing is scored.
+const scoredForAverage = (s) => s.confidence != null && s.output != null && s.type !== 'quran'
 
 function finalize(segments) {
   const review_queue = segments.filter(needsReview).map((s) => s.id)

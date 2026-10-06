@@ -34,6 +34,15 @@ def canonicalize_for_matching(text: str) -> str:
     return text.replace("\u0649", "\u064a")
 
 
+# Persian and Urdu letters a keyboard types for Arabic kaf, ya and ha.
+_PERSIAN_FOLD = str.maketrans("کیہھ", "كيهه")
+
+
+def fold_persian(text: str) -> str:
+    """Persian/Urdu kaf, yeh and heh as the Arabic letters; one character for one, so spans keep."""
+    return text.translate(_PERSIAN_FOLD)
+
+
 def normalize_text(text: str) -> str:
     """Basic normalization for simple matching without span tracking."""
     text = TASHKEEL_TATWEEL.sub("", strip_format_chars(text))
